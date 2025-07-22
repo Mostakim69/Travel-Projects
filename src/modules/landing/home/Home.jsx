@@ -4,6 +4,7 @@ import FAQ from "../../../pages/faq/FAQ";
 import Features from "../../../pages/features/Features";
 import Banner from "./Bannnerr/Banner";
 import Overview from "./Overview/Overview";
+import TourismAndGuides from "./TourismAndGuides";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
 
       <Banner />
       <Overview />
+      <TourismAndGuides />
       <FAQ />
       <Features />
     </div>
