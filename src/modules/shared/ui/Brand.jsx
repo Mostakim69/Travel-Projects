@@ -14,7 +14,7 @@ const Brand = () => {
           transition: { duration: 9, repeat: Infinity },
         }}
       >
-        EduVerse
+        DeshGuide
       </motion.button>
     </div>
   );

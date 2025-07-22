@@ -7,7 +7,7 @@ const RootLayout = () => {
   return (
     <div className="">
       <div
-        className="navbar sticky top-3 z-50   
+        className="sticky top-0 z-50   
               text-white shadow-xl border border-[#1f1f1f]
               bg-gradient-to-r from-[#0f0c29] via-[#302b63] to-[#24243e]
               backdrop-blur-md"

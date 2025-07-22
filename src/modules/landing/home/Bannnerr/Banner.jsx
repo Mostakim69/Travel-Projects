@@ -1,6 +1,6 @@
 export default function Banner() {
   return (
-    <div className="hero min-h-[80vh] bg-[#0F172A] relative overflow-hidden">
+    <div className="mt-5 hero min-h-[60vh] bg-[#0F172A] relative overflow-hidden">
       {/* Background glow or gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-[#0f172a] via-[#1e293b] to-[#0f172a] opacity-70"></div>
       <div className="absolute -top-10 left-1/2 w-[600px] h-[600px] bg-purple-500 opacity-20 rounded-full blur-3xl transform -translate-x-1/2"></div>
