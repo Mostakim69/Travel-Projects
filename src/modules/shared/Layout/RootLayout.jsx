@@ -5,10 +5,10 @@ import NavbarDrawer from "./NavbarDrawer";
 
 const RootLayout = () => {
   return (
-    <div className="max-container">
+    <div className="">
       <Navbar />
       {/* <NavbarDrawer /> */}
-      <div className="min-h-[60vh]">
+      <div className="min-h-[60vh] max-container">
         <Outlet />
       </div>
       <CommonFooter />

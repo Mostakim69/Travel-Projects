@@ -14,11 +14,13 @@ const Navbar = () => {
   return (
     <motion.nav
       {...topToBottom}
-      className="navbar sticky top-3 z-50 mx-3 px-4 rounded-2xl bg-[#0d0d0d] text-white shadow-[0_4px_20px_rgba(0,255,156,0.1)] backdrop-blur-md border border-[#1f1f1f]"
+      className="navbar sticky top-3 z-50 mx-3 px-4 rounded-2xl 
+      text-white shadow-xl border border-[#1f1f1f]
+      bg-gradient-to-r from-[#0f0c29] via-[#302b63] to-[#24243e]
+      backdrop-blur-md max-container"
     >
       {/* Left Section */}
       <div className="navbar-start">
-        {/* Hamburger menu */}
         <div className="dropdown dropdown-right lg:hidden">
           <div
             tabIndex={0}
@@ -38,7 +40,8 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu dropdown-content mt-3 p-2 shadow-xl bg-[#111] rounded-xl border border-[#222] min-w-[180px] z-[999] text-white"
+            className="menu dropdown-content mt-3 p-2 shadow-xl 
+            bg-[#1a1a2e] text-white rounded-xl border border-[#333] min-w-[180px] z-[999]"
           >
             {navbarLinks()}
           </ul>
@@ -48,7 +51,9 @@ const Navbar = () => {
 
       {/* Center Section */}
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal gap-2">{navbarLinks()}</ul>
+        <ul className="menu menu-horizontal gap-2 text-white">
+          {navbarLinks()}
+        </ul>
       </div>
 
       {/* Right Section */}
