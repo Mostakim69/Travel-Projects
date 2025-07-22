@@ -12,13 +12,7 @@ const Navbar = () => {
   const { user } = useAuth();
 
   return (
-    <motion.nav
-      {...topToBottom}
-      className="navbar sticky top-3 z-50 mx-3 px-4 rounded-2xl 
-      text-white shadow-xl border border-[#1f1f1f]
-      bg-gradient-to-r from-[#0f0c29] via-[#302b63] to-[#24243e]
-      backdrop-blur-md max-container"
-    >
+    <motion.nav {...topToBottom} className="navbar max-container">
       {/* Left Section */}
       <div className="navbar-start">
         <div className="dropdown dropdown-right lg:hidden">
