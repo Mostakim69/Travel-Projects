@@ -1,94 +1,57 @@
 // src/modules/landing/home/TourismAndGuides.jsx
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import "react-tabs/style/react-tabs.css"; // DaisyUI overrides this
+
 import useFetchData from "../../../hooks/useFetchData";
 
 const TourismAndGuides = () => {
-  const { data: packages = [], loading: loadingPackages } = useFetchData(
-    "/packages/random",
-    { limit: 3 },
-  );
-  const { data: guides = [], loading: loadingGuides } = useFetchData(
-    "/guides/random",
-    { limit: 6 },
+  const { data: packages = [], loading } = useFetchData(
+    "api/v1/packages/random",
   );
 
+  console.log(packages, "TourismAndGuides.jsx", 7);
   return (
-    <div className="py-10 px-4 max-w-7xl mx-auto">
-      <h2 className="text-3xl font-bold mb-6 text-center text-primary">
-        Tourism & Travel Guide
+    <section className="px-4 py-10 max-w-7xl mx-auto">
+      <h2 className="text-3xl md:text-4xl font-bold text-center mb-10 text-primary">
+        Our Featured Packages
       </h2>
 
-      <div role="tablist" className="tabs tabs-bordered justify-center mb-8">
-        <a role="tab" className="tab tab-active" aria-selected="true">
-          Our Packages
-        </a>
-        <a role="tab" className="tab">
-          Tour Guides
-        </a>
-      </div>
-
-      <div className="grid md:grid-cols-3 gap-6">
-        {loadingPackages ? (
-          <span className="loading loading-bars loading-lg col-span-3 mx-auto"></span>
+      <div className="grid gap-8 md:grid-cols-3">
+        {loading ? (
+          <span className="loading loading-ring loading-lg col-span-3 mx-auto"></span>
         ) : (
           packages.map((pkg) => (
             <div
               key={pkg._id}
-              className="card bg-base-100 shadow-xl hover:shadow-2xl hover:scale-[1.02] transition-all duration-300 border border-base-200"
+              className="card bg-gradient-to-br from-[#0f0c29] via-[#302b63] to-[#24243e] text-white border border-primary shadow-2xl transform transition-all duration-300 hover:scale-105 hover:shadow-[0_0_25px_rgba(59,130,246,0.5)] pulse-glow"
             >
               <figure>
                 <img
-                  src={pkg.image}
+                  src={pkg.gallery?.[0]}
                   alt={pkg.title}
                   className="h-48 w-full object-cover"
                 />
               </figure>
               <div className="card-body">
-                <h3 className="text-lg font-bold">{pkg.title}</h3>
-                <p className="text-sm text-gray-500">{pkg.tourType}</p>
-                <div className="text-xl font-semibold text-primary">
-                  ৳ {pkg.price}
+                <h3 className="text-xl font-bold">{pkg.title}</h3>
+                <p className="text-sm text-gray-300">{pkg.description}</p>
+                <div className="flex flex-wrap gap-3 text-sm my-2">
+                  <span className="badge badge-accent">{pkg.tripType}</span>
+                  <span className="badge badge-secondary">{pkg.days} Days</span>
+                  <span className="badge badge-outline text-white border-white">
+                    {pkg.location}
+                  </span>
                 </div>
-                <div className="card-actions justify-end">
-                  <button className="btn btn-primary btn-sm">
-                    View Package
-                  </button>
+                <div className="text-lg font-semibold text-secondary">
+                  ৳ {pkg.price.toLocaleString()}
                 </div>
-              </div>
-            </div>
-          ))
-        )}
-      </div>
-
-      <div className="divider"></div>
-
-      <div className="grid md:grid-cols-3 gap-6">
-        {loadingGuides ? (
-          <span className="loading loading-spinner text-primary col-span-3 mx-auto"></span>
-        ) : (
-          guides.map((guide) => (
-            <div
-              key={guide._id}
-              className="card bg-gradient-to-br from-base-100 via-neutral to-base-100 shadow-xl border border-primary hover:scale-[1.02] transition-all duration-300 pulse-glow"
-            >
-              <div className="card-body">
-                <h3 className="text-xl font-semibold text-accent">
-                  {guide.name}
-                </h3>
-                <p>{guide.specialty}</p>
-                <p className="text-sm text-gray-400">{guide.location}</p>
-                <div className="card-actions justify-end">
-                  <button className="btn btn-outline btn-sm text-primary">
-                    Details
-                  </button>
+                <div className="card-actions justify-end mt-2">
+                  <button className="btn btn-outline btn-sm">Explore</button>
                 </div>
               </div>
             </div>
           ))
         )}
       </div>
-    </div>
+    </section>
   );
 };
 

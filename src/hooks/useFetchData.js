@@ -16,7 +16,7 @@ const useFetchData = (endpoint, query = {}) => {
           params: query,
           signal: controller.signal,
         });
-        setData(res.data);
+        setData(res.data?.data);
       } catch (err) {
         console.error("Fetch error:", err);
       } finally {
