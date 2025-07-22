@@ -1,6 +1,6 @@
 const Navdrawer = () => {
   return (
-    <div className="drawer-side">
+    <div className="drawer-side lg:drawer-open">
       <label
         htmlFor="my-drawer-3"
         aria-label="close sidebar"
@@ -9,10 +9,10 @@ const Navdrawer = () => {
       <ul className="menu bg-base-200 min-h-full w-80 p-4">
         {/* Sidebar content here */}
         <li>
-          <a>Home</a>
+          <a>Sidebar Item 1</a>
         </li>
         <li>
-          <a>Overview</a>
+          <a>Sidebar Item 2</a>
         </li>
       </ul>
     </div>
