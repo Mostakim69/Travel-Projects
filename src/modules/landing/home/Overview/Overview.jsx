@@ -1,91 +1,89 @@
 import { motion } from "framer-motion";
+import {
+  LucideGlobe,
+  Users,
+  BookOpen,
+  CreditCard,
+  LayoutDashboard,
+  MonitorSmartphone,
+} from "lucide-react";
 
-const Overview = () => {
+const features = [
+  {
+    icon: <LucideGlobe size={28} />,
+    title: "Discover Destinations",
+    description:
+      "Explore breathtaking locations with photos, maps, and details.",
+  },
+  {
+    icon: <Users size={28} />,
+    title: "Hire Trusted Guides",
+    description: "Connect with verified local guides for personalized tours.",
+  },
+  {
+    icon: <BookOpen size={28} />,
+    title: "Share Travel Stories",
+    description: "Post your real travel experiences with photos and tips.",
+  },
+  {
+    icon: <CreditCard size={28} />,
+    title: "Secure Stripe Payments",
+    description: "Book and pay seamlessly using Stripe — fast and reliable.",
+  },
+  {
+    icon: <LayoutDashboard size={28} />,
+    title: "Smart Dashboards",
+    description: "Role-based control panels for users, guides, and admins.",
+  },
+  {
+    icon: <MonitorSmartphone size={28} />,
+    title: "Fully Responsive UI",
+    description:
+      "Smooth on mobile, tablet, and desktop with a night-themed aesthetic.",
+  },
+];
+
+export default function Overview() {
   return (
-    <section className="bg-[#111827] text-white py-16 px-6 md:px-10 lg:px-20">
+    <section className="bg-[#0e0f1a] text-white py-20 px-4 sm:px-6 lg:px-20">
       <motion.div
-        initial={{ opacity: 0, y: 50 }}
+        initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.7 }}
+        transition={{ duration: 0.6 }}
         viewport={{ once: true }}
-        className="max-w-5xl mx-auto text-center"
+        className="max-w-6xl mx-auto text-center"
       >
-        <h2 className="text-4xl md:text-5xl font-bold mb-6 text-[#00FF9C]">
+        <h2 className="text-4xl md:text-5xl font-extrabold mb-4 text-[#00FFC6] drop-shadow-lg">
           What is DeshGuide?
         </h2>
-        <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
+        <p className="text-gray-400 text-lg mb-12 max-w-3xl mx-auto">
           <span className="text-white font-semibold">DeshGuide</span> is a
-          modern tourism management platform built for exploring the beauty of
-          Bangladesh with ease and trust. Whether you're a traveler looking for
-          the perfect destination, a local guide offering your service, or
-          someone eager to share unforgettable travel stories — DeshGuide
-          connects everyone under one roof.
+          modern tourism platform connecting travelers, guides, and
+          storytellers—crafted for seamless discovery, booking, and sharing.
         </p>
 
-        <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3 text-left">
-          <div className="p-6 bg-[#1F2937] rounded-xl border border-[#2c2f3f] shadow hover:shadow-lg transition">
-            <h3 className="text-xl font-semibold text-[#00FF9C] mb-2">
-              🌍 Discover Destinations
-            </h3>
-            <p className="text-gray-300">
-              Browse breathtaking locations across Bangladesh with curated
-              information, images, and reviews.
-            </p>
-          </div>
-
-          <div className="p-6 bg-[#1F2937] rounded-xl border border-[#2c2f3f] shadow hover:shadow-lg transition">
-            <h3 className="text-xl font-semibold text-[#00FF9C] mb-2">
-              👨‍🏫 Hire Trusted Guides
-            </h3>
-            <p className="text-gray-300">
-              Book experienced, verified tour guides directly through the
-              platform — securely and conveniently.
-            </p>
-          </div>
-
-          <div className="p-6 bg-[#1F2937] rounded-xl border border-[#2c2f3f] shadow hover:shadow-lg transition">
-            <h3 className="text-xl font-semibold text-[#00FF9C] mb-2">
-              📖 Share Your Stories
-            </h3>
-            <p className="text-gray-300">
-              Inspire others by sharing your travel experiences, complete with
-              photos and location details.
-            </p>
-          </div>
-
-          <div className="p-6 bg-[#1F2937] rounded-xl border border-[#2c2f3f] shadow hover:shadow-lg transition">
-            <h3 className="text-xl font-semibold text-[#00FF9C] mb-2">
-              🔐 Secure Bookings
-            </h3>
-            <p className="text-gray-300">
-              Integrated with Stripe for seamless, safe payments across all
-              services.
-            </p>
-          </div>
-
-          <div className="p-6 bg-[#1F2937] rounded-xl border border-[#2c2f3f] shadow hover:shadow-lg transition">
-            <h3 className="text-xl font-semibold text-[#00FF9C] mb-2">
-              📊 Role-Based Dashboards
-            </h3>
-            <p className="text-gray-300">
-              Tailored control panels for users, guides, and admins — with full
-              access to manage data and bookings.
-            </p>
-          </div>
-
-          <div className="p-6 bg-[#1F2937] rounded-xl border border-[#2c2f3f] shadow hover:shadow-lg transition">
-            <h3 className="text-xl font-semibold text-[#00FF9C] mb-2">
-              📱 Fully Responsive
-            </h3>
-            <p className="text-gray-300">
-              Built with modern UI/UX principles. Smooth on mobile, tablet, and
-              desktop with a night-themed aesthetic.
-            </p>
-          </div>
+        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          {features.map((item, idx) => (
+            <motion.div
+              key={idx}
+              whileHover={{ scale: 1.05 }}
+              transition={{ type: "spring", stiffness: 300 }}
+              className="relative overflow-hidden p-6 bg-gradient-to-br from-[#1a1c2b] to-[#11131f] border border-[#2d2f43] rounded-2xl shadow-lg hover:shadow-2xl transition-all"
+            >
+              <div className="absolute inset-0 bg-[#00FFC6] opacity-0 group-hover:opacity-10 blur-xl rounded-2xl pointer-events-none transition-all" />
+              <div className="group flex flex-col items-center">
+                <div className="mb-4 p-4 rounded-full bg-[#1e293b] text-[#00FFC6] group-hover:animate-pulse">
+                  {item.icon}
+                </div>
+                <h3 className="text-xl font-bold text-white mb-2">
+                  {item.title}
+                </h3>
+                <p className="text-gray-400 text-sm">{item.description}</p>
+              </div>
+            </motion.div>
+          ))}
         </div>
       </motion.div>
     </section>
   );
-};
-
-export default Overview;
+}
