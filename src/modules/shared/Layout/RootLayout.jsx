@@ -7,7 +7,7 @@ const RootLayout = () => {
   return (
     <div className="max-container">
       <Navbar />
-      <NavbarDrawer />
+      {/* <NavbarDrawer /> */}
       <div className="min-h-[60vh]">
         <Outlet />
       </div>

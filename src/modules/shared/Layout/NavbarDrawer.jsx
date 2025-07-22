@@ -26,7 +26,7 @@ const NavbarDrawer = () => {
               </svg>
             </label>
           </div>
-          <div className="mx-2 flex-1 px-2">Navbar Title</div>
+          <div className="mx-2 flex-1 px-2">DeshGuide</div>
           <div className="hidden flex-none lg:block">
             <ul className="menu menu-horizontal">
               {/* Navbar menu content here */}
@@ -51,10 +51,10 @@ const NavbarDrawer = () => {
         <ul className="menu bg-base-200 min-h-full w-80 p-4">
           {/* Sidebar content here */}
           <li>
-            <a>Sidebar Item 1</a>
+            <a>Home</a>
           </li>
           <li>
-            <a>Sidebar Item 2</a>
+            <a>Overview</a>
           </li>
         </ul>
       </div>
