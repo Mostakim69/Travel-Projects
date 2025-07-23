@@ -1,38 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-
-const faqs = [
-  {
-    question: "What is DeshGuide?",
-    answer:
-      "DeshGuide is a complete tour management platform focused on exploring the beauty of Bangladesh. It helps you discover packages, book trips, find certified local tour guides, and share your travel stories.",
-  },
-  {
-    question: "How do I book a tour package?",
-    answer:
-      "To book a package, visit the Packages section, view details, and submit a booking request by selecting your preferred date and tour guide.",
-  },
-  {
-    question: "Can I choose my own tour guide?",
-    answer:
-      "Yes! You can select from available certified tour guides using a dropdown or view mode in the booking form. Each guide has a detailed profile page.",
-  },
-  {
-    question: "Is payment secure on DeshGuide?",
-    answer:
-      "Absolutely. We use Stripe for secure and encrypted transactions, ensuring your data is safe at all times.",
-  },
-  {
-    question: "Can I become a tour guide?",
-    answer:
-      "Yes. Apply through the 'Become a Guide' section. Once verified by admins, your profile becomes available for tourists to select.",
-  },
-  {
-    question: "How do I share my travel story?",
-    answer:
-      "After completing a trip, go to the 'Stories' section and share your experiences. Upload photos, write memories, and inspire others to explore!",
-  },
-];
+import { faqs } from "./faq.constant";
+import TypewriterText from "../../utils/TypeWriterEffect"; // adjust path as needed
 
 const FAQs = () => {
   const [openIndex, setOpenIndex] = useState(null);
@@ -42,27 +11,38 @@ const FAQs = () => {
   };
 
   return (
-    <section className="max-w-4xl mx-auto px-4 py-16 text-white space-y-10 animate-fade-in">
-      <h2 className="text-4xl font-bold text-center glow-pulse text-purple-400 mb-6">
-        💡 Frequently Asked Questions
+    <section className="max-w-5xl mx-auto px-4 py-20 text-white space-y-12 animate-fade-in">
+      <h2 className="text-4xl md:text-5xl font-extrabold text-center bg-gradient-to-r from-purple-400 via-pink-500 to-red-400 bg-clip-text text-transparent drop-shadow-lg">
+        <TypewriterText
+          words={[
+            "💡 Frequently Asked Questions",
+            "🤔 What Tourists Often Ask",
+            "📌 Your Curiosity, Answered",
+          ]}
+          loop
+          delay={1500}
+          speed={80}
+        />
       </h2>
 
-      <div className="space-y-4">
+      <div className="space-y-5">
         {faqs.map((faq, idx) => (
           <div
             key={idx}
-            className="border border-purple-700 bg-[#111827] rounded-lg overflow-hidden shadow-md hover:shadow-purple-500/40 transition-shadow duration-300"
+            className="border border-purple-700 bg-gradient-to-br from-[#0f172a] to-[#1e293b] rounded-lg overflow-hidden shadow-lg hover:shadow-pink-500/30 transition-all duration-300"
           >
             <button
               onClick={() => toggle(idx)}
-              className="w-full flex justify-between items-center px-6 py-4 text-left hover:bg-[#1f2937] transition-colors duration-300"
+              className="w-full flex justify-between items-center px-6 py-4 text-left hover:bg-[#1f2937] transition-colors duration-300 group"
             >
-              <span className="text-lg font-semibold">{faq.question}</span>
+              <span className="text-lg md:text-xl font-semibold text-white group-hover:text-pink-400 transition-colors">
+                {faq.question}
+              </span>
               <motion.span
                 animate={{ rotate: openIndex === idx ? 180 : 0 }}
-                className="text-purple-400 text-xl"
+                className="text-pink-400 text-2xl transition-transform"
               >
-                ⬇
+                ▾
               </motion.span>
             </button>
 
@@ -73,10 +53,12 @@ const FAQs = () => {
                   initial={{ height: 0, opacity: 0 }}
                   animate={{ height: "auto", opacity: 1 }}
                   exit={{ height: 0, opacity: 0 }}
-                  transition={{ duration: 0.3 }}
-                  className="px-6 pb-4 text-gray-300"
+                  transition={{ duration: 0.25 }}
+                  className="px-6 pb-5 text-sm md:text-base text-gray-300 leading-relaxed"
                 >
-                  <p className="leading-relaxed">{faq.answer}</p>
+                  <p className="border-l-4 border-purple-500 pl-4">
+                    {faq.answer}
+                  </p>
                 </motion.div>
               )}
             </AnimatePresence>
@@ -88,3 +70,66 @@ const FAQs = () => {
 };
 
 export default FAQs;
+
+// import { useState } from "react";
+// import { motion, AnimatePresence } from "framer-motion";
+// import { faqs } from "./faq.constant";
+//
+// const FAQs = () => {
+//   const [openIndex, setOpenIndex] = useState(null);
+//
+//   const toggle = (index) => {
+//     setOpenIndex(openIndex === index ? null : index);
+//   };
+//
+//   return (
+//     <section className="max-w-5xl mx-auto px-4 py-16 text-white space-y-12 animate-fade-in">
+//       <h2 className="text-5xl font-extrabold text-center bg-gradient-to-r from-purple-400 via-pink-500 to-red-400 bg-clip-text text-transparent drop-shadow-lg">
+//         Frequently Asked Questions
+//       </h2>
+//
+//       <div className="space-y-5">
+//         {faqs.map((faq, idx) => (
+//           <div
+//             key={idx}
+//             className="border border-purple-700 bg-gradient-to-br from-[#0f172a] to-[#1e293b] rounded-lg overflow-hidden shadow-lg hover:shadow-pink-500/30 transition-all duration-300"
+//           >
+//             <button
+//               onClick={() => toggle(idx)}
+//               className="w-full flex justify-between items-center px-6 py-4 text-left hover:bg-[#1f2937] transition-colors duration-300 group"
+//             >
+//               <span className="text-lg md:text-xl font-semibold text-white group-hover:text-pink-400 transition-colors">
+//                 {faq.question}
+//               </span>
+//               <motion.span
+//                 animate={{ rotate: openIndex === idx ? 180 : 0 }}
+//                 className="text-pink-400 text-2xl transition-transform"
+//               >
+//                 ▾
+//               </motion.span>
+//             </button>
+//
+//             <AnimatePresence initial={false}>
+//               {openIndex === idx && (
+//                 <motion.div
+//                   key="content"
+//                   initial={{ height: 0, opacity: 0 }}
+//                   animate={{ height: "auto", opacity: 1 }}
+//                   exit={{ height: 0, opacity: 0 }}
+//                   transition={{ duration: 0.25 }}
+//                   className="px-6 pb-5 text-sm md:text-base text-gray-300 leading-relaxed"
+//                 >
+//                   <p className="border-l-4 border-purple-500 pl-4">
+//                     {faq.answer}
+//                   </p>
+//                 </motion.div>
+//               )}
+//             </AnimatePresence>
+//           </div>
+//         ))}
+//       </div>
+//     </section>
+//   );
+// };
+//
+// export default FAQs;
