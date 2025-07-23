@@ -1,4 +1,3 @@
-import React from "react";
 import { eduverseFAQ } from "./faq.constant";
 import TypewriterText from "../../utils/TypeWriterEffect";
 // import { eduverseFAQ } from "./eduverseFAQ"; // Adjust the path as needed

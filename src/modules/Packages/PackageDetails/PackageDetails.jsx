@@ -139,9 +139,9 @@ const PackageDetails = () => {
         </button>
         <button
           onClick={() => setGuideMode("list")}
-          className={`btn ${guideMode === "list" ? "btn-primary" : "btn-outline"}`}
+          className={`btn ${guideMode === "list" ? "btn-primary" : "btn-outline"} rounded-full`}
         >
-          Guide List
+          See Guide List
         </button>
       </div>
 

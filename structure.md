@@ -50,26 +50,6 @@
 │   ├── index.css
 │   ├── main.jsx
 │   ├── modules
-│   │   ├── assignments
-│   │   │   ├── assignmentRoutes.jsx
-│   │   │   ├── components
-│   │   │   │   ├── AssignmentCardBody.jsx
-│   │   │   │   ├── AssignmentCard.jsx
-│   │   │   │   ├── AssignmentsPageIntro.jsx
-│   │   │   │   ├── CreateAssignmentForm.jsx
-│   │   │   │   ├── SubmitAssignment
-│   │   │   │   └── updateAssignments
-│   │   │   │       ├── AssignmentDetails
-│   │   │   │       │   └── AssignmentDetailsCard.jsx
-│   │   │   │       └── UpdateAssignmentForm.jsx
-│   │   │   └── pages
-│   │   │       ├── AssignmentDetailsPage.jsx
-│   │   │       ├── Assignments.jsx
-│   │   │       ├── CreateAssignment.jsx
-│   │   │       ├── MySubmittedAssignmentPage.jsx
-│   │   │       ├── PendingAssignmentsPage.jsx
-│   │   │       ├── SubmitAssignmentPage.jsx
-│   │   │       └── UpdateAssignment.jsx
 │   │   ├── Auth
 │   │   │   ├── AuthLayout.jsx
 │   │   │   ├── AuthRoute.jsx
@@ -185,6 +165,6 @@
 ├── tmuxShow03_25_অপরাহ্ণ_19_07_25.mp4
 └── vite.config.js
 
-54 directories, 129 files
+48 directories, 115 files
 
 ```
