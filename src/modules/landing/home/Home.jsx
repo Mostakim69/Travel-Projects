@@ -8,6 +8,7 @@ import Stories from "./Overview/Stories/Stories.jsx";
 import LiveStats from "./LiveStats/LiveStats.jsx";
 import NewsletterSignup from "./NewsletterSignup/NewsletterSignup.jsx";
 import Testimonials from "./Testimonials/Testimonials.jsx";
+import PartnerWithUs from "./PartnerWithUs/PartnerWithUs.jsx";
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
       <Stories />
       <LiveStats />
       <Testimonials />
+      <PartnerWithUs />
       <NewsletterSignup />
       <Faqs />
     </div>

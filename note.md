@@ -1,5 +1,3 @@
-Testimonials
-
 Component Name: Testimonials.jsx
 Carousel or grid of user quotes with stars.
 
