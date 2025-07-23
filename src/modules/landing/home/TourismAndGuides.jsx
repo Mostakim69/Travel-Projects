@@ -3,9 +3,7 @@
 import useFetchData from "../../../hooks/useFetchData";
 
 const TourismAndGuides = () => {
-  const { data: packages = [], loading } = useFetchData(
-    "api/v1/packages/random",
-  );
+  const { data: packages = [], loading } = useFetchData("packages/random");
 
   console.log(packages, "TourismAndGuides.jsx", 7);
   return (

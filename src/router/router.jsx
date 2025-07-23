@@ -6,6 +6,7 @@ import AuthRoute from "../modules/Auth/AuthRoute";
 import Errorpage from "./ErrorPage";
 import assignmentRoutes from "../modules/assignments/assignmentRoutes";
 import TourGuides from "../modules/TourGuides/TourGuides";
+import GuideDetails from "../modules/TourGuides/GuideDetails/GuideDetails";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,12 @@ const router = createBrowserRouter([
         path: "/",
         Component: App,
       },
+      // guide details page
+      {
+        path: "/guides/:id",
+        element: <GuideDetails />,
+      },
+
       {
         path: "tour-guides",
         element: <TourGuides />,

@@ -3,9 +3,7 @@ import { Link } from "react-router";
 import { axiosInstance } from "../../../../hooks/useAxiosSecure";
 
 const fetchRandomGuides = async () => {
-  const res = await axiosInstance.get(
-    "/api/v1/tour-guide-requests/random-accepted",
-  );
+  const res = await axiosInstance.get("tour-guide-requests/random-accepted");
   return res.data?.data || [];
 };
 
