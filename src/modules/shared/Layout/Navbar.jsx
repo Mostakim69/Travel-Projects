@@ -58,7 +58,7 @@ const Navbar = () => {
               <Avatar />
             </DropDown>
             <Signout>
-              <button className="px-4 py-2 rounded-lg bg-[#00FF9C] text-black font-semibold hover:scale-105 hover:shadow-[0_0_12px_#00FF9C] transition-all duration-200">
+              <button className="px-4 py-2 rounded-full bg-[#00FF9C]/50 text-black font-semibold hover:scale-105 hover:shadow-[0_0_12px_#00FF9C] transition-all duration-200">
                 Sign Out
               </button>
             </Signout>

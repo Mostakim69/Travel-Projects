@@ -282,7 +282,7 @@ const PackageDetails = () => {
 
           {/* Submit */}
           <button
-            className="btn btn-accent mt-4 shadow-lg hover:shadow-purple-500/50 transition-all duration-300 glow-pulse"
+            className="btn btn-accent mt-4 shadow-lg hover:shadow-purple-500/50 transition-all duration-300 glow-pulse rounded-full"
             type="submit"
           >
             🚀 Book Now
