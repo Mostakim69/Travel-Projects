@@ -41,7 +41,7 @@ export default function GuideProfile() {
   } = data;
 
   return (
-    <section className="min-h-screen py-16 bg-[#0f0f11] text-white">
+    <section className="min-h-[70vh] py-16 bg-[#0f0f11] text-white">
       <div className="max-w-4xl mx-auto px-4 relative">
         {/* Background Glow */}
         <div className="absolute -top-20 left-1/2 transform -translate-x-1/2 w-96 h-96 bg-indigo-500 opacity-20 blur-3xl animate-pulse rounded-full pointer-events-none" />

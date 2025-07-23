@@ -68,10 +68,6 @@
 │   │   │       └── SignUp.jsx
 │   │   ├── landing
 │   │   │   ├── home
-│   │   │   │   ├── Banner
-│   │   │   │   │   ├── BannerCard.jsx
-│   │   │   │   │   ├── BannerImg.jsx
-│   │   │   │   │   └── Banner.jsx
 │   │   │   │   ├── Bannnerr
 │   │   │   │   │   └── Banner.jsx
 │   │   │   │   ├── Home.jsx
@@ -142,11 +138,9 @@
 │   │           ├── pages
 │   │           └── SeekerLayout.jsx
 │   ├── pages
-│   │   ├── faq
-│   │   │   ├── faq.constant.js
-│   │   │   └── FAQ.jsx
-│   │   └── features
-│   │       └── Features.jsx
+│   │   └── faq
+│   │       ├── faq.constant.js
+│   │       └── FAQ.jsx
 │   ├── router
 │   │   ├── ErrorPage.jsx
 │   │   ├── ProtectedRoute.jsx
@@ -165,6 +159,6 @@
 ├── tmuxShow03_25_অপরাহ্ণ_19_07_25.mp4
 └── vite.config.js
 
-48 directories, 115 files
+46 directories, 111 files
 
 ```

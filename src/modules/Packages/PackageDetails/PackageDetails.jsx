@@ -135,7 +135,7 @@ const PackageDetails = () => {
           onClick={() => setGuideMode("dropdown")}
           className={`btn ${guideMode === "dropdown" ? "btn-primary" : "btn-outline"}`}
         >
-          Guide Dropdown
+          Select Guide
         </button>
         <button
           onClick={() => setGuideMode("list")}
