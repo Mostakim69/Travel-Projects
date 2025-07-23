@@ -16,7 +16,6 @@ const NewsletterSignup = () => {
     }
     setLoading(true);
     try {
-      // Mock API call delay
       await new Promise((res) => setTimeout(res, 1500));
       Swal.fire({
         icon: "success",
@@ -24,7 +23,7 @@ const NewsletterSignup = () => {
         text: "You will get insider deals and travel hacks in your inbox.",
       });
       setEmail("");
-    } catch (error) {
+    } catch {
       Swal.fire({
         icon: "error",
         title: "Subscription failed",
@@ -36,45 +35,55 @@ const NewsletterSignup = () => {
   };
 
   return (
-    <section className="max-w-xl mx-auto px-6 py-12 bg-[#0f172a] rounded-3xl shadow-lg shadow-purple-900/50 text-white">
-      <h3 className="text-center text-2xl md:text-3xl font-extrabold mb-6 bg-gradient-to-r from-sky-400 via-purple-500 to-indigo-400 bg-clip-text text-transparent drop-shadow-xl">
-        📬 Get insider deals and travel hacks!
-      </h3>
+    <section className="max-w-6xl mx-auto px-8 py-16 bg-[#0f172a] rounded-3xl shadow-lg shadow-purple-900/50 text-white">
+      <div className="flex flex-col md:flex-row items-center gap-12 max-w-5xl mx-auto">
+        {/* Left: Incentive Text */}
+        <div className="md:flex-1 text-center md:text-left">
+          <h3
+            className="text-3xl md:text-4xl font-extrabold
+            bg-gradient-to-r from-sky-400 via-purple-500 to-indigo-400
+            bg-clip-text text-transparent drop-shadow-xl"
+          >
+            📬 Get insider deals and travel hacks!
+          </h3>
+        </div>
 
-      <form
-        onSubmit={handleSubmit}
-        className="flex flex-col sm:flex-row items-center gap-4"
-        noValidate
-      >
-        <input
-          type="email"
-          placeholder="Your email address"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          className="w-full sm:flex-1 bg-[#1e293b] placeholder-indigo-400 text-white rounded-full py-3 px-5
-            border-2 border-transparent
-            focus:outline-none focus:border-gradient-to-r focus:border-sky-400 focus:ring-2 focus:ring-purple-500
-            transition-all duration-300
-            shadow-md shadow-indigo-700/50
-            placeholder-opacity-70
-            focus:placeholder-opacity-40"
-          required
-          aria-label="Email Address"
-        />
-
-        <button
-          type="submit"
-          disabled={loading}
-          className="w-full sm:w-auto bg-gradient-to-r from-sky-500 to-purple-600 hover:from-sky-400 hover:to-purple-500
-            text-white font-semibold rounded-full py-3 px-8
-            shadow-lg shadow-purple-700/70
-            transition-all duration-300
-            disabled:opacity-50 disabled:cursor-not-allowed
-            glow-pulse"
+        {/* Right: Form */}
+        <form
+          onSubmit={handleSubmit}
+          className="md:flex-1 flex flex-col sm:flex-row items-center gap-6 w-full"
+          noValidate
         >
-          {loading ? "Submitting..." : "Subscribe"}
-        </button>
-      </form>
+          <input
+            type="email"
+            placeholder="Your email address"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            className="flex-grow bg-[#1e293b] placeholder-indigo-400 text-white rounded-full py-4 px-6
+              border-2 border-transparent
+              focus:outline-none focus:border-gradient-to-r focus:border-sky-400 focus:ring-2 focus:ring-purple-500
+              transition-all duration-300
+              shadow-md shadow-indigo-700/50
+              placeholder-opacity-70
+              focus:placeholder-opacity-40"
+            required
+            aria-label="Email Address"
+          />
+
+          <button
+            type="submit"
+            disabled={loading}
+            className="w-full sm:w-auto bg-gradient-to-r from-sky-500 to-purple-600 hover:from-sky-400 hover:to-purple-500
+              text-white font-semibold rounded-full py-4 px-10
+              shadow-lg shadow-purple-700/70
+              transition-all duration-300
+              disabled:opacity-50 disabled:cursor-not-allowed
+              glow-pulse"
+          >
+            {loading ? "Submitting..." : "Subscribe"}
+          </button>
+        </form>
+      </div>
     </section>
   );
 };
