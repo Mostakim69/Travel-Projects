@@ -12,7 +12,7 @@ const FAQs = () => {
 
   return (
     <section className="max-w-5xl mx-auto px-4 py-20 text-white space-y-12 animate-fade-in">
-      <h2 className="text-4xl md:text-5xl font-extrabold text-center bg-gradient-to-r from-purple-400 via-pink-500 to-red-400 bg-clip-text text-transparent drop-shadow-lg">
+      <h2 className="text-2xl md:text-4xl font-extrabold text-center bg-gradient-to-r from-sky-400 via-indigo-400 to-violet-500 bg-clip-text text-transparent drop-shadow-lg">
         <TypewriterText
           words={[
             "💡 Frequently Asked Questions",
