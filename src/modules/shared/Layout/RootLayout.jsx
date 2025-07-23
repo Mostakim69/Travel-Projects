@@ -18,7 +18,7 @@ const RootLayout = () => {
       <div className="min-h-[60vh] max-container">
         <Outlet />
       </div>
-      <div className="bg-gradient-to-b from-[#0e0e0e] to-[#1a1a1a] text-gray-300">
+      <div className="bg-gradient-to-b from-[#0e0e0e] to-[#1a1a1a]">
         <CommonFooter />
       </div>
     </div>

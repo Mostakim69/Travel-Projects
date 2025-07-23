@@ -152,7 +152,7 @@ const PackageDetails = () => {
             <div
               key={guide._id}
               className="p-4 bg-[#0f172a] border border-purple-700 rounded-lg hover:shadow-xl hover:scale-[1.02] transition-all duration-300 cursor-pointer"
-              onClick={() => navigate(`/tour-guides/${guide._id}`)}
+              onClick={() => navigate(`/guides/${guide._id}`)}
             >
               <h4 className="text-lg font-semibold">{guide.user.name}</h4>
               <p className="text-sm text-gray-400">{guide.user.email}</p>
@@ -166,6 +166,7 @@ const PackageDetails = () => {
         <h3 className="text-2xl font-bold mb-6 text-purple-400">
           📝 Book This Tour
         </h3>
+
         <form onSubmit={handleSubmit(onSubmit)} className="grid gap-5">
           {/* Package Name */}
           <div>
@@ -174,9 +175,10 @@ const PackageDetails = () => {
             </label>
             <input
               type="text"
-              className="input input-bordered w-full bg-[#1e293b] text-white placeholder-gray-400"
+              readOnly
+              className="input input-bordered w-full bg-[#1e293b] text-white placeholder-gray-500"
+              placeholder="Package Name"
               value={title}
-              disabled
               {...register("packageName")}
             />
           </div>
@@ -189,9 +191,10 @@ const PackageDetails = () => {
               </label>
               <input
                 type="text"
-                className="input input-bordered w-full bg-[#1e293b] text-white"
-                value={userData?.name}
-                disabled
+                readOnly
+                className="input input-bordered w-full bg-[#1e293b] text-white placeholder-gray-500"
+                placeholder="Your Name"
+                value={userData?.name || ""}
               />
             </div>
             <div>
@@ -200,9 +203,10 @@ const PackageDetails = () => {
               </label>
               <input
                 type="email"
-                className="input input-bordered w-full bg-[#1e293b] text-white"
-                value={userData?.email}
-                disabled
+                readOnly
+                className="input input-bordered w-full bg-[#1e293b] text-white placeholder-gray-500"
+                placeholder="Your Email"
+                value={userData?.email || ""}
               />
             </div>
             <div>
@@ -211,9 +215,10 @@ const PackageDetails = () => {
               </label>
               <input
                 type="text"
-                className="input input-bordered w-full bg-[#1e293b] text-white"
-                value={userData?.photoURL}
-                disabled
+                readOnly
+                className="input input-bordered w-full bg-[#1e293b] text-white placeholder-gray-500"
+                placeholder="Your Photo URL"
+                value={userData?.photoURL || ""}
               />
             </div>
           </div>
@@ -275,6 +280,7 @@ const PackageDetails = () => {
             </div>
           )}
 
+          {/* Submit */}
           <button
             className="btn btn-accent mt-4 shadow-lg hover:shadow-purple-500/50 transition-all duration-300 glow-pulse"
             type="submit"
