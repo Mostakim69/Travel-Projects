@@ -44,7 +44,7 @@ const TourismAndGuides = () => {
                 </div>
                 <div className="card-actions justify-end mt-2">
                   <Link
-                    to={`/packages/${pkg.id}`}
+                    to={`/packages/${pkg._id}`}
                     className="btn btn-primary btn-sm"
                   >
                     View Details

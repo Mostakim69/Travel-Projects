@@ -1,195 +1,195 @@
-import { useEffect, useState } from "react";
-import { useParams } from "react-router";
-import axios from "axios";
-import { FaRegCalendarAlt, FaMapMarkerAlt } from "react-icons/fa";
-import { MdOutlineAttachMoney } from "react-icons/md";
+import { useParams, useNavigate } from "react-router";
+import { useQuery } from "@tanstack/react-query";
+import { FaCalendarAlt } from "react-icons/fa";
+import { toast } from "react-hot-toast";
+import { axiosInstance } from "../../../hooks/useAxiosSecure";
+import useAuth from "../../../hooks/useAuth";
 
 export default function PackageDetails() {
   const { id } = useParams();
-  const [pkg, setPkg] = useState(null);
-  const [guides, setGuides] = useState([]);
-  const [bookingData, setBookingData] = useState({
-    price: "",
-    tourDate: "",
-    guideId: "",
+  const navigate = useNavigate();
+  const { user } = useAuth();
+
+  // Get package details
+  const { data: packageData, isLoading: loadingPackage } = useQuery({
+    queryKey: ["package", id],
+    queryFn: async () => {
+      const res = await axiosInstance.get(`/packages/${id}`);
+      return res.data.data;
+    },
   });
 
-  const user = {
-    name: "Shahjalal",
-    email: "muhommodshahjalal@gmail.com",
-    photo: "https://i.ibb.co/sample.png",
-  };
-
-  useEffect(() => {
-    axios.get(`/packages/${id}`).then((res) => {
-      setPkg(res.data.data);
-    });
-    axios.get("/tour-guide-requests/random-accepted?limit=all").then((res) => {
-      setGuides(res.data.data);
-    });
-  }, [id]);
+  // Get accepted tour guides
+  const { data: guides = [] } = useQuery({
+    queryKey: ["accepted-guides"],
+    queryFn: async () => {
+      const res = await axiosInstance.get(
+        "/tour-guide-requests/random-accepted?limit=all",
+      );
+      return res.data.data;
+    },
+  });
 
   const handleBooking = async (e) => {
     e.preventDefault();
-    if (!user) return alert("Please login to book");
+    if (!user) return navigate("/login");
 
-    const bookingPayload = {
+    const form = e.target;
+    const price = form.price.value;
+    const date = form.date.value;
+    const guideId = form.guideId.value;
+
+    const bookingData = {
       packageId: id,
-      packageName: pkg.title,
-      touristName: user.name,
+      packageName: packageData.title,
+      touristName: user.displayName,
       touristEmail: user.email,
-      touristPhoto: user.photo,
-      price: bookingData.price,
-      tourDate: bookingData.tourDate,
-      guideId: bookingData.guideId,
+      touristPhoto: user.photoURL,
+      price,
+      tourDate: date,
+      guideId,
       status: "pending",
     };
 
-    await axios.post("/bookings", bookingPayload);
-    alert("✅ Booking submitted. Track it from My Bookings.");
+    try {
+      await axiosInstance.post("/bookings", bookingData);
+      toast.success("Booking request sent!");
+    } catch (err) {
+      toast.error("Failed to book tour");
+    }
   };
 
-  if (!pkg) return <div className="text-center text-xl p-10">Loading...</div>;
+  if (loadingPackage)
+    return <div className="text-center text-white">Loading...</div>;
 
   return (
-    <div className="bg-[#0e0e1a] text-white px-4 md:px-10 py-8">
+    <section className="text-white px-4 md:px-10 py-12 space-y-12">
       {/* Gallery */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-10">
-        {pkg.gallery.map((img, i) => (
-          <img
-            key={i}
-            src={img}
-            alt={`Gallery ${i}`}
-            className="rounded-lg shadow-md hover:scale-105 hover:shadow-xl transition-all duration-300 border border-slate-800"
-          />
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 animate-fadeIn">
+        {packageData.gallery.map((img, idx) => (
+          <div
+            key={idx}
+            className="bg-gray-800 rounded-xl overflow-hidden transform hover:scale-105 transition-all duration-300 border border-cyan-600 shadow-glow"
+          >
+            <img
+              src={img}
+              alt={`Tour ${idx}`}
+              className="w-full h-64 object-cover"
+            />
+          </div>
         ))}
       </div>
 
-      {/* About Tour */}
-      <div className="mb-10">
-        <h2 className="text-4xl font-bold glow mb-4">{pkg.title}</h2>
-        <p className="text-lg opacity-90 mb-4">{pkg.description}</p>
-        <div className="flex flex-wrap gap-4 text-md">
-          <div className="flex items-center gap-2 bg-slate-800 px-4 py-2 rounded shadow">
-            <FaMapMarkerAlt />
-            {pkg.location}
-          </div>
-          <div className="flex items-center gap-2 bg-slate-800 px-4 py-2 rounded shadow">
-            <MdOutlineAttachMoney />
-            {pkg.price} BDT
-          </div>
-          <div className="flex items-center gap-2 bg-slate-800 px-4 py-2 rounded shadow">
-            <FaRegCalendarAlt />
-            {pkg.days} Days
-          </div>
-        </div>
+      {/* About Section */}
+      <div className="bg-gray-900 p-8 rounded-xl shadow-xl border border-cyan-700 animate-fadeInUp">
+        <h2 className="text-3xl font-bold text-cyan-400 mb-4">
+          {packageData.title}
+        </h2>
+        <p className="mb-2 text-gray-300">{packageData.description}</p>
+        <p className="text-cyan-300 font-semibold">
+          Trip Type: {packageData.tripType}
+        </p>
+        <p className="text-cyan-300 font-semibold">
+          Location: {packageData.location}
+        </p>
+        <p className="text-cyan-300 font-semibold">
+          Duration: {packageData.days} Days
+        </p>
+        <p className="text-cyan-300 font-semibold">
+          Price: ৳ {packageData.price}
+        </p>
       </div>
 
       {/* Tour Plan */}
-      <div className="mb-12">
-        <h3 className="text-2xl font-semibold mb-3 underline underline-offset-4 decoration-cyan-500">
-          Tour Plan
-        </h3>
-        <div className="space-y-4">
-          {pkg.tourPlan.map((plan, idx) => (
-            <div
-              key={idx}
-              className="border-l-4 border-cyan-500 pl-4 py-2 glow-card"
-            >
-              <h4 className="font-bold text-cyan-400">Day {plan.day}</h4>
-              <p>{plan.activities}</p>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {/* Tour Guides */}
-      <div className="mb-10">
-        <h3 className="text-2xl font-semibold mb-3 underline underline-offset-4 decoration-pink-500">
-          Available Tour Guides
-        </h3>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-          {guides.map((guide) => (
-            <a
-              key={guide._id}
-              href={`/guides/${guide._id}`}
-              className="p-4 bg-slate-900 rounded-lg hover:scale-105 transition shadow-lg border border-slate-700 pulse-card"
-            >
-              <h4 className="text-lg font-bold text-pink-400">
-                {guide.user.name}
-              </h4>
-              <p className="text-sm opacity-80">{guide.user.email}</p>
-            </a>
-          ))}
-        </div>
+      <div className="space-y-6">
+        <h3 className="text-2xl font-bold text-cyan-400">🗓️ Tour Plan</h3>
+        {packageData.tourPlan.map((plan) => (
+          <div
+            key={plan.day}
+            className="bg-gray-900 p-6 rounded-xl border border-cyan-800 hover:shadow-pulse transition-all duration-300"
+          >
+            <h4 className="text-cyan-300 font-semibold">Day {plan.day}</h4>
+            <p className="text-gray-300">{plan.activities}</p>
+          </div>
+        ))}
       </div>
 
       {/* Booking Form */}
-      <div className="mb-10 bg-slate-900 p-6 rounded-lg border border-slate-700">
-        <h3 className="text-xl font-semibold mb-4 text-lime-400">Book Now</h3>
-        <form
-          onSubmit={handleBooking}
-          className="grid md:grid-cols-2 gap-4 animate-fade-in"
-        >
+      <form
+        onSubmit={handleBooking}
+        className="bg-gray-950 border border-cyan-800 p-8 rounded-xl space-y-6 shadow-inner animate-fadeInUp"
+      >
+        <h3 className="text-2xl font-bold text-cyan-400">📅 Book This Tour</h3>
+
+        <div className="grid md:grid-cols-2 gap-6">
           <input
-            className="input input-bordered bg-transparent text-white"
-            value={pkg.title}
-            disabled
+            className="input input-bordered bg-black border-cyan-600 text-white"
+            defaultValue={packageData.title}
+            readOnly
           />
           <input
-            className="input input-bordered bg-transparent text-white"
-            value={user.name}
-            disabled
+            className="input input-bordered bg-black border-cyan-600 text-white"
+            defaultValue={user?.displayName}
+            readOnly
           />
           <input
-            className="input input-bordered bg-transparent text-white"
-            value={user.email}
-            disabled
+            className="input input-bordered bg-black border-cyan-600 text-white"
+            defaultValue={user?.email}
+            readOnly
           />
           <input
-            className="input input-bordered bg-transparent text-white"
-            value={user.photo}
-            disabled
+            className="input input-bordered bg-black border-cyan-600 text-white"
+            defaultValue={user?.photoURL}
+            readOnly
           />
           <input
             type="number"
+            name="price"
             placeholder="Enter Price"
-            className="input input-bordered bg-transparent text-white"
-            onChange={(e) =>
-              setBookingData({ ...bookingData, price: e.target.value })
-            }
             required
+            className="input input-bordered bg-black border-cyan-600 text-white"
           />
-          <input
-            type="date"
-            className="input input-bordered bg-transparent text-white"
-            onChange={(e) =>
-              setBookingData({ ...bookingData, tourDate: e.target.value })
-            }
-            required
-          />
+          <div className="flex items-center gap-2">
+            <FaCalendarAlt className="text-cyan-400" />
+            <input
+              type="date"
+              name="date"
+              required
+              className="input input-bordered bg-black border-cyan-600 text-white w-full"
+            />
+          </div>
+
+          {/* Guide Dropdown */}
           <select
-            className="select select-bordered bg-transparent text-white"
-            onChange={(e) =>
-              setBookingData({ ...bookingData, guideId: e.target.value })
-            }
             required
+            name="guideId"
+            className="select select-bordered bg-black border-cyan-600 text-white w-full"
+            defaultValue=""
           >
-            <option value="">Select Guide</option>
-            {guides.map((g) => (
-              <option key={g._id} value={g._id}>
-                {g.user.name}
+            <option disabled value="">
+              Select a Tour Guide
+            </option>
+            {guides.map((guide) => (
+              <option
+                key={guide._id}
+                value={guide._id}
+                onClick={() => navigate(`/guide-profile/${guide._id}`)}
+              >
+                {guide.user?.name} ({guide.user?.email})
               </option>
             ))}
           </select>
+        </div>
+
+        <div className="text-right">
           <button
             type="submit"
-            className="btn btn-success text-white glow mt-2 col-span-2"
+            className="btn btn-accent btn-wide mt-4 animate-pulse hover:scale-105 transition"
           >
-            Confirm Booking
+            Book Now
           </button>
-        </form>
-      </div>
-    </div>
+        </div>
+      </form>
+    </section>
   );
 }
