@@ -101,6 +101,9 @@
 │   │   │   │   │   └── RandomGuides.jsx
 │   │   │   │   └── TourismAndGuides.jsx
 │   │   │   └── index.js
+│   │   ├── Packages
+│   │   │   └── PackageDetails
+│   │   │       └── PackageDetails.jsx
 │   │   ├── shared
 │   │   │   ├── Layout
 │   │   │   │   ├── CommonFooter.jsx
@@ -128,6 +131,8 @@
 │   │   │   └── pages
 │   │   │       └── EvaluateSubmissionPage.jsx
 │   │   ├── TourGuides
+│   │   │   ├── GuideProfile
+│   │   │   │   └── GuideProfile.jsx
 │   │   │   └── TourGuides.jsx
 │   │   └── users
 │   │       ├── admin
@@ -180,6 +185,6 @@
 ├── tmuxShow03_25_অপরাহ্ণ_19_07_25.mp4
 └── vite.config.js
 
-51 directories, 127 files
+54 directories, 129 files
 
 ```

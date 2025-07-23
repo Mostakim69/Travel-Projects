@@ -1,5 +1,6 @@
 // src/modules/landing/home/TourismAndGuides.jsx
 
+import { Link } from "react-router";
 import useFetchData from "../../../hooks/useFetchData";
 
 const TourismAndGuides = () => {
@@ -42,7 +43,12 @@ const TourismAndGuides = () => {
                   ৳ {pkg.price.toLocaleString()}
                 </div>
                 <div className="card-actions justify-end mt-2">
-                  <button className="btn btn-outline btn-sm">Explore</button>
+                  <Link
+                    to={`/packages/${pkg.id}`}
+                    className="btn btn-primary btn-sm"
+                  >
+                    View Details
+                  </Link>
                 </div>
               </div>
             </div>
