@@ -4,6 +4,7 @@ import Overview from "./Overview/Overview";
 import RandomGuides from "./RandomGuides/RandomGuides";
 import TourismAndGuides from "./TourismAndGuides";
 import Faqs from "../../../pages/faq/FAQ.jsx";
+import Stories from "./Overview/Stories/Stories.jsx";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Overview />
       <TourismAndGuides />
       <RandomGuides />
+      <Stories />
       <Faqs />
     </div>
   );

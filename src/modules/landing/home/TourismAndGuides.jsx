@@ -2,6 +2,7 @@
 
 import { Link } from "react-router";
 import useFetchData from "../../../hooks/useFetchData";
+import Spinner from "../../shared/Layout/Spinner";
 
 const TourismAndGuides = () => {
   const { data: packages = [], loading } = useFetchData("packages/random");
@@ -15,7 +16,7 @@ const TourismAndGuides = () => {
 
       <div className="grid gap-8 md:grid-cols-3">
         {loading ? (
-          <span className="loading loading-ring loading-lg col-span-3 mx-auto"></span>
+          <Spinner />
         ) : (
           packages.map((pkg) => (
             <div

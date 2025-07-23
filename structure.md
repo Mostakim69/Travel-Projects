@@ -18,12 +18,6 @@
 │   ├── App.jsx
 │   ├── assets
 │   │   └── images
-│   │       ├── assignments
-│   │       │   ├── ai.jpg
-│   │       │   ├── a-young-programmer-solving-javascript-coding-puzzles-.jpg
-│   │       │   ├── backendserver.jpg
-│   │       │   ├── developerpuzzles.jpg
-│   │       │   └── weatherapp.jpg
 │   │       ├── banner1.jpg
 │   │       ├── banner2.jpg
 │   │       ├── banner3.jpg
@@ -159,6 +153,6 @@
 ├── tmuxShow03_25_অপরাহ্ণ_19_07_25.mp4
 └── vite.config.js
 
-46 directories, 111 files
+45 directories, 106 files
 
 ```
