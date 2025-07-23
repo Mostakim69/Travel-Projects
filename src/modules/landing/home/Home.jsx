@@ -6,6 +6,7 @@ import TourismAndGuides from "./TourismAndGuides";
 import Faqs from "../../../pages/faq/FAQ.jsx";
 import Stories from "./Overview/Stories/Stories.jsx";
 import LiveStats from "./LiveStats/LiveStats.jsx";
+import NewsletterSignup from "./NewsletterSignup/NewsletterSignup.jsx";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <RandomGuides />
       <Stories />
       <LiveStats />
+      <NewsletterSignup />
       <Faqs />
     </div>
   );
