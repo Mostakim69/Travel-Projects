@@ -15,7 +15,7 @@ const useUserRole = () => {
     enabled: !authLoading && !!user?.email,
     queryFn: async () => {
       const res = await axiosSecure.get(`users/email/tourist5@example.com`);
-      return res.data; // should be the full user object
+      return res.data.data; // should be the full user object
     },
   });
 
@@ -23,7 +23,7 @@ const useUserRole = () => {
 
   return {
     role,
-    userData, // full user object from DB
+    userData,
     roleLoading: authLoading || roleLoading,
     refetch,
   };

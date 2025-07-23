@@ -10,8 +10,6 @@ const PackageDetails = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const { userData } = useUserRole();
-  console.log(useUserRole, "PackageDetails.jsx", 14);
-  console.log(userData, "PackageDetails.jsx", 14);
 
   const [guideMode, setGuideMode] = useState("dropdown"); // or 'list'
 
@@ -164,107 +162,6 @@ const PackageDetails = () => {
       ) : null}
 
       {/* Booking Form */}
-      <div className="bg-[#111827] rounded-lg p-6 md:p-10 border border-purple-600 shadow-inner shadow-purple-800">
-        <h3 className="text-2xl font-bold mb-6">📝 Book This Tour</h3>
-        <form onSubmit={handleSubmit(onSubmit)} className="grid gap-4">
-          {/* Package Name */}
-          <div>
-            <label className="label-text">Package Name</label>
-            <input
-              type="text"
-              className="input input-bordered w-full"
-              value={title}
-              disabled
-              {...register("packageName")}
-            />
-          </div>
-
-          {/* Tourist Info */}
-          <div className="grid md:grid-cols-3 gap-4">
-            <div>
-              <label className="label-text">Your Name</label>
-              <input
-                type="text"
-                className="input input-bordered w-full"
-                defaultValue={userData?.displayName}
-                disabled
-              />
-            </div>
-            <div>
-              <label className="label-text">Your Email</label>
-              <input
-                type="email"
-                className="input input-bordered w-full"
-                value={userData?.email}
-                disabled
-              />
-            </div>
-            <div>
-              <label className="label-text">Your Photo URL</label>
-              <input
-                type="text"
-                className="input input-bordered w-full"
-                value={userData?.photoURL}
-                disabled
-              />
-            </div>
-          </div>
-
-          {/* Price */}
-          <div>
-            <label className="label-text">Price</label>
-            <input
-              type="number"
-              className="input input-bordered w-full"
-              defaultValue={price}
-              {...register("price", { required: true, min: 0 })}
-            />
-            {errors.price && (
-              <p className="text-red-400 text-sm mt-1">Valid price required</p>
-            )}
-          </div>
-
-          {/* Tour Date */}
-          <div>
-            <label className="label-text">Tour Date</label>
-            <input
-              type="date"
-              className="input input-bordered w-full"
-              {...register("tourDate", { required: true })}
-            />
-            {errors.tourDate && (
-              <p className="text-red-400 text-sm mt-1">Please select a date</p>
-            )}
-          </div>
-
-          {/* Guide Dropdown */}
-          {guideMode === "dropdown" && (
-            <div>
-              <label className="label-text">Select a Tour Guide</label>
-              <select
-                className="select select-bordered w-full"
-                {...register("guideId", { required: true })}
-              >
-                <option value="">Choose a guide</option>
-                {tourGuides.map((guide) => (
-                  <option key={guide._id} value={guide._id}>
-                    {guide.user.name} ({guide.user.email})
-                  </option>
-                ))}
-              </select>
-              {errors.guideId && (
-                <p className="text-red-400 text-sm mt-1">
-                  Please select a guide
-                </p>
-              )}
-            </div>
-          )}
-
-          <button className="btn btn-accent mt-4 glow-pulse" type="submit">
-            Book Now
-          </button>
-        </form>
-      </div>
       <div className="bg-[#0f172a] rounded-lg p-6 md:p-10 border border-purple-700 shadow-lg shadow-purple-900 text-gray-100">
         <h3 className="text-2xl font-bold mb-6 text-purple-400">
           📝 Book This Tour
@@ -293,7 +190,7 @@ const PackageDetails = () => {
               <input
                 type="text"
                 className="input input-bordered w-full bg-[#1e293b] text-white"
-                value={userData?.displayName}
+                value={userData?.name}
                 disabled
               />
             </div>
@@ -331,6 +228,7 @@ const PackageDetails = () => {
               className="input input-bordered w-full bg-[#1e293b] text-white"
               defaultValue={price}
               {...register("price", { required: true, min: 0 })}
+              readOnly
             />
             {errors.price && (
               <p className="text-red-400 text-sm mt-1">Valid price required</p>
