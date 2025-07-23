@@ -3,7 +3,9 @@ import { Link } from "react-router";
 import { axiosInstance } from "../../../../hooks/useAxiosSecure";
 
 const fetchRandomGuides = async () => {
-  const res = await axiosInstance.get("/tour-guide-requests/random-accepted");
+  const res = await axiosInstance.get(
+    "/api/v1/tour-guide-requests/random-accepted",
+  );
   return res.data?.data || [];
 };
 
@@ -34,7 +36,7 @@ export default function RandomGuides() {
   }
 
   return (
-    <section className="py-16 bg-base-200 text-white">
+    <section className="py-16 bg-base-00 text-white">
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-10 drop-shadow-glow">
           🌟 Meet Our Verified Tour Guides

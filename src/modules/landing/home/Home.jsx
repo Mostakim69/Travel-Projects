@@ -4,6 +4,7 @@ import FAQ from "../../../pages/faq/FAQ";
 import Features from "../../../pages/features/Features";
 import Banner from "./Bannnerr/Banner";
 import Overview from "./Overview/Overview";
+import RandomGuides from "./RandomGuides/RandomGuides";
 import TourismAndGuides from "./TourismAndGuides";
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
       <Banner />
       <Overview />
       <TourismAndGuides />
+      <RandomGuides />
       <FAQ />
       <Features />
     </div>
