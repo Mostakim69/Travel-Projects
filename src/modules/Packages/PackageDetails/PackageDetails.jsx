@@ -4,12 +4,14 @@ import Swal from "sweetalert2";
 import { useForm } from "react-hook-form";
 import { useState } from "react";
 import { axiosInstance } from "../../../hooks/useAxiosSecure";
-import useAuth from "../../../hooks/useAuth";
+import useUserRole from "../../../hooks/useUserRole";
 
 const PackageDetails = () => {
   const { id } = useParams();
   const navigate = useNavigate();
-  const { user } = useAuth(); // assumes user = { displayName, email, photoURL }
+  const { userData } = useUserRole();
+  console.log(useUserRole, "PackageDetails.jsx", 14);
+  console.log(userData, "PackageDetails.jsx", 14);
 
   const [guideMode, setGuideMode] = useState("dropdown"); // or 'list'
 
@@ -39,7 +41,7 @@ const PackageDetails = () => {
   } = useForm();
 
   const onSubmit = async (data) => {
-    if (!user) {
+    if (!userData) {
       Swal.fire({
         icon: "warning",
         title: "Please login first to book a tour.",
@@ -50,9 +52,9 @@ const PackageDetails = () => {
     const bookingPayload = {
       ...data,
       packageId: id,
-      touristName: user.displayName,
-      touristEmail: user.email,
-      touristPhoto: user.photoURL,
+      touristName: userData.name,
+      touristEmail: userData.email,
+      touristPhoto: userData.photoURL,
       status: "pending",
     };
 
@@ -184,7 +186,7 @@ const PackageDetails = () => {
               <input
                 type="text"
                 className="input input-bordered w-full"
-                defaultValue={user?.displayName}
+                defaultValue={userData?.displayName}
                 disabled
               />
             </div>
@@ -193,7 +195,7 @@ const PackageDetails = () => {
               <input
                 type="email"
                 className="input input-bordered w-full"
-                value={user?.email}
+                value={userData?.email}
                 disabled
               />
             </div>
@@ -202,7 +204,7 @@ const PackageDetails = () => {
               <input
                 type="text"
                 className="input input-bordered w-full"
-                value={user?.photoURL}
+                value={userData?.photoURL}
                 disabled
               />
             </div>
@@ -291,7 +293,7 @@ const PackageDetails = () => {
               <input
                 type="text"
                 className="input input-bordered w-full bg-[#1e293b] text-white"
-                value={user?.displayName}
+                value={userData?.displayName}
                 disabled
               />
             </div>
@@ -302,7 +304,7 @@ const PackageDetails = () => {
               <input
                 type="email"
                 className="input input-bordered w-full bg-[#1e293b] text-white"
-                value={user?.email}
+                value={userData?.email}
                 disabled
               />
             </div>
@@ -313,7 +315,7 @@ const PackageDetails = () => {
               <input
                 type="text"
                 className="input input-bordered w-full bg-[#1e293b] text-white"
-                value={user?.photoURL}
+                value={userData?.photoURL}
                 disabled
               />
             </div>
