@@ -16,6 +16,25 @@
 │   │   ├── LottieAnimation.jsx
 │   │   └── motion.js
 │   ├── App.jsx
+│   ├── assets
+│   │   └── images
+│   │       ├── assignments
+│   │       │   ├── ai.jpg
+│   │       │   ├── a-young-programmer-solving-javascript-coding-puzzles-.jpg
+│   │       │   ├── backendserver.jpg
+│   │       │   ├── developerpuzzles.jpg
+│   │       │   └── weatherapp.jpg
+│   │       ├── banner1.jpg
+│   │       ├── banner2.jpg
+│   │       ├── banner3.jpg
+│   │       ├── banner4.jpg
+│   │       ├── banner5.jpg
+│   │       ├── banner6.jpg
+│   │       ├── banner7.jpg
+│   │       ├── index.js
+│   │       ├── jobseeker1.jpg
+│   │       ├── jobseeker2.jpg
+│   │       └── notfound3.jpg
 │   ├── contexts
 │   │   └── AuthContext
 │   │       ├── AuthContext.jsx
@@ -166,6 +185,6 @@
 ├── tmuxShow03_25_অপরাহ্ণ_19_07_25.mp4
 └── vite.config.js
 
-51 directories, 113 files
+54 directories, 129 files
 
 ```
