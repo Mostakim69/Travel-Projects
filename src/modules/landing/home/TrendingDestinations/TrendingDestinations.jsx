@@ -45,28 +45,33 @@ const TrendingDestinations = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
           {trendingSpots.map((spot, i) => (
-            <motion.div
-              key={spot.name}
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: i * 0.15, duration: 0.6 }}
-              className="relative overflow-hidden group rounded-2xl border border-sky-700 bg-gradient-to-br from-[#111827] to-[#0f172a] shadow-[0_0_30px_#0ea5e944] hover:shadow-[0_0_40px_#38bdf8aa] transition-all duration-300"
-              data-aos="zoom-out-right"
-            >
-              <img
-                src={spot.image}
-                alt={spot.name}
-                className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-black/30 group-hover:bg-black/10 transition-all duration-300" />
-              <div className="absolute top-3 left-3 bg-sky-700/90 px-3 py-1 text-xs rounded-full font-semibold shadow shadow-cyan-800">
-                🚀 Hot Spot
-              </div>
-              <div className="relative z-10 p-4 bg-black/60 backdrop-blur-md">
-                <h3 className="text-lg font-bold text-sky-300">{spot.name}</h3>
-                <p className="text-sm text-gray-300 mt-1">{spot.description}</p>
-              </div>
-            </motion.div>
+            <div data-aos="flip-left">
+              <motion.div
+                key={spot.name}
+                initial={{ opacity: 0, y: 40 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: i * 0.15, duration: 0.6 }}
+                className="relative overflow-hidden group rounded-2xl border border-sky-700 bg-gradient-to-br from-[#111827] to-[#0f172a] shadow-[0_0_30px_#0ea5e944] hover:shadow-[0_0_40px_#38bdf8aa] transition-all duration-300"
+              >
+                <img
+                  src={spot.image}
+                  alt={spot.name}
+                  className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-black/30 group-hover:bg-black/10 transition-all duration-300" />
+                <div className="absolute top-3 left-3 bg-sky-700/90 px-3 py-1 text-xs rounded-full font-semibold shadow shadow-cyan-800">
+                  🚀 Hot Spot
+                </div>
+                <div className="relative z-10 p-4 bg-black/60 backdrop-blur-md">
+                  <h3 className="text-lg font-bold text-sky-300">
+                    {spot.name}
+                  </h3>
+                  <p className="text-sm text-gray-300 mt-1">
+                    {spot.description}
+                  </p>
+                </div>
+              </motion.div>
+            </div>
           ))}
         </div>
       </div>
