@@ -11,7 +11,7 @@ const stagger = {
 
 const TestimonialCard = ({ testimonial, i }) => {
   return (
-    <div>
+    <div data-aos="fade-up-left">
       <motion.div
         custom={i}
         initial="hidden"

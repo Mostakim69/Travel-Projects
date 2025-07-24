@@ -3,7 +3,10 @@ import { Link } from "react-router";
 
 const PartnerWithUs = () => {
   return (
-    <section className="bg-[#0f172a] py-20 px-6 text-white">
+    <div
+      className="bg-[#0f172a] py-20 px-6 text-white"
+      data-aos="fade-down-right"
+    >
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -26,7 +29,7 @@ const PartnerWithUs = () => {
           Become a Partner
         </Link>
       </motion.div>
-    </section>
+    </div>
   );
 };
 
