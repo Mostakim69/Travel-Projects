@@ -8,6 +8,7 @@ import TourGuides from "../modules/TourGuides/TourGuides";
 import GuideProfile from "../modules/TourGuides/GuideProfile/GuideProfile";
 import PackageDetails from "../modules/Packages/PackageDetails/PackageDetails";
 import MyBookings from "../modules/Tourist/Bookings/MyBookings";
+import Home from "../modules/landing/home/Home";
 
 const router = createBrowserRouter([
   {
@@ -17,7 +18,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        Component: App,
+        Component: Home,
       },
       // guide profile page
       {
