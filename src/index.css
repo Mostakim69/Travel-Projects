@@ -44,3 +44,26 @@ body {
   @apply border border-indigo-500 rounded-lg shadow-lg;
   box-shadow: 0 0 20px rgba(99, 102, 241, 0.6);
 }
+
+/* Add this to your CSS or Tailwind layer */
+.glow-text {
+  text-shadow:
+    0 0 4px #6366f1,
+    0 0 8px #6366f1;
+}
+
+@keyframes jhilimili {
+  0% {
+    box-shadow: 0 0 5px #7f5af0;
+  }
+  50% {
+    box-shadow: 0 0 10px #7f5af0;
+  }
+  100% {
+    box-shadow: 0 0 5px #7f5af0;
+  }
+}
+
+.jhilimili-glow {
+  animation: jhilimili 1.5s infinite ease-in-out;
+}
