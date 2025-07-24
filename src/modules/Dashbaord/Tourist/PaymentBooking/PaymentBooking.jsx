@@ -1,9 +1,16 @@
-const PaymentBooking = () => {
+import { Elements } from "@stripe/react-stripe-js";
+import { loadStripe } from "@stripe/stripe-js";
+import React from "react";
+import PaymentForm from "./PaymentForm";
+
+const stripePromise = loadStripe(import.meta.env.VITE_payment_Key);
+
+const Payment = () => {
   return (
-    <div>
-      <h1>Payment Booking</h1>
-    </div>
+    <Elements stripe={stripePromise}>
+      <PaymentForm></PaymentForm>
+    </Elements>
   );
 };
 
-export default PaymentBooking;
+export default Payment;
