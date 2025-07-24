@@ -1,20 +1,22 @@
 import { useQuery } from "@tanstack/react-query";
-import useAuth from "../../hooks/useAuth";
 import { FaCheckCircle, FaTimesCircle } from "react-icons/fa";
 import { MdPending } from "react-icons/md";
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 import useAxiosSecure from "../../../hooks/useAxiosSecure";
+import useUserRole from "../../../hooks/useUserRole";
+import useAuth from "../../../hooks/useAuth";
 
 const MyBookings = () => {
   const axiosSecure = useAxiosSecure();
   const { user } = useAuth();
 
+  const { userData } = useUserRole();
   const { data: bookings = [], isLoading } = useQuery({
     queryKey: ["myBookings", user?.email],
-    enabled: !!user?.email,
+    // enabled: !!user?.email,
     queryFn: async () => {
-      const res = await axiosSecure.get(`/bookings/tourist/${user.email}`);
-      return res.data;
+      const res = await axiosSecure.get(`bookings/tourist/${userData._id}`);
+      return res.data?.data;
     },
   });
 
@@ -34,6 +36,7 @@ const MyBookings = () => {
       </div>
     );
   }
+  console.log(bookings, "MyBookings.jsx", 15);
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-10 text-gray-200">
