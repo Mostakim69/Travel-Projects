@@ -13,3 +13,6 @@
 [2025-07-24T04:41:35.633Z] TypeError: client.mount is not a function http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=580250e8 2936 12
 [2025-07-24T04:41:50.652Z] TypeError: client.mount is not a function http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=580250e8 2936 12
 [2025-07-24T04:41:50.654Z] TypeError: client.mount is not a function http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=580250e8 2936 12
+[2025-07-24T05:17:04.999Z] ReferenceError: useEffect is not defined http://localhost:5173/src/App.jsx?t=1753334224060 26 3
+[2025-07-24T05:17:13.559Z] ReferenceError: useEffect is not defined http://localhost:5173/src/App.jsx?t=1753334231274 28 3
+[2025-07-24T05:17:15.168Z] ReferenceError: useEffect is not defined http://localhost:5173/src/App.jsx?t=1753334232066 28 3

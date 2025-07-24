@@ -3,9 +3,17 @@ import { RouterProvider } from "react-router";
 import router from "./router/router";
 import AuthProvider from "./contexts/AuthContext/AuthProvider";
 import { HelmetProvider } from "react-helmet-async";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 
 const App = () => {
   const queryClient = new QueryClient();
+
+  useEffect(() => {
+    AOS.init({ duration: 800, once: true });
+  }, []);
 
   return (
     <div>
