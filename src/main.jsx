@@ -7,9 +7,10 @@ import { RouterProvider } from "react-router";
 import router from "./router/router.jsx";
 import AuthProvider from "./contexts/AuthContext/AuthProvider.jsx";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { setupClientLogging } from "./loggerClient.js";
 
 const queryClient = new QueryClient();
-
+setupClientLogging();
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <QueryClientProvider client={queryClient}>
