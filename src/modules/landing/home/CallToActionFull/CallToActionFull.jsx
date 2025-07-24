@@ -15,7 +15,10 @@ const CallToActionFull = () => {
       </div>
 
       {/* Main CTA */}
-      <div className="relative z-10 max-w-5xl mx-auto text-center space-y-6">
+      <div
+        className="relative z-10 max-w-5xl mx-auto text-center space-y-6"
+        data-aos="fade-up-right"
+      >
         <motion.h2
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
