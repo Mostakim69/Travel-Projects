@@ -39,3 +39,8 @@ body {
   animation: pulse-glow 2s infinite;
   box-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
 }
+
+.glow-border {
+  @apply border border-indigo-500 rounded-lg shadow-lg;
+  box-shadow: 0 0 20px rgba(99, 102, 241, 0.6);
+}
