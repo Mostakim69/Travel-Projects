@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 const StoryCard = ({ story }) => {
   return (
     <div data-aos="zoom-in-down">

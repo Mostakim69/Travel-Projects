@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
-import { motion } from "framer-motion";
 import { axiosInstance } from "../../../../../hooks/useAxiosSecure";
 import StoryCard from "./StoryCard";
+import Spinner from "../../../../shared/Layout/Spinner";
 
 const Stories = () => {
   const { data: stories = [], isLoading } = useQuery({
@@ -13,11 +13,7 @@ const Stories = () => {
   });
 
   if (isLoading) {
-    return (
-      <div className="text-center text-purple-300 py-10">
-        Loading stories...
-      </div>
-    );
+    return <Spinner />;
   }
 
   return (
