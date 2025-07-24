@@ -4,8 +4,8 @@ import NavbarDrawer from "../shared/Layout/NavbarDrawer";
 
 const DashboardLayout = () => {
   return (
-    <div>
-      <NavbarDrawer /> 
+    <div className="max-container">
+      <NavbarDrawer />
       <CommonFooter />
     </div>
   );
