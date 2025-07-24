@@ -1,0 +1,55 @@
+[05:41 AM 25-07-25] [vite] server connection lost. Polling for restart...
+[05:42 AM 25-07-25] {}
+[05:42 AM 25-07-25] null
+[05:42 AM 25-07-25] {}
+[05:42 AM 25-07-25] null
+[05:45 AM 25-07-25] payment method {
+  "id": "pm_1RoYpFH7Tlju1lhjmzvcjFL7",
+  "object": "payment_method",
+  "allow_redisplay": "unspecified",
+  "billing_details": {
+    "address": {
+      "city": null,
+      "country": null,
+      "line1": null,
+      "line2": null,
+      "postal_code": "33333",
+      "state": null
+    },
+    "email": null,
+    "name": null,
+    "phone": null,
+    "tax_id": null
+  },
+  "card": {
+    "brand": "visa",
+    "checks": {
+      "address_line1_check": null,
+      "address_postal_code_check": null,
+      "cvc_check": null
+    },
+    "country": "US",
+    "display_brand": "visa",
+    "exp_month": 12,
+    "exp_year": 2034,
+    "funding": "credit",
+    "generated_from": null,
+    "last4": "4242",
+    "networks": {
+      "available": [
+        "visa"
+      ],
+      "preferred": null
+    },
+    "regulated_status": "unregulated",
+    "three_d_secure_usage": {
+      "supported": true
+    },
+    "wallet": null
+  },
+  "created": 1753400725,
+  "customer": null,
+  "livemode": false,
+  "radar_options": {},
+  "type": "card"
+}
