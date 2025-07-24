@@ -69,7 +69,7 @@ export default function Overview() {
               whileHover={{ scale: 1.05 }}
               transition={{ type: "spring", stiffness: 300 }}
               className="relative overflow-hidden p-6 bg-gradient-to-br from-[#1a1c2b] to-[#11131f] border border-[#2d2f43] rounded-2xl shadow-lg hover:shadow-2xl transition-all"
-              data-aos="fade-left"
+              data-aos="fade-up-right"
             >
               <div className="absolute inset-0 bg-[#00FFC6] opacity-0 group-hover:opacity-10 blur-xl rounded-2xl pointer-events-none transition-all" />
               <div className="group flex flex-col items-center">
