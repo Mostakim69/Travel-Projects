@@ -47,17 +47,36 @@ const PackageDetails = () => {
       return;
     }
 
+    const selectedGuide = tourGuides.find(
+      (guide) => guide._id === data.guideId,
+    );
+
+    if (!selectedGuide) {
+      Swal.fire({
+        icon: "error",
+        title: "Invalid guide selected.",
+      });
+      return;
+    }
+
     const bookingPayload = {
-      ...data,
       packageId: id,
+      packageName: title,
+      touristId: userData._id,
       touristName: userData.name,
       touristEmail: userData.email,
       touristPhoto: userData.photoURL,
+      guideId: selectedGuide._id,
+      guideName: selectedGuide.user.name,
+      price: parseFloat(data.price),
+      tourDate: new Date(data.tourDate).toISOString(),
       status: "pending",
+      paymentStatus: "unpaid",
+      transactionId: "",
     };
 
     try {
-      console.log(bookingPayload);
+      console.log("Booking Payload:", bookingPayload);
       // const res = await axiosInstance.post("/bookings", bookingPayload);
       // if (res.data.success) {
       //   Swal.fire({
