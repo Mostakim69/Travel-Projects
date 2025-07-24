@@ -27,7 +27,7 @@ const NavbarDrawer = () => {
       </div>
 
       {/* Sidebar */}
-      <div className="drawer-side z-40">
+      <div className="drawer-side z-40 ">
         <label
           htmlFor="my-drawer-3"
           aria-label="close sidebar"
