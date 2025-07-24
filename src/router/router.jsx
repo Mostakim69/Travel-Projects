@@ -37,16 +37,18 @@ const router = createBrowserRouter([
       },
 
       // booking page
-      {
-        path: "my-bookings",
-        element: <MyBookings />,
-      },
       // faq pages
     ],
   },
   {
     path: "/dashboard",
     element: <DashboardLayout />,
+    children: [
+      {
+        path: "my-bookings",
+        element: <MyBookings />,
+      },
+    ],
   },
   {
     path: "/about",

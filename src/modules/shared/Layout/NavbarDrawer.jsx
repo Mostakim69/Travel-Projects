@@ -28,7 +28,7 @@ const touristLinks = [
 const NavbarDrawer = () => {
   // const { role } = useUser(); // example: { role: 'tourist' }
 
-  const role = "tourist";
+  const role = "tour-guide";
   const location = useLocation();
 
   const links =

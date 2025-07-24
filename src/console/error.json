@@ -13,3 +13,4 @@
 [2025-07-24T12:00:12.976Z] Unhandled Promise Rejection: {}
 [2025-07-24T12:00:12.977Z] Unhandled Promise Rejection: {}
 [2025-07-24T12:00:12.980Z] Unhandled Promise Rejection: {}
+[2025-07-24T12:07:48.577Z] Error: Could not find a matching route for errors on route IDs: 0 http://localhost:5173/node_modules/.vite/deps/react-router.js?v=725bfc7b 528 11

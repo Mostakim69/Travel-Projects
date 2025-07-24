@@ -28,6 +28,15 @@ const SidebarLink = ({ to, text, active }) => {
           )}
         </span>
       </Link>
+
+      <Link
+        to={to}
+        className={`block w-full px-4 py-2 rounded-md font-semibold text-center transition-all duration-300 group ${
+          active
+            ? "bg-indigo-700 text-white border border-indigo-400 shadow-lg animate-pulse"
+            : "bg-gray-800 text-indigo-300 hover:bg-indigo-700 hover:text-white border border-transparent hover:border-indigo-500"
+        }`}
+      />
     </motion.div>
   );
 };
