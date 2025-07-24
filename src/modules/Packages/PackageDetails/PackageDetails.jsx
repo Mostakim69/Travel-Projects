@@ -39,7 +39,7 @@ const PackageDetails = () => {
     formState: { errors },
   } = useForm();
 
-  const onSubmit = async (data) => {
+  const onSubmit = async (formData) => {
     if (!userData) {
       Swal.fire({
         icon: "warning",
@@ -49,7 +49,7 @@ const PackageDetails = () => {
     }
 
     const selectedGuide = tourGuides.find(
-      (guide) => guide._id === data.guideId,
+      (guide) => guide._id === formData.guideId,
     );
 
     if (!selectedGuide) {
@@ -69,44 +69,42 @@ const PackageDetails = () => {
       touristPhoto: userData.photoURL,
       guideId: selectedGuide._id,
       guideName: selectedGuide.name,
-      price: parseFloat(data.price),
-      tourDate: new Date(data.tourDate).toISOString(),
+      price: parseFloat(formData.price),
+      tourDate: new Date(formData.tourDate).toISOString(),
       status: "pending",
       paymentStatus: "unpaid",
       transactionId: "",
     };
 
     try {
-      console.log(`booking payload`);
       await postData({
-  url: "/bookings",
-  payload: formData, // your actual data
-});
+        url: "/bookings",
+        payload: bookingPayload,
+      });
 
-// show confirmation modal with redirect option
-darkSwal
-  .fire({
-    icon: "success",
-    title: "Booking Confirmed!",
-    text: "Your booking request has been submitted and is pending approval.",
-    showCancelButton: true,
-    confirmButtonText: "Go to My Bookings",
-    cancelButtonText: "Stay on Page",
-    customClass: {
-      confirmButton: "glow-border pulse-glow px-4 py-2 text-white",
-      cancelButton: "bg-gray-700 px-4 py-2 text-white",
-    },
-  })
-  .then((result) => {
-    if (result.isConfirmed) {
-      navigate("/my-bookings");
-    }
-  });
-
-      // reset(); // reset react-hook-form
-      // navigate("/my-bookings");
+      Swal.fire({
+        icon: "success",
+        title: "Booking Submitted!",
+        text: "Your booking is pending approval.",
+        showCancelButton: true,
+        confirmButtonText: "Go to My Bookings",
+        cancelButtonText: "Stay Here",
+        background: "#111827",
+        color: "#E5E7EB",
+        confirmButtonColor: "#6366F1",
+        cancelButtonColor: "#EF4444",
+        customClass: {
+          popup: "glow-border",
+          confirmButton: "glow-border pulse-glow px-4 py-2 text-white",
+          cancelButton: "bg-gray-700 px-4 py-2 text-white",
+        },
+      }).then((result) => {
+        if (result.isConfirmed) {
+          navigate("/my-bookings");
+        }
+      });
     } catch (err) {
-      // handled inside the hook, no need to duplicate
+      // already handled by usePostData
     }
   };
 

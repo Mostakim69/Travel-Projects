@@ -7,6 +7,7 @@ import Errorpage from "./ErrorPage";
 import TourGuides from "../modules/TourGuides/TourGuides";
 import GuideProfile from "../modules/TourGuides/GuideProfile/GuideProfile";
 import PackageDetails from "../modules/Packages/PackageDetails/PackageDetails";
+import MyBookings from "../modules/Tourist/Bookings/MyBookings";
 
 const router = createBrowserRouter([
   {
@@ -34,6 +35,11 @@ const router = createBrowserRouter([
         element: <PackageDetails />,
       },
 
+      // booking page
+      {
+        path: "my-bookings",
+        element: <MyBookings />,
+      },
       // faq pages
     ],
   },
