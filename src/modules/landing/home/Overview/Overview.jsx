@@ -45,7 +45,10 @@ const features = [
 
 export default function Overview() {
   return (
-    <section className="bg-[#0e0f1a] text-white py-20 px-4 sm:px-6 lg:px-20">
+    <section
+      className="bg-[#0e0f1a] text-white py-20 px-4 sm:px-6 lg:px-20"
+      data-aos="fade-down"
+    >
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}

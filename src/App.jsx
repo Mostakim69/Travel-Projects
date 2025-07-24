@@ -7,12 +7,11 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
-
 const App = () => {
   const queryClient = new QueryClient();
 
   useEffect(() => {
-    AOS.init({ duration: 800, once: true });
+    AOS.init();
   }, []);
 
   return (
