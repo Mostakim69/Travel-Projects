@@ -5,8 +5,11 @@ import { useForm } from "react-hook-form";
 import { useState } from "react";
 import { axiosInstance } from "../../../hooks/useAxiosSecure";
 import useUserRole from "../../../hooks/useUserRole";
+import usePostData from "../../../hooks/usePostData";
 
 const PackageDetails = () => {
+  const { postData, isPending } = usePostData();
+
   const { id } = useParams();
   const navigate = useNavigate();
   const { userData } = useUserRole();
@@ -76,23 +79,15 @@ const PackageDetails = () => {
     };
 
     try {
-      console.log("Booking Payload:", bookingPayload);
-      // const res = await axiosInstance.post("/bookings", bookingPayload);
-      // if (res.data.success) {
-      //   Swal.fire({
-      //     icon: "success",
-      //     title: "Booking successful!",
-      //     text: "Check your booking status on My Bookings page.",
-      //   });
-      //   reset();
-      //   navigate("/my-bookings");
-      // }
-    } catch (err) {
-      Swal.fire({
-        icon: "error",
-        title: "Something went wrong",
-        text: err.response?.data?.message || "Failed to book tour",
+      await postData({
+        url: "/bookings",
+        payload: bookingPayload,
       });
+
+      reset(); // reset react-hook-form
+      navigate("/my-bookings");
+    } catch (err) {
+      // handled inside the hook, no need to duplicate
     }
   };
 
