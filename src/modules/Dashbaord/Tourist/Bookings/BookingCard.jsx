@@ -62,7 +62,7 @@ const BookingCard = ({ booking }) => {
       {booking.status === "pending" && (
         <div className="mt-6 text-right">
           <Link
-            to={`/confirm-booking/${booking._id}`}
+            to={`/dashboard/payment-booking/${booking._id}`}
             className="btn btn-sm bg-indigo-700 hover:bg-indigo-500 text-white rounded-md glow-border px-5 py-2 font-semibold transition-shadow shadow-indigo-600"
           >
             Confirm Now
