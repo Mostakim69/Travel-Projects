@@ -27,9 +27,7 @@ const PackageDetails = () => {
   const { data: tourGuides, isLoading: isGuidesLoading } = useQuery({
     queryKey: ["acceptedGuides"],
     queryFn: async () => {
-      const res = await axiosInstance.get(
-        `/tour-guide-requests/random-accepted?limit=all`,
-      );
+      const res = await axiosInstance.get(`users/tour-guides`);
       return res.data.data;
     },
   });
@@ -70,7 +68,7 @@ const PackageDetails = () => {
       touristEmail: userData.email,
       touristPhoto: userData.photoURL,
       guideId: selectedGuide._id,
-      guideName: selectedGuide.user.name,
+      guideName: selectedGuide.name,
       price: parseFloat(data.price),
       tourDate: new Date(data.tourDate).toISOString(),
       status: "pending",
@@ -170,8 +168,8 @@ const PackageDetails = () => {
               className="p-4 bg-[#0f172a] border border-purple-700 rounded-lg hover:shadow-xl hover:scale-[1.02] transition-all duration-300 cursor-pointer"
               onClick={() => navigate(`/guides/${guide._id}`)}
             >
-              <h4 className="text-lg font-semibold">{guide.user.name}</h4>
-              <p className="text-sm text-gray-400">{guide.user.email}</p>
+              <h4 className="text-lg font-semibold">{guide.name}</h4>
+              <p className="text-sm text-gray-400">{guide.email}</p>
             </div>
           ))}
         </div>
@@ -284,7 +282,7 @@ const PackageDetails = () => {
                 <option value="">Choose a guide</option>
                 {tourGuides.map((guide) => (
                   <option key={guide._id} value={guide._id}>
-                    {guide.user.name} ({guide.user.email})
+                    {guide.name} ({guide.email})
                   </option>
                 ))}
               </select>
