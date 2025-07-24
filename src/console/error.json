@@ -39,3 +39,130 @@
   "code": "ERR_BAD_REQUEST",
   "status": 404
 }
+[2025-07-24T23:55:01.362Z] Unhandled Promise Rejection: {
+  "message": "Request failed with status code 404",
+  "name": "AxiosError",
+  "stack": "settle@http://localhost:5173/node_modules/.vite/deps/axios.js?v=a917fa1f:1229:12\nonloadend@http://localhost:5173/node_modules/.vite/deps/axios.js?v=a917fa1f:1561:13\nEventHandlerNonNull*dispatchXhrRequest@http://localhost:5173/node_modules/.vite/deps/axios.js?v=a917fa1f:1571:7\nxhr_default<@http://localhost:5173/node_modules/.vite/deps/axios.js?v=a917fa1f:1528:10\ndispatchRequest@http://localhost:5173/node_modules/.vite/deps/axios.js?v=a917fa1f:2003:10\npromise callback*_request@http://localhost:5173/node_modules/.vite/deps/axios.js?v=a917fa1f:2206:27\nrequest@http://localhost:5173/node_modules/.vite/deps/axios.js?v=a917fa1f:2115:25\nhttpMethod@http://localhost:5173/node_modules/.vite/deps/axios.js?v=a917fa1f:2253:19\nwrap@http://localhost:5173/node_modules/.vite/deps/axios.js?v=a917fa1f:8:15\nhandleSubmit@http://localhost:5173/src/modules/Dashbaord/Tourist/PaymentBooking/PaymentForm.jsx?t=1753401276408:66:37\nasync*executeDispatch@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=a917fa1f:11736:19\nrunWithFiberInDEV@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=a917fa1f:1487:15\nprocessDispatchQueue@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=a917fa1f:11772:37\nnode_modules/react-dom/cjs/react-dom-client.development.js/dispatchEventForPluginEventSystem/<@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=a917fa1f:12182:31\nbatchedUpdates$1@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=a917fa1f:2628:44\ndispatchEventForPluginEventSystem@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=a917fa1f:11877:25\ndispatchEvent@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=a917fa1f:14792:46\ndispatchDiscreteEvent@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=a917fa1f:14773:62\nEventListener.handleEvent*addTrappedEventListener@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=a917fa1f:11842:30\nlistenToNativeEvent@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=a917fa1f:11801:32\nnode_modules/react-dom/cjs/react-dom-client.development.js/listenToAllSupportedEvents/<@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=a917fa1f:11812:92\nlistenToAllSupportedEvents@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=a917fa1f:11811:27\nnode_modules/react-dom/cjs/react-dom-client.development.js/exports.createRoot@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=a917fa1f:18017:35\n@http://localhost:5173/src/main.jsx?t=1753401075696:8:11\n",
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": [
+      "xhr",
+      "http",
+      "fetch"
+    ],
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/json",
+      "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjZkZTQwZjA0ODgxYzZhMDE2MTFlYjI4NGE0Yzk1YTI1MWU5MTEyNTAiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiSGVhbHRoIENhcmUiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSVpOemp2T0FZVkQ0NktLdjNFaGZJUVI0UmVUZFRZMnFVSDZ5aEs2OWZIQzNlNWNnPXM5Ni1jIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2VkdXZlcnNlLThhOTdkIiwiYXVkIjoiZWR1dmVyc2UtOGE5N2QiLCJhdXRoX3RpbWUiOjE3NTMyNjUxNzQsInVzZXJfaWQiOiJSZ0l1bWNNdXdnT0lXVnI3QkhPckZwN2xTZEozIiwic3ViIjoiUmdJdW1jTXV3Z09JV1ZyN0JIT3JGcDdsU2RKMyIsImlhdCI6MTc1MzM5OTE0MywiZXhwIjoxNzUzNDAyNzQzLCJlbWFpbCI6ImhlYWx0aGNhcmUzMnFAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMTczNzk3OTM5ODI4MTI1NjAyMjkiXSwiZW1haWwiOlsiaGVhbHRoY2FyZTMycUBnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJnb29nbGUuY29tIn19.jotTIpYLj7cMIrzEMKJABGnLqGmyLfLXj5DSoWqfEjRfbdc3rSkwHipfGdsGc3m6oNHK6j9BSeu2-pAX6Sq4f8ZSdfrgmgDcfl5CojyeNouemwhu9-SKri7YzVoCdDv50G6fZ8F5jnMOqfAaWNIeJQL5Uq2jgtj_SXmN_V7ztHXPOUIdBMI746SjnG5146Z5TX8I0LFeuC5aGuJeDklSPGMpnq3fs9xIzG1p7vKOuEZE-0kB0DEzQHjjjf9R3z4f7tWKm0TNJWJ5TlRfvBHb6t_tSjZGayTqXdYSagujdidVXzB04DZIOdcP8yMWxWD0N0kTJJ2JCVuZZGTNx1f9Mw"
+    },
+    "baseURL": "http://localhost:5000/api/v1/",
+    "method": "post",
+    "url": "/create-payment-intent",
+    "data": "{\"amountInCents\":450000,\"parcelId\":\"6881aee5f0fd0810447cfb7a\"}",
+    "allowAbsoluteUrls": true
+  },
+  "code": "ERR_BAD_REQUEST",
+  "status": 404
+}
+[2025-07-24T23:55:07.015Z] Unhandled Promise Rejection: {
+  "message": "Request failed with status code 404",
+  "name": "AxiosError",
+  "stack": "settle@http://localhost:5173/node_modules/.vite/deps/axios.js?v=a917fa1f:1229:12\nonloadend@http://localhost:5173/node_modules/.vite/deps/axios.js?v=a917fa1f:1561:13\nEventHandlerNonNull*dispatchXhrRequest@http://localhost:5173/node_modules/.vite/deps/axios.js?v=a917fa1f:1571:7\nxhr_default<@http://localhost:5173/node_modules/.vite/deps/axios.js?v=a917fa1f:1528:10\ndispatchRequest@http://localhost:5173/node_modules/.vite/deps/axios.js?v=a917fa1f:2003:10\npromise callback*_request@http://localhost:5173/node_modules/.vite/deps/axios.js?v=a917fa1f:2206:27\nrequest@http://localhost:5173/node_modules/.vite/deps/axios.js?v=a917fa1f:2115:25\nhttpMethod@http://localhost:5173/node_modules/.vite/deps/axios.js?v=a917fa1f:2253:19\nwrap@http://localhost:5173/node_modules/.vite/deps/axios.js?v=a917fa1f:8:15\nhandleSubmit@http://localhost:5173/src/modules/Dashbaord/Tourist/PaymentBooking/PaymentForm.jsx?t=1753401276408:66:37\nasync*executeDispatch@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=a917fa1f:11736:19\nrunWithFiberInDEV@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=a917fa1f:1487:15\nprocessDispatchQueue@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=a917fa1f:11772:37\nnode_modules/react-dom/cjs/react-dom-client.development.js/dispatchEventForPluginEventSystem/<@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=a917fa1f:12182:31\nbatchedUpdates$1@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=a917fa1f:2628:44\ndispatchEventForPluginEventSystem@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=a917fa1f:11877:25\ndispatchEvent@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=a917fa1f:14792:46\ndispatchDiscreteEvent@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=a917fa1f:14773:62\n",
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": [
+      "xhr",
+      "http",
+      "fetch"
+    ],
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/json",
+      "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjZkZTQwZjA0ODgxYzZhMDE2MTFlYjI4NGE0Yzk1YTI1MWU5MTEyNTAiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiSGVhbHRoIENhcmUiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSVpOemp2T0FZVkQ0NktLdjNFaGZJUVI0UmVUZFRZMnFVSDZ5aEs2OWZIQzNlNWNnPXM5Ni1jIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2VkdXZlcnNlLThhOTdkIiwiYXVkIjoiZWR1dmVyc2UtOGE5N2QiLCJhdXRoX3RpbWUiOjE3NTMyNjUxNzQsInVzZXJfaWQiOiJSZ0l1bWNNdXdnT0lXVnI3QkhPckZwN2xTZEozIiwic3ViIjoiUmdJdW1jTXV3Z09JV1ZyN0JIT3JGcDdsU2RKMyIsImlhdCI6MTc1MzM5OTE0MywiZXhwIjoxNzUzNDAyNzQzLCJlbWFpbCI6ImhlYWx0aGNhcmUzMnFAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMTczNzk3OTM5ODI4MTI1NjAyMjkiXSwiZW1haWwiOlsiaGVhbHRoY2FyZTMycUBnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJnb29nbGUuY29tIn19.jotTIpYLj7cMIrzEMKJABGnLqGmyLfLXj5DSoWqfEjRfbdc3rSkwHipfGdsGc3m6oNHK6j9BSeu2-pAX6Sq4f8ZSdfrgmgDcfl5CojyeNouemwhu9-SKri7YzVoCdDv50G6fZ8F5jnMOqfAaWNIeJQL5Uq2jgtj_SXmN_V7ztHXPOUIdBMI746SjnG5146Z5TX8I0LFeuC5aGuJeDklSPGMpnq3fs9xIzG1p7vKOuEZE-0kB0DEzQHjjjf9R3z4f7tWKm0TNJWJ5TlRfvBHb6t_tSjZGayTqXdYSagujdidVXzB04DZIOdcP8yMWxWD0N0kTJJ2JCVuZZGTNx1f9Mw"
+    },
+    "baseURL": "http://localhost:5000/api/v1/",
+    "method": "post",
+    "url": "/create-payment-intent",
+    "data": "{\"amountInCents\":450000,\"parcelId\":\"6881aee5f0fd0810447cfb7a\"}",
+    "allowAbsoluteUrls": true
+  },
+  "code": "ERR_BAD_REQUEST",
+  "status": 404
+}
+[2025-07-24T23:56:08.472Z] Unhandled Promise Rejection: {
+  "message": "Missing value for stripe.confirmCardPayment intent secret: value should be a client_secret string.",
+  "name": "IntegrationError"
+}
+[2025-07-24T23:58:09.208Z] Unhandled Promise Rejection: {
+  "message": "Request failed with status code 500",
+  "name": "AxiosError",
+  "stack": "settle@http://localhost:5173/node_modules/.vite/deps/axios.js?v=a917fa1f:1229:12\nonloadend@http://localhost:5173/node_modules/.vite/deps/axios.js?v=a917fa1f:1561:13\nEventHandlerNonNull*dispatchXhrRequest@http://localhost:5173/node_modules/.vite/deps/axios.js?v=a917fa1f:1571:7\nxhr_default<@http://localhost:5173/node_modules/.vite/deps/axios.js?v=a917fa1f:1528:10\ndispatchRequest@http://localhost:5173/node_modules/.vite/deps/axios.js?v=a917fa1f:2003:10\npromise callback*_request@http://localhost:5173/node_modules/.vite/deps/axios.js?v=a917fa1f:2206:27\nrequest@http://localhost:5173/node_modules/.vite/deps/axios.js?v=a917fa1f:2115:25\nhttpMethod@http://localhost:5173/node_modules/.vite/deps/axios.js?v=a917fa1f:2253:19\nwrap@http://localhost:5173/node_modules/.vite/deps/axios.js?v=a917fa1f:8:15\nhandleSubmit@http://localhost:5173/src/modules/Dashbaord/Tourist/PaymentBooking/PaymentForm.jsx?t=1753401468215:95:48\nasync*executeDispatch@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=a917fa1f:11736:19\nrunWithFiberInDEV@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=a917fa1f:1487:15\nprocessDispatchQueue@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=a917fa1f:11772:37\nnode_modules/react-dom/cjs/react-dom-client.development.js/dispatchEventForPluginEventSystem/<@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=a917fa1f:12182:31\nbatchedUpdates$1@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=a917fa1f:2628:44\ndispatchEventForPluginEventSystem@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=a917fa1f:11877:25\ndispatchEvent@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=a917fa1f:14792:46\ndispatchDiscreteEvent@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=a917fa1f:14773:62\n",
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": [
+      "xhr",
+      "http",
+      "fetch"
+    ],
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/json",
+      "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjZkZTQwZjA0ODgxYzZhMDE2MTFlYjI4NGE0Yzk1YTI1MWU5MTEyNTAiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiSGVhbHRoIENhcmUiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSVpOemp2T0FZVkQ0NktLdjNFaGZJUVI0UmVUZFRZMnFVSDZ5aEs2OWZIQzNlNWNnPXM5Ni1jIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2VkdXZlcnNlLThhOTdkIiwiYXVkIjoiZWR1dmVyc2UtOGE5N2QiLCJhdXRoX3RpbWUiOjE3NTMyNjUxNzQsInVzZXJfaWQiOiJSZ0l1bWNNdXdnT0lXVnI3QkhPckZwN2xTZEozIiwic3ViIjoiUmdJdW1jTXV3Z09JV1ZyN0JIT3JGcDdsU2RKMyIsImlhdCI6MTc1MzM5OTE0MywiZXhwIjoxNzUzNDAyNzQzLCJlbWFpbCI6ImhlYWx0aGNhcmUzMnFAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMTczNzk3OTM5ODI4MTI1NjAyMjkiXSwiZW1haWwiOlsiaGVhbHRoY2FyZTMycUBnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJnb29nbGUuY29tIn19.jotTIpYLj7cMIrzEMKJABGnLqGmyLfLXj5DSoWqfEjRfbdc3rSkwHipfGdsGc3m6oNHK6j9BSeu2-pAX6Sq4f8ZSdfrgmgDcfl5CojyeNouemwhu9-SKri7YzVoCdDv50G6fZ8F5jnMOqfAaWNIeJQL5Uq2jgtj_SXmN_V7ztHXPOUIdBMI746SjnG5146Z5TX8I0LFeuC5aGuJeDklSPGMpnq3fs9xIzG1p7vKOuEZE-0kB0DEzQHjjjf9R3z4f7tWKm0TNJWJ5TlRfvBHb6t_tSjZGayTqXdYSagujdidVXzB04DZIOdcP8yMWxWD0N0kTJJ2JCVuZZGTNx1f9Mw"
+    },
+    "baseURL": "http://localhost:5000/api/v1/",
+    "method": "post",
+    "url": "/payments",
+    "data": "{\"parcelId\":\"6881aee5f0fd0810447cfb7a\",\"email\":\"healthcare32q@gmail.com\",\"amount\":4500,\"transactionId\":\"pi_3RoZ1XH7Tlju1lhj0ewPeWFZ\",\"paymentMethod\":[\"card\"]}",
+    "allowAbsoluteUrls": true
+  },
+  "code": "ERR_BAD_RESPONSE",
+  "status": 500
+}

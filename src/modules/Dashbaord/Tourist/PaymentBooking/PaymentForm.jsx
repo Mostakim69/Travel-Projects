@@ -9,7 +9,6 @@ const PaymentForm = () => {
   const stripe = useStripe();
   const elements = useElements();
   const { bookingId } = useParams();
-  console.log(bookingId, " bookingId PaymentForm.jsx", 12);
   const { user } = useAuth();
   const axiosSecure = useAxiosSecure();
   const navigate = useNavigate();
@@ -20,7 +19,7 @@ const PaymentForm = () => {
     queryKey: ["parcels", bookingId],
     queryFn: async () => {
       const res = await axiosSecure.get(`bookings/${bookingId}`);
-      return res.data;
+      return res.data?.data;
     },
   });
 
@@ -29,7 +28,7 @@ const PaymentForm = () => {
   }
 
   console.log(bookingInfo);
-  const amount = bookingInfo.cost;
+  const amount = bookingInfo.price;
   const amountInCents = amount * 100;
   console.log(amountInCents);
 
@@ -58,12 +57,13 @@ const PaymentForm = () => {
       console.log("payment method", paymentMethod);
 
       // step-2: create payment intent
-      const res = await axiosSecure.post("/create-payment-intent", {
+      const res = await axiosSecure.post("payments/create-payment-intent", {
         amountInCents,
         parcelId: bookingId,
       });
 
-      const clientSecret = res.data.clientSecret;
+      const clientSecret = res.data.data.clientSecret;
+      console.log(clientSecret, "PaymentForm.jsx", 66);
 
       // step-3: confirm payment
       const result = await stripe.confirmCardPayment(clientSecret, {
