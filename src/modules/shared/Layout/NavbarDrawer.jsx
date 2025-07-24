@@ -1,9 +1,34 @@
-import { Outlet, Link, useLocation } from "react-router";
-// import { useUser } from "@/hooks/useUser";
+import { Outlet, useLocation } from "react-router";
 import { motion } from "framer-motion";
+import SidebarLink from "./SidebarLink";
+// import { useUser } from "@/hooks/useUser"; // ✅ Must exist in your project
+
+// ✅ Role-based sidebar links
+const adminLinks = [
+  { name: "Overview", path: "/dashboard/admin/overview" },
+  { name: "Manage Users", path: "/dashboard/admin/users" },
+  { name: "All Bookings", path: "/dashboard/admin/bookings" },
+  { name: "Payments", path: "/dashboard/admin/payments" },
+];
+
+const guideLinks = [
+  { name: "My Bookings", path: "/dashboard/guide/bookings" },
+  { name: "My Tours", path: "/dashboard/guide/tours" },
+  { name: "Earnings", path: "/dashboard/guide/earnings" },
+  { name: "Profile", path: "/dashboard/guide/profile" },
+];
+
+const touristLinks = [
+  { name: "My Bookings", path: "/dashboard/my-bookings" },
+  { name: "My Stories", path: "/dashboard/my-stories" },
+  { name: "Wishlist", path: "/dashboard/wishlist" },
+  { name: "Profile", path: "/dashboard/profile" },
+];
 
 const NavbarDrawer = () => {
-  const { role } = useUser(); // role: 'tourist' | 'tour-guide' | 'admin'
+  // const { role } = useUser(); // example: { role: 'tourist' }
+
+  const role = "tourist";
   const location = useLocation();
 
   const links =
@@ -26,16 +51,21 @@ const NavbarDrawer = () => {
           >
             ☰ Menu
           </label>
-          <h1 className="text-xl font-bold tracking-wider text-indigo-400 animate-pulse glow-text">
+          <motion.h1
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.6 }}
+            className="text-xl font-bold tracking-wider text-indigo-400 animate-pulse"
+          >
             DeshGuide Dashboard
-          </h1>
+          </motion.h1>
         </div>
 
-        {/* Main content area */}
+        {/* Page content */}
         <div
           className="min-h-[60vh] p-4"
           data-aos="fade-up"
-          data-aos-duration="800"
+          data-aos-duration="700"
         >
           <Outlet />
         </div>
@@ -44,7 +74,7 @@ const NavbarDrawer = () => {
       {/* Sidebar */}
       <div className="drawer-side z-50">
         <label htmlFor="my-drawer-3" className="drawer-overlay" />
-        <ul className="menu p-4 w-80 min-h-full bg-gray-900 border-r border-indigo-800 sticky top-0 space-y-3 overflow-y-auto">
+        <ul className="menu p-4 w-80 min-h-full bg-gray-900 border-r border-indigo-800 space-y-3 overflow-y-auto">
           {/* Home Link */}
           <li data-aos="fade-right" data-aos-delay="100">
             <SidebarLink
