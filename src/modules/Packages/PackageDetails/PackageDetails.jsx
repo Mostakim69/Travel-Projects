@@ -79,9 +79,29 @@ const PackageDetails = () => {
     try {
       console.log(`booking payload`);
       await postData({
-        url: "bookings",
-        payload: bookingPayload,
-      });
+  url: "/bookings",
+  payload: formData, // your actual data
+});
+
+// show confirmation modal with redirect option
+darkSwal
+  .fire({
+    icon: "success",
+    title: "Booking Confirmed!",
+    text: "Your booking request has been submitted and is pending approval.",
+    showCancelButton: true,
+    confirmButtonText: "Go to My Bookings",
+    cancelButtonText: "Stay on Page",
+    customClass: {
+      confirmButton: "glow-border pulse-glow px-4 py-2 text-white",
+      cancelButton: "bg-gray-700 px-4 py-2 text-white",
+    },
+  })
+  .then((result) => {
+    if (result.isConfirmed) {
+      navigate("/my-bookings");
+    }
+  });
 
       // reset(); // reset react-hook-form
       // navigate("/my-bookings");

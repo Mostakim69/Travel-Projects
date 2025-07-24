@@ -3,16 +3,16 @@ import useAxiosSecure from "./useAxiosSecure";
 import Swal from "sweetalert2";
 
 export const darkSwal = Swal.mixin({
-  background: "#111827", // Tailwind dark gray-900
-  color: "#E5E7EB", // Tailwind gray-200
-  confirmButtonColor: "#6366F1", // Tailwind indigo-500
-  cancelButtonColor: "#EF4444", // Tailwind red-500
+  background: "#111827",
+  color: "#E5E7EB",
+  confirmButtonColor: "#6366F1",
+  cancelButtonColor: "#EF4444",
   customClass: {
     popup: "glow-border ",
   },
 });
 
-const usePostData = () => {
+const usePostData = (customHandlers = {}) => {
   const axiosSecure = useAxiosSecure();
 
   const {
@@ -29,18 +29,26 @@ const usePostData = () => {
       return res.data;
     },
     onError: (err) => {
-      darkSwal.fire({
-        icon: "error",
-        title: "Failed to Submit",
-        text: err?.response?.data?.message || err.message,
-      });
+      if (customHandlers?.onError) {
+        customHandlers.onError(err);
+      } else {
+        darkSwal.fire({
+          icon: "error",
+          title: "Failed to Submit",
+          text: err?.response?.data?.message || err.message,
+        });
+      }
     },
     onSuccess: (data) => {
-      darkSwal.fire({
-        icon: "success",
-        title: "Submitted!",
-        text: data?.message || "Successfully posted!",
-      });
+      if (customHandlers?.onSuccess) {
+        customHandlers.onSuccess(data);
+      } else {
+        darkSwal.fire({
+          icon: "success",
+          title: "Submitted!",
+          text: data?.message || "Successfully posted!",
+        });
+      }
     },
   });
 
