@@ -19,16 +19,7 @@
 │   ├── App.jsx
 │   ├── assets
 │   │   └── images
-│   │       ├── banner1.jpg
-│   │       ├── banner2.jpg
-│   │       ├── banner3.jpg
-│   │       ├── banner4.jpg
-│   │       ├── banner5.jpg
-│   │       ├── banner6.jpg
-│   │       ├── banner7.jpg
 │   │       ├── index.js
-│   │       ├── jobseeker1.jpg
-│   │       ├── jobseeker2.jpg
 │   │       └── notfound3.jpg
 │   ├── console
 │   │   ├── error.json
@@ -67,6 +58,15 @@
 │   │   │       ├── Signin.jsx
 │   │   │       └── SignUp.jsx
 │   │   ├── Dashbaord
+│   │   │   ├── DashboardLayout.jsx
+│   │   │   ├── TourGuides
+│   │   │   │   ├── GuideProfile
+│   │   │   │   │   └── GuideProfile.jsx
+│   │   │   │   └── TourGuides.jsx
+│   │   │   └── Tourist
+│   │   │       └── Bookings
+│   │   │           ├── BookingCard.jsx
+│   │   │           └── MyBookings.jsx
 │   │   ├── landing
 │   │   │   ├── home
 │   │   │   │   ├── Bannnerr
@@ -101,33 +101,25 @@
 │   │   ├── Packages
 │   │   │   └── PackageDetails
 │   │   │       └── PackageDetails.jsx
-│   │   ├── shared
-│   │   │   ├── Layout
-│   │   │   │   ├── CommonFooter.jsx
-│   │   │   │   ├── index.js
-│   │   │   │   ├── navbarDrawer
-│   │   │   │   │   ├── Navdrawer.jsx
-│   │   │   │   │   └── NavdrawerStart.jsx
-│   │   │   │   ├── NavbarDrawer.jsx
-│   │   │   │   ├── Navbar.jsx
-│   │   │   │   ├── navbarLinksConstant.jsx
-│   │   │   │   ├── RootLayout.jsx
-│   │   │   │   └── Spinner.jsx
-│   │   │   └── ui
-│   │   │       ├── Avatar.jsx
-│   │   │       ├── Brand.jsx
-│   │   │       ├── Button.jsx
-│   │   │       ├── DropDown.jsx
-│   │   │       ├── index.js
-│   │   │       └── Input.jsx
-│   │   ├── TourGuides
-│   │   │   ├── GuideProfile
-│   │   │   │   └── GuideProfile.jsx
-│   │   │   └── TourGuides.jsx
-│   │   └── Tourist
-│   │       └── Bookings
-│   │           ├── BookingCard.jsx
-│   │           └── MyBookings.jsx
+│   │   └── shared
+│   │       ├── Layout
+│   │       │   ├── CommonFooter.jsx
+│   │       │   ├── index.js
+│   │       │   ├── navbarDrawer
+│   │       │   │   ├── Navdrawer.jsx
+│   │       │   │   └── NavdrawerStart.jsx
+│   │       │   ├── NavbarDrawer.jsx
+│   │       │   ├── Navbar.jsx
+│   │       │   ├── navbarLinksConstant.jsx
+│   │       │   ├── RootLayout.jsx
+│   │       │   └── Spinner.jsx
+│   │       └── ui
+│   │           ├── Avatar.jsx
+│   │           ├── Brand.jsx
+│   │           ├── Button.jsx
+│   │           ├── DropDown.jsx
+│   │           ├── index.js
+│   │           └── Input.jsx
 │   ├── pages
 │   │   └── faq
 │   │       ├── faq.constant.js
@@ -151,6 +143,6 @@
 ├── vite.config.js
 └── vite.logger.plugin.js
 
-44 directories, 105 files
+44 directories, 97 files
 
 ```
