@@ -5,6 +5,7 @@
 ├── bun.lock
 ├── eslint.config.js
 ├── index.html
+├── note.md
 ├── package.json
 ├── public
 │   └── CNAME
@@ -29,6 +30,9 @@
 │   │       ├── jobseeker1.jpg
 │   │       ├── jobseeker2.jpg
 │   │       └── notfound3.jpg
+│   ├── console
+│   │   ├── error.json
+│   │   └── log.json
 │   ├── contexts
 │   │   └── AuthContext
 │   │       ├── AuthContext.jsx
@@ -42,6 +46,7 @@
 │   │   ├── useHelmet.jsx
 │   │   └── useUserRole.jsx
 │   ├── index.css
+│   ├── loggerClient.js
 │   ├── main.jsx
 │   ├── modules
 │   │   ├── Auth
@@ -64,12 +69,30 @@
 │   │   │   ├── home
 │   │   │   │   ├── Bannnerr
 │   │   │   │   │   └── Banner.jsx
+│   │   │   │   ├── CallToActionFull
+│   │   │   │   │   └── CallToActionFull.jsx
 │   │   │   │   ├── Home.jsx
+│   │   │   │   ├── HowItWorks
+│   │   │   │   │   └── HowItWorks.jsx
+│   │   │   │   ├── LiveStats
+│   │   │   │   │   └── LiveStats.jsx
+│   │   │   │   ├── NewsletterSignup
+│   │   │   │   │   └── NewsletterSignup.jsx
 │   │   │   │   ├── Overview
-│   │   │   │   │   └── Overview.jsx
+│   │   │   │   │   ├── Overview.jsx
+│   │   │   │   │   └── Stories
+│   │   │   │   │       └── Stories.jsx
+│   │   │   │   ├── PartnerWithUs
+│   │   │   │   │   └── PartnerWithUs.jsx
 │   │   │   │   ├── RandomGuides
 │   │   │   │   │   └── RandomGuides.jsx
-│   │   │   │   └── TourismAndGuides.jsx
+│   │   │   │   ├── Testimonials
+│   │   │   │   │   └── Testimonials.jsx
+│   │   │   │   ├── TourismAndGuides.jsx
+│   │   │   │   ├── TrendingDestinations
+│   │   │   │   │   └── TrendingDestinations.jsx
+│   │   │   │   └── WhyChooseUs
+│   │   │   │       └── WhyChooseUs.jsx
 │   │   │   └── index.js
 │   │   ├── Packages
 │   │   │   └── PackageDetails
@@ -151,8 +174,9 @@
 │       └── updateData.js
 ├── structure.md
 ├── tmuxShow03_25_অপরাহ্ণ_19_07_25.mp4
-└── vite.config.js
+├── vite.config.js
+└── vite.logger.plugin.js
 
-45 directories, 106 files
+55 directories, 120 files
 
 ```
