@@ -11,6 +11,7 @@ import Testimonials from "./Testimonials/Testimonials.jsx";
 import PartnerWithUs from "./PartnerWithUs/PartnerWithUs.jsx";
 import HowItWorks from "./HowItWorks/HowItWorks.jsx";
 import WhyChooseUs from "./WhyChooseUs/WhyChooseUs.jsx";
+import CallToActionFull from "./CallToActionFull/CallToActionFull.jsx";
 
 const Home = () => {
   return (
@@ -29,6 +30,7 @@ const Home = () => {
       <WhyChooseUs />
       <NewsletterSignup />
       <Faqs />
+      <CallToActionFull />
     </div>
   );
 };
