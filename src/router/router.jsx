@@ -8,6 +8,7 @@ import Home from "../modules/landing/home/Home";
 import GuideProfile from "../modules/Dashbaord/TourGuides/GuideProfile/GuideProfile";
 import TourGuides from "../modules/Dashbaord/TourGuides/TourGuides";
 import MyBookings from "../modules/Dashbaord/Tourist/Bookings/MyBookings";
+import DashboardLayout from "../modules/Dashbaord/DashboardLayout";
 
 const router = createBrowserRouter([
   {
@@ -42,6 +43,10 @@ const router = createBrowserRouter([
       },
       // faq pages
     ],
+  },
+  {
+    path: "/dashboard",
+    element: <DashboardLayout />,
   },
   {
     path: "/about",

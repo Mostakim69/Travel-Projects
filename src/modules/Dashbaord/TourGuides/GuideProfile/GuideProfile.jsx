@@ -1,6 +1,6 @@
 import { useParams } from "react-router";
 import { useQuery } from "@tanstack/react-query";
-import { axiosInstance } from "../../../hooks/useAxiosSecure";
+import { axiosInstance } from "../../../../hooks/useAxiosSecure";
 
 const fetchGuideDetails = async (id) => {
   const res = await axiosInstance.get(`/tour-guide-requests/${id}`);

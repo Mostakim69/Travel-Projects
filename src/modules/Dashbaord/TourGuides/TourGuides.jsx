@@ -1,8 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
 import { Link } from "react-router";
-import { axiosInstance } from "../../hooks/useAxiosSecure";
-import Spinner from "../shared/Layout/Spinner";
-import ErrorMessage from "../../utils/ErrorMessage";
+import { axiosInstance } from "../../../hooks/useAxiosSecure";
 
 const fetchAllGuides = async () => {
   const res = await axiosInstance.get(
