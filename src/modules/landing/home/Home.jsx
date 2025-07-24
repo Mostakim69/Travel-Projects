@@ -12,6 +12,7 @@ import PartnerWithUs from "./PartnerWithUs/PartnerWithUs.jsx";
 import HowItWorks from "./HowItWorks/HowItWorks.jsx";
 import WhyChooseUs from "./WhyChooseUs/WhyChooseUs.jsx";
 import CallToActionFull from "./CallToActionFull/CallToActionFull.jsx";
+import TrendingDestinations from "./TrendingDestinations/TrendingDestinations.jsx";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
       <Overview />
       <TourismAndGuides />
       <RandomGuides />
+      <TrendingDestinations />
       <Stories />
       <LiveStats />
       <Testimonials />
