@@ -1,4 +1,3 @@
-import { Outlet } from "react-router";
 import { CommonFooter } from "../shared/Layout";
 import NavbarDrawer from "../shared/Layout/NavbarDrawer";
 
