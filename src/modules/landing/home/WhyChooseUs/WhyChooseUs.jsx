@@ -42,20 +42,22 @@ const WhyChooseUs = () => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
         {reasons.map((reason, index) => (
-          <motion.div
-            key={index}
-            initial={{ opacity: 0, y: 40 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: index * 0.2 }}
-            viewport={{ once: true }}
-            className="rounded-2xl bg-gradient-to-br from-[#1e293b] to-[#111827] border border-purple-700 hover:border-sky-500 p-6 text-center shadow-[0_0_20px_#7c3aed33] hover:scale-[1.03] transition-all duration-300"
-          >
-            <div className="mb-4">{reason.icon}</div>
-            <h3 className="text-xl font-semibold text-indigo-300 mb-2">
-              {reason.title}
-            </h3>
-            <p className="text-gray-400 text-sm">{reason.description}</p>
-          </motion.div>
+          <div data-aos="zoom-out-left">
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: index * 0.2 }}
+              viewport={{ once: true }}
+              className="rounded-2xl bg-gradient-to-br from-[#1e293b] to-[#111827] border border-purple-700 hover:border-sky-500 p-6 text-center shadow-[0_0_20px_#7c3aed33] hover:scale-[1.03] transition-all duration-300"
+            >
+              <div className="mb-4">{reason.icon}</div>
+              <h3 className="text-xl font-semibold text-indigo-300 mb-2">
+                {reason.title}
+              </h3>
+              <p className="text-gray-400 text-sm">{reason.description}</p>
+            </motion.div>
+          </div>
         ))}
       </div>
     </section>
