@@ -9,16 +9,17 @@ const PaymentForm = () => {
   const stripe = useStripe();
   const elements = useElements();
   const { bookingId } = useParams();
+  console.log(bookingId, " bookingId PaymentForm.jsx", 12);
   const { user } = useAuth();
   const axiosSecure = useAxiosSecure();
   const navigate = useNavigate();
 
   const [error, setError] = useState("");
 
-  const { isPending, data: parcelInfo = {} } = useQuery({
+  const { isPending, data: bookingInfo = {} } = useQuery({
     queryKey: ["parcels", bookingId],
     queryFn: async () => {
-      const res = await axiosSecure.get(`/bookings/${bookingId}`);
+      const res = await axiosSecure.get(`bookings/${bookingId}`);
       return res.data;
     },
   });
@@ -27,8 +28,8 @@ const PaymentForm = () => {
     return "...loading";
   }
 
-  console.log(parcelInfo);
-  const amount = parcelInfo.cost;
+  console.log(bookingInfo);
+  const amount = bookingInfo.cost;
   const amountInCents = amount * 100;
   console.log(amountInCents);
 

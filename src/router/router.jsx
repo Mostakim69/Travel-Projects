@@ -50,7 +50,7 @@ const router = createBrowserRouter([
         element: <MyBookings />,
       },
       {
-        path: "payment-booking/:id",
+        path: "payment-booking/:bookingId",
         element: <PaymentBooking />,
       },
     ],
