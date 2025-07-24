@@ -78,12 +78,13 @@ const PackageDetails = () => {
       transactionId: "",
     };
 
-    console.log(`booking payload`, bookingPayload);
     try {
-      // await postData({
-      //   url: "bookings",
-      //   payload: bookingPayload,
-      // });
+      console.log(`booking payload`);
+      await postData({
+        url: "bookings",
+        payload: bookingPayload,
+      });
+
       // reset(); // reset react-hook-form
       // navigate("/my-bookings");
     } catch (err) {

@@ -96,3 +96,324 @@
   "code": "ERR_BAD_RESPONSE",
   "status": 500
 } error
+[09:21 AM 24-07-25] {
+  "message": "Request failed with status code 500",
+  "name": "AxiosError",
+  "stack": "settle@http://localhost:5173/node_modules/.vite/deps/axios.js?v=136b1fc4:1229:12\nonloadend@http://localhost:5173/node_modules/.vite/deps/axios.js?v=136b1fc4:1561:13\nEventHandlerNonNull*dispatchXhrRequest@http://localhost:5173/node_modules/.vite/deps/axios.js?v=136b1fc4:1571:7\nxhr_default<@http://localhost:5173/node_modules/.vite/deps/axios.js?v=136b1fc4:1528:10\ndispatchRequest@http://localhost:5173/node_modules/.vite/deps/axios.js?v=136b1fc4:2003:10\npromise callback*_request@http://localhost:5173/node_modules/.vite/deps/axios.js?v=136b1fc4:2206:27\nrequest@http://localhost:5173/node_modules/.vite/deps/axios.js?v=136b1fc4:2115:25\nhttpMethod@http://localhost:5173/node_modules/.vite/deps/axios.js?v=136b1fc4:2253:19\nwrap@http://localhost:5173/node_modules/.vite/deps/axios.js?v=136b1fc4:8:15\nmutationFn@http://localhost:5173/src/hooks/usePostData.jsx?t=1753326444244:18:37\nfn@http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=f0f0392a:1235:29\nrun@http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=f0f0392a:513:49\nstart@http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=f0f0392a:555:9\nexecute@http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=f0f0392a:1271:56\nasync*mutate@http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=f0f0392a:2690:49\nonSubmit@http://localhost:5173/src/modules/Packages/PackageDetails/PackageDetails.jsx?t=1753326722827:90:13\ncreateFormControl/handleSubmit/<@http://localhost:5173/node_modules/.vite/deps/react-hook-form.js?v=76bd8d8b:1481:15\nasync*executeDispatch@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=45488873:11736:19\nrunWithFiberInDEV@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=45488873:1487:15\nprocessDispatchQueue@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=45488873:11772:37\nnode_modules/react-dom/cjs/react-dom-client.development.js/dispatchEventForPluginEventSystem/<@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=45488873:12182:31\nbatchedUpdates$1@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=45488873:2628:44\ndispatchEventForPluginEventSystem@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=45488873:11877:25\ndispatchEvent@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=45488873:14792:46\ndispatchDiscreteEvent@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=45488873:14773:62\n",
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": [
+      "xhr",
+      "http",
+      "fetch"
+    ],
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/json",
+      "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjZkZTQwZjA0ODgxYzZhMDE2MTFlYjI4NGE0Yzk1YTI1MWU5MTEyNTAiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiSGVhbHRoIENhcmUiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSVpOemp2T0FZVkQ0NktLdjNFaGZJUVI0UmVUZFRZMnFVSDZ5aEs2OWZIQzNlNWNnPXM5Ni1jIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2VkdXZlcnNlLThhOTdkIiwiYXVkIjoiZWR1dmVyc2UtOGE5N2QiLCJhdXRoX3RpbWUiOjE3NTMyNjUxNzQsInVzZXJfaWQiOiJSZ0l1bWNNdXdnT0lXVnI3QkhPckZwN2xTZEozIiwic3ViIjoiUmdJdW1jTXV3Z09JV1ZyN0JIT3JGcDdsU2RKMyIsImlhdCI6MTc1MzMyMzQ5MCwiZXhwIjoxNzUzMzI3MDkwLCJlbWFpbCI6ImhlYWx0aGNhcmUzMnFAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMTczNzk3OTM5ODI4MTI1NjAyMjkiXSwiZW1haWwiOlsiaGVhbHRoY2FyZTMycUBnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJnb29nbGUuY29tIn19.HgNXIw4mSNIGtV9I96ehyPtXE7wzRm6I4Bw0t5IwH-L1eW-HhfHkNf9Vhgxo5-vFoQ-6MFHDGFmxp3TVL_EGDAlkcC1y0cxoR5RCaTZd9C0AiK8STMmnt4UVfT8caEhHsHnz2iOmCDihcmAp_1h3jmCfugPjzfCW2Y5_xoYd6tsFzEg1qxZGmcsCKg6LGTuGVljGPt_ladr-C4lbcho0ZsUMakn5wvKkRsn5AhU8jSclHrNI857mMM6j5i2cnnHg3IIkliQ90Jl_6m3lSxSoFHTSiwIr3f2DNwXkWGBQuni7P0M3DNvB0DZn-P58qFsyej2c1Ic6SKzkBKRrRrTglw"
+    },
+    "baseURL": "http://localhost:5000/api/v1/",
+    "method": "post",
+    "url": "bookings",
+    "data": "{\"packageId\":\"687f5afeec95de7ba201f13f\",\"packageName\":\"Sajek Adventure 2\",\"touristId\":\"688036e14582db5aafd12e52\",\"touristName\":\"Tourist 5\",\"touristEmail\":\"tourist5@example.com\",\"touristPhoto\":\"https://i.ibb.co/sample-image.png\",\"guideId\":\"6880374f4582db5aafd12e5a\",\"guideName\":\"Tourist 3\",\"price\":4500,\"tourDate\":\"2026-03-12T00:00:00.000Z\",\"status\":\"pending\",\"paymentStatus\":\"unpaid\",\"transactionId\":\"\"}",
+    "allowAbsoluteUrls": true
+  },
+  "code": "ERR_BAD_RESPONSE",
+  "status": 500
+} error
+[09:21 AM 24-07-25] {
+  "message": "Request failed with status code 500",
+  "name": "AxiosError",
+  "stack": "settle@http://localhost:5173/node_modules/.vite/deps/axios.js?v=136b1fc4:1229:12\nonloadend@http://localhost:5173/node_modules/.vite/deps/axios.js?v=136b1fc4:1561:13\nEventHandlerNonNull*dispatchXhrRequest@http://localhost:5173/node_modules/.vite/deps/axios.js?v=136b1fc4:1571:7\nxhr_default<@http://localhost:5173/node_modules/.vite/deps/axios.js?v=136b1fc4:1528:10\ndispatchRequest@http://localhost:5173/node_modules/.vite/deps/axios.js?v=136b1fc4:2003:10\npromise callback*_request@http://localhost:5173/node_modules/.vite/deps/axios.js?v=136b1fc4:2206:27\nrequest@http://localhost:5173/node_modules/.vite/deps/axios.js?v=136b1fc4:2115:25\nhttpMethod@http://localhost:5173/node_modules/.vite/deps/axios.js?v=136b1fc4:2253:19\nwrap@http://localhost:5173/node_modules/.vite/deps/axios.js?v=136b1fc4:8:15\nmutationFn@http://localhost:5173/src/hooks/usePostData.jsx?t=1753326444244:18:37\nfn@http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=f0f0392a:1235:29\nrun@http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=f0f0392a:513:49\nstart@http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=f0f0392a:555:9\nexecute@http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=f0f0392a:1271:56\nasync*mutate@http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=f0f0392a:2690:49\nonSubmit@http://localhost:5173/src/modules/Packages/PackageDetails/PackageDetails.jsx?t=1753326722827:90:13\ncreateFormControl/handleSubmit/<@http://localhost:5173/node_modules/.vite/deps/react-hook-form.js?v=76bd8d8b:1481:15\nasync*executeDispatch@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=45488873:11736:19\nrunWithFiberInDEV@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=45488873:1487:15\nprocessDispatchQueue@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=45488873:11772:37\nnode_modules/react-dom/cjs/react-dom-client.development.js/dispatchEventForPluginEventSystem/<@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=45488873:12182:31\nbatchedUpdates$1@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=45488873:2628:44\ndispatchEventForPluginEventSystem@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=45488873:11877:25\ndispatchEvent@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=45488873:14792:46\ndispatchDiscreteEvent@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=45488873:14773:62\n",
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": [
+      "xhr",
+      "http",
+      "fetch"
+    ],
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/json",
+      "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjZkZTQwZjA0ODgxYzZhMDE2MTFlYjI4NGE0Yzk1YTI1MWU5MTEyNTAiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiSGVhbHRoIENhcmUiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSVpOemp2T0FZVkQ0NktLdjNFaGZJUVI0UmVUZFRZMnFVSDZ5aEs2OWZIQzNlNWNnPXM5Ni1jIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2VkdXZlcnNlLThhOTdkIiwiYXVkIjoiZWR1dmVyc2UtOGE5N2QiLCJhdXRoX3RpbWUiOjE3NTMyNjUxNzQsInVzZXJfaWQiOiJSZ0l1bWNNdXdnT0lXVnI3QkhPckZwN2xTZEozIiwic3ViIjoiUmdJdW1jTXV3Z09JV1ZyN0JIT3JGcDdsU2RKMyIsImlhdCI6MTc1MzMyMzQ5MCwiZXhwIjoxNzUzMzI3MDkwLCJlbWFpbCI6ImhlYWx0aGNhcmUzMnFAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMTczNzk3OTM5ODI4MTI1NjAyMjkiXSwiZW1haWwiOlsiaGVhbHRoY2FyZTMycUBnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJnb29nbGUuY29tIn19.HgNXIw4mSNIGtV9I96ehyPtXE7wzRm6I4Bw0t5IwH-L1eW-HhfHkNf9Vhgxo5-vFoQ-6MFHDGFmxp3TVL_EGDAlkcC1y0cxoR5RCaTZd9C0AiK8STMmnt4UVfT8caEhHsHnz2iOmCDihcmAp_1h3jmCfugPjzfCW2Y5_xoYd6tsFzEg1qxZGmcsCKg6LGTuGVljGPt_ladr-C4lbcho0ZsUMakn5wvKkRsn5AhU8jSclHrNI857mMM6j5i2cnnHg3IIkliQ90Jl_6m3lSxSoFHTSiwIr3f2DNwXkWGBQuni7P0M3DNvB0DZn-P58qFsyej2c1Ic6SKzkBKRrRrTglw"
+    },
+    "baseURL": "http://localhost:5000/api/v1/",
+    "method": "post",
+    "url": "bookings",
+    "data": "{\"packageId\":\"687f5afeec95de7ba201f13f\",\"packageName\":\"Sajek Adventure 2\",\"touristId\":\"688036e14582db5aafd12e52\",\"touristName\":\"Tourist 5\",\"touristEmail\":\"tourist5@example.com\",\"touristPhoto\":\"https://i.ibb.co/sample-image.png\",\"guideId\":\"6880374f4582db5aafd12e5a\",\"guideName\":\"Tourist 3\",\"price\":4500,\"tourDate\":\"2026-03-12T00:00:00.000Z\",\"status\":\"pending\",\"paymentStatus\":\"unpaid\",\"transactionId\":\"\"}",
+    "allowAbsoluteUrls": true
+  },
+  "code": "ERR_BAD_RESPONSE",
+  "status": 500
+} error
+[09:21 AM 24-07-25] {
+  "message": "Request failed with status code 500",
+  "name": "AxiosError",
+  "stack": "settle@http://localhost:5173/node_modules/.vite/deps/axios.js?v=136b1fc4:1229:12\nonloadend@http://localhost:5173/node_modules/.vite/deps/axios.js?v=136b1fc4:1561:13\nEventHandlerNonNull*dispatchXhrRequest@http://localhost:5173/node_modules/.vite/deps/axios.js?v=136b1fc4:1571:7\nxhr_default<@http://localhost:5173/node_modules/.vite/deps/axios.js?v=136b1fc4:1528:10\ndispatchRequest@http://localhost:5173/node_modules/.vite/deps/axios.js?v=136b1fc4:2003:10\npromise callback*_request@http://localhost:5173/node_modules/.vite/deps/axios.js?v=136b1fc4:2206:27\nrequest@http://localhost:5173/node_modules/.vite/deps/axios.js?v=136b1fc4:2115:25\nhttpMethod@http://localhost:5173/node_modules/.vite/deps/axios.js?v=136b1fc4:2253:19\nwrap@http://localhost:5173/node_modules/.vite/deps/axios.js?v=136b1fc4:8:15\nmutationFn@http://localhost:5173/src/hooks/usePostData.jsx?t=1753326444244:18:37\nfn@http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=f0f0392a:1235:29\nrun@http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=f0f0392a:513:49\nstart@http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=f0f0392a:555:9\nexecute@http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=f0f0392a:1271:56\nasync*mutate@http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=f0f0392a:2690:49\nonSubmit@http://localhost:5173/src/modules/Packages/PackageDetails/PackageDetails.jsx?t=1753326722827:90:13\ncreateFormControl/handleSubmit/<@http://localhost:5173/node_modules/.vite/deps/react-hook-form.js?v=76bd8d8b:1481:15\nasync*executeDispatch@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=45488873:11736:19\nrunWithFiberInDEV@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=45488873:1487:15\nprocessDispatchQueue@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=45488873:11772:37\nnode_modules/react-dom/cjs/react-dom-client.development.js/dispatchEventForPluginEventSystem/<@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=45488873:12182:31\nbatchedUpdates$1@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=45488873:2628:44\ndispatchEventForPluginEventSystem@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=45488873:11877:25\ndispatchEvent@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=45488873:14792:46\ndispatchDiscreteEvent@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=45488873:14773:62\n",
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": [
+      "xhr",
+      "http",
+      "fetch"
+    ],
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/json",
+      "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjZkZTQwZjA0ODgxYzZhMDE2MTFlYjI4NGE0Yzk1YTI1MWU5MTEyNTAiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiSGVhbHRoIENhcmUiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSVpOemp2T0FZVkQ0NktLdjNFaGZJUVI0UmVUZFRZMnFVSDZ5aEs2OWZIQzNlNWNnPXM5Ni1jIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2VkdXZlcnNlLThhOTdkIiwiYXVkIjoiZWR1dmVyc2UtOGE5N2QiLCJhdXRoX3RpbWUiOjE3NTMyNjUxNzQsInVzZXJfaWQiOiJSZ0l1bWNNdXdnT0lXVnI3QkhPckZwN2xTZEozIiwic3ViIjoiUmdJdW1jTXV3Z09JV1ZyN0JIT3JGcDdsU2RKMyIsImlhdCI6MTc1MzMyMzQ5MCwiZXhwIjoxNzUzMzI3MDkwLCJlbWFpbCI6ImhlYWx0aGNhcmUzMnFAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMTczNzk3OTM5ODI4MTI1NjAyMjkiXSwiZW1haWwiOlsiaGVhbHRoY2FyZTMycUBnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJnb29nbGUuY29tIn19.HgNXIw4mSNIGtV9I96ehyPtXE7wzRm6I4Bw0t5IwH-L1eW-HhfHkNf9Vhgxo5-vFoQ-6MFHDGFmxp3TVL_EGDAlkcC1y0cxoR5RCaTZd9C0AiK8STMmnt4UVfT8caEhHsHnz2iOmCDihcmAp_1h3jmCfugPjzfCW2Y5_xoYd6tsFzEg1qxZGmcsCKg6LGTuGVljGPt_ladr-C4lbcho0ZsUMakn5wvKkRsn5AhU8jSclHrNI857mMM6j5i2cnnHg3IIkliQ90Jl_6m3lSxSoFHTSiwIr3f2DNwXkWGBQuni7P0M3DNvB0DZn-P58qFsyej2c1Ic6SKzkBKRrRrTglw"
+    },
+    "baseURL": "http://localhost:5000/api/v1/",
+    "method": "post",
+    "url": "bookings",
+    "data": "{\"packageId\":\"687f5afeec95de7ba201f13f\",\"packageName\":\"Sajek Adventure 2\",\"touristId\":\"688036e14582db5aafd12e52\",\"touristName\":\"Tourist 5\",\"touristEmail\":\"tourist5@example.com\",\"touristPhoto\":\"https://i.ibb.co/sample-image.png\",\"guideId\":\"6880374f4582db5aafd12e5a\",\"guideName\":\"Tourist 3\",\"price\":4500,\"tourDate\":\"2026-03-12T00:00:00.000Z\",\"status\":\"pending\",\"paymentStatus\":\"unpaid\",\"transactionId\":\"\"}",
+    "allowAbsoluteUrls": true
+  },
+  "code": "ERR_BAD_RESPONSE",
+  "status": 500
+} error
+[09:21 AM 24-07-25] {
+  "message": "Request failed with status code 500",
+  "name": "AxiosError",
+  "stack": "settle@http://localhost:5173/node_modules/.vite/deps/axios.js?v=136b1fc4:1229:12\nonloadend@http://localhost:5173/node_modules/.vite/deps/axios.js?v=136b1fc4:1561:13\nEventHandlerNonNull*dispatchXhrRequest@http://localhost:5173/node_modules/.vite/deps/axios.js?v=136b1fc4:1571:7\nxhr_default<@http://localhost:5173/node_modules/.vite/deps/axios.js?v=136b1fc4:1528:10\ndispatchRequest@http://localhost:5173/node_modules/.vite/deps/axios.js?v=136b1fc4:2003:10\npromise callback*_request@http://localhost:5173/node_modules/.vite/deps/axios.js?v=136b1fc4:2206:27\nrequest@http://localhost:5173/node_modules/.vite/deps/axios.js?v=136b1fc4:2115:25\nhttpMethod@http://localhost:5173/node_modules/.vite/deps/axios.js?v=136b1fc4:2253:19\nwrap@http://localhost:5173/node_modules/.vite/deps/axios.js?v=136b1fc4:8:15\nmutationFn@http://localhost:5173/src/hooks/usePostData.jsx?t=1753326444244:18:37\nfn@http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=f0f0392a:1235:29\nrun@http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=f0f0392a:513:49\nstart@http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=f0f0392a:555:9\nexecute@http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=f0f0392a:1271:56\nasync*mutate@http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=f0f0392a:2690:49\nonSubmit@http://localhost:5173/src/modules/Packages/PackageDetails/PackageDetails.jsx?t=1753326722827:90:13\ncreateFormControl/handleSubmit/<@http://localhost:5173/node_modules/.vite/deps/react-hook-form.js?v=76bd8d8b:1481:15\nasync*executeDispatch@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=45488873:11736:19\nrunWithFiberInDEV@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=45488873:1487:15\nprocessDispatchQueue@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=45488873:11772:37\nnode_modules/react-dom/cjs/react-dom-client.development.js/dispatchEventForPluginEventSystem/<@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=45488873:12182:31\nbatchedUpdates$1@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=45488873:2628:44\ndispatchEventForPluginEventSystem@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=45488873:11877:25\ndispatchEvent@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=45488873:14792:46\ndispatchDiscreteEvent@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=45488873:14773:62\n",
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": [
+      "xhr",
+      "http",
+      "fetch"
+    ],
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/json",
+      "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjZkZTQwZjA0ODgxYzZhMDE2MTFlYjI4NGE0Yzk1YTI1MWU5MTEyNTAiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiSGVhbHRoIENhcmUiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSVpOemp2T0FZVkQ0NktLdjNFaGZJUVI0UmVUZFRZMnFVSDZ5aEs2OWZIQzNlNWNnPXM5Ni1jIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2VkdXZlcnNlLThhOTdkIiwiYXVkIjoiZWR1dmVyc2UtOGE5N2QiLCJhdXRoX3RpbWUiOjE3NTMyNjUxNzQsInVzZXJfaWQiOiJSZ0l1bWNNdXdnT0lXVnI3QkhPckZwN2xTZEozIiwic3ViIjoiUmdJdW1jTXV3Z09JV1ZyN0JIT3JGcDdsU2RKMyIsImlhdCI6MTc1MzMyMzQ5MCwiZXhwIjoxNzUzMzI3MDkwLCJlbWFpbCI6ImhlYWx0aGNhcmUzMnFAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMTczNzk3OTM5ODI4MTI1NjAyMjkiXSwiZW1haWwiOlsiaGVhbHRoY2FyZTMycUBnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJnb29nbGUuY29tIn19.HgNXIw4mSNIGtV9I96ehyPtXE7wzRm6I4Bw0t5IwH-L1eW-HhfHkNf9Vhgxo5-vFoQ-6MFHDGFmxp3TVL_EGDAlkcC1y0cxoR5RCaTZd9C0AiK8STMmnt4UVfT8caEhHsHnz2iOmCDihcmAp_1h3jmCfugPjzfCW2Y5_xoYd6tsFzEg1qxZGmcsCKg6LGTuGVljGPt_ladr-C4lbcho0ZsUMakn5wvKkRsn5AhU8jSclHrNI857mMM6j5i2cnnHg3IIkliQ90Jl_6m3lSxSoFHTSiwIr3f2DNwXkWGBQuni7P0M3DNvB0DZn-P58qFsyej2c1Ic6SKzkBKRrRrTglw"
+    },
+    "baseURL": "http://localhost:5000/api/v1/",
+    "method": "post",
+    "url": "bookings",
+    "data": "{\"packageId\":\"687f5afeec95de7ba201f13f\",\"packageName\":\"Sajek Adventure 2\",\"touristId\":\"688036e14582db5aafd12e52\",\"touristName\":\"Tourist 5\",\"touristEmail\":\"tourist5@example.com\",\"touristPhoto\":\"https://i.ibb.co/sample-image.png\",\"guideId\":\"6880374f4582db5aafd12e5a\",\"guideName\":\"Tourist 3\",\"price\":4500,\"tourDate\":\"2026-03-12T00:00:00.000Z\",\"status\":\"pending\",\"paymentStatus\":\"unpaid\",\"transactionId\":\"\"}",
+    "allowAbsoluteUrls": true
+  },
+  "code": "ERR_BAD_RESPONSE",
+  "status": 500
+} error
+[09:22 AM 24-07-25] null error
+[09:22 AM 24-07-25] null error
+[09:22 AM 24-07-25] null error
+[09:22 AM 24-07-25] null error
+[09:22 AM 24-07-25] null error
+[09:22 AM 24-07-25] null error
+[09:22 AM 24-07-25] null error
+[09:22 AM 24-07-25] null error
+[09:23 AM 24-07-25] null error
+[09:23 AM 24-07-25] null error
+[09:23 AM 24-07-25] null error
+[09:23 AM 24-07-25] null error
+[09:23 AM 24-07-25] null error
+[09:23 AM 24-07-25] null error
+[09:23 AM 24-07-25] null error
+[09:23 AM 24-07-25] null error
+[09:23 AM 24-07-25] null error
+[09:23 AM 24-07-25] null error
+[09:24 AM 24-07-25] null error
+[09:24 AM 24-07-25] null error
+[09:24 AM 24-07-25] null error
+[09:24 AM 24-07-25] null error
+[09:24 AM 24-07-25] null error
+[09:24 AM 24-07-25] null error
+[09:24 AM 24-07-25] null error
+[09:24 AM 24-07-25] null error
+[09:24 AM 24-07-25] null error
+[09:24 AM 24-07-25] null error
+[09:24 AM 24-07-25] null error
+[09:24 AM 24-07-25] null error
+[09:24 AM 24-07-25] null error
+[09:24 AM 24-07-25] null error
+[09:24 AM 24-07-25] null error
+[09:24 AM 24-07-25] null error
+[09:24 AM 24-07-25] null error
+[09:24 AM 24-07-25] null error
+[09:24 AM 24-07-25] null error
+[09:24 AM 24-07-25] null error
+[09:24 AM 24-07-25] null error
+[09:24 AM 24-07-25] null error
+[09:24 AM 24-07-25] null error
+[09:24 AM 24-07-25] null error
+[09:24 AM 24-07-25] null error
+[09:24 AM 24-07-25] null error
+[09:24 AM 24-07-25] null error
+[09:24 AM 24-07-25] null error
+[09:25 AM 24-07-25] null error
+[09:25 AM 24-07-25] null error
+[09:25 AM 24-07-25] null error
+[09:25 AM 24-07-25] null error
+[09:25 AM 24-07-25] null error
+[09:25 AM 24-07-25] null error
+[09:25 AM 24-07-25] null error
+[09:25 AM 24-07-25] null error
+[09:25 AM 24-07-25] null error
+[09:25 AM 24-07-25] null error
+[09:25 AM 24-07-25] null error
+[09:25 AM 24-07-25] null error
+[09:25 AM 24-07-25] null error
+[09:25 AM 24-07-25] null error
+[09:25 AM 24-07-25] null error
+[09:25 AM 24-07-25] null error
+[09:25 AM 24-07-25] null error
+[09:25 AM 24-07-25] null error
+[09:25 AM 24-07-25] null error
+[09:25 AM 24-07-25] null error
+[09:25 AM 24-07-25] null error
+[09:25 AM 24-07-25] null error
+[09:25 AM 24-07-25] null error
+[09:25 AM 24-07-25] null error
+[09:25 AM 24-07-25] null error
+[09:25 AM 24-07-25] null error
+[09:25 AM 24-07-25] booking payload
+[09:25 AM 24-07-25] null error
+[09:25 AM 24-07-25] null error
+[09:25 AM 24-07-25] {
+  "message": "Request failed with status code 500",
+  "name": "AxiosError",
+  "stack": "settle@http://localhost:5173/node_modules/.vite/deps/axios.js?v=136b1fc4:1229:12\nonloadend@http://localhost:5173/node_modules/.vite/deps/axios.js?v=136b1fc4:1561:13\n",
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": [
+      "xhr",
+      "http",
+      "fetch"
+    ],
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/json",
+      "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjZkZTQwZjA0ODgxYzZhMDE2MTFlYjI4NGE0Yzk1YTI1MWU5MTEyNTAiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiSGVhbHRoIENhcmUiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSVpOemp2T0FZVkQ0NktLdjNFaGZJUVI0UmVUZFRZMnFVSDZ5aEs2OWZIQzNlNWNnPXM5Ni1jIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2VkdXZlcnNlLThhOTdkIiwiYXVkIjoiZWR1dmVyc2UtOGE5N2QiLCJhdXRoX3RpbWUiOjE3NTMyNjUxNzQsInVzZXJfaWQiOiJSZ0l1bWNNdXdnT0lXVnI3QkhPckZwN2xTZEozIiwic3ViIjoiUmdJdW1jTXV3Z09JV1ZyN0JIT3JGcDdsU2RKMyIsImlhdCI6MTc1MzMyNzMyMiwiZXhwIjoxNzUzMzMwOTIyLCJlbWFpbCI6ImhlYWx0aGNhcmUzMnFAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMTczNzk3OTM5ODI4MTI1NjAyMjkiXSwiZW1haWwiOlsiaGVhbHRoY2FyZTMycUBnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJnb29nbGUuY29tIn19.K7UlAQt6dySYoyhkowfYhlkhNuN51m6e-IwBDw3L3R28RcHFNFeaT6vVU-v-JTGtJxFQW2bij3BMJNQNvv0sYXGSVxs-zZGAr_aYYGB1_0V-LmhhodwtQppiHNFD8jp4Q4AOEPdoXeeA9-bFukFWPIyCR7SQeH7C79Nw7bDL8Y0WBT4xX7lbegsH44SgXxRfYic8kuJaXD32sVyH3Y2cA8LmZXfMxQc2GwLhoDO0cq29D-vr9I09rKMY6X4_hJTNT5pmtwgI8A_U1uQ65akylqSMa5ByZgOQ9ebFqnge3X4OcZFAIrqwVNNrSBIY13A3tJnVeWkX3mMoGPAZIG2e7A"
+    },
+    "baseURL": "http://localhost:5000/api/v1/",
+    "method": "post",
+    "url": "bookings",
+    "data": "{\"packageId\":\"687f5afeec95de7ba201f13f\",\"packageName\":\"Sajek Adventure 2\",\"touristId\":\"688036e14582db5aafd12e52\",\"touristName\":\"Tourist 5\",\"touristEmail\":\"tourist5@example.com\",\"touristPhoto\":\"https://i.ibb.co/sample-image.png\",\"guideId\":\"687dd50b1ff686fc8ebc3cae\",\"guideName\":\"John Doe\",\"price\":4500,\"tourDate\":\"2026-03-12T00:00:00.000Z\",\"status\":\"pending\",\"paymentStatus\":\"unpaid\",\"transactionId\":\"\"}",
+    "allowAbsoluteUrls": true
+  },
+  "code": "ERR_BAD_RESPONSE",
+  "status": 500
+} error
+[09:25 AM 24-07-25] {
+  "message": "Request failed with status code 500",
+  "name": "AxiosError",
+  "stack": "settle@http://localhost:5173/node_modules/.vite/deps/axios.js?v=136b1fc4:1229:12\nonloadend@http://localhost:5173/node_modules/.vite/deps/axios.js?v=136b1fc4:1561:13\n",
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": [
+      "xhr",
+      "http",
+      "fetch"
+    ],
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/json",
+      "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjZkZTQwZjA0ODgxYzZhMDE2MTFlYjI4NGE0Yzk1YTI1MWU5MTEyNTAiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiSGVhbHRoIENhcmUiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSVpOemp2T0FZVkQ0NktLdjNFaGZJUVI0UmVUZFRZMnFVSDZ5aEs2OWZIQzNlNWNnPXM5Ni1jIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2VkdXZlcnNlLThhOTdkIiwiYXVkIjoiZWR1dmVyc2UtOGE5N2QiLCJhdXRoX3RpbWUiOjE3NTMyNjUxNzQsInVzZXJfaWQiOiJSZ0l1bWNNdXdnT0lXVnI3QkhPckZwN2xTZEozIiwic3ViIjoiUmdJdW1jTXV3Z09JV1ZyN0JIT3JGcDdsU2RKMyIsImlhdCI6MTc1MzMyNzMyMiwiZXhwIjoxNzUzMzMwOTIyLCJlbWFpbCI6ImhlYWx0aGNhcmUzMnFAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMTczNzk3OTM5ODI4MTI1NjAyMjkiXSwiZW1haWwiOlsiaGVhbHRoY2FyZTMycUBnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJnb29nbGUuY29tIn19.K7UlAQt6dySYoyhkowfYhlkhNuN51m6e-IwBDw3L3R28RcHFNFeaT6vVU-v-JTGtJxFQW2bij3BMJNQNvv0sYXGSVxs-zZGAr_aYYGB1_0V-LmhhodwtQppiHNFD8jp4Q4AOEPdoXeeA9-bFukFWPIyCR7SQeH7C79Nw7bDL8Y0WBT4xX7lbegsH44SgXxRfYic8kuJaXD32sVyH3Y2cA8LmZXfMxQc2GwLhoDO0cq29D-vr9I09rKMY6X4_hJTNT5pmtwgI8A_U1uQ65akylqSMa5ByZgOQ9ebFqnge3X4OcZFAIrqwVNNrSBIY13A3tJnVeWkX3mMoGPAZIG2e7A"
+    },
+    "baseURL": "http://localhost:5000/api/v1/",
+    "method": "post",
+    "url": "bookings",
+    "data": "{\"packageId\":\"687f5afeec95de7ba201f13f\",\"packageName\":\"Sajek Adventure 2\",\"touristId\":\"688036e14582db5aafd12e52\",\"touristName\":\"Tourist 5\",\"touristEmail\":\"tourist5@example.com\",\"touristPhoto\":\"https://i.ibb.co/sample-image.png\",\"guideId\":\"687dd50b1ff686fc8ebc3cae\",\"guideName\":\"John Doe\",\"price\":4500,\"tourDate\":\"2026-03-12T00:00:00.000Z\",\"status\":\"pending\",\"paymentStatus\":\"unpaid\",\"transactionId\":\"\"}",
+    "allowAbsoluteUrls": true
+  },
+  "code": "ERR_BAD_RESPONSE",
+  "status": 500
+} error
