@@ -5,6 +5,9 @@ import AuthRoute from "../modules/Auth/AuthRoute";
 import Errorpage from "./ErrorPage";
 import PackageDetails from "../modules/Packages/PackageDetails/PackageDetails";
 import Home from "../modules/landing/home/Home";
+import GuideProfile from "../modules/Dashbaord/TourGuides/GuideProfile/GuideProfile";
+import TourGuides from "../modules/Dashbaord/TourGuides/TourGuides";
+import MyBookings from "../modules/Dashbaord/Tourist/Bookings/MyBookings";
 
 const router = createBrowserRouter([
   {
