@@ -124,37 +124,10 @@
 │   │   │   ├── GuideProfile
 │   │   │   │   └── GuideProfile.jsx
 │   │   │   └── TourGuides.jsx
-│   │   ├── Tourist
-│   │   │   └── Bookings
-│   │   │       ├── BookingCard.jsx
-│   │   │       └── MyBookings.jsx
-│   │   └── users
-│   │       ├── admin
-│   │       │   ├── AdminLayout.jsx
-│   │       │   ├── components
-│   │       │   ├── index.js
-│   │       │   └── pages
-│   │       ├── recruiter
-│   │       │   ├── components
-│   │       │   │   ├── AddJobBasicInfo.jsx
-│   │       │   │   ├── AddJobFilter.jsx
-│   │       │   │   ├── AddJobSelect.jsx
-│   │       │   │   ├── Dropdown.jsx
-│   │       │   │   ├── PostedJobTableRow.jsx
-│   │       │   │   ├── SalaryRange.jsx
-│   │       │   │   └── TextArea.jsx
-│   │       │   ├── index.js
-│   │       │   ├── pages
-│   │       │   │   ├── AddJob.jsx
-│   │       │   │   ├── ApplicantForPostedJobs.jsx
-│   │       │   │   └── MyPostedJobs.jsx
-│   │       │   ├── recruiter.constant.js
-│   │       │   └── RecruiterLayout.jsx
-│   │       └── seeker
-│   │           ├── components
-│   │           ├── index.js
-│   │           ├── pages
-│   │           └── SeekerLayout.jsx
+│   │   └── Tourist
+│   │       └── Bookings
+│   │           ├── BookingCard.jsx
+│   │           └── MyBookings.jsx
 │   ├── pages
 │   │   └── faq
 │   │       ├── faq.constant.js
@@ -178,6 +151,6 @@
 ├── vite.config.js
 └── vite.logger.plugin.js
 
-54 directories, 122 files
+44 directories, 105 files
 
 ```
