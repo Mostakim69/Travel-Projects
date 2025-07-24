@@ -33,7 +33,7 @@ const usePostData = () => {
       });
     },
   });
-
+  console.log(error, "error");
   return { postData, isPending, isSuccess, isError, error, data, reset };
 };
 

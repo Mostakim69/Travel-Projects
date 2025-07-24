@@ -80,12 +80,12 @@ const PackageDetails = () => {
 
     try {
       await postData({
-        url: "/bookings",
+        url: "bookings",
         payload: bookingPayload,
       });
 
-      reset(); // reset react-hook-form
-      navigate("/my-bookings");
+      // reset(); // reset react-hook-form
+      // navigate("/my-bookings");
     } catch (err) {
       // handled inside the hook, no need to duplicate
     }
