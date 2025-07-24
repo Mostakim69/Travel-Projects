@@ -30,6 +30,7 @@ const FAQs = () => {
           <div
             key={idx}
             className="border border-purple-700 bg-gradient-to-br from-[#0f172a] to-[#1e293b] rounded-lg overflow-hidden shadow-lg hover:shadow-pink-500/30 transition-all duration-300"
+            data-aos="fade-down-left"
           >
             <button
               onClick={() => toggle(idx)}

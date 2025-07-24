@@ -36,7 +36,10 @@ const NewsletterSignup = () => {
 
   return (
     <section className="max-w-6xl mx-auto px-8 py-16 bg-[#0f172a] rounded-3xl shadow-lg shadow-purple-900/50 text-white">
-      <div className="flex flex-col md:flex-row items-center gap-12 max-w-5xl mx-auto">
+      <div
+        className="flex flex-col md:flex-row items-center gap-12 max-w-5xl mx-auto"
+        data-aos="fade-up-right"
+      >
         {/* Left: Incentive Text */}
         <div className="md:flex-1 text-center md:text-left">
           <h3
