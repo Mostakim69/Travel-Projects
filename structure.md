@@ -66,6 +66,7 @@
 │   │   │       ├── ForgotPass.jsx
 │   │   │       ├── Signin.jsx
 │   │   │       └── SignUp.jsx
+│   │   ├── Dashbaord
 │   │   ├── landing
 │   │   │   ├── home
 │   │   │   │   ├── Bannnerr
@@ -119,13 +120,6 @@
 │   │   │       ├── DropDown.jsx
 │   │   │       ├── index.js
 │   │   │       └── Input.jsx
-│   │   ├── submission
-│   │   │   ├── components
-│   │   │   │   └── evaluateSubmission
-│   │   │   │       ├── EvaluateSubmissionText.jsx
-│   │   │   │       └── EvaluateSumissionForm.jsx
-│   │   │   └── pages
-│   │   │       └── EvaluateSubmissionPage.jsx
 │   │   ├── TourGuides
 │   │   │   ├── GuideProfile
 │   │   │   │   └── GuideProfile.jsx
@@ -184,6 +178,6 @@
 ├── vite.config.js
 └── vite.logger.plugin.js
 
-57 directories, 125 files
+54 directories, 122 files
 
 ```
