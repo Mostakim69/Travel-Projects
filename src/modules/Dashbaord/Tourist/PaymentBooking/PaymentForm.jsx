@@ -1,12 +1,12 @@
 import { CardElement, useElements, useStripe } from "@stripe/react-stripe-js";
 import { useQuery } from "@tanstack/react-query";
-import React, { useState } from "react";
+import { useState } from "react";
 import { useNavigate, useParams } from "react-router";
 import Swal from "sweetalert2";
 const PaymentForm = () => {
   const stripe = useStripe();
   const elements = useElements();
-  const { parcelId } = useParams();
+  const { bookingId } = useParams();
   const { user } = useAuth();
   const axiosSecure = useAxiosSecure();
   const navigate = useNavigate();
@@ -14,9 +14,9 @@ const PaymentForm = () => {
   const [error, setError] = useState("");
 
   const { isPending, data: parcelInfo = {} } = useQuery({
-    queryKey: ["parcels", parcelId],
+    queryKey: ["parcels", bookingId],
     queryFn: async () => {
-      const res = await axiosSecure.get(`/bookings/${parcelId}`);
+      const res = await axiosSecure.get(`/bookings/${bookingId}`);
       return res.data;
     },
   });
@@ -57,7 +57,7 @@ const PaymentForm = () => {
       // step-2: create payment intent
       const res = await axiosSecure.post("/create-payment-intent", {
         amountInCents,
-        parcelId,
+        parcelId: bookingId,
       });
 
       const clientSecret = res.data.clientSecret;
@@ -82,7 +82,7 @@ const PaymentForm = () => {
           const transactionId = result.paymentIntent.id;
           // step-4 mark parcel paid also create payment history
           const paymentData = {
-            parcelId,
+            parcelId: bookingId,
             email: user.email,
             amount,
             transactionId: transactionId,

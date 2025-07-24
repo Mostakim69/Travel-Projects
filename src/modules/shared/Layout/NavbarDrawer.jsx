@@ -4,9 +4,6 @@ import SidebarLink from "./SidebarLink";
 
 // ✅ Role-based sidebar links
 const adminLinks = [
-
-
-
   { name: "Overview", path: "/dashboard/admin/overview" },
   { name: "Manage Users", path: "/dashboard/admin/users" },
   { name: "All Bookings", path: "/dashboard/admin/bookings" },
