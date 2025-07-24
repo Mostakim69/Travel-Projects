@@ -57,16 +57,17 @@ const PackageDetails = () => {
     };
 
     try {
-      const res = await axiosInstance.post("/bookings", bookingPayload);
-      if (res.data.success) {
-        Swal.fire({
-          icon: "success",
-          title: "Booking successful!",
-          text: "Check your booking status on My Bookings page.",
-        });
-        reset();
-        navigate("/my-bookings");
-      }
+      console.log(bookingPayload);
+      // const res = await axiosInstance.post("/bookings", bookingPayload);
+      // if (res.data.success) {
+      //   Swal.fire({
+      //     icon: "success",
+      //     title: "Booking successful!",
+      //     text: "Check your booking status on My Bookings page.",
+      //   });
+      //   reset();
+      //   navigate("/my-bookings");
+      // }
     } catch (err) {
       Swal.fire({
         icon: "error",
@@ -133,7 +134,7 @@ const PackageDetails = () => {
       <div className="flex gap-4 items-center">
         <button
           onClick={() => setGuideMode("dropdown")}
-          className={`btn ${guideMode === "dropdown" ? "btn-primary" : "btn-outline"}`}
+          className={`btn ${guideMode === "dropdown" ? "btn-primary" : "btn-outline"} rounded-full`}
         >
           Select Guide
         </button>
