@@ -48,6 +48,10 @@ const router = createBrowserRouter([
         path: "my-bookings",
         element: <MyBookings />,
       },
+      {
+        path: "cofirm-booking/:id",
+        element: <MyBookings />,
+      },
     ],
   },
   {
