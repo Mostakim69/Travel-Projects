@@ -6,8 +6,8 @@ export const navItems = [
     path: "/",
   },
   {
-    name: "Assignments",
-    path: "assignments",
+    name: "Dashboard",
+    path: "/dashboard",
   },
   {
     name: "Pending Assignments",
