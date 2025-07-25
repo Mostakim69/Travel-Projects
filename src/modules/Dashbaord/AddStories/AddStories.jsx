@@ -8,7 +8,6 @@ import useUserRole from "../../../hooks/useUserRole";
 const AddStories = () => {
   const { user } = useAuth();
   const { userData } = useUserRole();
-  console.log(userData, "AddStories.jsx", 11);
   const navigate = useNavigate();
   const postData = usePostData();
 
@@ -18,30 +17,6 @@ const AddStories = () => {
     formState: { errors },
   } = useForm();
 
-  /*
-   * {
-  "title": "story tittle checking",
-  "description": "dev.shahjalal@gmail.com",
-  "images": [
-    "url1",
-    "url2",
-    "url3"
-  ],
-  "userId": "688036d54582db5aafd12e4f",
-  "userName": "Tourist 4",
-  "userPhoto": "https://lh3.googleusercontent.com/a/ACg8ocIZNzjvOAYVD46KKv3EhfIQR4ReTdTY2qUH6yhK69fHC3e5cg=s96-c"
-}
-   * {
-    "title": "Updated Sunset Title updated",
-    "description": "New description for this beautiful sunset",
-    "images": [
-      "https://img.url/sunset3.jpg"
-    ],
-    "userId": "687e37ea0d85a52d76c2eb6c",
-    "userName": "Jalal Uddin",
-    "userPhoto": "https://img.url/profile.jpg",
-    "__v": 0
-  }*/
   const onSubmit = async (data) => {
     const payload = {
       title: data.title,
@@ -54,7 +29,8 @@ const AddStories = () => {
 
     try {
       console.log(payload, "payload AddStories.jsx", 21);
-      const res = await postData("/stories", payload);
+      const res = await postData({ url: "/stories", payload });
+
       console.log(res, " res of AddStories.jsx", 30);
       if (res.data?.success) {
         toast.success("Story added successfully!");
