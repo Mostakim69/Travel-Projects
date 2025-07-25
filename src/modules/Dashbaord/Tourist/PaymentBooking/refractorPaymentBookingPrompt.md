@@ -1,3 +1,214 @@
+You are a **senior full-stack developer**.
+
+## 📌 Task
+
+You are given a real-world code module located at:
+
+```
+/run/media/sj/developer/web/L1B11/12mi/ass/DeshGuide/DeshGuide-client/src/modules/Dashbaord/Tourist/PaymentBooking
+```
+
+Refactor the entire codebase **without modifying any UI or changing behavior**. Instead, improve it using:
+
+- ✅ Clear separation of concerns
+- ✅ Consistent, semantic naming conventions
+- ✅ Modular architecture (hooks, services, utils, components)
+- ✅ Scalable file/folder structure
+- ✅ Industry-standard project layout and architecture
+- ✅ Readable, testable, production-grade code
+- ✅ 100% behavior and API compatibility
+
+👉 Output the refactored code to a new folder: `PaymentBooking_refactored`
+
+Also return a `.sh` script that will:
+- Create that folder
+- Write all refactored files
+- Run `git add` and `git commit` with message: `refactor: added improved PaymentBooking version`
+
+---
+
+## 🌲 Full Project Structure (cwd)
+
+```bash
+/run/media/sj/developer/web/L1B11/12mi/ass/DeshGuide/DeshGuide-client
+├── bun.lock
+├── eslint.config.js
+├── index.html
+├── note.md
+├── package.json
+├── public
+│   └── CNAME
+├── README.md
+├── src
+│   ├── animation
+│   │   ├── auth-lottie.json
+│   │   ├── index.js
+│   │   ├── LottieAnimation.jsx
+│   │   └── motion.js
+│   ├── App.jsx
+│   ├── console
+│   │   ├── error.json
+│   │   └── log.json
+│   ├── contexts
+│   │   └── AuthContext
+│   │       ├── AuthContext.jsx
+│   │       └── AuthProvider.jsx
+│   ├── firebase
+│   │   └── firebase.init.js
+│   ├── hooks
+│   │   ├── useAuth.jsx
+│   │   ├── useAxiosSecure.jsx
+│   │   ├── useFetchData.js
+│   │   ├── useHelmet.jsx
+│   │   ├── usePostData.jsx
+│   │   └── useUserRole.jsx
+│   ├── index.css
+│   ├── loggerClient.js
+│   ├── main.jsx
+│   ├── modules
+│   │   ├── Auth
+│   │   │   ├── AuthLayout.jsx
+│   │   │   ├── AuthRoute.jsx
+│   │   │   ├── components
+│   │   │   │   ├── AuthSidebar.jsx
+│   │   │   │   ├── constant.js
+│   │   │   │   ├── SideBarCard.jsx
+│   │   │   │   ├── SigninForm.jsx
+│   │   │   │   ├── Signout.jsx
+│   │   │   │   ├── SignUpForm.jsx
+│   │   │   │   └── SocialLogin.jsx
+│   │   │   ├── index.js
+│   │   │   └── pages
+│   │   │       ├── ForgotPass.jsx
+│   │   │       ├── Signin.jsx
+│   │   │       └── SignUp.jsx
+│   │   ├── Dashbaord
+│   │   │   ├── DashboardLayout.jsx
+│   │   │   ├── TourGuides
+│   │   │   │   ├── GuideProfile
+│   │   │   │   │   └── GuideProfile.jsx
+│   │   │   │   └── TourGuides.jsx
+│   │   │   └── Tourist
+│   │   │       ├── Bookings
+│   │   │       │   ├── BookingCard.jsx
+│   │   │       │   └── MyBookings.jsx
+│   │   │       └── PaymentBooking
+│   │   │           ├── PaymentBooking.jsx
+│   │   │           └── PaymentForm.jsx
+│   │   ├── landing
+│   │   │   ├── home
+│   │   │   │   ├── Bannnerr
+│   │   │   │   │   └── Banner.jsx
+│   │   │   │   ├── CallToActionFull
+│   │   │   │   │   └── CallToActionFull.jsx
+│   │   │   │   ├── Home.jsx
+│   │   │   │   ├── HowItWorks
+│   │   │   │   │   └── HowItWorks.jsx
+│   │   │   │   ├── LiveStats
+│   │   │   │   │   └── LiveStats.jsx
+│   │   │   │   ├── NewsletterSignup
+│   │   │   │   │   └── NewsletterSignup.jsx
+│   │   │   │   ├── Overview
+│   │   │   │   │   ├── Overview.jsx
+│   │   │   │   │   └── Stories
+│   │   │   │   │       ├── Stories.jsx
+│   │   │   │   │       └── StoryCard.jsx
+│   │   │   │   ├── PartnerWithUs
+│   │   │   │   │   └── PartnerWithUs.jsx
+│   │   │   │   ├── RandomGuides
+│   │   │   │   │   └── RandomGuides.jsx
+│   │   │   │   ├── Testimonials
+│   │   │   │   │   ├── TestimonialCard.jsx
+│   │   │   │   │   └── Testimonials.jsx
+│   │   │   │   ├── TourismAndGuides.jsx
+│   │   │   │   ├── TrendingDestinations
+│   │   │   │   │   └── TrendingDestinations.jsx
+│   │   │   │   └── WhyChooseUs
+│   │   │   │       └── WhyChooseUs.jsx
+│   │   │   └── index.js
+│   │   ├── Packages
+│   │   │   └── PackageDetails
+│   │   │       └── PackageDetails.jsx
+│   │   └── shared
+│   │       ├── Layout
+│   │       │   ├── CommonFooter.jsx
+│   │       │   ├── index.js
+│   │       │   ├── navbarDrawer
+│   │       │   │   ├── Navdrawer.jsx
+│   │       │   │   └── NavdrawerStart.jsx
+│   │       │   ├── NavbarDrawer.jsx
+│   │       │   ├── Navbar.jsx
+│   │       │   ├── navbarLinksConstant.jsx
+│   │       │   ├── RootLayout.jsx
+│   │       │   ├── SidebarLink.jsx
+│   │       │   ├── sidebarLinks.js
+│   │       │   └── Spinner.jsx
+│   │       └── ui
+│   │           ├── Avatar.jsx
+│   │           ├── Brand.jsx
+│   │           ├── Button.jsx
+│   │           ├── DropDown.jsx
+│   │           ├── index.js
+│   │           └── Input.jsx
+│   ├── pages
+│   │   └── faq
+│   │       ├── faq.constant.js
+│   │       └── FAQ.jsx
+│   ├── router
+│   │   ├── ErrorPage.jsx
+│   │   ├── ProtectedRoute.jsx
+│   │   └── router.jsx
+│   └── utils
+│       ├── axiosInstance.js
+│       ├── customAlert.js
+│       ├── deleteData.js
+│       ├── ErrorMessage.jsx
+│       ├── fetchData.js
+│       ├── PageIntro.jsx
+│       ├── postData.js
+│       ├── TypeWriterEffect.jsx
+│       └── updateData.js
+├── structure.md
+├── tmuxShow03_25_অপরাহ্ণ_19_07_25.mp4
+├── vite.config.js
+└── vite.logger.plugin.js
+
+43 directories, 99 files
+```
+
+## 📁 Target Module Tree (PaymentBooking)
+
+```bash
+/run/media/sj/developer/web/L1B11/12mi/ass/DeshGuide/DeshGuide-client/src/modules/Dashbaord/Tourist/PaymentBooking
+├── PaymentBooking.jsx
+└── PaymentForm.jsx
+
+1 directory, 2 files
+```
+
+## 📄 Module Files & Contents
+
+### `PaymentBooking.jsx`
+```javascript
+import { Elements } from "@stripe/react-stripe-js";
+import { loadStripe } from "@stripe/stripe-js";
+import PaymentForm from "./PaymentForm";
+
+const stripePromise = loadStripe(import.meta.env.VITE_payment_Key);
+
+const Payment = () => {
+  return (
+    <Elements stripe={stripePromise}>
+      <PaymentForm></PaymentForm>
+    </Elements>
+  );
+};
+
+export default Payment;
+```
+
+### `PaymentForm.jsx`
+```javascript
 import { CardElement, useElements, useStripe } from "@stripe/react-stripe-js";
 import { useQuery } from "@tanstack/react-query";
 import { useState } from "react";
@@ -333,3 +544,4 @@ const PaymentForm = () => {
 };
 
 export default PaymentForm; */
+```
