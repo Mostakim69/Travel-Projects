@@ -22,7 +22,7 @@ const JoinTourGuide = () => {
   // Mutation: POST request to JoinTourGuide
   const { mutateAsync, isPending } = useMutation({
     mutationFn: async (payload) => {
-      const res = await axiosSecure.post("/JoinTourGuide", payload);
+      const res = await axiosSecure.post("tour-guide-requests", payload);
       return res.data;
     },
     onSuccess: () => {
@@ -31,7 +31,7 @@ const JoinTourGuide = () => {
         "We'll review your application shortly.",
         "success",
       );
-      setTimeout(() => navigate("/dashboard/overview"), 2000);
+      setTimeout(() => navigate("/dashboard"), 2000);
       reset();
     },
     onError: (err) => {
