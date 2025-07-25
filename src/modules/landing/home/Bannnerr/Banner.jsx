@@ -19,8 +19,8 @@ export default function Banner() {
             Your digital travel companion for authentic adventures, local
             guides, and unforgettable memories — all in one place.
           </p>
-
-          <div className="flex flex-wrap justify-center gap-4">
+          export{" "}
+          <div className="flex flex-wrap justify-center gap-4 *:rounded-full *:hover:scale-104 *:hover:shadow-2xl">
             <button className="btn bg-gradient-to-r from-[#22d3ee] to-[#a78bfa] border-0 text-white shadow-lg hover:opacity-90 transition-all duration-200 text-lg px-6">
               🌏 Explore Now
             </button>
