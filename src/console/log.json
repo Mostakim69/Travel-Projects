@@ -1869,3 +1869,157 @@
     "__v": 0
   }
 ]  storeies ManageStories.jsx 21
+[01:07 PM 25-07-25] [
+  {
+    "_id": "6883288c21fd17fd5d8a30e4",
+    "title": "Bird Watching at Tanguar Haor",
+    "description": "The wetlands came alive with hundreds of migratory birds flying in sync. I spent hours watching them dive and glide across the water. The sound of flapping wings and nature’s stillness was unforgettable.",
+    "images": [
+      "https://img.url/tanguar1.jpg",
+      "https://img.url/tanguar2.jpg"
+    ],
+    "userId": "688036d54582db5aafd12e4f",
+    "userName": "Jalal Uddin",
+    "userPhoto": "https://img.url/profile.jpg",
+    "createdAt": "2025-07-25T06:47:40.034Z",
+    "updatedAt": "2025-07-25T06:47:40.034Z",
+    "__v": 0
+  },
+  {
+    "_id": "6883287b21fd17fd5d8a30e1",
+    "title": "Exploring Mahasthangarh",
+    "description": "Walking through the ancient ruins of Mahasthangarh was like stepping into history. The air was still, and the broken walls whispered tales of civilizations long gone. A truly humbling experience.",
+    "images": [
+      "https://img.url/mahasthan1.jpg",
+      "https://img.url/mahasthan2.jpg"
+    ],
+    "userId": "688036d54582db5aafd12e4f",
+    "userName": "Jalal Uddin",
+    "userPhoto": "https://img.url/profile.jpg",
+    "createdAt": "2025-07-25T06:47:23.542Z",
+    "updatedAt": "2025-07-25T06:47:23.542Z",
+    "__v": 0
+  },
+  {
+    "_id": "6883286621fd17fd5d8a30de",
+    "title": "Hiking Nilgiri Hills",
+    "description": "We started the hike before sunrise and reached the top just in time to watch the valley wake up. The clouds floated beneath our feet, and the breeze was refreshingly cool. A moment of pure peace.",
+    "images": [
+      "https://img.url/nilgiri1.jpg",
+      "https://img.url/nilgiri2.jpg"
+    ],
+    "userId": "688036d54582db5aafd12e4f",
+    "userName": "Jalal Uddin",
+    "userPhoto": "https://img.url/profile.jpg",
+    "createdAt": "2025-07-25T06:47:02.965Z",
+    "updatedAt": "2025-07-25T06:47:02.965Z",
+    "__v": 0
+  },
+  {
+    "_id": "6883284b21fd17fd5d8a30db",
+    "title": "Boat Ride in Sajek",
+    "description": "We explored the river early in the morning. The fog gently floated above the water, and everything felt like a dream. Local kids waved at us from the banks while the hills echoed with the sound of our paddles.",
+    "images": [
+      "https://img.url/boat1.jpg",
+      "https://img.url/boat2.jpg"
+    ],
+    "userId": "688036d54582db5aafd12e4f",
+    "userName": "Jalal Uddin",
+    "userPhoto": "https://img.url/profile.jpg",
+    "createdAt": "2025-07-25T06:46:35.020Z",
+    "updatedAt": "2025-07-25T06:46:35.020Z",
+    "__v": 0
+  },
+  {
+    "_id": "6883281221fd17fd5d8a30d7",
+    "title": "Rangamati",
+    "description": "Witnessed the most beautiful sunset ever! The sky was painted in golden and purple hues as the sun dipped below the hills. The calm lake reflected the colors like a mirror—truly mesmerizing.",
+    "images": [
+      "https://img.url/sunset1.jpg",
+      "https://img.url/sunset2.jpg"
+    ],
+    "userId": "688036d54582db5aafd12e4f",
+    "userName": "Jalal Uddin",
+    "userPhoto": "https://img.url/profile.jpg",
+    "createdAt": "2025-07-25T06:45:38.605Z",
+    "updatedAt": "2025-07-25T06:45:38.605Z",
+    "__v": 0
+  }
+]  storeies ManageStories.jsx 21
+[01:07 PM 25-07-25] [
+  {
+    "_id": "6883288c21fd17fd5d8a30e4",
+    "title": "Bird Watching at Tanguar Haor",
+    "description": "The wetlands came alive with hundreds of migratory birds flying in sync. I spent hours watching them dive and glide across the water. The sound of flapping wings and nature’s stillness was unforgettable.",
+    "images": [
+      "https://img.url/tanguar1.jpg",
+      "https://img.url/tanguar2.jpg"
+    ],
+    "userId": "688036d54582db5aafd12e4f",
+    "userName": "Jalal Uddin",
+    "userPhoto": "https://img.url/profile.jpg",
+    "createdAt": "2025-07-25T06:47:40.034Z",
+    "updatedAt": "2025-07-25T06:47:40.034Z",
+    "__v": 0
+  },
+  {
+    "_id": "6883287b21fd17fd5d8a30e1",
+    "title": "Exploring Mahasthangarh",
+    "description": "Walking through the ancient ruins of Mahasthangarh was like stepping into history. The air was still, and the broken walls whispered tales of civilizations long gone. A truly humbling experience.",
+    "images": [
+      "https://img.url/mahasthan1.jpg",
+      "https://img.url/mahasthan2.jpg"
+    ],
+    "userId": "688036d54582db5aafd12e4f",
+    "userName": "Jalal Uddin",
+    "userPhoto": "https://img.url/profile.jpg",
+    "createdAt": "2025-07-25T06:47:23.542Z",
+    "updatedAt": "2025-07-25T06:47:23.542Z",
+    "__v": 0
+  },
+  {
+    "_id": "6883286621fd17fd5d8a30de",
+    "title": "Hiking Nilgiri Hills",
+    "description": "We started the hike before sunrise and reached the top just in time to watch the valley wake up. The clouds floated beneath our feet, and the breeze was refreshingly cool. A moment of pure peace.",
+    "images": [
+      "https://img.url/nilgiri1.jpg",
+      "https://img.url/nilgiri2.jpg"
+    ],
+    "userId": "688036d54582db5aafd12e4f",
+    "userName": "Jalal Uddin",
+    "userPhoto": "https://img.url/profile.jpg",
+    "createdAt": "2025-07-25T06:47:02.965Z",
+    "updatedAt": "2025-07-25T06:47:02.965Z",
+    "__v": 0
+  },
+  {
+    "_id": "6883284b21fd17fd5d8a30db",
+    "title": "Boat Ride in Sajek",
+    "description": "We explored the river early in the morning. The fog gently floated above the water, and everything felt like a dream. Local kids waved at us from the banks while the hills echoed with the sound of our paddles.",
+    "images": [
+      "https://img.url/boat1.jpg",
+      "https://img.url/boat2.jpg"
+    ],
+    "userId": "688036d54582db5aafd12e4f",
+    "userName": "Jalal Uddin",
+    "userPhoto": "https://img.url/profile.jpg",
+    "createdAt": "2025-07-25T06:46:35.020Z",
+    "updatedAt": "2025-07-25T06:46:35.020Z",
+    "__v": 0
+  },
+  {
+    "_id": "6883281221fd17fd5d8a30d7",
+    "title": "Rangamati",
+    "description": "Witnessed the most beautiful sunset ever! The sky was painted in golden and purple hues as the sun dipped below the hills. The calm lake reflected the colors like a mirror—truly mesmerizing.",
+    "images": [
+      "https://img.url/sunset1.jpg",
+      "https://img.url/sunset2.jpg"
+    ],
+    "userId": "688036d54582db5aafd12e4f",
+    "userName": "Jalal Uddin",
+    "userPhoto": "https://img.url/profile.jpg",
+    "createdAt": "2025-07-25T06:45:38.605Z",
+    "updatedAt": "2025-07-25T06:45:38.605Z",
+    "__v": 0
+  }
+]  storeies ManageStories.jsx 21
