@@ -16,6 +16,7 @@ const AddStories = () => {
   } = useForm();
 
   const onSubmit = async (data) => {
+    console.log(data, "AddStories.jsx", 19);
     const payload = {
       title: data.title,
       description: data.description,
@@ -27,7 +28,8 @@ const AddStories = () => {
 
     try {
       const res = await postData("/stories", payload);
-      if (res.insertedId) {
+      console.log(res, "AddStories.jsx", 30);
+      if (res.data?.success) {
         toast.success("Story added successfully!");
         navigate("/dashboard/my-stories");
       }
@@ -92,7 +94,7 @@ const AddStories = () => {
 
         <button
           type="submit"
-          className="w-full py-2 bg-cyan-600 hover:bg-cyan-700 text-white font-semibold rounded shadow-md transition"
+          className="w-full py-2 bg-cyan-600 hover:bg-cyan-700 text-white font-semibold rounded-full shadow-md transition"
         >
           Post Story
         </button>
