@@ -16,7 +16,7 @@ const PaymentForm = () => {
   const [error, setError] = useState("");
 
   const { isPending, data: bookingInfo = {} } = useQuery({
-    queryKey: ["parcels", bookingId],
+    queryKey: ["booking", "payment booking", bookingId],
     queryFn: async () => {
       const res = await axiosSecure.get(`bookings/${bookingId}`);
       return res.data?.data;
@@ -24,7 +24,7 @@ const PaymentForm = () => {
   });
 
   if (isPending) {
-    return "...loading";
+    return <div>...loading</div>;
   }
 
   const amount = bookingInfo.price;

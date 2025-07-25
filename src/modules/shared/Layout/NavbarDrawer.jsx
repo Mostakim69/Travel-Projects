@@ -4,30 +4,34 @@ import SidebarLink from "./SidebarLink";
 
 // ✅ Role-based sidebar links
 const adminLinks = [
-  { name: "Overview", path: "/dashboard/admin/overview" },
+  { name: "Manage Profile", path: "/dashboard/admin/manage-profile" },
   { name: "Manage Users", path: "/dashboard/admin/users" },
+  { name: "Add Package", path: "/dashboard/admin/add-package" },
+  { name: "Manage Candidates", path: "/dashboard/admin/candidates" },
   { name: "All Bookings", path: "/dashboard/admin/bookings" },
   { name: "Payments", path: "/dashboard/admin/payments" },
 ];
 
 const guideLinks = [
-  { name: "Manage Profile", path: "/dashboard/manage-profile" },
-  { name: "My Tours", path: "/dashboard/guide/tours" },
-  { name: "Earnings", path: "/dashboard/guide/earnings" },
+  { name: "Manage Profile", path: "/dashboard/guide/manage-profile" },
+  { name: "My Assigned Tours", path: "/dashboard/guide/my-assigned-tours" },
+  { name: "Manage Stories", path: "/dashboard/guide/manage-stories" },
   { name: "Profile", path: "/dashboard/guide/profile" },
 ];
 
 const touristLinks = [
-  { name: "Manage Profile", path: "/dashboard/manage-profile" },
+  { name: "Manage Profile", path: "/dashboard/tourist/manage-profile" },
   { name: "My Bookings", path: "/dashboard/my-bookings" },
-  { name: "Manage Stories", path: "/dashboard/manage-stories" },
-  { name: "Join as Tour Guide", path: "/dashboard/join-tour-guide" },
+  { name: "Manage Stories", path: "/dashboard/tourist/manage-stories" },
+  { name: "Join as Tour Guide", path: "/dashboard/tourist/join-tour-guide" },
 ];
 
 const NavbarDrawer = () => {
   // const { role } = useUser(); // example: { role: 'tourist' }
 
-  const role = "tourist";
+  // const role = "admin";
+  // const role = "tourist";
+  const role = "tour-guide";
   const location = useLocation();
 
   const links =
