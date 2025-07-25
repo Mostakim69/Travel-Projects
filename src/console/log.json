@@ -247,3 +247,25 @@
     "createdAt": "2025-07-22T09:34:04.623Z"
   }
 ] TourismAndGuides.jsx 7
+[05:35 PM 25-07-25] {
+  "success": true,
+  "message": "Booking created successfully!",
+  "data": {
+    "packageId": "687f5afeec95de7ba201f13f",
+    "packageName": "Sajek Adventure 2",
+    "touristId": "688036d54582db5aafd12e4f",
+    "touristName": "Tourist 4",
+    "touristEmail": "tourist4@example.com",
+    "touristPhoto": "https://i.ibb.co/sample-image.png",
+    "guideId": "687cff8d095a1d459861b897",
+    "guideName": "John Doe",
+    "price": 4500,
+    "tourDate": "2026-12-30T00:00:00.000Z",
+    "status": "pending",
+    "paymentStatus": "unpaid",
+    "transactionId": "",
+    "_id": "68836c0e6261e0f84285c3b5",
+    "createdAt": "2025-07-25T11:35:42.221Z",
+    "updatedAt": "2025-07-25T11:35:42.221Z"
+  }
+} booking PackageDetails.jsx 81
