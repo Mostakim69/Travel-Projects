@@ -248,3 +248,44 @@
   "code": "ERR_BAD_REQUEST",
   "status": 400
 }
+[2025-07-25T01:50:21.449Z] Unhandled Promise Rejection: {
+  "message": "Request failed with status code 404",
+  "name": "AxiosError",
+  "stack": "settle@http://localhost:5173/node_modules/.vite/deps/axios.js?v=a917fa1f:1229:12\nonloadend@http://localhost:5173/node_modules/.vite/deps/axios.js?v=a917fa1f:1561:13\n",
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": [
+      "xhr",
+      "http",
+      "fetch"
+    ],
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/json",
+      "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjZkZTQwZjA0ODgxYzZhMDE2MTFlYjI4NGE0Yzk1YTI1MWU5MTEyNTAiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiSGVhbHRoIENhcmUiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSVpOemp2T0FZVkQ0NktLdjNFaGZJUVI0UmVUZFRZMnFVSDZ5aEs2OWZIQzNlNWNnPXM5Ni1jIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2VkdXZlcnNlLThhOTdkIiwiYXVkIjoiZWR1dmVyc2UtOGE5N2QiLCJhdXRoX3RpbWUiOjE3NTMyNjUxNzQsInVzZXJfaWQiOiJSZ0l1bWNNdXdnT0lXVnI3QkhPckZwN2xTZEozIiwic3ViIjoiUmdJdW1jTXV3Z09JV1ZyN0JIT3JGcDdsU2RKMyIsImlhdCI6MTc1MzQwNjExMywiZXhwIjoxNzUzNDA5NzEzLCJlbWFpbCI6ImhlYWx0aGNhcmUzMnFAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMTczNzk3OTM5ODI4MTI1NjAyMjkiXSwiZW1haWwiOlsiaGVhbHRoY2FyZTMycUBnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJnb29nbGUuY29tIn19.Wy8_I6bEFFQvMK79eSO4dZiSWqwjvos4cHCN8A_7UDRt-rSI3LAWO3dQ5CfRAAy0PPrmPiWBunx9zRO_LI9jweWSm1qVesxEh1XCniQVHYhQgedQl4nLqBXeeBJh3GLCE8mLaqiofMHwF4Q1IWKTU_aaQAElSzm44pBHmsLZNY7DFb-wMp7ZmuI4xa2KjOU1GIE4LUln7ebaKfiGnwMj2qLwOe1q6J43MQ3Vn0kAxu61Ewt5ZGB9Kyxl8O4tonfsD2UMSGH5cDB0yDFW7t4N_1nkv3ZnP4c0Ewzu7bxZVZH0vMy22LMqaR2SmGcvOPVhkxRLB1pezCM2PQEuh64srQ"
+    },
+    "baseURL": "http://localhost:5000/api/v1/",
+    "method": "post",
+    "url": "bookings/6881ade7f0fd0810447cfb5d",
+    "data": "{\"status\":\"accepted\",\"paymentStatus\":\"paid\"}",
+    "allowAbsoluteUrls": true
+  },
+  "code": "ERR_BAD_REQUEST",
+  "status": 404
+}
