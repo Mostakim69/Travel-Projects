@@ -1,6 +1,6 @@
-src/firebase/firebase.init.js
 .env
 node_modules
 .vite
 dist
-
+src/console/log.json
+src/firebase/firebase.init.js
