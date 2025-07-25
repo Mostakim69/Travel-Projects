@@ -628,3 +628,67 @@
     "__v": 0
   }
 ]  storeies ManageStories.jsx 21
+[02:39 PM 25-07-25] [
+  {
+    "_id": "6883288c21fd17fd5d8a30e4",
+    "title": "Bird Watching at Tanguar Haor",
+    "description": "The wetlands came alive with hundreds of migratory birds flying in sync. I spent hours watching them dive and glide across the water. The sound of flapping wings and nature’s stillness was unforgettable.",
+    "images": [
+      "https://img.url/tanguar1.jpg",
+      "https://img.url/tanguar2.jpg"
+    ],
+    "userId": "688036d54582db5aafd12e4f",
+    "userName": "Jalal Uddin",
+    "userPhoto": "https://img.url/profile.jpg",
+    "createdAt": "2025-07-25T06:47:40.034Z",
+    "updatedAt": "2025-07-25T06:47:40.034Z",
+    "__v": 0
+  },
+  {
+    "_id": "6883284b21fd17fd5d8a30db",
+    "title": "Boat Ride in Sajek",
+    "description": "We explored the river early in the morning. The fog gently floated above the water, and everything felt like a dream. Local kids waved at us from the banks while the hills echoed with the sound of our paddles.",
+    "images": [
+      "https://img.url/boat1.jpg",
+      "https://img.url/boat2.jpg"
+    ],
+    "userId": "688036d54582db5aafd12e4f",
+    "userName": "Jalal Uddin",
+    "userPhoto": "https://img.url/profile.jpg",
+    "createdAt": "2025-07-25T06:46:35.020Z",
+    "updatedAt": "2025-07-25T06:46:35.020Z",
+    "__v": 0
+  }
+]  storeies ManageStories.jsx 21
+[02:39 PM 25-07-25] [
+  {
+    "_id": "6883288c21fd17fd5d8a30e4",
+    "title": "Bird Watching at Tanguar Haor",
+    "description": "The wetlands came alive with hundreds of migratory birds flying in sync. I spent hours watching them dive and glide across the water. The sound of flapping wings and nature’s stillness was unforgettable.",
+    "images": [
+      "https://img.url/tanguar1.jpg",
+      "https://img.url/tanguar2.jpg"
+    ],
+    "userId": "688036d54582db5aafd12e4f",
+    "userName": "Jalal Uddin",
+    "userPhoto": "https://img.url/profile.jpg",
+    "createdAt": "2025-07-25T06:47:40.034Z",
+    "updatedAt": "2025-07-25T06:47:40.034Z",
+    "__v": 0
+  },
+  {
+    "_id": "6883284b21fd17fd5d8a30db",
+    "title": "Boat Ride in Sajek",
+    "description": "We explored the river early in the morning. The fog gently floated above the water, and everything felt like a dream. Local kids waved at us from the banks while the hills echoed with the sound of our paddles.",
+    "images": [
+      "https://img.url/boat1.jpg",
+      "https://img.url/boat2.jpg"
+    ],
+    "userId": "688036d54582db5aafd12e4f",
+    "userName": "Jalal Uddin",
+    "userPhoto": "https://img.url/profile.jpg",
+    "createdAt": "2025-07-25T06:46:35.020Z",
+    "updatedAt": "2025-07-25T06:46:35.020Z",
+    "__v": 0
+  }
+]  storeies ManageStories.jsx 21
