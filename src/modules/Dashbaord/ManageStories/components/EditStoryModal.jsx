@@ -31,7 +31,7 @@ const EditStoryModal = ({ story, onClose, refetch }) => {
   };
 
   return (
-    <dialog id="edit_modal" className="modal modal-bottom sm:modal-middle" open>
+    <dialog id="edit_modal" className="modal  " open>
       <div className="modal-box bg-base-200">
         <h3 className="font-bold text-lg">Edit Story</h3>
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-4 mt-4">
