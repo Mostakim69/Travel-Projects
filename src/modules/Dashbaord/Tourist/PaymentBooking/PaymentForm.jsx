@@ -97,8 +97,9 @@ const PaymentForm = () => {
           });
 
           await axiosSecure.patch(`bookings/${bookingId}`, {
-            status: "accepted",
+            status: "in-review",
             paymentStatus: "paid",
+            transactionId,
           });
 
           navigate("/dashboard/my-bookings");
