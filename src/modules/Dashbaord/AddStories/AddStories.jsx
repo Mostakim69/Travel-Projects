@@ -29,15 +29,15 @@ const AddStories = () => {
 
     try {
       console.log(payload, "payload AddStories.jsx", 21);
+      /* await postData({
+        url: "/bookings",
+        payload: bookingPayload,
+      }); */
       const res = await postData({ url: "/stories", payload });
 
       console.log(res, " res of AddStories.jsx", 30);
-      if (res.data?.success) {
-        toast.success("Story added successfully!");
-        navigate("/dashboard/my-stories");
-      }
     } catch (err) {
-      toast.error("Failed to post story");
+      // toast.error("Failed to post story");
     }
   };
 
