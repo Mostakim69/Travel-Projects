@@ -81,3 +81,18 @@
   "status": 404
 }
 [2025-07-25T15:56:28.395Z] Uncaught  http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=d3a7b89d 13969 24
+[2025-07-25T16:00:05.143Z] Unhandled Promise Rejection: {}
+[2025-07-25T16:00:05.181Z] Unhandled Promise Rejection: {}
+[2025-07-25T16:00:05.183Z] Unhandled Promise Rejection: {}
+[2025-07-25T16:00:05.603Z] Unhandled Promise Rejection: {}
+[2025-07-25T16:00:05.607Z] Unhandled Promise Rejection: {}
+[2025-07-25T16:00:05.610Z] Unhandled Promise Rejection: {}
+[2025-07-25T16:00:13.768Z] Unhandled Promise Rejection: {}
+[2025-07-25T16:00:13.789Z] Unhandled Promise Rejection: {}
+[2025-07-25T16:00:13.791Z] Unhandled Promise Rejection: {}
+[2025-07-25T16:00:13.794Z] Unhandled Promise Rejection: {}
+[2025-07-25T16:00:13.874Z] Unhandled Promise Rejection: {}
+[2025-07-25T16:00:13.929Z] Unhandled Promise Rejection: {}
+[2025-07-25T16:00:13.931Z] Unhandled Promise Rejection: {}
+[2025-07-25T16:00:13.938Z] Unhandled Promise Rejection: {}
+[2025-07-25T16:00:13.940Z] Unhandled Promise Rejection: {}

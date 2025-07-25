@@ -19,7 +19,9 @@ const ManageProfile = () => {
     queryKey: ["manage-profile", user?.email],
     queryFn: async () => {
       // const res = await axiosSecure.get(`/users/email/${user.email}`);
-      const res = await axiosSecure.get(`/users/email/tourist4@example.com`);
+      // const res = await axiosSecure.get(`/users/email/tourist4@example.com`); emaile for tourist
+      const res = await axiosSecure.get(`/users/email/4@example.com`); // email for tour guide
+
       return res.data?.data;
     },
     enabled: !!user?.email,
@@ -46,7 +48,7 @@ const ManageProfile = () => {
       className="max-w-5xl mx-auto p-6 md:p-10 rounded-xl bg-gradient-to-br from-[#0f1328] to-[#1a1f3b] shadow-xl text-white space-y-6"
       data-aos="fade-up"
     >
-      <h1 className="text-xl sm:text-3xl font-bold text-cyan-400 mb-4">
+      <h1 className="text-xl sm:text-3xl font-bold text-cyan-400 mb-4 text-center">
         👋 Welcome back,{" "}
         <span className="text-white">{name || "Explorer"}</span>
       </h1>
