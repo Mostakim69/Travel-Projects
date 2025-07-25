@@ -11,6 +11,8 @@ import MyBookings from "../modules/Dashbaord/Tourist/Bookings/MyBookings";
 import DashboardLayout from "../modules/Dashbaord/DashboardLayout";
 import PaymentBooking from "../modules/Dashbaord/Tourist/PaymentBooking/PaymentBooking";
 import ManageProfile from "../modules/Dashbaord/ManageProfile/ManageProfile";
+import JoinTourGuide from "../modules/Dashbaord/Tourist/JoinTourGuide/JoinTourGuide";
+import ManageStories from "../modules/Dashbaord/ManageStories/ManageStories";
 
 const router = createBrowserRouter([
   {
@@ -60,8 +62,12 @@ const router = createBrowserRouter([
       },
 
       {
-        path: "manage-profile",
-        element: <ManageProfile />,
+        path: "tourist/join-tour-guide",
+        element: <JoinTourGuide />,
+      },
+      {
+        path: "tourist/manage-stories",
+        element: <ManageStories />,
       },
     ],
   },
