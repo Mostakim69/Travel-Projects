@@ -55,7 +55,7 @@ const router = createBrowserRouter([
         element: <PaymentBooking />,
       },
       {
-        path: "guide/manage-profile",
+        path: "tourist/manage-profile",
         element: <ManageProfile />,
       },
     ],

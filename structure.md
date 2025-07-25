@@ -59,14 +59,20 @@
 │   │   │       └── SignUp.jsx
 │   │   ├── Dashbaord
 │   │   │   ├── DashboardLayout.jsx
+│   │   │   ├── ManageProfile
+│   │   │   │   └── ManageProfile.jsx
 │   │   │   ├── TourGuides
 │   │   │   │   ├── GuideProfile
 │   │   │   │   │   └── GuideProfile.jsx
 │   │   │   │   └── TourGuides.jsx
 │   │   │   └── Tourist
-│   │   │       └── Bookings
-│   │   │           ├── BookingCard.jsx
-│   │   │           └── MyBookings.jsx
+│   │   │       ├── Bookings
+│   │   │       │   ├── BookingCard.jsx
+│   │   │       │   └── MyBookings.jsx
+│   │   │       └── PaymentBooking
+│   │   │           ├── PaymentBooking.jsx
+│   │   │           ├── PaymentForm.jsx
+│   │   │           └── refractorPaymentBookingPrompt.md
 │   │   ├── landing
 │   │   │   ├── home
 │   │   │   │   ├── Bannnerr
@@ -112,6 +118,8 @@
 │   │       │   ├── Navbar.jsx
 │   │       │   ├── navbarLinksConstant.jsx
 │   │       │   ├── RootLayout.jsx
+│   │       │   ├── SidebarLink.jsx
+│   │       │   ├── sidebarLinks.js
 │   │       │   └── Spinner.jsx
 │   │       └── ui
 │   │           ├── Avatar.jsx
@@ -136,7 +144,6 @@
 │       ├── fetchData.js
 │       ├── PageIntro.jsx
 │       ├── postData.js
-
 │       ├── TypeWriterEffect.jsx
 │       └── updateData.js
 ├── structure.md
@@ -144,6 +151,6 @@
 ├── vite.config.js
 └── vite.logger.plugin.js
 
-44 directories, 97 files
+46 directories, 103 files
 
 ```

@@ -289,3 +289,4 @@
   "code": "ERR_BAD_REQUEST",
   "status": 404
 }
+[2025-07-25T02:10:32.715Z] Error: Could not find a matching route for errors on route IDs: 0 http://localhost:5173/node_modules/.vite/deps/react-router.js?v=a917fa1f 528 11
