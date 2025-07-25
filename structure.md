@@ -5,7 +5,6 @@
 ├── bun.lock
 ├── eslint.config.js
 ├── index.html
-├── note.md
 ├── package.json
 ├── public
 │   └── CNAME
@@ -36,6 +35,7 @@
 │   │   ├── useFetchData.js
 │   │   ├── useHelmet.jsx
 │   │   ├── usePostData.jsx
+│   │   ├── useSecureQuery.jsx
 │   │   └── useUserRole.jsx
 │   ├── index.css
 │   ├── loggerClient.js
@@ -61,6 +61,8 @@
 │   │   │   ├── DashboardLayout.jsx
 │   │   │   ├── ManageProfile
 │   │   │   │   └── ManageProfile.jsx
+│   │   │   ├── ManageStories
+│   │   │   │   └── ManageStories.jsx
 │   │   │   ├── TourGuides
 │   │   │   │   ├── GuideProfile
 │   │   │   │   │   └── GuideProfile.jsx
@@ -69,6 +71,8 @@
 │   │   │       ├── Bookings
 │   │   │       │   ├── BookingCard.jsx
 │   │   │       │   └── MyBookings.jsx
+│   │   │       ├── JoinTourGuide
+│   │   │       │   └── JoinTourGuide.jsx
 │   │   │       └── PaymentBooking
 │   │   │           ├── PaymentBooking.jsx
 │   │   │           ├── PaymentForm.jsx
@@ -151,6 +155,6 @@
 ├── vite.config.js
 └── vite.logger.plugin.js
 
-46 directories, 103 files
+48 directories, 105 files
 
 ```
