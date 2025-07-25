@@ -11,17 +11,17 @@ const adminLinks = [
 ];
 
 const guideLinks = [
-  { name: "My Bookings", path: "/dashboard/guide/bookings" },
+  { name: "Manage Profile", path: "/dashboard/manage-profile" },
   { name: "My Tours", path: "/dashboard/guide/tours" },
   { name: "Earnings", path: "/dashboard/guide/earnings" },
   { name: "Profile", path: "/dashboard/guide/profile" },
 ];
 
 const touristLinks = [
+  { name: "Manage Profile", path: "/dashboard/manage-profile" },
   { name: "My Bookings", path: "/dashboard/my-bookings" },
-  { name: "My Stories", path: "/dashboard/my-stories" },
-  { name: "Wishlist", path: "/dashboard/wishlist" },
-  { name: "Profile", path: "/dashboard/profile" },
+  { name: "Manage Stories", path: "/dashboard/manage-stories" },
+  { name: "Join as Tour Guide", path: "/dashboard/join-tour-guide" },
 ];
 
 const NavbarDrawer = () => {
