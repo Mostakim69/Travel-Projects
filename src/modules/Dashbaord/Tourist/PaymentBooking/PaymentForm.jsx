@@ -5,6 +5,7 @@ import { useNavigate, useParams } from "react-router";
 import Swal from "sweetalert2";
 import useAuth from "../../../../hooks/useAuth";
 import useAxiosSecure from "../../../../hooks/useAxiosSecure";
+import { darkSwal } from "../../../../hooks/usePostData";
 const PaymentForm = () => {
   const stripe = useStripe();
   const elements = useElements();
@@ -83,19 +84,19 @@ const PaymentForm = () => {
         if (result.paymentIntent.status === "succeeded") {
           console.log("Payment succeeded!");
           const transactionId = result.paymentIntent.id;
-          // step-4 mark parcel paid also create payment history
+
           const paymentData = {
-            parcelId: bookingId,
-            email: user.email,
+            bookingId,
             amount,
-            transactionId: transactionId,
+            email: user?.email,
+            transactionId,
             paymentMethod: result.paymentIntent.payment_method_types,
           };
 
           const paymentRes = await axiosSecure.post("/payments", paymentData);
           if (paymentRes.data.insertedId) {
             // ✅ Show SweetAlert with transaction ID
-            await Swal.fire({
+            await darkSwal.fire({
               icon: "success",
               title: "Payment Successful!",
               html: `<strong>Transaction ID:</strong> <code>${transactionId}</code>`,
@@ -103,7 +104,7 @@ const PaymentForm = () => {
             });
 
             // ✅ Redirect to /myParcels
-            navigate("/dashboard/myParcels");
+            navigate("/dashboard/my-bookings");
           }
         }
       }

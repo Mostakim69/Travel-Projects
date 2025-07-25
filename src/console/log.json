@@ -3534,3 +3534,3403 @@
   "updatedAt": "2025-07-24T03:56:21.856Z"
 }
 [05:58 AM 25-07-25] 450000
+[06:00 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:00 AM 25-07-25] 450000
+[06:00 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:00 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:00 AM 25-07-25] 450000
+[06:00 AM 25-07-25] 450000
+[06:00 AM 25-07-25] 450000
+[06:00 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:00 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:00 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:00 AM 25-07-25] 450000
+[06:00 AM 25-07-25] 450000
+[06:00 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:00 AM 25-07-25] 450000
+[06:00 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:00 AM 25-07-25] 450000
+[06:00 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:00 AM 25-07-25] 450000
+[06:00 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:00 AM 25-07-25] 450000
+[06:00 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:00 AM 25-07-25] 450000
+[06:00 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:00 AM 25-07-25] 450000
+[06:00 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:00 AM 25-07-25] 450000
+[06:00 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:00 AM 25-07-25] 450000
+[06:00 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:00 AM 25-07-25] 450000
+[06:00 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:00 AM 25-07-25] 450000
+[06:00 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:00 AM 25-07-25] 450000
+[06:00 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:00 AM 25-07-25] 450000
+[06:00 AM 25-07-25] 450000
+[06:00 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:00 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:00 AM 25-07-25] 450000
+[06:02 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:02 AM 25-07-25] 450000
+[06:02 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:02 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:02 AM 25-07-25] 450000
+[06:02 AM 25-07-25] 450000
+[06:02 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:02 AM 25-07-25] 450000
+[06:02 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:02 AM 25-07-25] 450000
+[06:02 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:02 AM 25-07-25] 450000
+[06:02 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:02 AM 25-07-25] 450000
+[06:02 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:02 AM 25-07-25] 450000
+[06:03 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:03 AM 25-07-25] 450000
+[06:03 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:03 AM 25-07-25] 450000
+[06:03 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:03 AM 25-07-25] 450000
+[06:03 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:03 AM 25-07-25] 450000
+[06:03 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:03 AM 25-07-25] 450000
+[06:03 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:03 AM 25-07-25] 450000
+[06:03 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:03 AM 25-07-25] 450000
+[06:03 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:03 AM 25-07-25] 450000
+[06:03 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:03 AM 25-07-25] 450000
+[06:03 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:03 AM 25-07-25] 450000
+[06:03 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:03 AM 25-07-25] 450000
+[06:03 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:03 AM 25-07-25] 450000
+[06:03 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:03 AM 25-07-25] 450000
+[06:03 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:03 AM 25-07-25] 450000
+[06:03 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:03 AM 25-07-25] 450000
+[06:03 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:03 AM 25-07-25] 450000
+[06:03 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:03 AM 25-07-25] 450000
+[06:03 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:03 AM 25-07-25] 450000
+[06:03 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:03 AM 25-07-25] 450000
+[06:03 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:03 AM 25-07-25] 450000
+[06:06 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:06 AM 25-07-25] 450000
+[06:06 AM 25-07-25] 450000
+[06:06 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:06 AM 25-07-25] payment method {
+  "id": "pm_1RoZ9yH7Tlju1lhjcxWXCzYT",
+  "object": "payment_method",
+  "allow_redisplay": "unspecified",
+  "billing_details": {
+    "address": {
+      "city": null,
+      "country": null,
+      "line1": null,
+      "line2": null,
+      "postal_code": "33333",
+      "state": null
+    },
+    "email": null,
+    "name": null,
+    "phone": null,
+    "tax_id": null
+  },
+  "card": {
+    "brand": "visa",
+    "checks": {
+      "address_line1_check": null,
+      "address_postal_code_check": null,
+      "cvc_check": null
+    },
+    "country": "US",
+    "display_brand": "visa",
+    "exp_month": 12,
+    "exp_year": 2034,
+    "funding": "credit",
+    "generated_from": null,
+    "last4": "4242",
+    "networks": {
+      "available": [
+        "visa"
+      ],
+      "preferred": null
+    },
+    "regulated_status": "unregulated",
+    "three_d_secure_usage": {
+      "supported": true
+    },
+    "wallet": null
+  },
+  "created": 1753402010,
+  "customer": null,
+  "livemode": false,
+  "radar_options": {},
+  "type": "card"
+}
+[06:06 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:06 AM 25-07-25] 450000
+[06:06 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:06 AM 25-07-25] 450000
+[06:06 AM 25-07-25] pi_3RoZ9zH7Tlju1lhj1dFClRtJ_secret_CC0nPPKNEWyWMrLA5Ehie4pqM PaymentForm.jsx 66
+[06:06 AM 25-07-25] Payment succeeded!
+[06:06 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:06 AM 25-07-25] 450000
+[06:06 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:06 AM 25-07-25] 450000
