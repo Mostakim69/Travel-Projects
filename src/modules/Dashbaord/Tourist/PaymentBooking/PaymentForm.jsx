@@ -2,7 +2,6 @@ import { CardElement, useElements, useStripe } from "@stripe/react-stripe-js";
 import { useQuery } from "@tanstack/react-query";
 import { useState } from "react";
 import { useNavigate, useParams } from "react-router";
-import Swal from "sweetalert2";
 import useAuth from "../../../../hooks/useAuth";
 import useAxiosSecure from "../../../../hooks/useAxiosSecure";
 import { darkSwal } from "../../../../hooks/usePostData";
@@ -57,10 +56,10 @@ const PaymentForm = () => {
       // step-2: create payment intent
       const res = await axiosSecure.post("payments/create-payment-intent", {
         amountInCents,
-        parcelId: bookingId,
+        bookingId,
       });
 
-      const clientSecret = res.data.data.clientSecret;
+      const clientSecret = res?.data?.data?.clientSecret;
 
       // step-3: confirm payment
       const result = await stripe.confirmCardPayment(clientSecret, {
@@ -90,15 +89,15 @@ const PaymentForm = () => {
           };
 
           const paymentRes = await axiosSecure.post("/payments", paymentData);
-          console.log(paymentRes.data.data?._id, "checking");
-          console.log(paymentRes, "PaymentForm.jsx", 93);
-          if (paymentRes.data.data?.data?._id) {
+          // console.log(paymentRes.data., "checking");
+          console.log(paymentRes?.data?.data?._id, "PaymentForm.jsx", 93);
+          if (paymentRes?.data?.data?._id) {
             // ✅ Show SweetAlert with transaction ID
             await darkSwal.fire({
               icon: "success",
               title: "Payment Successful!",
               html: `<strong>Transaction ID:</strong> <code>${transactionId}</code>`,
-              confirmButtonText: "Go to My Parcels",
+              confirmButtonText: "Go to My Bookings",
             });
 
             // ✅ Redirect to /myParcels
