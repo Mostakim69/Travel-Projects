@@ -3,7 +3,7 @@ import { darkSwal } from "../../../../hooks/usePostData";
 import useSecureUpdate from "../../../../hooks/useSecureUpdate";
 
 const EditStoryModal = ({ story, onClose, refetch }) => {
-  const { register, handleSubmit, reset } = useForm({
+  const { register, handleSubmit } = useForm({
     defaultValues: {
       title: story?.title,
       description: story?.description,
@@ -12,6 +12,7 @@ const EditStoryModal = ({ story, onClose, refetch }) => {
 
   const { mutate: updateStory, isPending } = useSecureUpdate(
     `/stories/${story._id}`,
+    // stories/687e509abf17c8a9265b66dd
   );
 
   const onSubmit = (data) => {
