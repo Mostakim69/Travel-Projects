@@ -28,10 +28,8 @@ const PaymentForm = () => {
     return "...loading";
   }
 
-  console.log(bookingInfo);
   const amount = bookingInfo.price;
   const amountInCents = amount * 100;
-  console.log(amountInCents);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -46,7 +44,7 @@ const PaymentForm = () => {
     }
 
     // step- 1: validate the card
-    const { error, paymentMethod } = await stripe.createPaymentMethod({
+    const { error } = await stripe.createPaymentMethod({
       type: "card",
       card,
     });
@@ -55,7 +53,6 @@ const PaymentForm = () => {
       setError(error.message);
     } else {
       setError("");
-      console.log("payment method", paymentMethod);
 
       // step-2: create payment intent
       const res = await axiosSecure.post("payments/create-payment-intent", {
@@ -64,7 +61,6 @@ const PaymentForm = () => {
       });
 
       const clientSecret = res.data.data.clientSecret;
-      console.log(clientSecret, "PaymentForm.jsx", 66);
 
       // step-3: confirm payment
       const result = await stripe.confirmCardPayment(clientSecret, {
@@ -94,7 +90,9 @@ const PaymentForm = () => {
           };
 
           const paymentRes = await axiosSecure.post("/payments", paymentData);
-          if (paymentRes.data.insertedId) {
+          console.log(paymentRes.data.data?._id, "checking");
+          console.log(paymentRes, "PaymentForm.jsx", 93);
+          if (paymentRes.data.data?.data?._id) {
             // ✅ Show SweetAlert with transaction ID
             await darkSwal.fire({
               icon: "success",

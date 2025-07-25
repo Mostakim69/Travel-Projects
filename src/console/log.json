@@ -6934,3 +6934,506 @@
   "updatedAt": "2025-07-24T03:56:21.856Z"
 }
 [06:06 AM 25-07-25] 450000
+[06:07 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:07 AM 25-07-25] 450000
+[06:07 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:07 AM 25-07-25] 450000
+[06:07 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:07 AM 25-07-25] 450000
+[06:07 AM 25-07-25] {
+  "_id": "6881aee5f0fd0810447cfb7a",
+  "packageId": {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  "packageName": "Sajek Adventure 2",
+  "touristId": {
+    "_id": "688036d54582db5aafd12e4f",
+    "name": "Tourist 4",
+    "email": "tourist4@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tourist",
+    "last_loggedIn": "2025-07-23T01:11:49.709Z",
+    "createdAt": "2025-07-23T01:11:49.710Z",
+    "updatedAt": "2025-07-23T01:11:49.710Z",
+    "__v": 0
+  },
+  "touristName": "Tourist 4",
+  "touristEmail": "tourist4@example.com",
+  "touristPhoto": "https://i.ibb.co/sample-image.png",
+  "guideId": {
+    "_id": "687ccd783d8c8c7d294a0fca",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photoURL": "https://i.ibb.co/sample-image.png",
+    "role": "tour-guide",
+    "last_loggedIn": "2025-07-20T11:05:34.984Z",
+    "createdAt": "2025-07-20T11:05:28.274Z",
+    "updatedAt": "2025-07-21T06:29:55.488Z",
+    "__v": 0
+  },
+  "guideName": "John Doe",
+  "price": 4500,
+  "tourDate": "2025-08-07T00:00:00.000Z",
+  "status": "pending",
+  "paymentStatus": "unpaid",
+  "transactionId": "",
+  "createdAt": "2025-07-24T03:56:21.856Z",
+  "updatedAt": "2025-07-24T03:56:21.856Z"
+}
+[06:07 AM 25-07-25] 450000
+[06:07 AM 25-07-25] 450000
+[06:07 AM 25-07-25] 450000
+[06:07 AM 25-07-25] 450000
+[06:07 AM 25-07-25] 450000
+[06:09 AM 25-07-25] Payment succeeded!
+[06:09 AM 25-07-25] Payment succeeded!
+[06:09 AM 25-07-25] {
+  "data": {
+    "success": true,
+    "message": "Payment created successfully!",
+    "data": {
+      "bookingId": "6881aee5f0fd0810447cfb7a",
+      "amount": 4500,
+      "email": "healthcare32q@gmail.com",
+      "transactionId": "pi_3RoZCkH7Tlju1lhj1svN1HnI",
+      "paymentMethod": [
+        "card"
+      ],
+      "_id": "6882cb47f524e26dc2b2eaf7",
+      "date": "2025-07-25T00:09:43.968Z",
+      "createdAt": "2025-07-25T00:09:43.970Z",
+      "updatedAt": "2025-07-25T00:09:43.970Z",
+      "__v": 0
+    }
+  },
+  "status": 200,
+  "statusText": "OK",
+  "headers": {
+    "content-length": "378",
+    "content-type": "application/json; charset=utf-8"
+  },
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": [
+      "xhr",
+      "http",
+      "fetch"
+    ],
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/json",
+      "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjZkZTQwZjA0ODgxYzZhMDE2MTFlYjI4NGE0Yzk1YTI1MWU5MTEyNTAiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiSGVhbHRoIENhcmUiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSVpOemp2T0FZVkQ0NktLdjNFaGZJUVI0UmVUZFRZMnFVSDZ5aEs2OWZIQzNlNWNnPXM5Ni1jIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2VkdXZlcnNlLThhOTdkIiwiYXVkIjoiZWR1dmVyc2UtOGE5N2QiLCJhdXRoX3RpbWUiOjE3NTMyNjUxNzQsInVzZXJfaWQiOiJSZ0l1bWNNdXdnT0lXVnI3QkhPckZwN2xTZEozIiwic3ViIjoiUmdJdW1jTXV3Z09JV1ZyN0JIT3JGcDdsU2RKMyIsImlhdCI6MTc1MzM5OTE0MywiZXhwIjoxNzUzNDAyNzQzLCJlbWFpbCI6ImhlYWx0aGNhcmUzMnFAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMTczNzk3OTM5ODI4MTI1NjAyMjkiXSwiZW1haWwiOlsiaGVhbHRoY2FyZTMycUBnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJnb29nbGUuY29tIn19.jotTIpYLj7cMIrzEMKJABGnLqGmyLfLXj5DSoWqfEjRfbdc3rSkwHipfGdsGc3m6oNHK6j9BSeu2-pAX6Sq4f8ZSdfrgmgDcfl5CojyeNouemwhu9-SKri7YzVoCdDv50G6fZ8F5jnMOqfAaWNIeJQL5Uq2jgtj_SXmN_V7ztHXPOUIdBMI746SjnG5146Z5TX8I0LFeuC5aGuJeDklSPGMpnq3fs9xIzG1p7vKOuEZE-0kB0DEzQHjjjf9R3z4f7tWKm0TNJWJ5TlRfvBHb6t_tSjZGayTqXdYSagujdidVXzB04DZIOdcP8yMWxWD0N0kTJJ2JCVuZZGTNx1f9Mw"
+    },
+    "baseURL": "http://localhost:5000/api/v1/",
+    "method": "post",
+    "url": "/payments",
+    "data": "{\"bookingId\":\"6881aee5f0fd0810447cfb7a\",\"amount\":4500,\"email\":\"healthcare32q@gmail.com\",\"transactionId\":\"pi_3RoZCkH7Tlju1lhj1svN1HnI\",\"paymentMethod\":[\"card\"]}",
+    "allowAbsoluteUrls": true
+  },
+  "request": {}
+} PaymentForm.jsx 93
+[06:11 AM 25-07-25] Payment succeeded!
+[06:11 AM 25-07-25] {
+  "data": {
+    "success": true,
+    "message": "Payment created successfully!",
+    "data": {
+      "bookingId": "6881aee5f0fd0810447cfb7a",
+      "amount": 4500,
+      "email": "healthcare32q@gmail.com",
+      "transactionId": "pi_3RoZEaH7Tlju1lhj0Iu0b1Nx",
+      "paymentMethod": [
+        "card"
+      ],
+      "_id": "6882cbbaf524e26dc2b2eb05",
+      "date": "2025-07-25T00:11:38.081Z",
+      "createdAt": "2025-07-25T00:11:38.082Z",
+      "updatedAt": "2025-07-25T00:11:38.082Z",
+      "__v": 0
+    }
+  },
+  "status": 200,
+  "statusText": "OK",
+  "headers": {
+    "content-length": "378",
+    "content-type": "application/json; charset=utf-8"
+  },
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": [
+      "xhr",
+      "http",
+      "fetch"
+    ],
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/json",
+      "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjZkZTQwZjA0ODgxYzZhMDE2MTFlYjI4NGE0Yzk1YTI1MWU5MTEyNTAiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiSGVhbHRoIENhcmUiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSVpOemp2T0FZVkQ0NktLdjNFaGZJUVI0UmVUZFRZMnFVSDZ5aEs2OWZIQzNlNWNnPXM5Ni1jIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2VkdXZlcnNlLThhOTdkIiwiYXVkIjoiZWR1dmVyc2UtOGE5N2QiLCJhdXRoX3RpbWUiOjE3NTMyNjUxNzQsInVzZXJfaWQiOiJSZ0l1bWNNdXdnT0lXVnI3QkhPckZwN2xTZEozIiwic3ViIjoiUmdJdW1jTXV3Z09JV1ZyN0JIT3JGcDdsU2RKMyIsImlhdCI6MTc1MzM5OTE0MywiZXhwIjoxNzUzNDAyNzQzLCJlbWFpbCI6ImhlYWx0aGNhcmUzMnFAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMTczNzk3OTM5ODI4MTI1NjAyMjkiXSwiZW1haWwiOlsiaGVhbHRoY2FyZTMycUBnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJnb29nbGUuY29tIn19.jotTIpYLj7cMIrzEMKJABGnLqGmyLfLXj5DSoWqfEjRfbdc3rSkwHipfGdsGc3m6oNHK6j9BSeu2-pAX6Sq4f8ZSdfrgmgDcfl5CojyeNouemwhu9-SKri7YzVoCdDv50G6fZ8F5jnMOqfAaWNIeJQL5Uq2jgtj_SXmN_V7ztHXPOUIdBMI746SjnG5146Z5TX8I0LFeuC5aGuJeDklSPGMpnq3fs9xIzG1p7vKOuEZE-0kB0DEzQHjjjf9R3z4f7tWKm0TNJWJ5TlRfvBHb6t_tSjZGayTqXdYSagujdidVXzB04DZIOdcP8yMWxWD0N0kTJJ2JCVuZZGTNx1f9Mw"
+    },
+    "baseURL": "http://localhost:5000/api/v1/",
+    "method": "post",
+    "url": "/payments",
+    "data": "{\"bookingId\":\"6881aee5f0fd0810447cfb7a\",\"amount\":4500,\"email\":\"healthcare32q@gmail.com\",\"transactionId\":\"pi_3RoZEaH7Tlju1lhj0Iu0b1Nx\",\"paymentMethod\":[\"card\"]}",
+    "allowAbsoluteUrls": true
+  },
+  "request": {}
+} PaymentForm.jsx 93
+[06:12 AM 25-07-25] Payment succeeded!
+[06:12 AM 25-07-25] null checking
+[06:12 AM 25-07-25] {
+  "data": {
+    "success": true,
+    "message": "Payment created successfully!",
+    "data": {
+      "bookingId": "6881aee5f0fd0810447cfb7a",
+      "amount": 4500,
+      "email": "healthcare32q@gmail.com",
+      "transactionId": "pi_3RoZFEH7Tlju1lhj1QuTZOBB",
+      "paymentMethod": [
+        "card"
+      ],
+      "_id": "6882cbe1f524e26dc2b2eb0f",
+      "date": "2025-07-25T00:12:17.746Z",
+      "createdAt": "2025-07-25T00:12:17.746Z",
+      "updatedAt": "2025-07-25T00:12:17.746Z",
+      "__v": 0
+    }
+  },
+  "status": 200,
+  "statusText": "OK",
+  "headers": {
+    "content-length": "378",
+    "content-type": "application/json; charset=utf-8"
+  },
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": [
+      "xhr",
+      "http",
+      "fetch"
+    ],
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/json",
+      "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjZkZTQwZjA0ODgxYzZhMDE2MTFlYjI4NGE0Yzk1YTI1MWU5MTEyNTAiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiSGVhbHRoIENhcmUiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSVpOemp2T0FZVkQ0NktLdjNFaGZJUVI0UmVUZFRZMnFVSDZ5aEs2OWZIQzNlNWNnPXM5Ni1jIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2VkdXZlcnNlLThhOTdkIiwiYXVkIjoiZWR1dmVyc2UtOGE5N2QiLCJhdXRoX3RpbWUiOjE3NTMyNjUxNzQsInVzZXJfaWQiOiJSZ0l1bWNNdXdnT0lXVnI3QkhPckZwN2xTZEozIiwic3ViIjoiUmdJdW1jTXV3Z09JV1ZyN0JIT3JGcDdsU2RKMyIsImlhdCI6MTc1MzM5OTE0MywiZXhwIjoxNzUzNDAyNzQzLCJlbWFpbCI6ImhlYWx0aGNhcmUzMnFAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMTczNzk3OTM5ODI4MTI1NjAyMjkiXSwiZW1haWwiOlsiaGVhbHRoY2FyZTMycUBnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJnb29nbGUuY29tIn19.jotTIpYLj7cMIrzEMKJABGnLqGmyLfLXj5DSoWqfEjRfbdc3rSkwHipfGdsGc3m6oNHK6j9BSeu2-pAX6Sq4f8ZSdfrgmgDcfl5CojyeNouemwhu9-SKri7YzVoCdDv50G6fZ8F5jnMOqfAaWNIeJQL5Uq2jgtj_SXmN_V7ztHXPOUIdBMI746SjnG5146Z5TX8I0LFeuC5aGuJeDklSPGMpnq3fs9xIzG1p7vKOuEZE-0kB0DEzQHjjjf9R3z4f7tWKm0TNJWJ5TlRfvBHb6t_tSjZGayTqXdYSagujdidVXzB04DZIOdcP8yMWxWD0N0kTJJ2JCVuZZGTNx1f9Mw"
+    },
+    "baseURL": "http://localhost:5000/api/v1/",
+    "method": "post",
+    "url": "/payments",
+    "data": "{\"bookingId\":\"6881aee5f0fd0810447cfb7a\",\"amount\":4500,\"email\":\"healthcare32q@gmail.com\",\"transactionId\":\"pi_3RoZFEH7Tlju1lhj1QuTZOBB\",\"paymentMethod\":[\"card\"]}",
+    "allowAbsoluteUrls": true
+  },
+  "request": {}
+} PaymentForm.jsx 93
+[06:12 AM 25-07-25] Payment succeeded!
+[06:12 AM 25-07-25] 6882cbf2f524e26dc2b2eb15 checking
+[06:12 AM 25-07-25] {
+  "data": {
+    "success": true,
+    "message": "Payment created successfully!",
+    "data": {
+      "bookingId": "6881aee5f0fd0810447cfb7a",
+      "amount": 4500,
+      "email": "healthcare32q@gmail.com",
+      "transactionId": "pi_3RoZFUH7Tlju1lhj1HUukgrY",
+      "paymentMethod": [
+        "card"
+      ],
+      "_id": "6882cbf2f524e26dc2b2eb15",
+      "date": "2025-07-25T00:12:34.317Z",
+      "createdAt": "2025-07-25T00:12:34.317Z",
+      "updatedAt": "2025-07-25T00:12:34.317Z",
+      "__v": 0
+    }
+  },
+  "status": 200,
+  "statusText": "OK",
+  "headers": {
+    "content-length": "378",
+    "content-type": "application/json; charset=utf-8"
+  },
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": [
+      "xhr",
+      "http",
+      "fetch"
+    ],
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/json",
+      "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjZkZTQwZjA0ODgxYzZhMDE2MTFlYjI4NGE0Yzk1YTI1MWU5MTEyNTAiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiSGVhbHRoIENhcmUiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSVpOemp2T0FZVkQ0NktLdjNFaGZJUVI0UmVUZFRZMnFVSDZ5aEs2OWZIQzNlNWNnPXM5Ni1jIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2VkdXZlcnNlLThhOTdkIiwiYXVkIjoiZWR1dmVyc2UtOGE5N2QiLCJhdXRoX3RpbWUiOjE3NTMyNjUxNzQsInVzZXJfaWQiOiJSZ0l1bWNNdXdnT0lXVnI3QkhPckZwN2xTZEozIiwic3ViIjoiUmdJdW1jTXV3Z09JV1ZyN0JIT3JGcDdsU2RKMyIsImlhdCI6MTc1MzM5OTE0MywiZXhwIjoxNzUzNDAyNzQzLCJlbWFpbCI6ImhlYWx0aGNhcmUzMnFAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMTczNzk3OTM5ODI4MTI1NjAyMjkiXSwiZW1haWwiOlsiaGVhbHRoY2FyZTMycUBnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJnb29nbGUuY29tIn19.jotTIpYLj7cMIrzEMKJABGnLqGmyLfLXj5DSoWqfEjRfbdc3rSkwHipfGdsGc3m6oNHK6j9BSeu2-pAX6Sq4f8ZSdfrgmgDcfl5CojyeNouemwhu9-SKri7YzVoCdDv50G6fZ8F5jnMOqfAaWNIeJQL5Uq2jgtj_SXmN_V7ztHXPOUIdBMI746SjnG5146Z5TX8I0LFeuC5aGuJeDklSPGMpnq3fs9xIzG1p7vKOuEZE-0kB0DEzQHjjjf9R3z4f7tWKm0TNJWJ5TlRfvBHb6t_tSjZGayTqXdYSagujdidVXzB04DZIOdcP8yMWxWD0N0kTJJ2JCVuZZGTNx1f9Mw"
+    },
+    "baseURL": "http://localhost:5000/api/v1/",
+    "method": "post",
+    "url": "/payments",
+    "data": "{\"bookingId\":\"6881aee5f0fd0810447cfb7a\",\"amount\":4500,\"email\":\"healthcare32q@gmail.com\",\"transactionId\":\"pi_3RoZFUH7Tlju1lhj1HUukgrY\",\"paymentMethod\":[\"card\"]}",
+    "allowAbsoluteUrls": true
+  },
+  "request": {}
+} PaymentForm.jsx 93
