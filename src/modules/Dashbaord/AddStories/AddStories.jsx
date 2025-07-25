@@ -20,7 +20,18 @@ const AddStories = () => {
 
   /*
    * {
-    "_id": "687e509abf17c8a9265b66dd",
+  "title": "story tittle checking",
+  "description": "dev.shahjalal@gmail.com",
+  "images": [
+    "url1",
+    "url2",
+    "url3"
+  ],
+  "userId": "688036d54582db5aafd12e4f",
+  "userName": "Tourist 4",
+  "userPhoto": "https://lh3.googleusercontent.com/a/ACg8ocIZNzjvOAYVD46KKv3EhfIQR4ReTdTY2qUH6yhK69fHC3e5cg=s96-c"
+}
+   * {
     "title": "Updated Sunset Title updated",
     "description": "New description for this beautiful sunset",
     "images": [
@@ -32,13 +43,12 @@ const AddStories = () => {
     "__v": 0
   }*/
   const onSubmit = async (data) => {
-    console.log(data, "AddStories.jsx", 19);
     const payload = {
       title: data.title,
       description: data.description,
       images: data.images.split(",").map((url) => url.trim()),
       userId: userData?._id,
-      userName: user?.name,
+      userName: userData?.name,
       userPhoto: user?.photoURL,
     };
 
