@@ -4,6 +4,8 @@ import { useState } from "react";
 import useAuth from "../../../hooks/useAuth";
 import useAxiosSecure from "../../../hooks/useAxiosSecure";
 import EditStoryModal from "./components/EditStoryModal";
+import StoryCard from "./components/StoryCard";
+import { darkSwal } from "../../../hooks/usePostData";
 
 const ManageStories = () => {
   const { user } = useAuth();
@@ -41,13 +43,13 @@ const ManageStories = () => {
 
     if (result.isConfirmed) {
       try {
-        const res = await axiosSecure.delete(`/stories/${id}`);
-        if (res.data?.deletedCount > 0) {
-          Swal.fire("Deleted!", "Your story has been deleted.", "success");
+        const res = await axiosSecure.delete(`/stories/${id}ss`);
+        if (res.data.success) {
+          darkSwal.fire("Deleted!", "Your story has been deleted.", "success");
           refetch();
         }
       } catch (err) {
-        Swal.fire("Error!", "Something went wrong.", "error");
+        darkSwal.fire("Error!", err.message, "error");
       }
     }
   };
@@ -74,43 +76,12 @@ const ManageStories = () => {
       ) : (
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {stories.map((story) => (
-            <div
+            <StoryCard
               key={story._id}
-              className="bg-gradient-to-br from-[#0f172a] to-[#1e293b] rounded-xl shadow-lg border border-gray-700 hover:shadow-purple-500/30 transition duration-300 relative"
-              data-aos="zoom-in"
-            >
-              <div className="p-4">
-                <h3 className="text-lg font-semibold text-white mb-2">
-                  {story.title}
-                </h3>
-                <p className="text-sm text-gray-300 line-clamp-3">
-                  {story.description}
-                </p>
-              </div>
-
-              {story.images?.length > 0 && (
-                <img
-                  src={story.images[0]}
-                  alt="Story Preview"
-                  className="w-full h-40 object-cover rounded-b-xl border-t border-gray-600"
-                />
-              )}
-
-              <div className="flex justify-between items-center px-4 py-2 mt-1">
-                <button
-                  onClick={() => setSelectedStory(story)}
-                  className="text-xs font-semibold text-blue-400 hover:text-blue-300"
-                >
-                  ✏️ Edit
-                </button>
-                <button
-                  onClick={() => handleDelete(story._id)}
-                  className="text-xs text-red-400 hover:text-red-300"
-                >
-                  🗑 Delete
-                </button>
-              </div>
-            </div>
+              story={story}
+              setSelectedStory={setSelectedStory}
+              handleDelete={handleDelete}
+            />
           ))}
         </div>
       )}

@@ -1,7 +1,7 @@
 // EditStoryModal.jsx
 import { useForm } from "react-hook-form";
-import Swal from "sweetalert2";
 import useAxiosSecure from "../../../../hooks/useAxiosSecure";
+import { darkSwal } from "../../../../hooks/usePostData";
 
 const EditStoryModal = ({ story, onClose, refetch }) => {
   const { register, handleSubmit, reset } = useForm({
@@ -17,12 +17,12 @@ const EditStoryModal = ({ story, onClose, refetch }) => {
     try {
       const res = await axiosSecure.put(`/stories/${story._id}`, data);
       if (res.data?.modifiedCount > 0) {
-        Swal.fire("Updated!", "Your story has been updated.", "success");
+        darkSwal.fire("Updated!", "Your story has been updated.", "success");
         refetch();
         onClose();
       }
-    } catch {
-      Swal.fire("Error!", "Something went wrong.", "error");
+    } catch (err) {
+      darkSwal.fire("Error!", err.message, "error");
     }
   };
 
