@@ -13,6 +13,7 @@ import PaymentBooking from "../modules/Dashbaord/Tourist/PaymentBooking/PaymentB
 import ManageProfile from "../modules/Dashbaord/ManageProfile/ManageProfile";
 import JoinTourGuide from "../modules/Dashbaord/Tourist/JoinTourGuide/JoinTourGuide";
 import ManageStories from "../modules/Dashbaord/ManageStories/ManageStories";
+import CommunityPage from "../pages/Community/pages/CommunityPage";
 
 const router = createBrowserRouter([
   {
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
       {
         path: "packages/:id",
         element: <PackageDetails />,
+      },
+      {
+        path: "community",
+        element: <CommunityPage />,
       },
 
       // booking page

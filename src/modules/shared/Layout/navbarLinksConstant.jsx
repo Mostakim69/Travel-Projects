@@ -10,8 +10,8 @@ export const navItems = [
     path: "/dashboard",
   },
   {
-    name: "Pending Assignments",
-    path: "assignments/pending",
+    name: "Community",
+    path: "/community",
   },
 ];
 

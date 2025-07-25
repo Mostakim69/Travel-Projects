@@ -1,20 +1,23 @@
-// /src/App/constants/sidebarLinks.js
-
-export const touristLinks = [
-  { name: "My Bookings", path: "/dashboard/my-bookings" },
-  { name: "Favorite Guides", path: "/dashboard/favorites" },
-  { name: "Add Story", path: "/dashboard/story" },
+// ✅ Role-based sidebar links
+export const adminLinks = [
+  { name: "Manage Profile", path: "/dashboard/admin/manage-profile" },
+  { name: "Manage Users", path: "/dashboard/admin/users" },
+  { name: "Add Package", path: "/dashboard/admin/add-package" },
+  { name: "Manage Candidates", path: "/dashboard/admin/candidates" },
+  { name: "All Bookings", path: "/dashboard/admin/bookings" },
+  { name: "Payments", path: "/dashboard/admin/payments" },
 ];
 
 export const guideLinks = [
-  { name: "Tour Requests", path: "/dashboard/tour-requests" },
-  { name: "My Tours", path: "/dashboard/my-tours" },
-  { name: "Edit Profile", path: "/dashboard/profile" },
+  { name: "Manage Profile", path: "/dashboard/guide/manage-profile" },
+  { name: "My Assigned Tours", path: "/dashboard/guide/my-assigned-tours" },
+  { name: "Manage Stories", path: "/dashboard/guide/manage-stories" },
+  { name: "Profile", path: "/dashboard/guide/profile" },
 ];
 
-export const adminLinks = [
-  { name: "User Management", path: "/dashboard/users" },
-  { name: "All Bookings", path: "/dashboard/bookings" },
-  { name: "Packages", path: "/dashboard/packages" },
-  { name: "Guides", path: "/dashboard/guides" },
+export const touristLinks = [
+  { name: "Manage Profile", path: "/dashboard/tourist/manage-profile" },
+  { name: "My Bookings", path: "/dashboard/my-bookings" },
+  { name: "Manage Stories", path: "/dashboard/tourist/manage-stories" },
+  { name: "Join as Tour Guide", path: "/dashboard/tourist/join-tour-guide" },
 ];
