@@ -50,7 +50,7 @@ const ManageProfile = () => {
         <span className="text-white">{name || "Explorer"}</span>
       </h1>
 
-      <div className="flex flex-col md:flex-row gap-6 items-center">
+      <div className="flex flex-col md:flex-rw gap-6 items-center">
         <img
           src={photoURL || "https://i.ibb.co/ZVP2y7v/user.png"}
           alt="User"
@@ -96,7 +96,7 @@ const ManageProfile = () => {
 
       {/* Buttons */}
       <div
-        className="flex flex-col md:flex-row gap-4 mt-6 *:rounded-full"
+        className="flex flex-col md:flex-row md:justify-center gap-4 mt-6 *:rounded-full *:max-md:max-w-[300px] max-md:*:mx-auto"
         data-aos="fade-up"
       >
         <button
@@ -108,10 +108,6 @@ const ManageProfile = () => {
 
         <button className="btn btn-outline btn-block md:btn-wide border-emerald-500 text-emerald-300 hover:bg-emerald-600 hover:text-white pulse-glow">
           ✨ Join as Tour Guide
-        </button>
-
-        <button className="btn btn-outline btn-block md:btn-wide border-red-500 text-red-300 hover:bg-red-600 hover:text-white pulse-glow">
-          🧾 View Edit History
         </button>
       </div>
 
