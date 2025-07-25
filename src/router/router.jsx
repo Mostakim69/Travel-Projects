@@ -58,6 +58,11 @@ const router = createBrowserRouter([
         path: "tourist/manage-profile",
         element: <ManageProfile />,
       },
+
+      {
+        path: "manage-profile",
+        element: <ManageProfile />,
+      },
     ],
   },
   {
