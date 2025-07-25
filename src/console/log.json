@@ -7445,3 +7445,66 @@
 [06:15 AM 25-07-25] 6882ccbef524e26dc2b2eb35 PaymentForm.jsx 93
 [06:20 AM 25-07-25] Payment succeeded!
 [06:20 AM 25-07-25] 6882cdb3f524e26dc2b2eb61 PaymentForm.jsx 93
+[06:24 AM 25-07-25] Payment succeeded!
+[06:24 AM 25-07-25] 6882cea7f524e26dc2b2eb91 PaymentForm.jsx 93
+[06:26 AM 25-07-25] {
+  "data": {
+    "success": true,
+    "message": "Payment created successfully!",
+    "data": {
+      "bookingId": "6881b38cf0fd0810447cfbd0",
+      "amount": 4500,
+      "email": "healthcare32q@gmail.com",
+      "transactionId": "pi_3RoZQgH7Tlju1lhj189hk75B",
+      "paymentMethod": [
+        "card"
+      ],
+      "_id": "6882cf1df524e26dc2b2eb98",
+      "date": "2025-07-25T00:26:05.296Z",
+      "createdAt": "2025-07-25T00:26:05.297Z",
+      "updatedAt": "2025-07-25T00:26:05.297Z",
+      "__v": 0
+    }
+  },
+  "status": 200,
+  "statusText": "OK",
+  "headers": {
+    "content-length": "378",
+    "content-type": "application/json; charset=utf-8"
+  },
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": [
+      "xhr",
+      "http",
+      "fetch"
+    ],
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/json",
+      "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjZkZTQwZjA0ODgxYzZhMDE2MTFlYjI4NGE0Yzk1YTI1MWU5MTEyNTAiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiSGVhbHRoIENhcmUiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSVpOemp2T0FZVkQ0NktLdjNFaGZJUVI0UmVUZFRZMnFVSDZ5aEs2OWZIQzNlNWNnPXM5Ni1jIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2VkdXZlcnNlLThhOTdkIiwiYXVkIjoiZWR1dmVyc2UtOGE5N2QiLCJhdXRoX3RpbWUiOjE3NTMyNjUxNzQsInVzZXJfaWQiOiJSZ0l1bWNNdXdnT0lXVnI3QkhPckZwN2xTZEozIiwic3ViIjoiUmdJdW1jTXV3Z09JV1ZyN0JIT3JGcDdsU2RKMyIsImlhdCI6MTc1MzM5OTE0MywiZXhwIjoxNzUzNDAyNzQzLCJlbWFpbCI6ImhlYWx0aGNhcmUzMnFAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMTczNzk3OTM5ODI4MTI1NjAyMjkiXSwiZW1haWwiOlsiaGVhbHRoY2FyZTMycUBnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJnb29nbGUuY29tIn19.jotTIpYLj7cMIrzEMKJABGnLqGmyLfLXj5DSoWqfEjRfbdc3rSkwHipfGdsGc3m6oNHK6j9BSeu2-pAX6Sq4f8ZSdfrgmgDcfl5CojyeNouemwhu9-SKri7YzVoCdDv50G6fZ8F5jnMOqfAaWNIeJQL5Uq2jgtj_SXmN_V7ztHXPOUIdBMI746SjnG5146Z5TX8I0LFeuC5aGuJeDklSPGMpnq3fs9xIzG1p7vKOuEZE-0kB0DEzQHjjjf9R3z4f7tWKm0TNJWJ5TlRfvBHb6t_tSjZGayTqXdYSagujdidVXzB04DZIOdcP8yMWxWD0N0kTJJ2JCVuZZGTNx1f9Mw"
+    },
+    "baseURL": "http://localhost:5000/api/v1/",
+    "method": "post",
+    "url": "payments",
+    "data": "{\"bookingId\":\"6881b38cf0fd0810447cfbd0\",\"email\":\"healthcare32q@gmail.com\",\"amount\":4500,\"transactionId\":\"pi_3RoZQgH7Tlju1lhj189hk75B\",\"paymentMethod\":[\"card\"]}",
+    "allowAbsoluteUrls": true
+  },
+  "request": {}
+} PaymentForm.jsx 103

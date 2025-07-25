@@ -99,7 +99,15 @@ const PaymentForm = () => {
               html: `<strong>Transaction ID:</strong> <code>${transactionId}</code>`,
               confirmButtonText: "Go to My Bookings",
             });
+            const paymentHistory = await axiosSecure.post("payments", {
+              bookingId,
+              email: user?.email,
+              amount,
+              transactionId,
+              paymentMethod: result.paymentIntent.payment_method_types,
+            });
 
+            console.log(paymentHistory, "PaymentForm.jsx", 103);
             // ✅ Redirect to /myParcels
             navigate("/dashboard/my-bookings");
           }
