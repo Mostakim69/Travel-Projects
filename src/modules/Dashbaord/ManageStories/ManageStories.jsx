@@ -6,7 +6,7 @@ import useAxiosSecure from "../../../hooks/useAxiosSecure";
 
 const ManageStories = () => {
   const { user } = useAuth();
-  const [axiosSecure] = useAxiosSecure();
+  const axiosSecure = useAxiosSecure();
 
   const {
     data: stories = [],
@@ -16,12 +16,16 @@ const ManageStories = () => {
   } = useQuery({
     queryKey: ["userStories", user?.email],
     queryFn: async () => {
-      const res = await axiosSecure.get(`/stories/user/${user._id}`);
+      // const res = await axiosSecure.get(`/stories/user/${user._id}`);
+      const res = await axiosSecure.get(
+        `/stories/user/688036d54582db5aafd12e4f`,
+      );
       return res.data?.data;
     },
     enabled: !!user?.email,
   });
 
+  console.log(stories, " storeies ManageStories.jsx", 21);
   const handleDelete = async (id) => {
     const result = await Swal.fire({
       title: "Delete this story?",
