@@ -5,6 +5,7 @@ import { useMutation } from "@tanstack/react-query";
 import useAuth from "../../../hooks/useAuth";
 import useUserRole from "../../../hooks/useUserRole";
 import useAxiosSecure from "../../../hooks/useAxiosSecure";
+import { darkSwal } from "../../../hooks/usePostData";
 
 const AddStories = () => {
   const { user } = useAuth();
@@ -25,12 +26,16 @@ const AddStories = () => {
       return res.data;
     },
     onSuccess: () => {
-      toast.success("Story posted successfully!");
+      darkSwal.fire("Success!", "Your story has been posted.", "success");
       // navigate("/stories"); // redirect to stories page
+      setTimeout(() => {
+        navigate("/dashboard/tourist/manage-stories");
+      }, 2000);
     },
     onError: (err) => {
       console.error(err);
       toast.error("Failed to post story.");
+      darkSwal.fire("Error!", err.message || "Failed to post story.", "error");
     },
   });
 
