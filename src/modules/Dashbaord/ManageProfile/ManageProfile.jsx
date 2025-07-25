@@ -7,6 +7,7 @@ import useAxiosSecure from "../../../hooks/useAxiosSecure";
 import Spinner from "../../shared/Layout/Spinner";
 import { useState } from "react";
 import "dayjs/locale/en";
+import { Link } from "react-router";
 dayjs.extend(relativeTime);
 
 const ManageProfile = () => {
@@ -106,9 +107,12 @@ const ManageProfile = () => {
           ✏️ Update Profile
         </button>
 
-        <button className="btn btn-outline btn-block md:btn-wide border-emerald-500 text-emerald-300 hover:bg-emerald-600 hover:text-white pulse-glow">
+        <Link
+          to="/dashboard/tourist/join-tour-guide"
+          className="btn btn-outline btn-block md:btn-wide border-emerald-500 text-emerald-300 hover:bg-emerald-600 hover:text-white pulse-glow"
+        >
           ✨ Join as Tour Guide
-        </button>
+        </Link>
       </div>
 
       {/* DaisyUI Modal */}
