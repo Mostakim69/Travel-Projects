@@ -52,7 +52,7 @@ const NavbarDrawer = () => {
       </div>
 
       {/* Sidebar */}
-      <div className="drawer-side z-50">
+      <div className="drawer-side z-50" data-aos="fade-down-right">
         <label htmlFor="my-drawer-3" className="drawer-overlay" />
         <ul className="menu p-4 w-80 min-h-full bg-gray-900 border-r border-indigo-800 space-y-3 overflow-y-auto">
           {/* Home Link */}
