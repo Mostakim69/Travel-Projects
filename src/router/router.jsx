@@ -14,6 +14,7 @@ import ManageProfile from "../modules/Dashbaord/ManageProfile/ManageProfile";
 import JoinTourGuide from "../modules/Dashbaord/Tourist/JoinTourGuide/JoinTourGuide";
 import ManageStories from "../modules/Dashbaord/ManageStories/ManageStories";
 import CommunityPage from "../pages/Community/CommunityPage";
+import AddStories from "../modules/Dashbaord/AddStories/AddStories";
 
 const router = createBrowserRouter([
   {
@@ -53,6 +54,7 @@ const router = createBrowserRouter([
     path: "/dashboard",
     element: <DashboardLayout />,
     children: [
+      // tourist routes
       {
         path: "my-bookings",
         element: <MyBookings />,
@@ -73,6 +75,11 @@ const router = createBrowserRouter([
       {
         path: "tourist/manage-stories",
         element: <ManageStories />,
+      },
+      // common routes
+      {
+        path: "add-stories",
+        element: <AddStories />,
       },
     ],
   },

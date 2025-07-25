@@ -27,6 +27,8 @@
 │   │   └── AuthContext
 │   │       ├── AuthContext.jsx
 │   │       └── AuthProvider.jsx
+│   ├── docs
+│   │   └── prompt.md
 │   ├── firebase
 │   │   └── firebase.init.js
 │   ├── hooks
@@ -36,6 +38,7 @@
 │   │   ├── useHelmet.jsx
 │   │   ├── usePostData.jsx
 │   │   ├── useSecureQuery.jsx
+│   │   ├── useSecureUpdate.js
 │   │   └── useUserRole.jsx
 │   ├── index.css
 │   ├── loggerClient.js
@@ -58,10 +61,15 @@
 │   │   │       ├── Signin.jsx
 │   │   │       └── SignUp.jsx
 │   │   ├── Dashbaord
+│   │   │   ├── AddStories
+│   │   │   │   └── AddStories.jsx
 │   │   │   ├── DashboardLayout.jsx
 │   │   │   ├── ManageProfile
 │   │   │   │   └── ManageProfile.jsx
 │   │   │   ├── ManageStories
+│   │   │   │   ├── components
+│   │   │   │   │   ├── EditStoryModal.jsx
+│   │   │   │   │   └── StoryCard.jsx
 │   │   │   │   └── ManageStories.jsx
 │   │   │   ├── TourGuides
 │   │   │   │   ├── GuideProfile
@@ -132,7 +140,11 @@
 │   │           ├── DropDown.jsx
 │   │           ├── index.js
 │   │           └── Input.jsx
+│   ├── note.md
 │   ├── pages
+│   │   ├── Community
+│   │   │   ├── CommunityPage.jsx
+│   │   │   └── components
 │   │   └── faq
 │   │       ├── faq.constant.js
 │   │       └── FAQ.jsx
@@ -155,6 +167,6 @@
 ├── vite.config.js
 └── vite.logger.plugin.js
 
-48 directories, 105 files
+53 directories, 112 files
 
 ```

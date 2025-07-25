@@ -11,6 +11,10 @@ export const adminLinks = [
 export const guideLinks = [
   { name: "Manage Profile", path: "/dashboard/guide/manage-profile" },
   { name: "My Assigned Tours", path: "/dashboard/guide/my-assigned-tours" },
+  {
+    name: "Add Stories",
+    path: "/dashboard/add-stories",
+  },
   { name: "Manage Stories", path: "/dashboard/guide/manage-stories" },
   { name: "Profile", path: "/dashboard/guide/profile" },
 ];
@@ -18,6 +22,10 @@ export const guideLinks = [
 export const touristLinks = [
   { name: "Manage Profile", path: "/dashboard/tourist/manage-profile" },
   { name: "My Bookings", path: "/dashboard/my-bookings" },
+  {
+    name: "Add Stories",
+    path: "/dashboard/add-stories",
+  },
   { name: "Manage Stories", path: "/dashboard/tourist/manage-stories" },
   { name: "Join as Tour Guide", path: "/dashboard/tourist/join-tour-guide" },
 ];
