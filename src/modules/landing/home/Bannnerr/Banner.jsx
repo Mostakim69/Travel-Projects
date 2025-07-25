@@ -1,6 +1,6 @@
 export default function Banner() {
   return (
-    <div className="mt-5 hero min-h-[60vh] bg-[#0F172A] relative overflow-hidden">
+    <div className="mt-5 hero min-h-[60vh] bg-[#0F172A] relative overflow-hidden rounded-3xl">
       {/* Background glow or gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-[#0f172a] via-[#1e293b] to-[#0f172a] opacity-70"></div>
       <div className="absolute -top-10 left-1/2 w-[600px] h-[600px] bg-purple-500 opacity-20 rounded-full blur-3xl transform -translate-x-1/2"></div>
@@ -19,7 +19,6 @@ export default function Banner() {
             Your digital travel companion for authentic adventures, local
             guides, and unforgettable memories — all in one place.
           </p>
-          export{" "}
           <div className="flex flex-wrap justify-center gap-4 *:rounded-full *:hover:scale-104 *:hover:shadow-2xl">
             <button className="btn bg-gradient-to-r from-[#22d3ee] to-[#a78bfa] border-0 text-white shadow-lg hover:opacity-90 transition-all duration-200 text-lg px-6">
               🌏 Explore Now

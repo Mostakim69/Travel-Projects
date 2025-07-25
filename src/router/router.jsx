@@ -63,20 +63,21 @@ const router = createBrowserRouter([
         path: "payment-booking/:bookingId",
         element: <PaymentBooking />,
       },
+
+      {
+        path: "tourist/join-tour-guide",
+        element: <JoinTourGuide />,
+      },
+      // common routes
       {
         path: "manage-profile",
         element: <ManageProfile />,
       },
 
       {
-        path: "tourist/join-tour-guide",
-        element: <JoinTourGuide />,
-      },
-      {
-        path: "tourist/manage-stories",
+        path: "manage-stories",
         element: <ManageStories />,
       },
-      // common routes
       {
         path: "add-stories",
         element: <AddStories />,
