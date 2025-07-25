@@ -3,9 +3,12 @@ import { useNavigate } from "react-router";
 import { toast } from "react-hot-toast";
 import useAuth from "../../../hooks/useAuth";
 import usePostData from "../../../hooks/usePostData";
+import useUserRole from "../../../hooks/useUserRole";
 
 const AddStories = () => {
   const { user } = useAuth();
+  const { userData } = useUserRole();
+  console.log(userData, "AddStories.jsx", 11);
   const navigate = useNavigate();
   const postData = usePostData();
 
@@ -15,20 +18,34 @@ const AddStories = () => {
     formState: { errors },
   } = useForm();
 
+  /*
+   * {
+    "_id": "687e509abf17c8a9265b66dd",
+    "title": "Updated Sunset Title updated",
+    "description": "New description for this beautiful sunset",
+    "images": [
+      "https://img.url/sunset3.jpg"
+    ],
+    "userId": "687e37ea0d85a52d76c2eb6c",
+    "userName": "Jalal Uddin",
+    "userPhoto": "https://img.url/profile.jpg",
+    "__v": 0
+  }*/
   const onSubmit = async (data) => {
     console.log(data, "AddStories.jsx", 19);
     const payload = {
       title: data.title,
       description: data.description,
       images: data.images.split(",").map((url) => url.trim()),
-      userId: user._id,
-      userName: user.displayName,
-      userPhoto: user.photoURL,
+      userId: userData?._id,
+      userName: user?.name,
+      userPhoto: user?.photoURL,
     };
 
     try {
+      console.log(payload, "payload AddStories.jsx", 21);
       const res = await postData("/stories", payload);
-      console.log(res, "AddStories.jsx", 30);
+      console.log(res, " res of AddStories.jsx", 30);
       if (res.data?.success) {
         toast.success("Story added successfully!");
         navigate("/dashboard/my-stories");

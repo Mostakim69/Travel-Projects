@@ -1,6 +1,39 @@
 
-[04:50 PM 25-07-25] {
+[04:57 PM 25-07-25] {
   "title": "Assalamu alaikum, title updated",
-  "description": "description",
+  "description": "description story descritip",
   "images": "url1, url2, url3"
 } AddStories.jsx 19
+[04:57 PM 25-07-25] {
+  "title": "Assalamu alaikum, title updated",
+  "description": "description story descritip",
+  "images": [
+    "url1",
+    "url2",
+    "url3"
+  ],
+  "userId": "688036d54582db5aafd12e4f",
+  "userPhoto": "https://lh3.googleusercontent.com/a/ACg8ocIZNzjvOAYVD46KKv3EhfIQR4ReTdTY2qUH6yhK69fHC3e5cg=s96-c"
+} payload AddStories.jsx 21
+[04:57 PM 25-07-25] {
+  "_id": "688036d54582db5aafd12e4f",
+  "name": "Tourist 4",
+  "email": "tourist4@example.com",
+  "photoURL": "https://i.ibb.co/sample-image.png",
+  "role": "tourist",
+  "last_loggedIn": "2025-07-23T01:11:49.709Z",
+  "createdAt": "2025-07-23T01:11:49.710Z",
+  "updatedAt": "2025-07-23T01:11:49.710Z",
+  "__v": 0
+} AddStories.jsx 11
+[04:57 PM 25-07-25] {
+  "_id": "688036d54582db5aafd12e4f",
+  "name": "Tourist 4",
+  "email": "tourist4@example.com",
+  "photoURL": "https://i.ibb.co/sample-image.png",
+  "role": "tourist",
+  "last_loggedIn": "2025-07-23T01:11:49.709Z",
+  "createdAt": "2025-07-23T01:11:49.710Z",
+  "updatedAt": "2025-07-23T01:11:49.710Z",
+  "__v": 0
+} AddStories.jsx 11
