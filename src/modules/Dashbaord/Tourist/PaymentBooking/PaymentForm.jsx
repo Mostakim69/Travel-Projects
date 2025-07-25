@@ -16,11 +16,7 @@ const PaymentForm = () => {
 
   const [error, setError] = useState("");
 
-  const {
-    isPending,
-    data: bookingInfo = {},
-    refetch: refetchBookingInfo,
-  } = useQuery({
+  const { isPending, data: bookingInfo = {} } = useQuery({
     queryKey: ["booking", bookingId],
     queryFn: async () => {
       const res = await axiosSecure.get(`/bookings/${bookingId}`);
@@ -100,17 +96,10 @@ const PaymentForm = () => {
             confirmButtonText: "Go to My Bookings",
           });
 
-          const updateStatus = await axiosSecure.patch(
-            `bookings/${bookingId}`,
-            {
-              status: "accepted",
-              paymentStatus: "paid",
-            },
-          );
-          console.log(updateStatus, "updated status PaymentForm.jsx", 100);
-          if (updateStatus?.data?.data?._id) {
-            // refetchBookingInfo();
-          }
+          await axiosSecure.patch(`bookings/${bookingId}`, {
+            status: "accepted",
+            paymentStatus: "paid",
+          });
 
           navigate("/dashboard/my-bookings");
         }
