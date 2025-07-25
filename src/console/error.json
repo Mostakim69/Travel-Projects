@@ -80,3 +80,4 @@
   "code": "ERR_BAD_REQUEST",
   "status": 404
 }
+[2025-07-25T15:56:28.395Z] Uncaught  http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=d3a7b89d 13969 24

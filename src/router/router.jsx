@@ -64,7 +64,7 @@ const router = createBrowserRouter([
         element: <PaymentBooking />,
       },
       {
-        path: "tourist/manage-profile",
+        path: "manage-profile",
         element: <ManageProfile />,
       },
 
