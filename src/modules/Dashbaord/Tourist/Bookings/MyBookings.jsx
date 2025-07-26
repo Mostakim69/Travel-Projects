@@ -1,6 +1,4 @@
 import { useQuery } from "@tanstack/react-query";
-import { FaCheckCircle } from "react-icons/fa";
-import { MdPending } from "react-icons/md";
 import { Link } from "react-router"; // react-router-dom, NOT react-router
 import BookingCard from "./BookingCard";
 import useAxiosSecure from "../../../../hooks/useAxiosSecure";
