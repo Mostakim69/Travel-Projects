@@ -121,3 +121,167 @@
   "code": "ERR_BAD_RESPONSE",
   "status": 500
 }
+[2025-07-26T19:09:29.086Z] Unhandled Promise Rejection: {
+  "message": "Request failed with status code 500",
+  "name": "AxiosError",
+  "stack": "settle@http://localhost:5173/node_modules/.vite/deps/axios.js?v=904aa0e5:1229:12\nonloadend@http://localhost:5173/node_modules/.vite/deps/axios.js?v=904aa0e5:1561:13\n",
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": [
+      "xhr",
+      "http",
+      "fetch"
+    ],
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/json",
+      "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjZkZTQwZjA0ODgxYzZhMDE2MTFlYjI4NGE0Yzk1YTI1MWU5MTEyNTAiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiSGVhbHRoIENhcmUiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSVpOemp2T0FZVkQ0NktLdjNFaGZJUVI0UmVUZFRZMnFVSDZ5aEs2OWZIQzNlNWNnPXM5Ni1jIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2Rlc2hndWlkZSIsImF1ZCI6ImRlc2hndWlkZSIsImF1dGhfdGltZSI6MTc1MzU1NTYzOSwidXNlcl9pZCI6ImJvWk9vZjZ0ZktOTmE2QVlTMmpPeVdIWGI5RjIiLCJzdWIiOiJib1pPb2Y2dGZLTk5hNkFZUzJqT3lXSFhiOUYyIiwiaWF0IjoxNzUzNTU1NjM5LCJleHAiOjE3NTM1NTkyMzksImVtYWlsIjoiaGVhbHRoY2FyZTMycUBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJnb29nbGUuY29tIjpbIjExNzM3OTc5Mzk4MjgxMjU2MDIyOSJdLCJlbWFpbCI6WyJoZWFsdGhjYXJlMzJxQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.QzCAkB8CY-L2wadcdZ--VULNzf2pLR5l_FxGLF7LnXfenrvzqTA2sqG_syaajvkykTraloSqEsTIJex9fNaWqAZTAf7XO7OM2c-vpdLo61j030Z04qk7D4fBW_9uCTA5fJFGXrq7MxStrTt_XOyBCdifw1-_sbcKCVKfvrhmjlpqHtnlxGUeCeRS07lD7RRrkxNgUEp0IFnlu7eWROFMh86bIK2XEBSaXas8W_YrQ7JK3kDV4nN3gKoo3QKDMkYNUpmZiQJ_XW-EMLGSv0RQV9q4X120plul4NvhcELQanmRbWO8EVyl-W33ttjpwhaV9vSIg9V8NCwGUD14I5Dy0A"
+    },
+    "baseURL": "http://localhost:5000/api/v1/",
+    "method": "post",
+    "url": "tour-guide-requests",
+    "data": "{\"userId\":\"68852645c78ef640a3f93875\",\"title\":\"Assalamu alaikum, title updated\",\"reason\":\"import { useQuery, useMutation, useQueryClient } from \\\"@tanstack/react-query\\\";\\nimport useAxiosSecure from \\\"../../../../hooks/useAxiosSecure\\\";\\nimport Swal from \\\"sweetalert2\\\";\\nimport { motion } from \\\"framer-motion\\\";\\n\\nconst ManageCandidate = () => {\\n  const axiosSecure = useAxiosSecure();\\n  const queryClient = useQueryClient();\\n\\n  // Fetch candidates\\n  const { data: candidateData = [], isLoading } = useQuery({\\n    queryKey: [\\\"tour-guide-requests\\\"],\\n    queryFn: async () => {\\n      const res = await axiosSecure.get(\\\"/tour-guide-requests\\\");\\n      return res.data?.data || [];\\n    },\\n  });\\n\\n  console.log(candidateData, \\\"ManageCandidate.jsx\\\", 12);\\n  // Accept mutation\\n  const acceptMutation = useMutation({\\n    mutationFn: async ({ requestId }) => {\\n      await axiosSecure.patch(`tour-guide-requests/${requestId}`, {\\n        status: \\\"accepted\\\",\\n      });\\n    },\\n    onSuccess: () => {\\n      queryClient.invalidateQueries([\\\"tour-guide-requests\\\"]);\\n      Swal.fire({\\n        icon: \\\"success\\\",\\n        title: \\\"Accepted!\\\",\\n        text: \\\"User is now a tour guide.\\\",\\n        toast: true,\\n        timer: 2000,\\n        background: \\\"#0f172a\\\",\\n        color: \\\"#fff\\\",\\n        showConfirmButton: false,\\n      });\\n    },\\n  });\\n\\n  // Reject mutation\\n  const rejectMutation = useMutation({\\n    mutationFn: async (requestId) => {\\n      await axiosSecure.delete(`/tour-guide-requests/${requestId}`);\\n    },\\n    onSuccess: () => {\\n      queryClient.invalidateQueries([\\\"tour-guide-requests\\\"]);\\n      Swal.fire({\\n        icon: \\\"info\\\",\\n        title: \\\"Rejected\\\",\\n        text: \\\"Application removed.\\\",\\n        toast: true,\\n        timer: 2000,\\n        background: \\\"#0f172a\\\",\\n        color: \\\"#fff\\\",\\n        showConfirmButton: false,\\n      });\\n    },\\n  });\\n\\n  return (\\n    <motion.div\\n      className=\\\"max-w-5xl mx-auto mt-10 p-6 bg-[#0f172a] text-white rounded-xl border border-indigo-800 glow-border shadow-2xl\\\"\\n      initial={{ opacity: 0, y: 50 }}\\n      animate={{ opacity: 1, y: 0 }}\\n    >\\n      <h1 className=\\\"text-3xl font-bold text-center mb-8 glow-text pulse-glow\\\">\\n        Manage Tour Guide Candidates\\n      </h1>\\n\\n      {isLoading ? (\\n        <p className=\\\"text-center text-indigo-300\\\">Loading candidates...</p>\\n      ) : candidateData.length === 0 ? (\\n        <p className=\\\"text-center text-gray-400\\\">No candidates found.</p>\\n      ) : (\\n        <div className=\\\"space-y-6\\\">\\n          {candidateData.map((candidate) => (\\n            <motion.div\\n              key={candidate._id}\\n              className=\\\"bg-[#1e293b] rounded-xl p-4 border border-indigo-600 jhilimili-glow\\\"\\n              whileHover={{ scale: 1.02 }}\\n            >\\n              <div className=\\\"flex justify-between items-center mb-2\\\">\\n                <div>\\n                  <h2 className=\\\"text-xl font-semibold text-cyan-300\\\">\\n                    {candidate.userId.name} ({candidate.userId.email})\\n                  </h2>\\n                  <p className=\\\"text-sm text-indigo-400\\\">{candidate.title}</p>\\n                </div>\\n                <span\\n                  className={`badge ${\\n                    candidate.status === \\\"accepted\\\"\\n                      ? \\\"badge-success\\\"\\n                      : \\\"badge-warning\\\"\\n                  }`}\\n                >\\n                  {candidate.status}\\n                </span>\\n              </div>\\n\\n              <p className=\\\"mb-1 text-slate-300\\\">\\n                <span className=\\\"font-medium\\\">Reason:</span> {candidate.reason}\\n              </p>\\n              <p className=\\\"mb-3 text-sky-400 underline\\\">\\n                <a href={candidate.cvLink} target=\\\"_blank\\\" rel=\\\"noreferrer\\\">\\n                  View CV\\n                </a>\\n              </p>\\n\\n              <div className=\\\"flex gap-4\\\">\\n                <button\\n                  onClick={() =>\\n                    acceptMutation.mutate({\\n                      requestId: candidate._id,\\n                    })\\n                  }\\n                  className=\\\"btn btn-sm btn-success glow-effect hover:glow-effect transition\\\"\\n                >\\n                  ✅ Accept\\n                </button>\\n                <button\\n                  onClick={() => rejectMutation.mutate(candidate._id)}\\n                  className=\\\"btn btn-sm btn-error glow-effect hover:glow-effect transition\\\"\\n                >\\n                  ❌ Reject\\n                </button>\\n              </div>\\n            </motion.div>\\n          ))}\\n        </div>\\n      )}\\n    </motion.div>\\n  );\\n};\\n\\nexport default ManageCandidate;\",\"cvLink\":\"https://drive.google.com/file/d/1HAkBOSth-W68Df8O0uZM7KfZx-9CQGd7/view?usp=sharing\"}",
+    "allowAbsoluteUrls": true
+  },
+  "code": "ERR_BAD_RESPONSE",
+  "status": 500
+}
+[2025-07-26T19:09:52.701Z] Unhandled Promise Rejection: {
+  "message": "Request failed with status code 500",
+  "name": "AxiosError",
+  "stack": "settle@http://localhost:5173/node_modules/.vite/deps/axios.js?v=904aa0e5:1229:12\nonloadend@http://localhost:5173/node_modules/.vite/deps/axios.js?v=904aa0e5:1561:13\n",
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": [
+      "xhr",
+      "http",
+      "fetch"
+    ],
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/json",
+      "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjZkZTQwZjA0ODgxYzZhMDE2MTFlYjI4NGE0Yzk1YTI1MWU5MTEyNTAiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiSGVhbHRoIENhcmUiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSVpOemp2T0FZVkQ0NktLdjNFaGZJUVI0UmVUZFRZMnFVSDZ5aEs2OWZIQzNlNWNnPXM5Ni1jIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2Rlc2hndWlkZSIsImF1ZCI6ImRlc2hndWlkZSIsImF1dGhfdGltZSI6MTc1MzU1NTYzOSwidXNlcl9pZCI6ImJvWk9vZjZ0ZktOTmE2QVlTMmpPeVdIWGI5RjIiLCJzdWIiOiJib1pPb2Y2dGZLTk5hNkFZUzJqT3lXSFhiOUYyIiwiaWF0IjoxNzUzNTU1NjM5LCJleHAiOjE3NTM1NTkyMzksImVtYWlsIjoiaGVhbHRoY2FyZTMycUBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJnb29nbGUuY29tIjpbIjExNzM3OTc5Mzk4MjgxMjU2MDIyOSJdLCJlbWFpbCI6WyJoZWFsdGhjYXJlMzJxQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.QzCAkB8CY-L2wadcdZ--VULNzf2pLR5l_FxGLF7LnXfenrvzqTA2sqG_syaajvkykTraloSqEsTIJex9fNaWqAZTAf7XO7OM2c-vpdLo61j030Z04qk7D4fBW_9uCTA5fJFGXrq7MxStrTt_XOyBCdifw1-_sbcKCVKfvrhmjlpqHtnlxGUeCeRS07lD7RRrkxNgUEp0IFnlu7eWROFMh86bIK2XEBSaXas8W_YrQ7JK3kDV4nN3gKoo3QKDMkYNUpmZiQJ_XW-EMLGSv0RQV9q4X120plul4NvhcELQanmRbWO8EVyl-W33ttjpwhaV9vSIg9V8NCwGUD14I5Dy0A"
+    },
+    "baseURL": "http://localhost:5000/api/v1/",
+    "method": "post",
+    "url": "tour-guide-requests",
+    "data": "{\"userId\":\"68852645c78ef640a3f93875\",\"title\":\"Assalamu alaikum, title updated\",\"reason\":\"import { useQuery, useMutation, useQueryClient } from \\\"@tanstack/react-query\\\";\\nimport useAxiosSecure from \\\"../../../../hooks/useAxiosSecure\\\";\\nimport Swal from \\\"sweetalert2\\\";\\nimport { motion } from \\\"framer-motion\\\";\\n\\nconst ManageCandidate = () => {\\n  const axiosSecure = useAxiosSecure();\\n  const queryClient = useQueryClient();\\n\\n  // Fetch candidates\\n  const { data: candidateData = [], isLoading } = useQuery({\\n    queryKey: [\\\"tour-guide-requests\\\"],\\n    queryFn: async () => {\\n      const res = await axiosSecure.get(\\\"/tour-guide-requests\\\");\\n      return res.data?.data || [];\\n    },\\n  });\\n\\n  console.log(candidateData, \\\"ManageCandidate.jsx\\\", 12);\\n  // Accept mutation\\n  const acceptMutation = useMutation({\\n    mutationFn: async ({ requestId }) => {\\n      await axiosSecure.patch(`tour-guide-requests/${requestId}`, {\\n        status: \\\"accepted\\\",\\n      });\\n    },\\n    onSuccess: () => {\\n      queryClient.invalidateQueries([\\\"tour-guide-requests\\\"]);\\n      Swal.fire({\\n        icon: \\\"success\\\",\\n        title: \\\"Accepted!\\\",\\n        text: \\\"User is now a tour guide.\\\",\\n        toast: true,\\n        timer: 2000,\\n        background: \\\"#0f172a\\\",\\n        color: \\\"#fff\\\",\\n        showConfirmButton: false,\\n      });\\n    },\\n  });\\n\\n  // Reject mutation\\n  const rejectMutation = useMutation({\\n    mutationFn: async (requestId) => {\\n      await axiosSecure.delete(`/tour-guide-requests/${requestId}`);\\n    },\\n    onSuccess: () => {\\n      queryClient.invalidateQueries([\\\"tour-guide-requests\\\"]);\\n      Swal.fire({\\n        icon: \\\"info\\\",\\n        title: \\\"Rejected\\\",\\n        text: \\\"Application removed.\\\",\\n        toast: true,\\n        timer: 2000,\\n        background: \\\"#0f172a\\\",\\n        color: \\\"#fff\\\",\\n        showConfirmButton: false,\\n      });\\n    },\\n  });\\n\\n  return (\\n    <motion.div\\n      className=\\\"max-w-5xl mx-auto mt-10 p-6 bg-[#0f172a] text-white rounded-xl border border-indigo-800 glow-border shadow-2xl\\\"\\n      initial={{ opacity: 0, y: 50 }}\\n      animate={{ opacity: 1, y: 0 }}\\n    >\\n      <h1 className=\\\"text-3xl font-bold text-center mb-8 glow-text pulse-glow\\\">\\n        Manage Tour Guide Candidates\\n      </h1>\\n\\n      {isLoading ? (\\n        <p className=\\\"text-center text-indigo-300\\\">Loading candidates...</p>\\n      ) : candidateData.length === 0 ? (\\n        <p className=\\\"text-center text-gray-400\\\">No candidates found.</p>\\n      ) : (\\n        <div className=\\\"space-y-6\\\">\\n          {candidateData.map((candidate) => (\\n            <motion.div\\n              key={candidate._id}\\n              className=\\\"bg-[#1e293b] rounded-xl p-4 border border-indigo-600 jhilimili-glow\\\"\\n              whileHover={{ scale: 1.02 }}\\n            >\\n              <div className=\\\"flex justify-between items-center mb-2\\\">\\n                <div>\\n                  <h2 className=\\\"text-xl font-semibold text-cyan-300\\\">\\n                    {candidate.userId.name} ({candidate.userId.email})\\n                  </h2>\\n                  <p className=\\\"text-sm text-indigo-400\\\">{candidate.title}</p>\\n                </div>\\n                <span\\n                  className={`badge ${\\n                    candidate.status === \\\"accepted\\\"\\n                      ? \\\"badge-success\\\"\\n                      : \\\"badge-warning\\\"\\n                  }`}\\n                >\\n                  {candidate.status}\\n                </span>\\n              </div>\\n\\n              <p className=\\\"mb-1 text-slate-300\\\">\\n                <span className=\\\"font-medium\\\">Reason:</span> {candidate.reason}\\n              </p>\\n              <p className=\\\"mb-3 text-sky-400 underline\\\">\\n                <a href={candidate.cvLink} target=\\\"_blank\\\" rel=\\\"noreferrer\\\">\\n                  View CV\\n                </a>\\n              </p>\\n\\n              <div className=\\\"flex gap-4\\\">\\n                <button\\n                  onClick={() =>\\n                    acceptMutation.mutate({\\n                      requestId: candidate._id,\\n                    })\\n                  }\\n                  className=\\\"btn btn-sm btn-success glow-effect hover:glow-effect transition\\\"\\n                >\\n                  ✅ Accept\\n                </button>\\n                <button\\n                  onClick={() => rejectMutation.mutate(candidate._id)}\\n                  className=\\\"btn btn-sm btn-error glow-effect hover:glow-effect transition\\\"\\n                >\\n                  ❌ Reject\\n                </button>\\n              </div>\\n            </motion.div>\\n          ))}\\n        </div>\\n      )}\\n    </motion.div>\\n  );\\n};\\n\\nexport default ManageCandidate;\",\"cvLink\":\"https://drive.google.com/file/d/1HAkBOSth-W68Df8O0uZM7KfZx-9CQGd7/view?usp=sharingwe\"}",
+    "allowAbsoluteUrls": true
+  },
+  "code": "ERR_BAD_RESPONSE",
+  "status": 500
+}
+[2025-07-26T19:09:56.975Z] Unhandled Promise Rejection: {
+  "message": "Request failed with status code 500",
+  "name": "AxiosError",
+  "stack": "settle@http://localhost:5173/node_modules/.vite/deps/axios.js?v=904aa0e5:1229:12\nonloadend@http://localhost:5173/node_modules/.vite/deps/axios.js?v=904aa0e5:1561:13\n",
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": [
+      "xhr",
+      "http",
+      "fetch"
+    ],
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/json",
+      "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjZkZTQwZjA0ODgxYzZhMDE2MTFlYjI4NGE0Yzk1YTI1MWU5MTEyNTAiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiSGVhbHRoIENhcmUiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSVpOemp2T0FZVkQ0NktLdjNFaGZJUVI0UmVUZFRZMnFVSDZ5aEs2OWZIQzNlNWNnPXM5Ni1jIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2Rlc2hndWlkZSIsImF1ZCI6ImRlc2hndWlkZSIsImF1dGhfdGltZSI6MTc1MzU1NTYzOSwidXNlcl9pZCI6ImJvWk9vZjZ0ZktOTmE2QVlTMmpPeVdIWGI5RjIiLCJzdWIiOiJib1pPb2Y2dGZLTk5hNkFZUzJqT3lXSFhiOUYyIiwiaWF0IjoxNzUzNTU1NjM5LCJleHAiOjE3NTM1NTkyMzksImVtYWlsIjoiaGVhbHRoY2FyZTMycUBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJnb29nbGUuY29tIjpbIjExNzM3OTc5Mzk4MjgxMjU2MDIyOSJdLCJlbWFpbCI6WyJoZWFsdGhjYXJlMzJxQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.QzCAkB8CY-L2wadcdZ--VULNzf2pLR5l_FxGLF7LnXfenrvzqTA2sqG_syaajvkykTraloSqEsTIJex9fNaWqAZTAf7XO7OM2c-vpdLo61j030Z04qk7D4fBW_9uCTA5fJFGXrq7MxStrTt_XOyBCdifw1-_sbcKCVKfvrhmjlpqHtnlxGUeCeRS07lD7RRrkxNgUEp0IFnlu7eWROFMh86bIK2XEBSaXas8W_YrQ7JK3kDV4nN3gKoo3QKDMkYNUpmZiQJ_XW-EMLGSv0RQV9q4X120plul4NvhcELQanmRbWO8EVyl-W33ttjpwhaV9vSIg9V8NCwGUD14I5Dy0A"
+    },
+    "baseURL": "http://localhost:5000/api/v1/",
+    "method": "post",
+    "url": "tour-guide-requests",
+    "data": "{\"userId\":\"68852645c78ef640a3f93875\",\"title\":\"Assalamu alaikum, title updated\",\"reason\":\"import { useQuery, useMutation, useQueryClient } from \\\"@tanstack/react-query\\\";\\nimport useAxiosSecure from \\\"../../../../hooks/useAxiosSecure\\\";\\nimport Swal from \\\"sweetalert2\\\";\\nimport { motion } from \\\"framer-motion\\\";\\n\\nconst ManageCandidate = () => {\\n  const axiosSecure = useAxiosSecure();\\n  const queryClient = useQueryClient();\\n\\n  // Fetch candidates\\n  const { data: candidateData = [], isLoading } = useQuery({\\n    queryKey: [\\\"tour-guide-requests\\\"],\\n    queryFn: async () => {\\n      const res = await axiosSecure.get(\\\"/tour-guide-requests\\\");\\n      return res.data?.data || [];\\n    },\\n  });\\n\\n  console.log(candidateData, \\\"ManageCandidate.jsx\\\", 12);\\n  // Accept mutation\\n  const acceptMutation = useMutation({\\n    mutationFn: async ({ requestId }) => {\\n      await axiosSecure.patch(`tour-guide-requests/${requestId}`, {\\n        status: \\\"accepted\\\",\\n      });\\n    },\\n    onSuccess: () => {\\n      queryClient.invalidateQueries([\\\"tour-guide-requests\\\"]);\\n      Swal.fire({\\n        icon: \\\"success\\\",\\n        title: \\\"Accepted!\\\",\\n        text: \\\"User is now a tour guide.\\\",\\n        toast: true,\\n        timer: 2000,\\n        background: \\\"#0f172a\\\",\\n        color: \\\"#fff\\\",\\n        showConfirmButton: false,\\n      });\\n    },\\n  });\\n\\n  // Reject mutation\\n  const rejectMutation = useMutation({\\n    mutationFn: async (requestId) => {\\n      await axiosSecure.delete(`/tour-guide-requests/${requestId}`);\\n    },\\n    onSuccess: () => {\\n      queryClient.invalidateQueries([\\\"tour-guide-requests\\\"]);\\n      Swal.fire({\\n        icon: \\\"info\\\",\\n        title: \\\"Rejected\\\",\\n        text: \\\"Application removed.\\\",\\n        toast: true,\\n        timer: 2000,\\n        background: \\\"#0f172a\\\",\\n        color: \\\"#fff\\\",\\n        showConfirmButton: false,\\n      });\\n    },\\n  });\\n\\n  return (\\n    <motion.div\\n      className=\\\"max-w-5xl mx-auto mt-10 p-6 bg-[#0f172a] text-white rounded-xl border border-indigo-800 glow-border shadow-2xl\\\"\\n      initial={{ opacity: 0, y: 50 }}\\n      animate={{ opacity: 1, y: 0 }}\\n    >\\n      <h1 className=\\\"text-3xl font-bold text-center mb-8 glow-text pulse-glow\\\">\\n        Manage Tour Guide Candidates\\n      </h1>\\n\\n      {isLoading ? (\\n        <p className=\\\"text-center text-indigo-300\\\">Loading candidates...</p>\\n      ) : candidateData.length === 0 ? (\\n        <p className=\\\"text-center text-gray-400\\\">No candidates found.</p>\\n      ) : (\\n        <div className=\\\"space-y-6\\\">\\n          {candidateData.map((candidate) => (\\n            <motion.div\\n              key={candidate._id}\\n              className=\\\"bg-[#1e293b] rounded-xl p-4 border border-indigo-600 jhilimili-glow\\\"\\n              whileHover={{ scale: 1.02 }}\\n            >\\n              <div className=\\\"flex justify-between items-center mb-2\\\">\\n                <div>\\n                  <h2 className=\\\"text-xl font-semibold text-cyan-300\\\">\\n                    {candidate.userId.name} ({candidate.userId.email})\\n                  </h2>\\n                  <p className=\\\"text-sm text-indigo-400\\\">{candidate.title}</p>\\n                </div>\\n                <span\\n                  className={`badge ${\\n                    candidate.status === \\\"accepted\\\"\\n                      ? \\\"badge-success\\\"\\n                      : \\\"badge-warning\\\"\\n                  }`}\\n                >\\n                  {candidate.status}\\n                </span>\\n              </div>\\n\\n              <p className=\\\"mb-1 text-slate-300\\\">\\n                <span className=\\\"font-medium\\\">Reason:</span> {candidate.reason}\\n              </p>\\n              <p className=\\\"mb-3 text-sky-400 underline\\\">\\n                <a href={candidate.cvLink} target=\\\"_blank\\\" rel=\\\"noreferrer\\\">\\n                  View CV\\n                </a>\\n              </p>\\n\\n              <div className=\\\"flex gap-4\\\">\\n                <button\\n                  onClick={() =>\\n                    acceptMutation.mutate({\\n                      requestId: candidate._id,\\n                    })\\n                  }\\n                  className=\\\"btn btn-sm btn-success glow-effect hover:glow-effect transition\\\"\\n                >\\n                  ✅ Accept\\n                </button>\\n                <button\\n                  onClick={() => rejectMutation.mutate(candidate._id)}\\n                  className=\\\"btn btn-sm btn-error glow-effect hover:glow-effect transition\\\"\\n                >\\n                  ❌ Reject\\n                </button>\\n              </div>\\n            </motion.div>\\n          ))}\\n        </div>\\n      )}\\n    </motion.div>\\n  );\\n};\\n\\nexport default ManageCandidate;\",\"cvLink\":\"https://drive.google.com/file/d/1HAkBOSth-W68Df8O0uZM7KfZx-9CQGd7/view?usp=sharingwe\"}",
+    "allowAbsoluteUrls": true
+  },
+  "code": "ERR_BAD_RESPONSE",
+  "status": 500
+}
+[2025-07-26T19:10:07.203Z] Unhandled Promise Rejection: {
+  "message": "Request failed with status code 500",
+  "name": "AxiosError",
+  "stack": "settle@http://localhost:5173/node_modules/.vite/deps/axios.js?v=904aa0e5:1229:12\nonloadend@http://localhost:5173/node_modules/.vite/deps/axios.js?v=904aa0e5:1561:13\n",
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": [
+      "xhr",
+      "http",
+      "fetch"
+    ],
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/json",
+      "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjZkZTQwZjA0ODgxYzZhMDE2MTFlYjI4NGE0Yzk1YTI1MWU5MTEyNTAiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiSGVhbHRoIENhcmUiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSVpOemp2T0FZVkQ0NktLdjNFaGZJUVI0UmVUZFRZMnFVSDZ5aEs2OWZIQzNlNWNnPXM5Ni1jIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2Rlc2hndWlkZSIsImF1ZCI6ImRlc2hndWlkZSIsImF1dGhfdGltZSI6MTc1MzU1NTYzOSwidXNlcl9pZCI6ImJvWk9vZjZ0ZktOTmE2QVlTMmpPeVdIWGI5RjIiLCJzdWIiOiJib1pPb2Y2dGZLTk5hNkFZUzJqT3lXSFhiOUYyIiwiaWF0IjoxNzUzNTU1NjM5LCJleHAiOjE3NTM1NTkyMzksImVtYWlsIjoiaGVhbHRoY2FyZTMycUBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJnb29nbGUuY29tIjpbIjExNzM3OTc5Mzk4MjgxMjU2MDIyOSJdLCJlbWFpbCI6WyJoZWFsdGhjYXJlMzJxQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.QzCAkB8CY-L2wadcdZ--VULNzf2pLR5l_FxGLF7LnXfenrvzqTA2sqG_syaajvkykTraloSqEsTIJex9fNaWqAZTAf7XO7OM2c-vpdLo61j030Z04qk7D4fBW_9uCTA5fJFGXrq7MxStrTt_XOyBCdifw1-_sbcKCVKfvrhmjlpqHtnlxGUeCeRS07lD7RRrkxNgUEp0IFnlu7eWROFMh86bIK2XEBSaXas8W_YrQ7JK3kDV4nN3gKoo3QKDMkYNUpmZiQJ_XW-EMLGSv0RQV9q4X120plul4NvhcELQanmRbWO8EVyl-W33ttjpwhaV9vSIg9V8NCwGUD14I5Dy0A"
+    },
+    "baseURL": "http://localhost:5000/api/v1/",
+    "method": "post",
+    "url": "tour-guide-requests",
+    "data": "{\"userId\":\"68852645c78ef640a3f93875\",\"title\":\"Assalamu alaikum, title updated\",\"reason\":\"import { useQuery, useMutation, useQueryClient } from \\\"@tanstack/react-query\\\";\\nimport useAxiosSecure from \\\"../../../../hooks/useAxiosSecure\\\";\\nimport Swal from \\\"sweetalert2\\\";\\nimport { motion } from \\\"framer-motion\\\";\\n\\nconst ManageCandidate = () => {\\n  const axiosSecure = useAxiosSecure();\\n  const queryClient = useQueryClient();\\n\\n  // Fetch candidates\\n  const { data: candidateData = [], isLoading } = useQuery({\\n    queryKey: [\\\"tour-guide-requests\\\"],\\n    queryFn: async () => {\\n      const res = await axiosSecure.get(\\\"/tour-guide-requests\\\");\\n      return res.data?.data || [];\\n    },\\n  });\\n\\n  console.log(candidateData, \\\"ManageCandidate.jsx\\\", 12);\\n  // Accept mutation\\n  const acceptMutation = useMutation({\\n    mutationFn: async ({ requestId }) => {\\n      await axiosSecure.patch(`tour-guide-requests/${requestId}`, {\\n        status: \\\"accepted\\\",\\n      });\\n    },\\n    onSuccess: () => {\\n      queryClient.invalidateQueries([\\\"tour-guide-requests\\\"]);\\n      Swal.fire({\\n        icon: \\\"success\\\",\\n        title: \\\"Accepted!\\\",\\n        text: \\\"User is now a tour guide.\\\",\\n        toast: true,\\n        timer: 2000,\\n        background: \\\"#0f172a\\\",\\n        color: \\\"#fff\\\",\\n        showConfirmButton: false,\\n      });\\n    },\\n  });\\n\\n  // Reject mutation\\n  const rejectMutation = useMutation({\\n    mutationFn: async (requestId) => {\\n      await axiosSecure.delete(`/tour-guide-requests/${requestId}`);\\n    },\\n    onSuccess: () => {\\n      queryClient.invalidateQueries([\\\"tour-guide-requests\\\"]);\\n      Swal.fire({\\n        icon: \\\"info\\\",\\n        title: \\\"Rejected\\\",\\n        text: \\\"Application removed.\\\",\\n        toast: true,\\n        timer: 2000,\\n        background: \\\"#0f172a\\\",\\n        color: \\\"#fff\\\",\\n        showConfirmButton: false,\\n      });\\n    },\\n  });\\n\\n  return (\\n    <motion.div\\n      className=\\\"max-w-5xl mx-auto mt-10 p-6 bg-[#0f172a] text-white rounded-xl border border-indigo-800 glow-border shadow-2xl\\\"\\n      initial={{ opacity: 0, y: 50 }}\\n      animate={{ opacity: 1, y: 0 }}\\n    >\\n      <h1 className=\\\"text-3xl font-bold text-center mb-8 glow-text pulse-glow\\\">\\n        Manage Tour Guide Candidates\\n      </h1>\\n\\n      {isLoading ? (\\n        <p className=\\\"text-center text-indigo-300\\\">Loading candidates...</p>\\n      ) : candidateData.length === 0 ? (\\n        <p className=\\\"text-center text-gray-400\\\">No candidates found.</p>\\n      ) : (\\n        <div className=\\\"space-y-6\\\">\\n          {candidateData.map((candidate) => (\\n            <motion.div\\n              key={candidate._id}\\n              className=\\\"bg-[#1e293b] rounded-xl p-4 border border-indigo-600 jhilimili-glow\\\"\\n              whileHover={{ scale: 1.02 }}\\n            >\\n              <div className=\\\"flex justify-between items-center mb-2\\\">\\n                <div>\\n                  <h2 className=\\\"text-xl font-semibold text-cyan-300\\\">\\n                    {candidate.userId.name} ({candidate.userId.email})\\n                  </h2>\\n                  <p className=\\\"text-sm text-indigo-400\\\">{candidate.title}</p>\\n                </div>\\n                <span\\n                  className={`badge ${\\n                    candidate.status === \\\"accepted\\\"\\n                      ? \\\"badge-success\\\"\\n                      : \\\"badge-warning\\\"\\n                  }`}\\n                >\\n                  {candidate.status}\\n                </span>\\n              </div>\\n\\n              <p className=\\\"mb-1 text-slate-300\\\">\\n                <span className=\\\"font-medium\\\">Reason:</span> {candidate.reason}\\n              </p>\\n              <p className=\\\"mb-3 text-sky-400 underline\\\">\\n                <a href={candidate.cvLink} target=\\\"_blank\\\" rel=\\\"noreferrer\\\">\\n                  View CV\\n                </a>\\n              </p>\\n\\n              <div className=\\\"flex gap-4\\\">\\n                <button\\n                  onClick={() =>\\n                    acceptMutation.mutate({\\n                      requestId: candidate._id,\\n                    })\\n                  }\\n                  className=\\\"btn btn-sm btn-success glow-effect hover:glow-effect transition\\\"\\n                >\\n                  ✅ Accept\\n                </button>\\n                <button\\n                  onClick={() => rejectMutation.mutate(candidate._id)}\\n                  className=\\\"btn btn-sm btn-error glow-effect hover:glow-effect transition\\\"\\n                >\\n                  ❌ Reject\\n                </button>\\n              </div>\\n            </motion.div>\\n          ))}\\n        </div>\\n      )}\\n    </motion.div>\\n  );\\n};\\n\\nexport default ManageCandidate;\",\"cvLink\":\"https://drive.google.com/file/d/1HAkBOSth-W68Df8O0uZM7KfZx-9CQGd7/view?usp=sharingwe\"}",
+    "allowAbsoluteUrls": true
+  },
+  "code": "ERR_BAD_RESPONSE",
+  "status": 500
+}

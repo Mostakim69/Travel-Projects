@@ -7,6 +7,7 @@ import EditStoryModal from "./components/EditStoryModal";
 import StoryCard from "./components/StoryCard";
 import { darkSwal } from "../../../hooks/usePostData";
 import useUserRole from "../../../hooks/useUserRole";
+import { Link } from "react-router";
 
 const ManageStories = () => {
   // const { user } = useAuth();
@@ -71,9 +72,17 @@ const ManageStories = () => {
       </h2>
 
       {stories.length === 0 ? (
-        <p className="text-center text-gray-400 mt-10">
-          You haven't shared any stories yet.
-        </p>
+        <div className="flex flex-col items-center justify-center">
+          <p className="text-center text-gray-400 mt-10">
+            You haven't shared any stories yet.
+          </p>
+          <Link
+            to="/dashboard/add-stories"
+            className="btn btn-primary glow-border px-6 py-2 mt-3 rounded-full"
+          >
+            Share your story
+          </Link>
+        </div>
       ) : (
         <div className="grid md:grid-cols-2  gap-6">
           {stories.map((story) => (
