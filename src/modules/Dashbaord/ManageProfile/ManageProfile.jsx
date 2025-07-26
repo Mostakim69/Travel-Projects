@@ -18,9 +18,9 @@ const ManageProfile = () => {
   const { data: userInfo = {}, isPending } = useQuery({
     queryKey: ["manage-profile", user?.email],
     queryFn: async () => {
-      // const res = await axiosSecure.get(`/users/email/${user.email}`);
+      const res = await axiosSecure.get(`/users/email/${user.email}`);
       // const res = await axiosSecure.get(`/users/email/tourist4@example.com`); emaile for tourist
-      const res = await axiosSecure.get(`/users/email/4@example.com`); // email for tour guide
+      // const res = await axiosSecure.get(`/users/email/4@example.com`); // email for tour guide
 
       return res.data?.data;
     },
