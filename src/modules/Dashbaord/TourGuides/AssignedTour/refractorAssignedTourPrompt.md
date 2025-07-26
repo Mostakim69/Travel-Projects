@@ -28,12 +28,9 @@ Also return a `.sh` script that will:
 
 ---
 
-x
-
 ## 🌲 Full Project Structure (cwd)
 
 ```bash
-
 /run/media/sj/developer/web/L1B11/12mi/ass/DeshGuide/DeshGuide-client
 ├── bun.lock
 ├── eslint.config.js
@@ -214,23 +211,56 @@ x
 ### `AssignedTour.jsx`
 
 ```javascript
+// AssignedTour.jsx
 import useSecureQuery from "../../../../hooks/useSecureQuery";
+import useSecureUpdate from "../../../../hooks/useSecureUpdate";
 import AssignedTourCard from "./AssignedTourCard";
+import { darkSwal } from "../../../../hooks/usePostData";
 
 const AssignedTour = () => {
-  const { data, isLoading, error } = useSecureQuery(
-    ["guideBookings", "687cff8d095a1d459861b897"], // Unique key
-    "/bookings/guide/687cff8d095a1d459861b897", // API endpoint
+  const { data, isLoading, error, refetch } = useSecureQuery(
+    ["guideBookings", "687cff8d095a1d459861b897"],
+    "/bookings/guide/687cff8d095a1d459861b897",
   );
 
-  if (isLoading) return <p>Loading bookings...</p>;
-  if (error) return <p>Error loading bookings</p>;
+  const handleAction = async (bookingId, status) => {
+    try {
+      const res = await useSecureUpdate(`/bookings/${bookingId}`, { status });
+      if (res?.data?.success) {
+        darkSwal.fire("Success", `Booking ${status}`, "success");
+        refetch();
+      }
+    } catch (err) {
+      darkSwal.fire("Error", err.message, "error");
+    }
+  };
+
+  if (isLoading)
+    return (
+      <p className="text-center text-lg text-accent animate-pulse">
+        Loading tours...
+      </p>
+    );
+
+  if (error)
+    return <p className="text-center text-red-400">Failed to load bookings.</p>;
 
   return (
-    <div className="grid md:grid-cols-2 gap-4">
-      {data?.data?.map((booking) => (
-        <AssignedTourCard key={booking._id} booking={booking} />
-      ))}
+    <div className="min-h-screen px-4 py-10 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
+      <h1 className="text-4xl md:text-5xl font-extrabold text-center mb-8 bg-gradient-to-r from-cyan-400 via-fuchsia-500 to-indigo-400 bg-clip-text text-transparent drop-shadow-md">
+        Assigned Tours
+      </h1>
+
+      <div className="grid gap-6 md:grid-cols-2">
+        {data?.data?.map((booking) => (
+          <div
+            key={booking._id}
+            className="rounded-xl shadow-lg border border-gray-700 bg-base-200 bg-opacity-80 p-4 backdrop-blur-md hover:shadow-xl transition duration-300 ease-in-out"
+          >
+            <AssignedTourCard booking={booking} handelAction={handleAction} />
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
@@ -241,31 +271,88 @@ export default AssignedTour;
 ### `AssignedTourCard.jsx`
 
 ```javascript
-const AssignedTourCard = ({ booking }) => {
+const AssignedTourCard = ({ booking, handleAction }) => {
+  const {
+    touristName,
+    touristEmail,
+    touristPhoto,
+    packageName,
+    price,
+    tourDate,
+    status,
+    paymentStatus,
+  } = booking;
+
+  const formattedDate = new Date(tourDate).toLocaleDateString();
+
   return (
-    <div>
-      <div className="bg-base-200 rounded-lg shadow p-4 space-y-2">
-        <h2 className="text-xl font-bold">{booking.packageName}</h2>
+    <div className="bg-purple-950 bg-opacity-60 rounded-xl p-5 shadow-lg border border-gray-700 hover:shadow-fuchsia-600 transition-all duration-300">
+      <div className="flex items-center gap-4 mb-4">
+        <img
+          src={touristPhoto}
+          alt={touristName}
+          className="w-14 h-14 rounded-full ring-2 ring-fuchsia-500 shadow-md"
+        />
+        <div>
+          <h2 className="text-lg font-semibold text-white">{touristName}</h2>
+          <p className="text-sm text-gray-400">{touristEmail}</p>
+        </div>
+      </div>
+
+      <div className="text-sm space-y-1 text-gray-300">
         <p>
-          <strong>Tourist:</strong> {booking.touristName}
+          <span className="text-fuchsia-400 font-semibold">Package:</span>{" "}
+          {packageName}
         </p>
         <p>
-          <strong>Email:</strong> {booking.touristEmail}
+          <span className="text-fuchsia-400 font-semibold">Price:</span> ৳
+          {price}
         </p>
         <p>
-          <strong>Status:</strong> {booking.status}
-        </p>
-        <p>
-          <strong>Payment:</strong> {booking.paymentStatus}
-        </p>
-        <p>
-          <strong>Price:</strong> ৳{booking.price}
-        </p>
-        <p>
-          <strong>Tour Date:</strong>{" "}
-          {new Date(booking.tourDate).toLocaleDateString()}
+          <span className="text-fuchsia-400 font-semibold">Tour Date:</span>{" "}
+          {formattedDate}
         </p>
       </div>
+
+      <div className="mt-4 flex justify-between items-center">
+        <span
+          className={`badge ${
+            status === "accepted"
+              ? "badge-success"
+              : status === "rejected"
+                ? "badge-error"
+                : "badge-ghost"
+          }`}
+        >
+          {status}
+        </span>
+        <span
+          className={`badge ${
+            paymentStatus === "paid"
+              ? "badge-info"
+              : "badge-outline badge-warning"
+          }`}
+        >
+          {paymentStatus}
+        </span>
+      </div>
+
+      {booking.status === "in-review" && (
+        <div className="flex justify-end gap-4 mt-4">
+          <button
+            onClick={() => handleAction(booking._id, "accepted")}
+            className="btn btn-success btn-sm hover:brightness-110 transition"
+          >
+            Accept
+          </button>
+          <button
+            onClick={() => handleAction(booking._id, "rejected")}
+            className="btn btn-error btn-sm hover:brightness-110 transition"
+          >
+            Reject
+          </button>
+        </div>
+      )}
     </div>
   );
 };
