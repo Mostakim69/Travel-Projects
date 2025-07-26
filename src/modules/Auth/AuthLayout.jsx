@@ -5,7 +5,7 @@ import AuthSidebar from "./components/AuthSidebar";
 const AuthLayout = () => {
   return (
     <div className="mx-auto max-w-[1800px] p-4">
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="xl:grid grid-cols-12 gap-10 order">
         <div className="col-span-9">
           <Outlet />

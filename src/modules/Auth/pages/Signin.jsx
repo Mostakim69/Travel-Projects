@@ -20,7 +20,7 @@ const Signin = () => {
         className="max-w-xl mx-auto text-center mb-10"
         {...topToBottom}
       >
-        <h2 className="text-3xl sm:text-4xl font-bold bg-gradient-to-r from-indigo-400 via-purple-500 to-blue-400 bg-clip-text text-transparent drop-shadow-md">
+        <h2 className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-indigo-400 via-purple-500 to-blue-400 bg-clip-text text-transparent drop-shadow-md">
           DeshGuide connects explorers with unforgettable journeys.
         </h2>
         <p className="mt-3 text-sm text-gray-300">
