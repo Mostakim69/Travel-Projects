@@ -53,7 +53,7 @@ const SignUpForm = () => {
       darkSwal.fire({
         icon: "success",
         title: "Account Created",
-        text: "Welcome to WorkElevate!",
+        text: "Welcome to DeshGuide!",
         timer: 2000,
         showConfirmButton: false,
       });

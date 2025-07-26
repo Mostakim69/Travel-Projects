@@ -3613,3 +3613,490 @@
 [10:54 PM 26-07-25] userData?._id 6884fdd0e64086d005edf156
 [10:54 PM 26-07-25] userData?._id 6884fdd0e64086d005edf156
 [10:54 PM 26-07-25] userData?._id 6884fdd0e64086d005edf156
+[10:54 PM 26-07-25] [] TourismAndGuides.jsx 7
+[10:54 PM 26-07-25] [] TourismAndGuides.jsx 7
+[10:54 PM 26-07-25] [] TourismAndGuides.jsx 7
+[10:54 PM 26-07-25] [] TourismAndGuides.jsx 7
+[10:54 PM 26-07-25] [
+  {
+    "_id": "688504efec499de84916b15e",
+    "title": "Cox's Bazar Beach Escape",
+    "description": "Enjoy the world’s longest sea beach, local seafood, and calm sunsets at Cox’s Bazar. Ideal for couples, families, or solo travelers.",
+    "price": 5500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Cox's Bazar",
+    "gallery": [
+      "https://images.deepai.org/art-image/72bca9114b0941e89cdb0ea0a22f5553/cox-s-bazar-sea-beach-during-sunset-with-silhouettes-.jpg",
+      "https://api.deepai.org/job-view-file/d46572d0-47a7-41cc-8eae-d7bac1a7e0a6/outputs/output.jpg",
+      "https://api.deepai.org/job-view-file/21cbe50a-3fd5-40b2-b412-de7076ace8c9/outputs/output.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Departure from Dhaka, check-in at sea view hotel, evening walk by the beach"
+      },
+      {
+        "day": 2,
+        "activities": "Visit Himchari, Inani Beach, and enjoy local seafood lunch"
+      },
+      {
+        "day": 3,
+        "activities": "Shopping from Burmese market and return journey"
+      }
+    ],
+    "createdAt": "2025-07-26T16:40:15.371Z"
+  }
+] TourismAndGuides.jsx 7
+[10:54 PM 26-07-25] [
+  {
+    "_id": "688504efec499de84916b15e",
+    "title": "Cox's Bazar Beach Escape",
+    "description": "Enjoy the world’s longest sea beach, local seafood, and calm sunsets at Cox’s Bazar. Ideal for couples, families, or solo travelers.",
+    "price": 5500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Cox's Bazar",
+    "gallery": [
+      "https://images.deepai.org/art-image/72bca9114b0941e89cdb0ea0a22f5553/cox-s-bazar-sea-beach-during-sunset-with-silhouettes-.jpg",
+      "https://api.deepai.org/job-view-file/d46572d0-47a7-41cc-8eae-d7bac1a7e0a6/outputs/output.jpg",
+      "https://api.deepai.org/job-view-file/21cbe50a-3fd5-40b2-b412-de7076ace8c9/outputs/output.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Departure from Dhaka, check-in at sea view hotel, evening walk by the beach"
+      },
+      {
+        "day": 2,
+        "activities": "Visit Himchari, Inani Beach, and enjoy local seafood lunch"
+      },
+      {
+        "day": 3,
+        "activities": "Shopping from Burmese market and return journey"
+      }
+    ],
+    "createdAt": "2025-07-26T16:40:15.371Z"
+  }
+] TourismAndGuides.jsx 7
+[10:54 PM 26-07-25] [
+  {
+    "_id": "688504efec499de84916b15e",
+    "title": "Cox's Bazar Beach Escape",
+    "description": "Enjoy the world’s longest sea beach, local seafood, and calm sunsets at Cox’s Bazar. Ideal for couples, families, or solo travelers.",
+    "price": 5500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Cox's Bazar",
+    "gallery": [
+      "https://images.deepai.org/art-image/72bca9114b0941e89cdb0ea0a22f5553/cox-s-bazar-sea-beach-during-sunset-with-silhouettes-.jpg",
+      "https://api.deepai.org/job-view-file/d46572d0-47a7-41cc-8eae-d7bac1a7e0a6/outputs/output.jpg",
+      "https://api.deepai.org/job-view-file/21cbe50a-3fd5-40b2-b412-de7076ace8c9/outputs/output.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Departure from Dhaka, check-in at sea view hotel, evening walk by the beach"
+      },
+      {
+        "day": 2,
+        "activities": "Visit Himchari, Inani Beach, and enjoy local seafood lunch"
+      },
+      {
+        "day": 3,
+        "activities": "Shopping from Burmese market and return journey"
+      }
+    ],
+    "createdAt": "2025-07-26T16:40:15.371Z"
+  }
+] TourismAndGuides.jsx 7
+[10:54 PM 26-07-25] [
+  {
+    "_id": "688504efec499de84916b15e",
+    "title": "Cox's Bazar Beach Escape",
+    "description": "Enjoy the world’s longest sea beach, local seafood, and calm sunsets at Cox’s Bazar. Ideal for couples, families, or solo travelers.",
+    "price": 5500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Cox's Bazar",
+    "gallery": [
+      "https://images.deepai.org/art-image/72bca9114b0941e89cdb0ea0a22f5553/cox-s-bazar-sea-beach-during-sunset-with-silhouettes-.jpg",
+      "https://api.deepai.org/job-view-file/d46572d0-47a7-41cc-8eae-d7bac1a7e0a6/outputs/output.jpg",
+      "https://api.deepai.org/job-view-file/21cbe50a-3fd5-40b2-b412-de7076ace8c9/outputs/output.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Departure from Dhaka, check-in at sea view hotel, evening walk by the beach"
+      },
+      {
+        "day": 2,
+        "activities": "Visit Himchari, Inani Beach, and enjoy local seafood lunch"
+      },
+      {
+        "day": 3,
+        "activities": "Shopping from Burmese market and return journey"
+      }
+    ],
+    "createdAt": "2025-07-26T16:40:15.371Z"
+  }
+] TourismAndGuides.jsx 7
+[10:54 PM 26-07-25] [
+  {
+    "_id": "688504efec499de84916b15e",
+    "title": "Cox's Bazar Beach Escape",
+    "description": "Enjoy the world’s longest sea beach, local seafood, and calm sunsets at Cox’s Bazar. Ideal for couples, families, or solo travelers.",
+    "price": 5500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Cox's Bazar",
+    "gallery": [
+      "https://images.deepai.org/art-image/72bca9114b0941e89cdb0ea0a22f5553/cox-s-bazar-sea-beach-during-sunset-with-silhouettes-.jpg",
+      "https://api.deepai.org/job-view-file/d46572d0-47a7-41cc-8eae-d7bac1a7e0a6/outputs/output.jpg",
+      "https://api.deepai.org/job-view-file/21cbe50a-3fd5-40b2-b412-de7076ace8c9/outputs/output.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Departure from Dhaka, check-in at sea view hotel, evening walk by the beach"
+      },
+      {
+        "day": 2,
+        "activities": "Visit Himchari, Inani Beach, and enjoy local seafood lunch"
+      },
+      {
+        "day": 3,
+        "activities": "Shopping from Burmese market and return journey"
+      }
+    ],
+    "createdAt": "2025-07-26T16:40:15.371Z"
+  }
+] TourismAndGuides.jsx 7
+[10:54 PM 26-07-25] [
+  {
+    "_id": "688504efec499de84916b15e",
+    "title": "Cox's Bazar Beach Escape",
+    "description": "Enjoy the world’s longest sea beach, local seafood, and calm sunsets at Cox’s Bazar. Ideal for couples, families, or solo travelers.",
+    "price": 5500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Cox's Bazar",
+    "gallery": [
+      "https://images.deepai.org/art-image/72bca9114b0941e89cdb0ea0a22f5553/cox-s-bazar-sea-beach-during-sunset-with-silhouettes-.jpg",
+      "https://api.deepai.org/job-view-file/d46572d0-47a7-41cc-8eae-d7bac1a7e0a6/outputs/output.jpg",
+      "https://api.deepai.org/job-view-file/21cbe50a-3fd5-40b2-b412-de7076ace8c9/outputs/output.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Departure from Dhaka, check-in at sea view hotel, evening walk by the beach"
+      },
+      {
+        "day": 2,
+        "activities": "Visit Himchari, Inani Beach, and enjoy local seafood lunch"
+      },
+      {
+        "day": 3,
+        "activities": "Shopping from Burmese market and return journey"
+      }
+    ],
+    "createdAt": "2025-07-26T16:40:15.371Z"
+  }
+] TourismAndGuides.jsx 7
+[10:57 PM 26-07-25] {
+  "user": {
+    "uid": "0ve2hXmmzfVZZEcDHOdJwoityqq2",
+    "email": "admin@example.com",
+    "emailVerified": false,
+    "isAnonymous": false,
+    "providerData": [
+      {
+        "providerId": "password",
+        "uid": "admin@example.com",
+        "displayName": null,
+        "email": "admin@example.com",
+        "phoneNumber": null,
+        "photoURL": null
+      }
+    ],
+    "stsTokenManager": {
+      "refreshToken": "AMf-vBw62Dl5ljqWY_Zmly6oiSC4FqtFSI_eEy5rFx4els7AkdnCBtn9pbNwtxXlNSD4CQhUKqbdyJLFaPULOqNMZC9kwj0HMD-x4PPcadEpNIxhMPQp5Kvkf6SX04gRi4HZvtSC1R4ORfykxWzVvXI9j9oG3A3LwSpCoolJ6-Q_BwGVoxqwTiVO88WhD-2jiGPpFprmIOIf",
+      "accessToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjZkZTQwZjA0ODgxYzZhMDE2MTFlYjI4NGE0Yzk1YTI1MWU5MTEyNTAiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vZGVzaGd1aWRlIiwiYXVkIjoiZGVzaGd1aWRlIiwiYXV0aF90aW1lIjoxNzUzNTQ5MDcyLCJ1c2VyX2lkIjoiMHZlMmhYbW16ZlZaWkVjREhPZEp3b2l0eXFxMiIsInN1YiI6IjB2ZTJoWG1temZWWlpFY0RIT2RKd29pdHlxcTIiLCJpYXQiOjE3NTM1NDkwNzIsImV4cCI6MTc1MzU1MjY3MiwiZW1haWwiOiJhZG1pbkBleGFtcGxlLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJlbWFpbCI6WyJhZG1pbkBleGFtcGxlLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.NntGPp9E0xmdZ9O7VQdDNbZm0TpmSO0LlTw2Do68F20CRXbGnGpQ-rdKhHz2-DbQt7Lr_L1MwyhCbI7oJh9sle41KvrnnTxgdddBHERx9X1lStgzzrm1hD0HIa2qgqwnjof0A9S9BtsafLGUr1uiXxhNC58P4TDaUb6SbMvASK8w2y5YZByWy5mdHIw1HX7BneIwe5r-ccWgCZh6dJrH9DvlvIatTYWjvRbuiRv0Bm_WFao29aqCgHfqVKjCRUzxyz0mBeq8_tvaZ6dxYSFbxK8vt68NCSboDVXc3zpZDS-gUlp7yLPy0eXgpcH6QiRxs9UViijsn7jrfDXd3hPgBw",
+      "expirationTime": 1753552672355
+    },
+    "createdAt": "1753549071806",
+    "lastLoginAt": "1753549071806",
+    "apiKey": "AIzaSyB-ldVpHa1554RClJBfUCKC3K7hXMEZ9e8",
+    "appName": "[DEFAULT]"
+  },
+  "providerId": null,
+  "_tokenResponse": {
+    "kind": "identitytoolkit#SignupNewUserResponse",
+    "idToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjZkZTQwZjA0ODgxYzZhMDE2MTFlYjI4NGE0Yzk1YTI1MWU5MTEyNTAiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vZGVzaGd1aWRlIiwiYXVkIjoiZGVzaGd1aWRlIiwiYXV0aF90aW1lIjoxNzUzNTQ5MDcyLCJ1c2VyX2lkIjoiMHZlMmhYbW16ZlZaWkVjREhPZEp3b2l0eXFxMiIsInN1YiI6IjB2ZTJoWG1temZWWlpFY0RIT2RKd29pdHlxcTIiLCJpYXQiOjE3NTM1NDkwNzIsImV4cCI6MTc1MzU1MjY3MiwiZW1haWwiOiJhZG1pbkBleGFtcGxlLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJlbWFpbCI6WyJhZG1pbkBleGFtcGxlLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.NntGPp9E0xmdZ9O7VQdDNbZm0TpmSO0LlTw2Do68F20CRXbGnGpQ-rdKhHz2-DbQt7Lr_L1MwyhCbI7oJh9sle41KvrnnTxgdddBHERx9X1lStgzzrm1hD0HIa2qgqwnjof0A9S9BtsafLGUr1uiXxhNC58P4TDaUb6SbMvASK8w2y5YZByWy5mdHIw1HX7BneIwe5r-ccWgCZh6dJrH9DvlvIatTYWjvRbuiRv0Bm_WFao29aqCgHfqVKjCRUzxyz0mBeq8_tvaZ6dxYSFbxK8vt68NCSboDVXc3zpZDS-gUlp7yLPy0eXgpcH6QiRxs9UViijsn7jrfDXd3hPgBw",
+    "email": "admin@example.com",
+    "refreshToken": "AMf-vBw62Dl5ljqWY_Zmly6oiSC4FqtFSI_eEy5rFx4els7AkdnCBtn9pbNwtxXlNSD4CQhUKqbdyJLFaPULOqNMZC9kwj0HMD-x4PPcadEpNIxhMPQp5Kvkf6SX04gRi4HZvtSC1R4ORfykxWzVvXI9j9oG3A3LwSpCoolJ6-Q_BwGVoxqwTiVO88WhD-2jiGPpFprmIOIf",
+    "expiresIn": "3600",
+    "localId": "0ve2hXmmzfVZZEcDHOdJwoityqq2"
+  },
+  "operationType": "signIn"
+} SignUpForm.jsx 35
+[10:57 PM 26-07-25] [] TourismAndGuides.jsx 7
+[10:57 PM 26-07-25] [] TourismAndGuides.jsx 7
+[10:57 PM 26-07-25] [] TourismAndGuides.jsx 7
+[10:57 PM 26-07-25] [] TourismAndGuides.jsx 7
+[10:57 PM 26-07-25] [
+  {
+    "_id": "688504efec499de84916b15e",
+    "title": "Cox's Bazar Beach Escape",
+    "description": "Enjoy the world’s longest sea beach, local seafood, and calm sunsets at Cox’s Bazar. Ideal for couples, families, or solo travelers.",
+    "price": 5500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Cox's Bazar",
+    "gallery": [
+      "https://images.deepai.org/art-image/72bca9114b0941e89cdb0ea0a22f5553/cox-s-bazar-sea-beach-during-sunset-with-silhouettes-.jpg",
+      "https://api.deepai.org/job-view-file/d46572d0-47a7-41cc-8eae-d7bac1a7e0a6/outputs/output.jpg",
+      "https://api.deepai.org/job-view-file/21cbe50a-3fd5-40b2-b412-de7076ace8c9/outputs/output.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Departure from Dhaka, check-in at sea view hotel, evening walk by the beach"
+      },
+      {
+        "day": 2,
+        "activities": "Visit Himchari, Inani Beach, and enjoy local seafood lunch"
+      },
+      {
+        "day": 3,
+        "activities": "Shopping from Burmese market and return journey"
+      }
+    ],
+    "createdAt": "2025-07-26T16:40:15.371Z"
+  }
+] TourismAndGuides.jsx 7
+[10:57 PM 26-07-25] [
+  {
+    "_id": "688504efec499de84916b15e",
+    "title": "Cox's Bazar Beach Escape",
+    "description": "Enjoy the world’s longest sea beach, local seafood, and calm sunsets at Cox’s Bazar. Ideal for couples, families, or solo travelers.",
+    "price": 5500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Cox's Bazar",
+    "gallery": [
+      "https://images.deepai.org/art-image/72bca9114b0941e89cdb0ea0a22f5553/cox-s-bazar-sea-beach-during-sunset-with-silhouettes-.jpg",
+      "https://api.deepai.org/job-view-file/d46572d0-47a7-41cc-8eae-d7bac1a7e0a6/outputs/output.jpg",
+      "https://api.deepai.org/job-view-file/21cbe50a-3fd5-40b2-b412-de7076ace8c9/outputs/output.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Departure from Dhaka, check-in at sea view hotel, evening walk by the beach"
+      },
+      {
+        "day": 2,
+        "activities": "Visit Himchari, Inani Beach, and enjoy local seafood lunch"
+      },
+      {
+        "day": 3,
+        "activities": "Shopping from Burmese market and return journey"
+      }
+    ],
+    "createdAt": "2025-07-26T16:40:15.371Z"
+  }
+] TourismAndGuides.jsx 7
+[10:59 PM 26-07-25] [] TourismAndGuides.jsx 7
+[10:59 PM 26-07-25] [] TourismAndGuides.jsx 7
+[10:59 PM 26-07-25] [] TourismAndGuides.jsx 7
+[10:59 PM 26-07-25] [] TourismAndGuides.jsx 7
+[10:59 PM 26-07-25] [
+  {
+    "_id": "688504efec499de84916b15e",
+    "title": "Cox's Bazar Beach Escape",
+    "description": "Enjoy the world’s longest sea beach, local seafood, and calm sunsets at Cox’s Bazar. Ideal for couples, families, or solo travelers.",
+    "price": 5500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Cox's Bazar",
+    "gallery": [
+      "https://images.deepai.org/art-image/72bca9114b0941e89cdb0ea0a22f5553/cox-s-bazar-sea-beach-during-sunset-with-silhouettes-.jpg",
+      "https://api.deepai.org/job-view-file/d46572d0-47a7-41cc-8eae-d7bac1a7e0a6/outputs/output.jpg",
+      "https://api.deepai.org/job-view-file/21cbe50a-3fd5-40b2-b412-de7076ace8c9/outputs/output.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Departure from Dhaka, check-in at sea view hotel, evening walk by the beach"
+      },
+      {
+        "day": 2,
+        "activities": "Visit Himchari, Inani Beach, and enjoy local seafood lunch"
+      },
+      {
+        "day": 3,
+        "activities": "Shopping from Burmese market and return journey"
+      }
+    ],
+    "createdAt": "2025-07-26T16:40:15.371Z"
+  }
+] TourismAndGuides.jsx 7
+[10:59 PM 26-07-25] [
+  {
+    "_id": "688504efec499de84916b15e",
+    "title": "Cox's Bazar Beach Escape",
+    "description": "Enjoy the world’s longest sea beach, local seafood, and calm sunsets at Cox’s Bazar. Ideal for couples, families, or solo travelers.",
+    "price": 5500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Cox's Bazar",
+    "gallery": [
+      "https://images.deepai.org/art-image/72bca9114b0941e89cdb0ea0a22f5553/cox-s-bazar-sea-beach-during-sunset-with-silhouettes-.jpg",
+      "https://api.deepai.org/job-view-file/d46572d0-47a7-41cc-8eae-d7bac1a7e0a6/outputs/output.jpg",
+      "https://api.deepai.org/job-view-file/21cbe50a-3fd5-40b2-b412-de7076ace8c9/outputs/output.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Departure from Dhaka, check-in at sea view hotel, evening walk by the beach"
+      },
+      {
+        "day": 2,
+        "activities": "Visit Himchari, Inani Beach, and enjoy local seafood lunch"
+      },
+      {
+        "day": 3,
+        "activities": "Shopping from Burmese market and return journey"
+      }
+    ],
+    "createdAt": "2025-07-26T16:40:15.371Z"
+  }
+] TourismAndGuides.jsx 7
+[10:59 PM 26-07-25] [
+  {
+    "_id": "688504efec499de84916b15e",
+    "title": "Cox's Bazar Beach Escape",
+    "description": "Enjoy the world’s longest sea beach, local seafood, and calm sunsets at Cox’s Bazar. Ideal for couples, families, or solo travelers.",
+    "price": 5500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Cox's Bazar",
+    "gallery": [
+      "https://images.deepai.org/art-image/72bca9114b0941e89cdb0ea0a22f5553/cox-s-bazar-sea-beach-during-sunset-with-silhouettes-.jpg",
+      "https://api.deepai.org/job-view-file/d46572d0-47a7-41cc-8eae-d7bac1a7e0a6/outputs/output.jpg",
+      "https://api.deepai.org/job-view-file/21cbe50a-3fd5-40b2-b412-de7076ace8c9/outputs/output.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Departure from Dhaka, check-in at sea view hotel, evening walk by the beach"
+      },
+      {
+        "day": 2,
+        "activities": "Visit Himchari, Inani Beach, and enjoy local seafood lunch"
+      },
+      {
+        "day": 3,
+        "activities": "Shopping from Burmese market and return journey"
+      }
+    ],
+    "createdAt": "2025-07-26T16:40:15.371Z"
+  }
+] TourismAndGuides.jsx 7
+[10:59 PM 26-07-25] [
+  {
+    "_id": "688504efec499de84916b15e",
+    "title": "Cox's Bazar Beach Escape",
+    "description": "Enjoy the world’s longest sea beach, local seafood, and calm sunsets at Cox’s Bazar. Ideal for couples, families, or solo travelers.",
+    "price": 5500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Cox's Bazar",
+    "gallery": [
+      "https://images.deepai.org/art-image/72bca9114b0941e89cdb0ea0a22f5553/cox-s-bazar-sea-beach-during-sunset-with-silhouettes-.jpg",
+      "https://api.deepai.org/job-view-file/d46572d0-47a7-41cc-8eae-d7bac1a7e0a6/outputs/output.jpg",
+      "https://api.deepai.org/job-view-file/21cbe50a-3fd5-40b2-b412-de7076ace8c9/outputs/output.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Departure from Dhaka, check-in at sea view hotel, evening walk by the beach"
+      },
+      {
+        "day": 2,
+        "activities": "Visit Himchari, Inani Beach, and enjoy local seafood lunch"
+      },
+      {
+        "day": 3,
+        "activities": "Shopping from Burmese market and return journey"
+      }
+    ],
+    "createdAt": "2025-07-26T16:40:15.371Z"
+  }
+] TourismAndGuides.jsx 7
+[11:01 PM 26-07-25] [] TourismAndGuides.jsx 7
+[11:01 PM 26-07-25] [] TourismAndGuides.jsx 7
+[11:01 PM 26-07-25] [] TourismAndGuides.jsx 7
+[11:01 PM 26-07-25] [] TourismAndGuides.jsx 7
+[11:01 PM 26-07-25] [
+  {
+    "_id": "688504efec499de84916b15e",
+    "title": "Cox's Bazar Beach Escape",
+    "description": "Enjoy the world’s longest sea beach, local seafood, and calm sunsets at Cox’s Bazar. Ideal for couples, families, or solo travelers.",
+    "price": 5500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Cox's Bazar",
+    "gallery": [
+      "https://images.deepai.org/art-image/72bca9114b0941e89cdb0ea0a22f5553/cox-s-bazar-sea-beach-during-sunset-with-silhouettes-.jpg",
+      "https://api.deepai.org/job-view-file/d46572d0-47a7-41cc-8eae-d7bac1a7e0a6/outputs/output.jpg",
+      "https://api.deepai.org/job-view-file/21cbe50a-3fd5-40b2-b412-de7076ace8c9/outputs/output.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Departure from Dhaka, check-in at sea view hotel, evening walk by the beach"
+      },
+      {
+        "day": 2,
+        "activities": "Visit Himchari, Inani Beach, and enjoy local seafood lunch"
+      },
+      {
+        "day": 3,
+        "activities": "Shopping from Burmese market and return journey"
+      }
+    ],
+    "createdAt": "2025-07-26T16:40:15.371Z"
+  }
+] TourismAndGuides.jsx 7
+[11:01 PM 26-07-25] [
+  {
+    "_id": "688504efec499de84916b15e",
+    "title": "Cox's Bazar Beach Escape",
+    "description": "Enjoy the world’s longest sea beach, local seafood, and calm sunsets at Cox’s Bazar. Ideal for couples, families, or solo travelers.",
+    "price": 5500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Cox's Bazar",
+    "gallery": [
+      "https://images.deepai.org/art-image/72bca9114b0941e89cdb0ea0a22f5553/cox-s-bazar-sea-beach-during-sunset-with-silhouettes-.jpg",
+      "https://api.deepai.org/job-view-file/d46572d0-47a7-41cc-8eae-d7bac1a7e0a6/outputs/output.jpg",
+      "https://api.deepai.org/job-view-file/21cbe50a-3fd5-40b2-b412-de7076ace8c9/outputs/output.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Departure from Dhaka, check-in at sea view hotel, evening walk by the beach"
+      },
+      {
+        "day": 2,
+        "activities": "Visit Himchari, Inani Beach, and enjoy local seafood lunch"
+      },
+      {
+        "day": 3,
+        "activities": "Shopping from Burmese market and return journey"
+      }
+    ],
+    "createdAt": "2025-07-26T16:40:15.371Z"
+  }
+] TourismAndGuides.jsx 7
