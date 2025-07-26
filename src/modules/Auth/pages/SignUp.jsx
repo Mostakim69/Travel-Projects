@@ -2,7 +2,7 @@ import { authLottie } from "../../../animation";
 import LottieAnimation from "../../../animation/LottieAnimation";
 import SignUpForm from "../components/SignUpForm";
 import UseHelmet from "../../../hooks/useHelmet";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import {
   bottomToTop,
   leftToRight,
@@ -11,28 +11,33 @@ import {
 
 const SignUp = () => {
   return (
-    <div className="min-h-[80vh] mt-10 bg-gray-100 py-10 rounded-lg shadow">
-      <UseHelmet title="Sign up" />
-      <motion.div className="max-lg:max-w-[490px] mx-auto" {...bottomToTop}>
-        <h2
-          className="text-center text-xl sm:text-3xl font-semibold font-kaushan 
-          "
-        >
-          WorkElevate connects talent with opportunity.
+    <div className="min-h-[85vh] mt-10 px-4 py-12 rounded-2xl bg-gradient-to-br from-[#0e0e1c] via-[#11111f] to-[#0e0e1c] shadow-xl border border-[#1d1d2f] relative z-10">
+      <UseHelmet title="Sign up - DeshGuide" />
+
+      <motion.div className="max-w-xl mx-auto text-center" {...bottomToTop}>
+        <h2 className="text-3xl sm:text-4xl font-bold bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-400 bg-clip-text text-transparent drop-shadow-sm">
+          DeshGuide empowers your travel journey.
         </h2>
-        <p className="text-center text-gray-500 ext-sm mb-10 mt-2">
-          Sign up to access thousands of jobs, connect with employers, and take
-          control of your career.
+        <p className="text-gray-400 text-sm mt-2">
+          Sign up to explore exciting destinations, connect with local guides,
+          and experience Bangladesh like never before.
         </p>
       </motion.div>
-      <div className="flex  flex-col-reverse lg:flex-row items-center justify-around *:flex-1 gap-7  mt-5">
+
+      <div className="flex flex-col-reverse lg:flex-row items-center justify-around gap-10 mt-10">
+        {/* Left side animation */}
         <motion.div
-          className="lg:max-w-[480px]  order bg-gray-50 shadow-lg rounded-lg hover:shadow-sm hover:scale-98"
+          className="w-full max-w-md bg-[#141423] rounded-2xl border border-[#262637] p-5 shadow hover:shadow-xl hover:glow-border transition-all duration-300"
           {...rightToLeft}
         >
           <LottieAnimation anime={authLottie} />
         </motion.div>
-        <motion.div className="max-w-[480px]" {...leftToRight}>
+
+        {/* Right side form */}
+        <motion.div
+          className=" hover:shadow-lg hover:glow-border"
+          {...leftToRight}
+        >
           <SignUpForm />
         </motion.div>
       </div>
