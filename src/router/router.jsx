@@ -17,6 +17,7 @@ import CommunityPage from "../pages/Community/CommunityPage";
 import AddStories from "../modules/Dashbaord/AddStories/AddStories";
 import AssignedTour from "../modules/Dashbaord/TourGuides/AssignedTour/AssignedTour";
 import AddPackage from "../modules/Dashbaord/Admin/AddPackage/AddPackage";
+import dashbourdRoutes from "../modules/Dashbaord/dashbourdRoutes";
 
 const router = createBrowserRouter([
   {
@@ -57,7 +58,7 @@ const router = createBrowserRouter([
       // faq pages
     ],
   },
-  {
+  /* {
     path: "/dashboard",
     element: <DashboardLayout />,
     children: [
@@ -102,12 +103,13 @@ const router = createBrowserRouter([
         element: <AddPackage />,
       },
     ],
-  },
+  }, */
+
   {
     path: "/about",
     element: <div>About</div>,
   },
-
+  dashbourdRoutes,
   AuthRoute,
 ]);
 

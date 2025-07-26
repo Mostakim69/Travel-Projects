@@ -20,12 +20,12 @@ export const guideLinks = [
 ];
 
 export const touristLinks = [
-  { name: "Manage Profile", path: "/dashboard/tourist/manage-profile" },
+  { name: "Manage Profile", path: "/dashboard/manage-profile" },
   { name: "My Bookings", path: "/dashboard/my-bookings" },
   {
     name: "Add Stories",
     path: "/dashboard/add-stories",
   },
-  { name: "Manage Stories", path: "/dashboard/tourist/manage-stories" },
+  { name: "Manage Stories", path: "/dashboard/manage-stories" },
   { name: "Join as Tour Guide", path: "/dashboard/tourist/join-tour-guide" },
 ];
