@@ -20,7 +20,9 @@ const ManageCandidate = () => {
   // Accept mutation
   const acceptMutation = useMutation({
     mutationFn: async ({ userId }) => {
-      await axiosSecure.patch(`/users/${userId}`, { status: "accepted" });
+      await axiosSecure.patch(`tour-guide-requests/${userId}`, {
+        status: "accepted",
+      });
     },
     onSuccess: () => {
       queryClient.invalidateQueries(["tour-guide-requests"]);
