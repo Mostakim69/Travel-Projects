@@ -266,3 +266,135 @@
     "createdAt": "2025-07-26T04:24:24.174Z"
   }
 ] TourismAndGuides.jsx 7
+[06:02 PM 26-07-25] [
+  {
+    "_id": "687d9813289cd4c61c2b0c95",
+    "title": "Sajek Adventure",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-21T01:29:55.829Z"
+  },
+  {
+    "_id": "68845efc24d46566c7836755",
+    "title": "Assalamu alaikum, title updated",
+    "description": "descrip",
+    "price": 300,
+    "tripType": "Historical",
+    "days": 3,
+    "location": "sjake",
+    "gallery": [
+      "1",
+      "2"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "kkk"
+      }
+    ],
+    "createdAt": "2025-07-26T04:52:12.793Z"
+  },
+  {
+    "_id": "6884587824d46566c7836744",
+    "title": "story tittle checking",
+    "description": "",
+    "price": 7,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "a",
+    "gallery": [
+      "a",
+      "a"
+    ],
+    "tourPlan": [
+      {
+        "day": 2,
+        "activities": "a"
+      }
+    ],
+    "createdAt": "2025-07-26T04:24:24.174Z"
+  }
+] TourismAndGuides.jsx 7
+[06:02 PM 26-07-25] [
+  {
+    "_id": "687d9813289cd4c61c2b0c95",
+    "title": "Sajek Adventure",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-21T01:29:55.829Z"
+  },
+  {
+    "_id": "68845efc24d46566c7836755",
+    "title": "Assalamu alaikum, title updated",
+    "description": "descrip",
+    "price": 300,
+    "tripType": "Historical",
+    "days": 3,
+    "location": "sjake",
+    "gallery": [
+      "1",
+      "2"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "kkk"
+      }
+    ],
+    "createdAt": "2025-07-26T04:52:12.793Z"
+  },
+  {
+    "_id": "6884587824d46566c7836744",
+    "title": "story tittle checking",
+    "description": "",
+    "price": 7,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "a",
+    "gallery": [
+      "a",
+      "a"
+    ],
+    "tourPlan": [
+      {
+        "day": 2,
+        "activities": "a"
+      }
+    ],
+    "createdAt": "2025-07-26T04:24:24.174Z"
+  }
+] TourismAndGuides.jsx 7

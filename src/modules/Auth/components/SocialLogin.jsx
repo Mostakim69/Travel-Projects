@@ -3,16 +3,26 @@ import Swal from "sweetalert2";
 import { useLocation, useNavigate } from "react-router";
 import useAuth from "../../../hooks/useAuth";
 import { darkSwal } from "../../../hooks/usePostData";
+import useAxiosSecure from "../../../hooks/useAxiosSecure";
 
 const SocialLogin = () => {
   const { googleSignIn } = useAuth();
   const navigate = useNavigate();
   const location = useLocation();
 
+  const axiosSecure = useAxiosSecure();
+
   const handleGoogleSignIn = async (e) => {
     e.preventDefault();
     try {
       const user = await googleSignIn();
+
+      await axiosSecure.post("users", {
+        name: user?.displayName,
+        email: user?.email,
+        photoURL: user?.photoURL,
+      });
+
       darkSwal.fire({
         position: "center",
         icon: "success",
@@ -21,6 +31,7 @@ const SocialLogin = () => {
         showConfirmButton: false,
         timer: 2000,
       });
+
       setTimeout(() => {
         navigate("/");
       }, 3000);
