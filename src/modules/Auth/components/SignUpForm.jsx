@@ -19,6 +19,7 @@ const SignUpForm = () => {
     formState: { errors },
   } = useForm();
 
+  console.log(updateUserProfile, "SignUpForm.jsx", 37);
   const onSubmit = async (data) => {
     const { name, email, password, confirmPassword, photoURL } = data;
 
