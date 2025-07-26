@@ -19,9 +19,8 @@ const ManageCandidate = () => {
   console.log(candidateData, "ManageCandidate.jsx", 12);
   // Accept mutation
   const acceptMutation = useMutation({
-    mutationFn: async ({ userId, requestId }) => {
+    mutationFn: async ({ userId }) => {
       await axiosSecure.patch(`/users/${userId}`, { status: "accepted" });
-      await axiosSecure.delete(`/tour-guide-requests/${requestId}`);
     },
     onSuccess: () => {
       queryClient.invalidateQueries(["tour-guide-requests"]);
