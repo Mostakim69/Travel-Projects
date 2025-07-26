@@ -4564,3 +4564,37 @@
 [11:12 PM 26-07-25] [] ManageCandidate.jsx 12
 [11:12 PM 26-07-25] [] ManageCandidate.jsx 12
 [11:12 PM 26-07-25] [] ManageCandidate.jsx 12
+[11:20 PM 26-07-25] [
+  {
+    "_id": "68850d7701426d0f5ab34d34",
+    "userId": {
+      "_id": "6884fdd0e64086d005edf156",
+      "name": "Ibrahim Jalil",
+      "email": "ibrahimjalil@gmail.com",
+      "role": "tour-guide"
+    },
+    "title": "Experienced Mountain Guide",
+    "reason": "I love guiding tourists and know every trail in the hills",
+    "cvLink": "https://example.com/cv/john_doe.pdf",
+    "status": "accepted",
+    "createdAt": "2025-07-26T17:16:39.525Z",
+    "__v": 0
+  }
+] ManageCandidate.jsx 12
+[11:20 PM 26-07-25] [
+  {
+    "_id": "68850d7701426d0f5ab34d34",
+    "userId": {
+      "_id": "6884fdd0e64086d005edf156",
+      "name": "Ibrahim Jalil",
+      "email": "ibrahimjalil@gmail.com",
+      "role": "tour-guide"
+    },
+    "title": "Experienced Mountain Guide",
+    "reason": "I love guiding tourists and know every trail in the hills",
+    "cvLink": "https://example.com/cv/john_doe.pdf",
+    "status": "accepted",
+    "createdAt": "2025-07-26T17:16:39.525Z",
+    "__v": 0
+  }
+] ManageCandidate.jsx 12
