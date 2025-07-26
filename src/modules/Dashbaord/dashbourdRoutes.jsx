@@ -2,6 +2,7 @@ import AddStories from "./AddStories/AddStories";
 import AddPackage from "./Admin/AddPackage/AddPackage";
 import ManageCandidate from "./Admin/ManageCandidate/ManageCandidate";
 import ManageUsers from "./Admin/ManageUsers/ManageUsers";
+import AllPayments from "./Admin/Payments/AllPayments";
 import DashboardLayout from "./DashboardLayout";
 import ManageProfile from "./ManageProfile/ManageProfile";
 import ManageStories from "./ManageStories/ManageStories";
@@ -61,6 +62,14 @@ const dashbourdRoutes = {
     {
       path: "admin/manage-users",
       element: <ManageUsers />,
+    },
+    {
+      path: "admin/bookings",
+      element: <AllBookings />,
+    },
+    {
+      path: "admin/payments",
+      element: <AllPayments />,
     },
   ],
 };
