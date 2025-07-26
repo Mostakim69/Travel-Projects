@@ -108,7 +108,10 @@ const BookingDetails = () => {
       </div>
 
       {/* Guide Info */}
-      <div className="bg-[#101010] rounded-2xl p-6 border glow-border space-y-3">
+      <div
+        className="bg-[#101010] rounded-2xl p-6 border glow-border space-y-3"
+        data-aos="fade-up-right"
+      >
         <h3 className="text-xl font-semibold">Guide Info</h3>
         <div className="flex items-center gap-4">
           <img
@@ -128,7 +131,10 @@ const BookingDetails = () => {
       </div>
 
       {/* Booking Meta Info */}
-      <div className="bg-[#101010] rounded-2xl p-6 border glow-border space-y-3">
+      <div
+        className="bg-[#101010] rounded-2xl p-6 border glow-border space-y-3"
+        data-aos="fade-up-left"
+      >
         <h3 className="text-xl font-semibold">Booking Summary</h3>
         <p>
           <span className="font-medium">Booking ID:</span> {data?._id}

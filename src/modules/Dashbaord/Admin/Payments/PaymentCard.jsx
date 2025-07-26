@@ -1,5 +1,6 @@
 import { format } from "date-fns";
 import { motion } from "framer-motion";
+import { Link } from "react-router";
 
 const PaymentCard = ({ payment, index }) => {
   return (
@@ -15,7 +16,10 @@ const PaymentCard = ({ payment, index }) => {
       {/* glowing aura effect */}
       <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-600/20 via-pink-500/10 to-indigo-500/20 blur-xl rounded-2xl opacity-30 pointer-events-none animate-tilt" />
 
-      <div className="relative z-10 space-y-2 text-slate-100">
+      <div
+        className="relative z-10 space-y-2 text-slate-100"
+        data-aos="fade-up"
+      >
         <p>
           <span className="font-medium text-slate-400">Email:</span>{" "}
           <span className="text-white glow-text">{payment.email}</span>
@@ -42,6 +46,12 @@ const PaymentCard = ({ payment, index }) => {
             {format(new Date(payment.date), "PPPpp")}
           </span>
         </p>
+        <Link
+          className="btn btn-outline btn-info rounded-full mt-2"
+          to={`/dashboard/bookings/${payment.bookingId}`}
+        >
+          See Booking
+        </Link>
       </div>
     </motion.div>
   );
