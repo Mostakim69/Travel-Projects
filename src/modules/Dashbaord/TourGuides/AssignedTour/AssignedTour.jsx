@@ -59,7 +59,7 @@ const AssignedTour = () => {
 
   return (
     <div className="min-h-screen px-4 py-10 bg-gradient-to-br from-[#0f172a] via-[#1e293b] to-[#0f172a]">
-      <h1 className="text-4xl md:text-5xl font-extrabold text-center mb-8 bg-gradient-to-r from-cyan-400 via-pink-500 to-indigo-400 bg-clip-text text-transparent drop-shadow-md">
+      <h1 className="text-4xl md:text-5xl font-extrabold text-center mb-8 bg-gradient-to-r from-cyan-400 via-violet-700 to-indigo-400 bg-clip-text text-transparent drop-shadow-md">
         Assigned Tours
       </h1>
 
