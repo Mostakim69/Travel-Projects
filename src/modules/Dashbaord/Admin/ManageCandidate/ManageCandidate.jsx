@@ -19,7 +19,7 @@ const ManageCandidate = () => {
   // Accept mutation
   const acceptMutation = useMutation({
     mutationFn: async ({ userId, requestId }) => {
-      await axiosSecure.patch(`/users/${userId}/role`, { role: "tour-guide" });
+      await axiosSecure.patch(`/users/${userId}`, { status: "accepted" });
       await axiosSecure.delete(`/tour-guide-requests/${requestId}`);
     },
     onSuccess: () => {
@@ -29,7 +29,6 @@ const ManageCandidate = () => {
         title: "Accepted!",
         text: "User is now a tour guide.",
         toast: true,
-        position: "top-end",
         timer: 2000,
         background: "#0f172a",
         color: "#fff",
@@ -50,7 +49,6 @@ const ManageCandidate = () => {
         title: "Rejected",
         text: "Application removed.",
         toast: true,
-        position: "top-end",
         timer: 2000,
         background: "#0f172a",
         color: "#fff",

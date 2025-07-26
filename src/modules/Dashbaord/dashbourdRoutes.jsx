@@ -1,6 +1,7 @@
 import AddStories from "./AddStories/AddStories";
 import AddPackage from "./Admin/AddPackage/AddPackage";
 import ManageCandidate from "./Admin/ManageCandidate/ManageCandidate";
+import ManageUsers from "./Admin/ManageUsers/ManageUsers";
 import DashboardLayout from "./DashboardLayout";
 import ManageProfile from "./ManageProfile/ManageProfile";
 import ManageStories from "./ManageStories/ManageStories";
@@ -56,6 +57,10 @@ const dashbourdRoutes = {
     {
       path: "admin/candidates",
       element: <ManageCandidate />,
+    },
+    {
+      path: "admin/manage-users",
+      element: <ManageUsers />,
     },
   ],
 };
