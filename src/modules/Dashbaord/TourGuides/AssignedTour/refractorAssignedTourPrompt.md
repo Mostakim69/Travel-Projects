@@ -28,6 +28,8 @@ Also return a `.sh` script that will:
 
 ---
 
+x
+
 ## 🌲 Full Project Structure (cwd)
 
 ```bash
