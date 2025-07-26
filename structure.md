@@ -65,9 +65,19 @@
 │   │   │   ├── AddStories
 │   │   │   │   └── AddStories.jsx
 │   │   │   ├── Admin
-│   │   │   │   └── AddPackage
-│   │   │   │       └── AddPackage.jsx
+│   │   │   │   ├── AddPackage
+│   │   │   │   │   └── AddPackage.jsx
+│   │   │   │   ├── Bookings
+│   │   │   │   │   └── AllBookings.jsx
+│   │   │   │   ├── ManageCandidate
+│   │   │   │   │   └── ManageCandidate.jsx
+│   │   │   │   ├── ManageUsers
+│   │   │   │   │   └── ManageUsers.jsx
+│   │   │   │   └── Payments
+│   │   │   │       ├── AllPayments.jsx
+│   │   │   │       └── PaymentCard.jsx
 │   │   │   ├── DashboardLayout.jsx
+│   │   │   ├── dashbourdRoutes.jsx
 │   │   │   ├── ManageProfile
 │   │   │   │   └── ManageProfile.jsx
 │   │   │   ├── ManageStories
@@ -171,6 +181,6 @@
 ├── vite.config.js
 └── vite.logger.plugin.js
 
-55 directories, 114 files
+59 directories, 120 files
 
 ```
