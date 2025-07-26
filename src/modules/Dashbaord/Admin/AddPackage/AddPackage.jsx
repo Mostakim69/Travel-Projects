@@ -211,7 +211,7 @@ const AddPackage = () => {
         <div className="text-center mt-6">
           <button
             type="submit"
-            className="btn btn-primary px-10 text-lg tracking-wide transition hover:scale-105 hover:shadow-glow duration-300 glow-effect"
+            className="btn btn-primary px-10 text-lg tracking-wide transition hover:scale-105 hover:shadow-glow duration-300 glow-effect rounded-full"
           >
             🚀 Add Package
           </button>
