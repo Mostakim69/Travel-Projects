@@ -1,7 +1,9 @@
 import {
+  createUserWithEmailAndPassword,
   GithubAuthProvider,
   GoogleAuthProvider,
   onAuthStateChanged,
+  signInWithEmailAndPassword,
   signInWithPopup,
   signOut,
 } from "firebase/auth";
@@ -25,18 +27,29 @@ const AuthProvider = ({ children }) => {
     setLoading(true);
     return signInWithPopup(auth, githubProvider);
   };
-
+  // 🔹 Email-password sign-up
+  const signupUser = (email, password) => {
+    setLoading(true);
+    return createUserWithEmailAndPassword(auth, email, password);
+  };
   const signoutUser = () => {
     setLoading(true);
     return signOut(auth);
   };
 
+  // ✅ Login with Email & Password
+  const signinUser = (email, password) => {
+    setLoading(true);
+    return signInWithEmailAndPassword(auth, email, password);
+  };
   const authInfo = {
     googleSignIn,
     githubSignIn,
     loading,
     user,
     signoutUser,
+    signinUser,
+    signupUser,
   };
 
   useEffect(() => {

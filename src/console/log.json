@@ -3456,3 +3456,19 @@
     "createdAt": "2025-07-26T05:06:43.210Z"
   }
 ] TourismAndGuides.jsx 7
+[08:52 PM 26-07-25] {
+  "name": "Admin Ahmed",
+  "email": "admin@example.com",
+  "password": "admin@example.com",
+  "confirmPassword": "admin@example.com",
+  "photoURL": "https://i.ibb.co/Kj9V8674/profile-Rounded.png"
+} signup data SignUpForm.jsx 23
+[08:55 PM 26-07-25] {
+  "name": "Admin Ahmed",
+  "email": "admin@example.com",
+  "password": "admin@example.com",
+  "confirmPassword": "admin@example.com",
+  "photoURL": "https://i.ibb.co/Kj9V8674/profile-Rounded.png"
+} signup data SignUpForm.jsx 23
+[08:55 PM 26-07-25] null SignUpForm.jsx 11
+[08:55 PM 26-07-25] null SignUpForm.jsx 11
