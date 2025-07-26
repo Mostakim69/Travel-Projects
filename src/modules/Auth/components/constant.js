@@ -1,52 +1,52 @@
 export const sidebarDatas = [
   {
-    title: "🎯 Smart Assignment Matches",
+    title: "🌍 Discover Handpicked Tours",
     description:
-      "Find personalized assignments and study tasks that align with your courses and learning goals — no more irrelevant searching.",
+      "Explore curated travel packages tailored to your mood, region, and vibe — from serene nature escapes to cultural deep-dives.",
   },
   {
-    title: "📊 Track Your Progress",
+    title: "🧭 Book With Confidence",
     description:
-      "Stay on top of every assignment. Monitor your submission status from pending to graded, all in one easy dashboard.",
+      "Securely book verified guides and trusted trips with real-time availability and transparent pricing — no surprises.",
   },
   {
-    title: "⚡ Create & Share Instantly",
+    title: "✨ Tell Your Travel Stories",
     description:
-      "Save time by quickly creating new assignments or sharing study resources with your group in just a few clicks.",
+      "Share magical memories and photos from your journeys. Inspire others while keeping your travel timeline alive.",
   },
   {
-    title: "🌟 Build Your Study Profile",
+    title: "🧑‍✈️ Join as a Tour Guide",
     description:
-      "Create a comprehensive academic profile that highlights your strengths and helps friends find you for group projects.",
+      "Turn your passion into profession. Apply as a tour guide, manage bookings, and get discovered by global travelers.",
   },
   {
-    title: "🔔 Get Study Alerts",
+    title: "🚀 Real-Time Tour Management",
     description:
-      "Receive instant notifications for new assignments, due date reminders, and feedback on your submissions, so you never miss a beat.",
+      "Track all your bookings, tours, and earnings in one sleek dashboard built for speed and clarity.",
   },
   {
-    title: "💬 Connect with Friends",
+    title: "📅 Instant Booking Updates",
     description:
-      "Directly communicate with your study partners and group members through our secure messaging system.",
+      "Get notified when someone books, cancels, or reviews a trip — stay one step ahead of your itinerary.",
   },
   {
-    title: "📚 Access Learning Resources",
+    title: "🔍 Search Local Experiences",
     description:
-      "Explore curated articles, guides, and tips to improve your study habits, ace exams, and enhance your understanding.",
+      "Dive into authentic experiences hosted by locals — from hidden gems to trending hotspots, all within a click.",
   },
   {
-    title: "🤝 Discover Study Groups",
+    title: "💡 Glow Mode Interface",
     description:
-      "Find and join active study groups, read reviews, and get insights into their dynamics before you collaborate.",
+      "Experience a dark, immersive UI with glowing animations and pulse effects designed for late-night explorers.",
   },
   {
-    title: "📈 Master Your Subjects",
+    title: "🤝 Connect With Fellow Travelers",
     description:
-      "Understand key concepts for your target subjects and assignments, empowering you to excel in your studies confidently.",
+      "Find companions, plan group trips, or just exchange tips with passionate globetrotters like you.",
   },
   {
-    title: "🎓 Upskill Your Knowledge",
+    title: "🎖️ Verified Reviews & Stories",
     description:
-      "Access curated learning paths and resources to develop new skills and stay competitive in your academic journey.",
+      "Read genuine stories and ratings from past travelers to make informed decisions on your next adventure.",
   },
 ];
