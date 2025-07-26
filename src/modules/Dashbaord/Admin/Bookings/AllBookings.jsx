@@ -119,7 +119,10 @@ const AllBookings = () => {
                     </span>
                   </td>
                   <td className="flex gap-2">
-                    <Link className="badge badge-sm badge-info">
+                    <Link
+                      className="badge badge-sm badge-info"
+                      to={`/dashboard/bookings/${booking._id}`}
+                    >
                       Details
                     </Link>
                   </td>
