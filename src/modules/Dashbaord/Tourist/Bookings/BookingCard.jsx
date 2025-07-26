@@ -60,7 +60,13 @@ const BookingCard = ({ booking }) => {
       </div>
 
       {booking.status === "pending" && (
-        <div className="mt-6 text-right">
+        <div className="mt-6 text-right space-x-2">
+          <Link
+            to={`/dashboard/bookings/${booking._id}`}
+            className="btn btn-sm bg-purple-700 hover:bg-purple-500 text-white rounded-md glow-border px-5 py-2 font-semibold transition-shadow shadow-indigo-600"
+          >
+            Details
+          </Link>
           <Link
             to={`/dashboard/payment-booking/${booking._id}`}
             className="btn btn-sm bg-indigo-700 hover:bg-indigo-500 text-white rounded-md glow-border px-5 py-2 font-semibold transition-shadow shadow-indigo-600"

@@ -8,8 +8,8 @@ import { useEffect } from "react";
 import useAxiosSecure from "../../../../hooks/useAxiosSecure";
 
 const BookingDetails = () => {
-  const { id } = useParams();
-  console.log(id, "BookingDetails.jsx", 12);
+  const { bookingId } = useParams();
+  console.log(bookingId, "BookingDetails.jsx", 12);
   const axiosSecure = useAxiosSecure();
 
   useEffect(() => {
@@ -17,12 +17,12 @@ const BookingDetails = () => {
   }, []);
 
   const { data, isLoading } = useQuery({
-    queryKey: ["booking-details", id],
+    queryKey: ["booking-details", bookingId],
     queryFn: async () => {
-      const res = await axiosSecure.get(`/bookings/${id}`);
+      const res = await axiosSecure.get(`/bookings/${bookingId}`);
       return res.data?.data;
     },
-    enabled: !!id,
+    enabled: !!bookingId,
   });
 
   if (isLoading) {
