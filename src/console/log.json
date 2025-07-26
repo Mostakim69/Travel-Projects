@@ -4100,3 +4100,265 @@
     "createdAt": "2025-07-26T16:40:15.371Z"
   }
 ] TourismAndGuides.jsx 7
+[11:06 PM 26-07-25] [] ManageCandidate.jsx 12
+[11:06 PM 26-07-25] [] ManageCandidate.jsx 12
+[11:06 PM 26-07-25] [
+  {
+    "_id": "6884c9ace64086d005edf00b",
+    "userId": null,
+    "title": "Certified and Experienced Mountain Guide",
+    "reason": "With over 6 years of experience leading both local and international tourists through the hills of Bandarban and Sylhet, I have developed an intimate understanding of the trails, weather conditions, and safety precautions necessary for memorable journeys. My passion lies in creating unforgettable travel experiences while ensuring the highest levels of safety and cultural immersion. I am fluent in English and Bengali, trained in first-aid, and have consistently received 5-star reviews from past clients. I believe I can contribute significantly to DeshGuide's mission of quality tourism.",
+    "cvLink": "https://drive.google.com/file/d/1a2B3cD4EfG5HIjKLmn6opQrStUvWxYz9/view?usp=sharing",
+    "status": "pending",
+    "createdAt": "2025-07-26T12:27:24.193Z",
+    "__v": 0
+  },
+  {
+    "_id": "68850808ec499de84916b18f",
+    "userId": {
+      "_id": "6884fdd0e64086d005edf156",
+      "name": "Ibrahim Jalil",
+      "email": "ibrahimjalil@gmail.com",
+      "role": "tourist"
+    },
+    "title": "Certified Cultural & Nature Guide with 8+ Years of Experience",
+    "reason": "Over the past 8 years, I’ve guided more than 300 local and foreign tourists across the Chittagong Hill Tracts, Sundarbans, and Sylhet region. I specialize in eco-tourism and love sharing deep cultural stories, folk traditions, and historical insights. I’m fluent in English and Bengali, trained in first aid, and have collaborated with several travel agencies for premium tours.",
+    "cvLink": "https://myportfolio.com/files/CV_Rahim_Hossain.pdf",
+    "status": "pending",
+    "createdAt": "2025-07-26T16:53:28.797Z",
+    "__v": 0
+  }
+] ManageCandidate.jsx 12
+[11:06 PM 26-07-25] [
+  {
+    "_id": "6884c9ace64086d005edf00b",
+    "userId": null,
+    "title": "Certified and Experienced Mountain Guide",
+    "reason": "With over 6 years of experience leading both local and international tourists through the hills of Bandarban and Sylhet, I have developed an intimate understanding of the trails, weather conditions, and safety precautions necessary for memorable journeys. My passion lies in creating unforgettable travel experiences while ensuring the highest levels of safety and cultural immersion. I am fluent in English and Bengali, trained in first-aid, and have consistently received 5-star reviews from past clients. I believe I can contribute significantly to DeshGuide's mission of quality tourism.",
+    "cvLink": "https://drive.google.com/file/d/1a2B3cD4EfG5HIjKLmn6opQrStUvWxYz9/view?usp=sharing",
+    "status": "pending",
+    "createdAt": "2025-07-26T12:27:24.193Z",
+    "__v": 0
+  },
+  {
+    "_id": "68850808ec499de84916b18f",
+    "userId": {
+      "_id": "6884fdd0e64086d005edf156",
+      "name": "Ibrahim Jalil",
+      "email": "ibrahimjalil@gmail.com",
+      "role": "tourist"
+    },
+    "title": "Certified Cultural & Nature Guide with 8+ Years of Experience",
+    "reason": "Over the past 8 years, I’ve guided more than 300 local and foreign tourists across the Chittagong Hill Tracts, Sundarbans, and Sylhet region. I specialize in eco-tourism and love sharing deep cultural stories, folk traditions, and historical insights. I’m fluent in English and Bengali, trained in first aid, and have collaborated with several travel agencies for premium tours.",
+    "cvLink": "https://myportfolio.com/files/CV_Rahim_Hossain.pdf",
+    "status": "pending",
+    "createdAt": "2025-07-26T16:53:28.797Z",
+    "__v": 0
+  }
+] ManageCandidate.jsx 12
+[11:07 PM 26-07-25] [] ManageCandidate.jsx 12
+[11:07 PM 26-07-25] [] ManageCandidate.jsx 12
+[11:07 PM 26-07-25] [
+  {
+    "_id": "68850808ec499de84916b18f",
+    "userId": {
+      "_id": "6884fdd0e64086d005edf156",
+      "name": "Ibrahim Jalil",
+      "email": "ibrahimjalil@gmail.com",
+      "role": "tourist"
+    },
+    "title": "Certified Cultural & Nature Guide with 8+ Years of Experience",
+    "reason": "Over the past 8 years, I’ve guided more than 300 local and foreign tourists across the Chittagong Hill Tracts, Sundarbans, and Sylhet region. I specialize in eco-tourism and love sharing deep cultural stories, folk traditions, and historical insights. I’m fluent in English and Bengali, trained in first aid, and have collaborated with several travel agencies for premium tours.",
+    "cvLink": "https://myportfolio.com/files/CV_Rahim_Hossain.pdf",
+    "status": "pending",
+    "createdAt": "2025-07-26T16:53:28.797Z",
+    "__v": 0
+  }
+] ManageCandidate.jsx 12
+[11:07 PM 26-07-25] [
+  {
+    "_id": "68850808ec499de84916b18f",
+    "userId": {
+      "_id": "6884fdd0e64086d005edf156",
+      "name": "Ibrahim Jalil",
+      "email": "ibrahimjalil@gmail.com",
+      "role": "tourist"
+    },
+    "title": "Certified Cultural & Nature Guide with 8+ Years of Experience",
+    "reason": "Over the past 8 years, I’ve guided more than 300 local and foreign tourists across the Chittagong Hill Tracts, Sundarbans, and Sylhet region. I specialize in eco-tourism and love sharing deep cultural stories, folk traditions, and historical insights. I’m fluent in English and Bengali, trained in first aid, and have collaborated with several travel agencies for premium tours.",
+    "cvLink": "https://myportfolio.com/files/CV_Rahim_Hossain.pdf",
+    "status": "pending",
+    "createdAt": "2025-07-26T16:53:28.797Z",
+    "__v": 0
+  }
+] ManageCandidate.jsx 12
+[11:07 PM 26-07-25] [
+  {
+    "_id": "68850808ec499de84916b18f",
+    "userId": {
+      "_id": "6884fdd0e64086d005edf156",
+      "name": "Ibrahim Jalil",
+      "email": "ibrahimjalil@gmail.com",
+      "role": "tourist"
+    },
+    "title": "Certified Cultural & Nature Guide with 8+ Years of Experience",
+    "reason": "Over the past 8 years, I’ve guided more than 300 local and foreign tourists across the Chittagong Hill Tracts, Sundarbans, and Sylhet region. I specialize in eco-tourism and love sharing deep cultural stories, folk traditions, and historical insights. I’m fluent in English and Bengali, trained in first aid, and have collaborated with several travel agencies for premium tours.",
+    "cvLink": "https://myportfolio.com/files/CV_Rahim_Hossain.pdf",
+    "status": "pending",
+    "createdAt": "2025-07-26T16:53:28.797Z",
+    "__v": 0
+  }
+] ManageCandidate.jsx 12
+[11:07 PM 26-07-25] [
+  {
+    "_id": "68850808ec499de84916b18f",
+    "userId": {
+      "_id": "6884fdd0e64086d005edf156",
+      "name": "Ibrahim Jalil",
+      "email": "ibrahimjalil@gmail.com",
+      "role": "tourist"
+    },
+    "title": "Certified Cultural & Nature Guide with 8+ Years of Experience",
+    "reason": "Over the past 8 years, I’ve guided more than 300 local and foreign tourists across the Chittagong Hill Tracts, Sundarbans, and Sylhet region. I specialize in eco-tourism and love sharing deep cultural stories, folk traditions, and historical insights. I’m fluent in English and Bengali, trained in first aid, and have collaborated with several travel agencies for premium tours.",
+    "cvLink": "https://myportfolio.com/files/CV_Rahim_Hossain.pdf",
+    "status": "pending",
+    "createdAt": "2025-07-26T16:53:28.797Z",
+    "__v": 0
+  }
+] ManageCandidate.jsx 12
+[11:08 PM 26-07-25] [
+  {
+    "_id": "68850808ec499de84916b18f",
+    "userId": {
+      "_id": "6884fdd0e64086d005edf156",
+      "name": "Ibrahim Jalil",
+      "email": "ibrahimjalil@gmail.com",
+      "role": "tourist"
+    },
+    "title": "Certified Cultural & Nature Guide with 8+ Years of Experience",
+    "reason": "Over the past 8 years, I’ve guided more than 300 local and foreign tourists across the Chittagong Hill Tracts, Sundarbans, and Sylhet region. I specialize in eco-tourism and love sharing deep cultural stories, folk traditions, and historical insights. I’m fluent in English and Bengali, trained in first aid, and have collaborated with several travel agencies for premium tours.",
+    "cvLink": "https://myportfolio.com/files/CV_Rahim_Hossain.pdf",
+    "status": "pending",
+    "createdAt": "2025-07-26T16:53:28.797Z",
+    "__v": 0
+  }
+] ManageCandidate.jsx 12
+[11:08 PM 26-07-25] [
+  {
+    "_id": "68850808ec499de84916b18f",
+    "userId": {
+      "_id": "6884fdd0e64086d005edf156",
+      "name": "Ibrahim Jalil",
+      "email": "ibrahimjalil@gmail.com",
+      "role": "tourist"
+    },
+    "title": "Certified Cultural & Nature Guide with 8+ Years of Experience",
+    "reason": "Over the past 8 years, I’ve guided more than 300 local and foreign tourists across the Chittagong Hill Tracts, Sundarbans, and Sylhet region. I specialize in eco-tourism and love sharing deep cultural stories, folk traditions, and historical insights. I’m fluent in English and Bengali, trained in first aid, and have collaborated with several travel agencies for premium tours.",
+    "cvLink": "https://myportfolio.com/files/CV_Rahim_Hossain.pdf",
+    "status": "pending",
+    "createdAt": "2025-07-26T16:53:28.797Z",
+    "__v": 0
+  }
+] ManageCandidate.jsx 12
+[11:08 PM 26-07-25] [
+  {
+    "_id": "68850808ec499de84916b18f",
+    "userId": {
+      "_id": "6884fdd0e64086d005edf156",
+      "name": "Ibrahim Jalil",
+      "email": "ibrahimjalil@gmail.com",
+      "role": "tourist"
+    },
+    "title": "Certified Cultural & Nature Guide with 8+ Years of Experience",
+    "reason": "Over the past 8 years, I’ve guided more than 300 local and foreign tourists across the Chittagong Hill Tracts, Sundarbans, and Sylhet region. I specialize in eco-tourism and love sharing deep cultural stories, folk traditions, and historical insights. I’m fluent in English and Bengali, trained in first aid, and have collaborated with several travel agencies for premium tours.",
+    "cvLink": "https://myportfolio.com/files/CV_Rahim_Hossain.pdf",
+    "status": "pending",
+    "createdAt": "2025-07-26T16:53:28.797Z",
+    "__v": 0
+  }
+] ManageCandidate.jsx 12
+[11:08 PM 26-07-25] [
+  {
+    "_id": "68850808ec499de84916b18f",
+    "userId": {
+      "_id": "6884fdd0e64086d005edf156",
+      "name": "Ibrahim Jalil",
+      "email": "ibrahimjalil@gmail.com",
+      "role": "tourist"
+    },
+    "title": "Certified Cultural & Nature Guide with 8+ Years of Experience",
+    "reason": "Over the past 8 years, I’ve guided more than 300 local and foreign tourists across the Chittagong Hill Tracts, Sundarbans, and Sylhet region. I specialize in eco-tourism and love sharing deep cultural stories, folk traditions, and historical insights. I’m fluent in English and Bengali, trained in first aid, and have collaborated with several travel agencies for premium tours.",
+    "cvLink": "https://myportfolio.com/files/CV_Rahim_Hossain.pdf",
+    "status": "pending",
+    "createdAt": "2025-07-26T16:53:28.797Z",
+    "__v": 0
+  }
+] ManageCandidate.jsx 12
+[11:08 PM 26-07-25] [] ManageCandidate.jsx 12
+[11:08 PM 26-07-25] [] ManageCandidate.jsx 12
+[11:08 PM 26-07-25] [] TourismAndGuides.jsx 7
+[11:08 PM 26-07-25] [] TourismAndGuides.jsx 7
+[11:08 PM 26-07-25] [] TourismAndGuides.jsx 7
+[11:08 PM 26-07-25] [] TourismAndGuides.jsx 7
+[11:08 PM 26-07-25] [
+  {
+    "_id": "688504efec499de84916b15e",
+    "title": "Cox's Bazar Beach Escape",
+    "description": "Enjoy the world’s longest sea beach, local seafood, and calm sunsets at Cox’s Bazar. Ideal for couples, families, or solo travelers.",
+    "price": 5500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Cox's Bazar",
+    "gallery": [
+      "https://images.deepai.org/art-image/72bca9114b0941e89cdb0ea0a22f5553/cox-s-bazar-sea-beach-during-sunset-with-silhouettes-.jpg",
+      "https://api.deepai.org/job-view-file/d46572d0-47a7-41cc-8eae-d7bac1a7e0a6/outputs/output.jpg",
+      "https://api.deepai.org/job-view-file/21cbe50a-3fd5-40b2-b412-de7076ace8c9/outputs/output.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Departure from Dhaka, check-in at sea view hotel, evening walk by the beach"
+      },
+      {
+        "day": 2,
+        "activities": "Visit Himchari, Inani Beach, and enjoy local seafood lunch"
+      },
+      {
+        "day": 3,
+        "activities": "Shopping from Burmese market and return journey"
+      }
+    ],
+    "createdAt": "2025-07-26T16:40:15.371Z"
+  }
+] TourismAndGuides.jsx 7
+[11:08 PM 26-07-25] [
+  {
+    "_id": "688504efec499de84916b15e",
+    "title": "Cox's Bazar Beach Escape",
+    "description": "Enjoy the world’s longest sea beach, local seafood, and calm sunsets at Cox’s Bazar. Ideal for couples, families, or solo travelers.",
+    "price": 5500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Cox's Bazar",
+    "gallery": [
+      "https://images.deepai.org/art-image/72bca9114b0941e89cdb0ea0a22f5553/cox-s-bazar-sea-beach-during-sunset-with-silhouettes-.jpg",
+      "https://api.deepai.org/job-view-file/d46572d0-47a7-41cc-8eae-d7bac1a7e0a6/outputs/output.jpg",
+      "https://api.deepai.org/job-view-file/21cbe50a-3fd5-40b2-b412-de7076ace8c9/outputs/output.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Departure from Dhaka, check-in at sea view hotel, evening walk by the beach"
+      },
+      {
+        "day": 2,
+        "activities": "Visit Himchari, Inani Beach, and enjoy local seafood lunch"
+      },
+      {
+        "day": 3,
+        "activities": "Shopping from Burmese market and return journey"
+      }
+    ],
+    "createdAt": "2025-07-26T16:40:15.371Z"
+  }
+] TourismAndGuides.jsx 7

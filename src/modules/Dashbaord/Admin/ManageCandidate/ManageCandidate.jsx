@@ -16,6 +16,7 @@ const ManageCandidate = () => {
     },
   });
 
+  console.log(candidateData, "ManageCandidate.jsx", 12);
   // Accept mutation
   const acceptMutation = useMutation({
     mutationFn: async ({ userId, requestId }) => {
