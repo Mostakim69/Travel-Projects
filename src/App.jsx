@@ -11,7 +11,9 @@ const App = () => {
   const queryClient = new QueryClient();
 
   useEffect(() => {
-    AOS.init();
+    AOS.init({
+      duration: 300,
+    });
   }, []);
 
   return (

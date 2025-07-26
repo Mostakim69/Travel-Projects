@@ -2,19 +2,12 @@
 import { useParams } from "react-router";
 import { useQuery } from "@tanstack/react-query";
 import { motion } from "framer-motion";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
 import useAxiosSecure from "../../../../hooks/useAxiosSecure";
+import Spinner from "../../../shared/Layout/Spinner";
 
 const BookingDetails = () => {
   const { bookingId } = useParams();
-  console.log(bookingId, "BookingDetails.jsx", 12);
   const axiosSecure = useAxiosSecure();
-
-  useEffect(() => {
-    AOS.init({ duration: 800 });
-  }, []);
 
   const { data, isLoading } = useQuery({
     queryKey: ["booking-details", bookingId],
@@ -29,6 +22,7 @@ const BookingDetails = () => {
     return (
       <div className="min-h-screen flex justify-center items-center text-xl text-white animate-pulse">
         Loading booking details...
+        <Spinner />
       </div>
     );
   }
@@ -58,7 +52,10 @@ const BookingDetails = () => {
       </h2>
 
       {/* Package Details */}
-      <div className="bg-[#101010] rounded-2xl p-6 border glow-border space-y-3">
+      <div
+        className="bg-[#101010] rounded-2xl p-6 border glow-border space-y-3"
+        data-aos="fade-up-right"
+      >
         <h3 className="text-xl font-semibold">Package Information</h3>
         <p>
           <span className="font-medium">Title:</span> {packageId?.title}
@@ -88,7 +85,10 @@ const BookingDetails = () => {
       </div>
 
       {/* Tourist Info */}
-      <div className="bg-[#101010] rounded-2xl p-6 border glow-border space-y-3">
+      <div
+        className="bg-[#101010] rounded-2xl p-6 border glow-border space-y-3"
+        data-aos="fade-up-left"
+      >
         <h3 className="text-xl font-semibold">Tourist Info</h3>
         <div className="flex items-center gap-4">
           <img
