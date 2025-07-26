@@ -6511,3 +6511,621 @@
 [12:18 AM 27-07-25] userData?._id 68851af3606080f1804fcc36
 [12:18 AM 27-07-25] userData?._id 68851af3606080f1804fcc36
 [12:18 AM 27-07-25] userData?._id 68851af3606080f1804fcc36
+[12:19 AM 27-07-25] [] ManageCandidate.jsx 12
+[12:19 AM 27-07-25] [] ManageCandidate.jsx 12
+[12:19 AM 27-07-25] [
+  {
+    "_id": "68851be2606080f1804fcc44",
+    "userId": {
+      "_id": "68851af3606080f1804fcc36",
+      "name": "Md. Shahjalal",
+      "email": "dev.shahjalal@gmail.com",
+      "role": "tourist"
+    },
+    "title": "Coastal Adventure Expert",
+    "reason": "I love guiding tourists and know every trail in the hills, especially the remote spots in Bandarban and Sajek.",
+    "cvLink": "https://drive.google.com/file/d/1HAkBOSth-W68Df8O0uZM7KfZx-9CQGd7/view?usp=sharing",
+    "status": "pending",
+    "createdAt": "2025-07-26T18:18:10.999Z",
+    "__v": 0
+  }
+] ManageCandidate.jsx 12
+[12:19 AM 27-07-25] [
+  {
+    "_id": "68851be2606080f1804fcc44",
+    "userId": {
+      "_id": "68851af3606080f1804fcc36",
+      "name": "Md. Shahjalal",
+      "email": "dev.shahjalal@gmail.com",
+      "role": "tourist"
+    },
+    "title": "Coastal Adventure Expert",
+    "reason": "I love guiding tourists and know every trail in the hills, especially the remote spots in Bandarban and Sajek.",
+    "cvLink": "https://drive.google.com/file/d/1HAkBOSth-W68Df8O0uZM7KfZx-9CQGd7/view?usp=sharing",
+    "status": "pending",
+    "createdAt": "2025-07-26T18:18:10.999Z",
+    "__v": 0
+  }
+] ManageCandidate.jsx 12
+[12:19 AM 27-07-25] [
+  {
+    "_id": "68851be2606080f1804fcc44",
+    "userId": {
+      "_id": "68851af3606080f1804fcc36",
+      "name": "Md. Shahjalal",
+      "email": "dev.shahjalal@gmail.com",
+      "role": "tourist"
+    },
+    "title": "Coastal Adventure Expert",
+    "reason": "I love guiding tourists and know every trail in the hills, especially the remote spots in Bandarban and Sajek.",
+    "cvLink": "https://drive.google.com/file/d/1HAkBOSth-W68Df8O0uZM7KfZx-9CQGd7/view?usp=sharing",
+    "status": "pending",
+    "createdAt": "2025-07-26T18:18:10.999Z",
+    "__v": 0
+  }
+] ManageCandidate.jsx 12
+[12:19 AM 27-07-25] [
+  {
+    "_id": "68851be2606080f1804fcc44",
+    "userId": {
+      "_id": "68851af3606080f1804fcc36",
+      "name": "Md. Shahjalal",
+      "email": "dev.shahjalal@gmail.com",
+      "role": "tourist"
+    },
+    "title": "Coastal Adventure Expert",
+    "reason": "I love guiding tourists and know every trail in the hills, especially the remote spots in Bandarban and Sajek.",
+    "cvLink": "https://drive.google.com/file/d/1HAkBOSth-W68Df8O0uZM7KfZx-9CQGd7/view?usp=sharing",
+    "status": "pending",
+    "createdAt": "2025-07-26T18:18:10.999Z",
+    "__v": 0
+  }
+] ManageCandidate.jsx 12
+[12:19 AM 27-07-25] [
+  {
+    "_id": "68851be2606080f1804fcc44",
+    "userId": {
+      "_id": "68851af3606080f1804fcc36",
+      "name": "Md. Shahjalal",
+      "email": "dev.shahjalal@gmail.com",
+      "role": "tourist"
+    },
+    "title": "Coastal Adventure Expert",
+    "reason": "I love guiding tourists and know every trail in the hills, especially the remote spots in Bandarban and Sajek.",
+    "cvLink": "https://drive.google.com/file/d/1HAkBOSth-W68Df8O0uZM7KfZx-9CQGd7/view?usp=sharing",
+    "status": "pending",
+    "createdAt": "2025-07-26T18:18:10.999Z",
+    "__v": 0
+  }
+] ManageCandidate.jsx 12
+[12:19 AM 27-07-25] [
+  {
+    "_id": "68851be2606080f1804fcc44",
+    "userId": {
+      "_id": "68851af3606080f1804fcc36",
+      "name": "Md. Shahjalal",
+      "email": "dev.shahjalal@gmail.com",
+      "role": "tourist"
+    },
+    "title": "Coastal Adventure Expert",
+    "reason": "I love guiding tourists and know every trail in the hills, especially the remote spots in Bandarban and Sajek.",
+    "cvLink": "https://drive.google.com/file/d/1HAkBOSth-W68Df8O0uZM7KfZx-9CQGd7/view?usp=sharing",
+    "status": "pending",
+    "createdAt": "2025-07-26T18:18:10.999Z",
+    "__v": 0
+  }
+] ManageCandidate.jsx 12
+[12:19 AM 27-07-25] [] ManageCandidate.jsx 12
+[12:19 AM 27-07-25] [] ManageCandidate.jsx 12
+[12:20 AM 27-07-25] [] TourismAndGuides.jsx 7
+[12:20 AM 27-07-25] [] TourismAndGuides.jsx 7
+[12:20 AM 27-07-25] [] TourismAndGuides.jsx 7
+[12:20 AM 27-07-25] [] TourismAndGuides.jsx 7
+[12:20 AM 27-07-25] [
+  {
+    "_id": "68851843606080f1804fcbef",
+    "title": "Sundarbans Wildlife Expedition",
+    "description": "Explore the world’s largest mangrove forest and spot rare wildlife like Royal Bengal Tigers, spotted deer, and exotic birds on a tranquil boat journey.",
+    "price": 8200,
+    "tripType": "Nature",
+    "days": 4,
+    "location": "Sundarbans",
+    "gallery": [
+      "https://images.deepai.org/art-image/18013ccde158403e97b2804d68101e57/traditional-launch-boat-in-sundarbans-mangrove-river-.jpg",
+      "https://images.deepai.org/art-image/0271952765ce412b878981dbdb957347/royal-bengal-tiger-mid-step-among-trees-in-sundarbans.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Khulna, board the launch, and begin forest river cruise"
+      },
+      {
+        "day": 2,
+        "activities": "Jungle walk in Kotka, birdwatching at dawn, tiger sighting spots"
+      },
+      {
+        "day": 3,
+        "activities": "Canoe ride near narrow mangrove creeks, visit local fishing village"
+      },
+      {
+        "day": 4,
+        "activities": "Return from cruise and transfer to Khulna city"
+      }
+    ],
+    "createdAt": "2025-07-26T18:02:43.019Z"
+  },
+  {
+    "_id": "688504efec499de84916b15e",
+    "title": "Cox's Bazar Beach Escape",
+    "description": "Enjoy the world’s longest sea beach, local seafood, and calm sunsets at Cox’s Bazar. Ideal for couples, families, or solo travelers.",
+    "price": 5500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Cox's Bazar",
+    "gallery": [
+      "https://images.deepai.org/art-image/72bca9114b0941e89cdb0ea0a22f5553/cox-s-bazar-sea-beach-during-sunset-with-silhouettes-.jpg",
+      "https://images.deepai.org/art-image/8b0ff09c7a454c268c3c5b7f1267c0ab/inani-beach-rocks-and-crystal-water-viewed-from-top-o.jpg",
+      "https://images.deepai.org/art-image/e713f0f4a6594165a2f93aa81fd4f14e/close-up-of-seafood-platter-on-a-table-near-beachside.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Departure from Dhaka, check-in at sea view hotel, evening walk by the beach"
+      },
+      {
+        "day": 2,
+        "activities": "Visit Himchari, Inani Beach, and enjoy local seafood lunch"
+      },
+      {
+        "day": 3,
+        "activities": "Shopping from Burmese market and return journey"
+      }
+    ],
+    "createdAt": "2025-07-26T16:40:15.371Z"
+  }
+] TourismAndGuides.jsx 7
+[12:20 AM 27-07-25] [
+  {
+    "_id": "68851843606080f1804fcbef",
+    "title": "Sundarbans Wildlife Expedition",
+    "description": "Explore the world’s largest mangrove forest and spot rare wildlife like Royal Bengal Tigers, spotted deer, and exotic birds on a tranquil boat journey.",
+    "price": 8200,
+    "tripType": "Nature",
+    "days": 4,
+    "location": "Sundarbans",
+    "gallery": [
+      "https://images.deepai.org/art-image/18013ccde158403e97b2804d68101e57/traditional-launch-boat-in-sundarbans-mangrove-river-.jpg",
+      "https://images.deepai.org/art-image/0271952765ce412b878981dbdb957347/royal-bengal-tiger-mid-step-among-trees-in-sundarbans.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Khulna, board the launch, and begin forest river cruise"
+      },
+      {
+        "day": 2,
+        "activities": "Jungle walk in Kotka, birdwatching at dawn, tiger sighting spots"
+      },
+      {
+        "day": 3,
+        "activities": "Canoe ride near narrow mangrove creeks, visit local fishing village"
+      },
+      {
+        "day": 4,
+        "activities": "Return from cruise and transfer to Khulna city"
+      }
+    ],
+    "createdAt": "2025-07-26T18:02:43.019Z"
+  },
+  {
+    "_id": "688504efec499de84916b15e",
+    "title": "Cox's Bazar Beach Escape",
+    "description": "Enjoy the world’s longest sea beach, local seafood, and calm sunsets at Cox’s Bazar. Ideal for couples, families, or solo travelers.",
+    "price": 5500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Cox's Bazar",
+    "gallery": [
+      "https://images.deepai.org/art-image/72bca9114b0941e89cdb0ea0a22f5553/cox-s-bazar-sea-beach-during-sunset-with-silhouettes-.jpg",
+      "https://images.deepai.org/art-image/8b0ff09c7a454c268c3c5b7f1267c0ab/inani-beach-rocks-and-crystal-water-viewed-from-top-o.jpg",
+      "https://images.deepai.org/art-image/e713f0f4a6594165a2f93aa81fd4f14e/close-up-of-seafood-platter-on-a-table-near-beachside.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Departure from Dhaka, check-in at sea view hotel, evening walk by the beach"
+      },
+      {
+        "day": 2,
+        "activities": "Visit Himchari, Inani Beach, and enjoy local seafood lunch"
+      },
+      {
+        "day": 3,
+        "activities": "Shopping from Burmese market and return journey"
+      }
+    ],
+    "createdAt": "2025-07-26T16:40:15.371Z"
+  }
+] TourismAndGuides.jsx 7
+[12:20 AM 27-07-25] [
+  {
+    "_id": "68851843606080f1804fcbef",
+    "title": "Sundarbans Wildlife Expedition",
+    "description": "Explore the world’s largest mangrove forest and spot rare wildlife like Royal Bengal Tigers, spotted deer, and exotic birds on a tranquil boat journey.",
+    "price": 8200,
+    "tripType": "Nature",
+    "days": 4,
+    "location": "Sundarbans",
+    "gallery": [
+      "https://images.deepai.org/art-image/18013ccde158403e97b2804d68101e57/traditional-launch-boat-in-sundarbans-mangrove-river-.jpg",
+      "https://images.deepai.org/art-image/0271952765ce412b878981dbdb957347/royal-bengal-tiger-mid-step-among-trees-in-sundarbans.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Khulna, board the launch, and begin forest river cruise"
+      },
+      {
+        "day": 2,
+        "activities": "Jungle walk in Kotka, birdwatching at dawn, tiger sighting spots"
+      },
+      {
+        "day": 3,
+        "activities": "Canoe ride near narrow mangrove creeks, visit local fishing village"
+      },
+      {
+        "day": 4,
+        "activities": "Return from cruise and transfer to Khulna city"
+      }
+    ],
+    "createdAt": "2025-07-26T18:02:43.019Z"
+  },
+  {
+    "_id": "688504efec499de84916b15e",
+    "title": "Cox's Bazar Beach Escape",
+    "description": "Enjoy the world’s longest sea beach, local seafood, and calm sunsets at Cox’s Bazar. Ideal for couples, families, or solo travelers.",
+    "price": 5500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Cox's Bazar",
+    "gallery": [
+      "https://images.deepai.org/art-image/72bca9114b0941e89cdb0ea0a22f5553/cox-s-bazar-sea-beach-during-sunset-with-silhouettes-.jpg",
+      "https://images.deepai.org/art-image/8b0ff09c7a454c268c3c5b7f1267c0ab/inani-beach-rocks-and-crystal-water-viewed-from-top-o.jpg",
+      "https://images.deepai.org/art-image/e713f0f4a6594165a2f93aa81fd4f14e/close-up-of-seafood-platter-on-a-table-near-beachside.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Departure from Dhaka, check-in at sea view hotel, evening walk by the beach"
+      },
+      {
+        "day": 2,
+        "activities": "Visit Himchari, Inani Beach, and enjoy local seafood lunch"
+      },
+      {
+        "day": 3,
+        "activities": "Shopping from Burmese market and return journey"
+      }
+    ],
+    "createdAt": "2025-07-26T16:40:15.371Z"
+  }
+] TourismAndGuides.jsx 7
+[12:20 AM 27-07-25] [
+  {
+    "_id": "68851843606080f1804fcbef",
+    "title": "Sundarbans Wildlife Expedition",
+    "description": "Explore the world’s largest mangrove forest and spot rare wildlife like Royal Bengal Tigers, spotted deer, and exotic birds on a tranquil boat journey.",
+    "price": 8200,
+    "tripType": "Nature",
+    "days": 4,
+    "location": "Sundarbans",
+    "gallery": [
+      "https://images.deepai.org/art-image/18013ccde158403e97b2804d68101e57/traditional-launch-boat-in-sundarbans-mangrove-river-.jpg",
+      "https://images.deepai.org/art-image/0271952765ce412b878981dbdb957347/royal-bengal-tiger-mid-step-among-trees-in-sundarbans.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Khulna, board the launch, and begin forest river cruise"
+      },
+      {
+        "day": 2,
+        "activities": "Jungle walk in Kotka, birdwatching at dawn, tiger sighting spots"
+      },
+      {
+        "day": 3,
+        "activities": "Canoe ride near narrow mangrove creeks, visit local fishing village"
+      },
+      {
+        "day": 4,
+        "activities": "Return from cruise and transfer to Khulna city"
+      }
+    ],
+    "createdAt": "2025-07-26T18:02:43.019Z"
+  },
+  {
+    "_id": "688504efec499de84916b15e",
+    "title": "Cox's Bazar Beach Escape",
+    "description": "Enjoy the world’s longest sea beach, local seafood, and calm sunsets at Cox’s Bazar. Ideal for couples, families, or solo travelers.",
+    "price": 5500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Cox's Bazar",
+    "gallery": [
+      "https://images.deepai.org/art-image/72bca9114b0941e89cdb0ea0a22f5553/cox-s-bazar-sea-beach-during-sunset-with-silhouettes-.jpg",
+      "https://images.deepai.org/art-image/8b0ff09c7a454c268c3c5b7f1267c0ab/inani-beach-rocks-and-crystal-water-viewed-from-top-o.jpg",
+      "https://images.deepai.org/art-image/e713f0f4a6594165a2f93aa81fd4f14e/close-up-of-seafood-platter-on-a-table-near-beachside.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Departure from Dhaka, check-in at sea view hotel, evening walk by the beach"
+      },
+      {
+        "day": 2,
+        "activities": "Visit Himchari, Inani Beach, and enjoy local seafood lunch"
+      },
+      {
+        "day": 3,
+        "activities": "Shopping from Burmese market and return journey"
+      }
+    ],
+    "createdAt": "2025-07-26T16:40:15.371Z"
+  }
+] TourismAndGuides.jsx 7
+[12:20 AM 27-07-25] [
+  {
+    "_id": "68851843606080f1804fcbef",
+    "title": "Sundarbans Wildlife Expedition",
+    "description": "Explore the world’s largest mangrove forest and spot rare wildlife like Royal Bengal Tigers, spotted deer, and exotic birds on a tranquil boat journey.",
+    "price": 8200,
+    "tripType": "Nature",
+    "days": 4,
+    "location": "Sundarbans",
+    "gallery": [
+      "https://images.deepai.org/art-image/18013ccde158403e97b2804d68101e57/traditional-launch-boat-in-sundarbans-mangrove-river-.jpg",
+      "https://images.deepai.org/art-image/0271952765ce412b878981dbdb957347/royal-bengal-tiger-mid-step-among-trees-in-sundarbans.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Khulna, board the launch, and begin forest river cruise"
+      },
+      {
+        "day": 2,
+        "activities": "Jungle walk in Kotka, birdwatching at dawn, tiger sighting spots"
+      },
+      {
+        "day": 3,
+        "activities": "Canoe ride near narrow mangrove creeks, visit local fishing village"
+      },
+      {
+        "day": 4,
+        "activities": "Return from cruise and transfer to Khulna city"
+      }
+    ],
+    "createdAt": "2025-07-26T18:02:43.019Z"
+  },
+  {
+    "_id": "688504efec499de84916b15e",
+    "title": "Cox's Bazar Beach Escape",
+    "description": "Enjoy the world’s longest sea beach, local seafood, and calm sunsets at Cox’s Bazar. Ideal for couples, families, or solo travelers.",
+    "price": 5500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Cox's Bazar",
+    "gallery": [
+      "https://images.deepai.org/art-image/72bca9114b0941e89cdb0ea0a22f5553/cox-s-bazar-sea-beach-during-sunset-with-silhouettes-.jpg",
+      "https://images.deepai.org/art-image/8b0ff09c7a454c268c3c5b7f1267c0ab/inani-beach-rocks-and-crystal-water-viewed-from-top-o.jpg",
+      "https://images.deepai.org/art-image/e713f0f4a6594165a2f93aa81fd4f14e/close-up-of-seafood-platter-on-a-table-near-beachside.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Departure from Dhaka, check-in at sea view hotel, evening walk by the beach"
+      },
+      {
+        "day": 2,
+        "activities": "Visit Himchari, Inani Beach, and enjoy local seafood lunch"
+      },
+      {
+        "day": 3,
+        "activities": "Shopping from Burmese market and return journey"
+      }
+    ],
+    "createdAt": "2025-07-26T16:40:15.371Z"
+  }
+] TourismAndGuides.jsx 7
+[12:20 AM 27-07-25] [
+  {
+    "_id": "68851843606080f1804fcbef",
+    "title": "Sundarbans Wildlife Expedition",
+    "description": "Explore the world’s largest mangrove forest and spot rare wildlife like Royal Bengal Tigers, spotted deer, and exotic birds on a tranquil boat journey.",
+    "price": 8200,
+    "tripType": "Nature",
+    "days": 4,
+    "location": "Sundarbans",
+    "gallery": [
+      "https://images.deepai.org/art-image/18013ccde158403e97b2804d68101e57/traditional-launch-boat-in-sundarbans-mangrove-river-.jpg",
+      "https://images.deepai.org/art-image/0271952765ce412b878981dbdb957347/royal-bengal-tiger-mid-step-among-trees-in-sundarbans.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Khulna, board the launch, and begin forest river cruise"
+      },
+      {
+        "day": 2,
+        "activities": "Jungle walk in Kotka, birdwatching at dawn, tiger sighting spots"
+      },
+      {
+        "day": 3,
+        "activities": "Canoe ride near narrow mangrove creeks, visit local fishing village"
+      },
+      {
+        "day": 4,
+        "activities": "Return from cruise and transfer to Khulna city"
+      }
+    ],
+    "createdAt": "2025-07-26T18:02:43.019Z"
+  },
+  {
+    "_id": "688504efec499de84916b15e",
+    "title": "Cox's Bazar Beach Escape",
+    "description": "Enjoy the world’s longest sea beach, local seafood, and calm sunsets at Cox’s Bazar. Ideal for couples, families, or solo travelers.",
+    "price": 5500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Cox's Bazar",
+    "gallery": [
+      "https://images.deepai.org/art-image/72bca9114b0941e89cdb0ea0a22f5553/cox-s-bazar-sea-beach-during-sunset-with-silhouettes-.jpg",
+      "https://images.deepai.org/art-image/8b0ff09c7a454c268c3c5b7f1267c0ab/inani-beach-rocks-and-crystal-water-viewed-from-top-o.jpg",
+      "https://images.deepai.org/art-image/e713f0f4a6594165a2f93aa81fd4f14e/close-up-of-seafood-platter-on-a-table-near-beachside.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Departure from Dhaka, check-in at sea view hotel, evening walk by the beach"
+      },
+      {
+        "day": 2,
+        "activities": "Visit Himchari, Inani Beach, and enjoy local seafood lunch"
+      },
+      {
+        "day": 3,
+        "activities": "Shopping from Burmese market and return journey"
+      }
+    ],
+    "createdAt": "2025-07-26T16:40:15.371Z"
+  }
+] TourismAndGuides.jsx 7
+[12:20 AM 27-07-25] [] TourismAndGuides.jsx 7
+[12:20 AM 27-07-25] [] TourismAndGuides.jsx 7
+[12:20 AM 27-07-25] [] TourismAndGuides.jsx 7
+[12:20 AM 27-07-25] [] TourismAndGuides.jsx 7
+[12:20 AM 27-07-25] [
+  {
+    "_id": "688504efec499de84916b15e",
+    "title": "Cox's Bazar Beach Escape",
+    "description": "Enjoy the world’s longest sea beach, local seafood, and calm sunsets at Cox’s Bazar. Ideal for couples, families, or solo travelers.",
+    "price": 5500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Cox's Bazar",
+    "gallery": [
+      "https://images.deepai.org/art-image/72bca9114b0941e89cdb0ea0a22f5553/cox-s-bazar-sea-beach-during-sunset-with-silhouettes-.jpg",
+      "https://images.deepai.org/art-image/8b0ff09c7a454c268c3c5b7f1267c0ab/inani-beach-rocks-and-crystal-water-viewed-from-top-o.jpg",
+      "https://images.deepai.org/art-image/e713f0f4a6594165a2f93aa81fd4f14e/close-up-of-seafood-platter-on-a-table-near-beachside.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Departure from Dhaka, check-in at sea view hotel, evening walk by the beach"
+      },
+      {
+        "day": 2,
+        "activities": "Visit Himchari, Inani Beach, and enjoy local seafood lunch"
+      },
+      {
+        "day": 3,
+        "activities": "Shopping from Burmese market and return journey"
+      }
+    ],
+    "createdAt": "2025-07-26T16:40:15.371Z"
+  },
+  {
+    "_id": "68851843606080f1804fcbef",
+    "title": "Sundarbans Wildlife Expedition",
+    "description": "Explore the world’s largest mangrove forest and spot rare wildlife like Royal Bengal Tigers, spotted deer, and exotic birds on a tranquil boat journey.",
+    "price": 8200,
+    "tripType": "Nature",
+    "days": 4,
+    "location": "Sundarbans",
+    "gallery": [
+      "https://images.deepai.org/art-image/18013ccde158403e97b2804d68101e57/traditional-launch-boat-in-sundarbans-mangrove-river-.jpg",
+      "https://images.deepai.org/art-image/0271952765ce412b878981dbdb957347/royal-bengal-tiger-mid-step-among-trees-in-sundarbans.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Khulna, board the launch, and begin forest river cruise"
+      },
+      {
+        "day": 2,
+        "activities": "Jungle walk in Kotka, birdwatching at dawn, tiger sighting spots"
+      },
+      {
+        "day": 3,
+        "activities": "Canoe ride near narrow mangrove creeks, visit local fishing village"
+      },
+      {
+        "day": 4,
+        "activities": "Return from cruise and transfer to Khulna city"
+      }
+    ],
+    "createdAt": "2025-07-26T18:02:43.019Z"
+  }
+] TourismAndGuides.jsx 7
+[12:20 AM 27-07-25] [
+  {
+    "_id": "688504efec499de84916b15e",
+    "title": "Cox's Bazar Beach Escape",
+    "description": "Enjoy the world’s longest sea beach, local seafood, and calm sunsets at Cox’s Bazar. Ideal for couples, families, or solo travelers.",
+    "price": 5500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Cox's Bazar",
+    "gallery": [
+      "https://images.deepai.org/art-image/72bca9114b0941e89cdb0ea0a22f5553/cox-s-bazar-sea-beach-during-sunset-with-silhouettes-.jpg",
+      "https://images.deepai.org/art-image/8b0ff09c7a454c268c3c5b7f1267c0ab/inani-beach-rocks-and-crystal-water-viewed-from-top-o.jpg",
+      "https://images.deepai.org/art-image/e713f0f4a6594165a2f93aa81fd4f14e/close-up-of-seafood-platter-on-a-table-near-beachside.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Departure from Dhaka, check-in at sea view hotel, evening walk by the beach"
+      },
+      {
+        "day": 2,
+        "activities": "Visit Himchari, Inani Beach, and enjoy local seafood lunch"
+      },
+      {
+        "day": 3,
+        "activities": "Shopping from Burmese market and return journey"
+      }
+    ],
+    "createdAt": "2025-07-26T16:40:15.371Z"
+  },
+  {
+    "_id": "68851843606080f1804fcbef",
+    "title": "Sundarbans Wildlife Expedition",
+    "description": "Explore the world’s largest mangrove forest and spot rare wildlife like Royal Bengal Tigers, spotted deer, and exotic birds on a tranquil boat journey.",
+    "price": 8200,
+    "tripType": "Nature",
+    "days": 4,
+    "location": "Sundarbans",
+    "gallery": [
+      "https://images.deepai.org/art-image/18013ccde158403e97b2804d68101e57/traditional-launch-boat-in-sundarbans-mangrove-river-.jpg",
+      "https://images.deepai.org/art-image/0271952765ce412b878981dbdb957347/royal-bengal-tiger-mid-step-among-trees-in-sundarbans.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Khulna, board the launch, and begin forest river cruise"
+      },
+      {
+        "day": 2,
+        "activities": "Jungle walk in Kotka, birdwatching at dawn, tiger sighting spots"
+      },
+      {
+        "day": 3,
+        "activities": "Canoe ride near narrow mangrove creeks, visit local fishing village"
+      },
+      {
+        "day": 4,
+        "activities": "Return from cruise and transfer to Khulna city"
+      }
+    ],
+    "createdAt": "2025-07-26T18:02:43.019Z"
+  }
+] TourismAndGuides.jsx 7
