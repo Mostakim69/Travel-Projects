@@ -28,6 +28,11 @@ const router = createBrowserRouter([
         path: "/",
         Component: Home,
       },
+
+      {
+        path: "/all-trips",
+        // element: <Forbidden />,
+      },
       // guide profile page
       {
         path: "/guides/:id",
