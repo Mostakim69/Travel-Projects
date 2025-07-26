@@ -3,6 +3,7 @@ import useSecureQuery from "../../../../hooks/useSecureQuery";
 import useSecureUpdate from "../../../../hooks/useSecureUpdate";
 import AssignedTourCard from "./AssignedTourCard";
 import { darkSwal } from "../../../../hooks/usePostData";
+import Spinner from "../../../shared/Layout/Spinner";
 
 const AssignedTour = () => {
   const { data, isLoading, error, refetch } = useSecureQuery(
@@ -51,12 +52,7 @@ const AssignedTour = () => {
     setStatusToUpdate(status);
   };
 
-  if (isLoading)
-    return (
-      <p className="text-center text-lg text-accent animate-pulse">
-        Loading tours...
-      </p>
-    );
+  if (isLoading) return <Spinner />;
 
   if (error)
     return <p className="text-center text-red-400">Failed to load bookings.</p>;
@@ -86,59 +82,3 @@ const AssignedTour = () => {
 };
 
 export default AssignedTour;
-
-// AssignedTour.jsx
-/* import useSecureQuery from "../../../../hooks/useSecureQuery";
-import useSecureUpdate from "../../../../hooks/useSecureUpdate";
-import AssignedTourCard from "./AssignedTourCard";
-import { darkSwal } from "../../../../hooks/usePostData";
-
-const AssignedTour = () => {
-  const { data, isLoading, error, refetch } = useSecureQuery(
-    ["guideBookings", "687cff8d095a1d459861b897"],
-    "/bookings/guide/687cff8d095a1d459861b897",
-  );
-
-  const handleAction = async (bookingId, status) => {
-    try {
-      const res = await useSecureUpdate(`/bookings/${bookingId}`, { status });
-      if (res?.data?.success) {
-        darkSwal.fire("Success", `Booking ${status}`, "success");
-        refetch();
-      }
-    } catch (err) {
-      darkSwal.fire("Error", err.message, "error");
-    }
-  };
-
-  if (isLoading)
-    return (
-      <p className="text-center text-lg text-accent animate-pulse">
-        Loading tours...
-      </p>
-    );
-
-  if (error)
-    return <p className="text-center text-red-400">Failed to load bookings.</p>;
-
-  return (
-    <div className="min-h-screen px-4 py-10 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
-      <h1 className="text-4xl md:text-5xl font-extrabold text-center mb-8 bg-gradient-to-r from-cyan-400 via-fuchsia-500 to-indigo-400 bg-clip-text text-transparent drop-shadow-md">
-        Assigned Tours
-      </h1>
-
-      <div className="grid gap-6 md:grid-cols-2">
-        {data?.data?.map((booking) => (
-          <div
-            key={booking._id}
-            className="rounded-xl shadow-lg border border-gray-700 bg-base-200 bg-opacity-80 p-4 backdrop-blur-md hover:shadow-xl transition duration-300 ease-in-out"
-          >
-            <AssignedTourCard booking={booking} handelAction={handleAction} />
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-};
-
-export default AssignedTour; */
