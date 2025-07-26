@@ -1,0 +1,440 @@
+[11:08 AM 26-07-25] [] TourismAndGuides.jsx 7
+[11:08 AM 26-07-25] [] TourismAndGuides.jsx 7
+[11:08 AM 26-07-25] [] TourismAndGuides.jsx 7
+[11:08 AM 26-07-25] [] TourismAndGuides.jsx 7
+[11:08 AM 26-07-25] [
+  {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  {
+    "_id": "6884626324d46566c7836759",
+    "title": "title",
+    "description": "description",
+    "price": 400,
+    "tripType": "Cultural",
+    "days": 3,
+    "location": "Rangamati",
+    "gallery": [
+      "http://localhost:5173/dashboard/admin/add-package.jpg",
+      "http://localhost:5173/dashboard/admin/add-package.png"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "gose"
+      },
+      {
+        "day": 2,
+        "activities": "rest"
+      },
+      {
+        "day": 3,
+        "activities": "return"
+      }
+    ],
+    "createdAt": "2025-07-26T05:06:43.210Z"
+  },
+  {
+    "_id": "68845f2724d46566c7836757",
+    "title": "Assalamu alaikum, title updated",
+    "description": "de",
+    "price": 3,
+    "tripType": "Cultural",
+    "days": 3,
+    "location": "sajek",
+    "gallery": [
+      "3",
+      "3"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "amak"
+      }
+    ],
+    "createdAt": "2025-07-26T04:52:55.706Z"
+  }
+] TourismAndGuides.jsx 7
+[11:08 AM 26-07-25] [
+  {
+    "_id": "687f5afeec95de7ba201f13f",
+    "title": "Sajek Adventure 2",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:33:50.100Z"
+  },
+  {
+    "_id": "6884626324d46566c7836759",
+    "title": "title",
+    "description": "description",
+    "price": 400,
+    "tripType": "Cultural",
+    "days": 3,
+    "location": "Rangamati",
+    "gallery": [
+      "http://localhost:5173/dashboard/admin/add-package.jpg",
+      "http://localhost:5173/dashboard/admin/add-package.png"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "gose"
+      },
+      {
+        "day": 2,
+        "activities": "rest"
+      },
+      {
+        "day": 3,
+        "activities": "return"
+      }
+    ],
+    "createdAt": "2025-07-26T05:06:43.210Z"
+  },
+  {
+    "_id": "68845f2724d46566c7836757",
+    "title": "Assalamu alaikum, title updated",
+    "description": "de",
+    "price": 3,
+    "tripType": "Cultural",
+    "days": 3,
+    "location": "sajek",
+    "gallery": [
+      "3",
+      "3"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "amak"
+      }
+    ],
+    "createdAt": "2025-07-26T04:52:55.706Z"
+  }
+] TourismAndGuides.jsx 7
+[11:09 AM 26-07-25] [] TourismAndGuides.jsx 7
+[11:09 AM 26-07-25] [] TourismAndGuides.jsx 7
+[11:09 AM 26-07-25] [] TourismAndGuides.jsx 7
+[11:09 AM 26-07-25] [] TourismAndGuides.jsx 7
+[11:09 AM 26-07-25] [
+  {
+    "_id": "687ce60e7511b3341ff488bf",
+    "title": "Sajek Adventure",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-20T12:50:22.651Z"
+  },
+  {
+    "_id": "6884626324d46566c7836759",
+    "title": "title",
+    "description": "description",
+    "price": 400,
+    "tripType": "Cultural",
+    "days": 3,
+    "location": "Rangamati",
+    "gallery": [
+      "http://localhost:5173/dashboard/admin/add-package.jpg",
+      "http://localhost:5173/dashboard/admin/add-package.png"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "gose"
+      },
+      {
+        "day": 2,
+        "activities": "rest"
+      },
+      {
+        "day": 3,
+        "activities": "return"
+      }
+    ],
+    "createdAt": "2025-07-26T05:06:43.210Z"
+  },
+  {
+    "_id": "68845efc24d46566c7836755",
+    "title": "Assalamu alaikum, title updated",
+    "description": "descrip",
+    "price": 300,
+    "tripType": "Historical",
+    "days": 3,
+    "location": "sjake",
+    "gallery": [
+      "1",
+      "2"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "kkk"
+      }
+    ],
+    "createdAt": "2025-07-26T04:52:12.793Z"
+  }
+] TourismAndGuides.jsx 7
+[11:09 AM 26-07-25] [
+  {
+    "_id": "687ce60e7511b3341ff488bf",
+    "title": "Sajek Adventure",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-20T12:50:22.651Z"
+  },
+  {
+    "_id": "6884626324d46566c7836759",
+    "title": "title",
+    "description": "description",
+    "price": 400,
+    "tripType": "Cultural",
+    "days": 3,
+    "location": "Rangamati",
+    "gallery": [
+      "http://localhost:5173/dashboard/admin/add-package.jpg",
+      "http://localhost:5173/dashboard/admin/add-package.png"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "gose"
+      },
+      {
+        "day": 2,
+        "activities": "rest"
+      },
+      {
+        "day": 3,
+        "activities": "return"
+      }
+    ],
+    "createdAt": "2025-07-26T05:06:43.210Z"
+  },
+  {
+    "_id": "68845efc24d46566c7836755",
+    "title": "Assalamu alaikum, title updated",
+    "description": "descrip",
+    "price": 300,
+    "tripType": "Historical",
+    "days": 3,
+    "location": "sjake",
+    "gallery": [
+      "1",
+      "2"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "kkk"
+      }
+    ],
+    "createdAt": "2025-07-26T04:52:12.793Z"
+  }
+] TourismAndGuides.jsx 7
+[11:09 AM 26-07-25] [] TourismAndGuides.jsx 7
+[11:09 AM 26-07-25] [] TourismAndGuides.jsx 7
+[11:09 AM 26-07-25] [] TourismAndGuides.jsx 7
+[11:09 AM 26-07-25] [] TourismAndGuides.jsx 7
+[11:09 AM 26-07-25] [
+  {
+    "_id": "6884587824d46566c7836744",
+    "title": "story tittle checking",
+    "description": "",
+    "price": 7,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "a",
+    "gallery": [
+      "a",
+      "a"
+    ],
+    "tourPlan": [
+      {
+        "day": 2,
+        "activities": "a"
+      }
+    ],
+    "createdAt": "2025-07-26T04:24:24.174Z"
+  },
+  {
+    "_id": "68845efc24d46566c7836755",
+    "title": "Assalamu alaikum, title updated",
+    "description": "descrip",
+    "price": 300,
+    "tripType": "Historical",
+    "days": 3,
+    "location": "sjake",
+    "gallery": [
+      "1",
+      "2"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "kkk"
+      }
+    ],
+    "createdAt": "2025-07-26T04:52:12.793Z"
+  },
+  {
+    "_id": "687ce60e7511b3341ff488bf",
+    "title": "Sajek Adventure",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-20T12:50:22.651Z"
+  }
+] TourismAndGuides.jsx 7
+[11:09 AM 26-07-25] [
+  {
+    "_id": "6884587824d46566c7836744",
+    "title": "story tittle checking",
+    "description": "",
+    "price": 7,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "a",
+    "gallery": [
+      "a",
+      "a"
+    ],
+    "tourPlan": [
+      {
+        "day": 2,
+        "activities": "a"
+      }
+    ],
+    "createdAt": "2025-07-26T04:24:24.174Z"
+  },
+  {
+    "_id": "68845efc24d46566c7836755",
+    "title": "Assalamu alaikum, title updated",
+    "description": "descrip",
+    "price": 300,
+    "tripType": "Historical",
+    "days": 3,
+    "location": "sjake",
+    "gallery": [
+      "1",
+      "2"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "kkk"
+      }
+    ],
+    "createdAt": "2025-07-26T04:52:12.793Z"
+  },
+  {
+    "_id": "687ce60e7511b3341ff488bf",
+    "title": "Sajek Adventure",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-20T12:50:22.651Z"
+  }
+] TourismAndGuides.jsx 7
