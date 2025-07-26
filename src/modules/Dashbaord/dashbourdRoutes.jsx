@@ -1,5 +1,6 @@
 import AddStories from "./AddStories/AddStories";
 import AddPackage from "./Admin/AddPackage/AddPackage";
+import AllBookings from "./Admin/Bookings/AllBookings";
 import ManageCandidate from "./Admin/ManageCandidate/ManageCandidate";
 import ManageUsers from "./Admin/ManageUsers/ManageUsers";
 import AllPayments from "./Admin/Payments/AllPayments";
