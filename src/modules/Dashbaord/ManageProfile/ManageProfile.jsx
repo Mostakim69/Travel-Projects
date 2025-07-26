@@ -109,12 +109,14 @@ const ManageProfile = () => {
           ✏️ Update Profile
         </button>
 
-        <Link
-          to="/dashboard/tourist/join-tour-guide"
-          className="btn btn-outline btn-block md:btn-wide border-emerald-500 text-emerald-300 hover:bg-emerald-600 hover:text-white pulse-glow"
-        >
-          ✨ Join as Tour Guide
-        </Link>
+        {role === "tourist" && (
+          <Link
+            to="/dashboard/tourist/join-tour-guide"
+            className="btn btn-outline btn-block md:btn-wide border-emerald-500 text-emerald-300 hover:bg-emerald-600 hover:text-white pulse-glow"
+          >
+            ✨ Join as Tour Guide
+          </Link>
+        )}
       </div>
 
       {/* DaisyUI Modal */}
