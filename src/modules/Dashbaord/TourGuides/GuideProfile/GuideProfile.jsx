@@ -3,6 +3,7 @@ import { useQuery } from "@tanstack/react-query";
 import { axiosInstance } from "../../../../hooks/useAxiosSecure";
 
 const fetchGuideDetails = async (id) => {
+  console.log(id, "GuideProfile.jsx", 6);
   const res = await axiosInstance.get(`/tour-guide-requests/${id}`);
   return res.data?.data;
 };
