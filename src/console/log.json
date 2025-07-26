@@ -13407,3 +13407,25 @@
     "updatedAt": "2025-07-26T19:35:23.465Z"
   }
 } booking PackageDetails.jsx 81
+[01:36 AM 27-07-25] {
+  "success": true,
+  "message": "Booking created successfully!",
+  "data": {
+    "packageId": "688504efec499de84916b15e",
+    "packageName": "Cox's Bazar Beach Escape",
+    "touristId": "68851c73606080f1804fcc55",
+    "touristName": "Md Sj",
+    "touristEmail": "mdsj0425@gmail.com",
+    "touristPhoto": "https://lh3.googleusercontent.com/a/ACg8ocJmzIzrNTxq2dzeWUDXKlNo2glIJFo3pQa8510jojvMDkNOig=s96-c",
+    "guideId": "68852ad7c78ef640a3f9391d",
+    "guideName": "Education Education",
+    "price": 5500,
+    "tourDate": "2025-07-26T00:00:00.000Z",
+    "status": "pending",
+    "paymentStatus": "unpaid",
+    "transactionId": "",
+    "_id": "68852e45c78ef640a3f9399f",
+    "createdAt": "2025-07-26T19:36:37.613Z",
+    "updatedAt": "2025-07-26T19:36:37.613Z"
+  }
+} booking PackageDetails.jsx 81

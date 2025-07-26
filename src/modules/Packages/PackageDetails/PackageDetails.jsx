@@ -101,7 +101,7 @@ const PackageDetails = () => {
         },
       }).then((result) => {
         if (result.isConfirmed) {
-          navigate("/my-bookings");
+          navigate("/dashboard/my-bookings");
         }
       });
     } catch (err) {
