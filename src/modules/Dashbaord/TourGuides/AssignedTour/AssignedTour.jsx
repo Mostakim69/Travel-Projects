@@ -1,4 +1,5 @@
 import useSecureQuery from "../../../../hooks/useSecureQuery";
+import AssignedTourCard from "./AssignedTourCard";
 
 const AssignedTour = () => {
   const { data, isLoading, error } = useSecureQuery(
@@ -12,31 +13,7 @@ const AssignedTour = () => {
   return (
     <div className="grid md:grid-cols-2 gap-4">
       {data?.data?.map((booking) => (
-        <div
-          key={booking._id}
-          className="bg-base-200 rounded-lg shadow p-4 space-y-2"
-        >
-          <h2 className="text-xl font-bold">{booking.packageName}</h2>
-          <p>
-            <strong>Tourist:</strong> {booking.touristName}
-          </p>
-          <p>
-            <strong>Email:</strong> {booking.touristEmail}
-          </p>
-          <p>
-            <strong>Status:</strong> {booking.status}
-          </p>
-          <p>
-            <strong>Payment:</strong> {booking.paymentStatus}
-          </p>
-          <p>
-            <strong>Price:</strong> ৳{booking.price}
-          </p>
-          <p>
-            <strong>Tour Date:</strong>{" "}
-            {new Date(booking.tourDate).toLocaleDateString()}
-          </p>
-        </div>
+        <AssignedTourCard key={booking._id} booking={booking} />
       ))}
     </div>
   );
