@@ -367,3 +367,126 @@
   "code": "ERR_BAD_RESPONSE",
   "status": 500
 }
+[2025-07-26T12:42:28.193Z] Unhandled Promise Rejection: {
+  "message": "Request failed with status code 500",
+  "name": "AxiosError",
+  "stack": "settle@http://localhost:5173/node_modules/.vite/deps/axios.js?v=904aa0e5:1229:12\nonloadend@http://localhost:5173/node_modules/.vite/deps/axios.js?v=904aa0e5:1561:13\n",
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": [
+      "xhr",
+      "http",
+      "fetch"
+    ],
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/json",
+      "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjZkZTQwZjA0ODgxYzZhMDE2MTFlYjI4NGE0Yzk1YTI1MWU5MTEyNTAiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiYmFuZ2xhIGJkIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FDZzhvY0xLTlZ1M09vbERZeEs5WmFIb3VNbnpBZFYwemFFcFFWZnYtcTYtTWhYN3d3QllqUT1zOTYtYyIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9lZHV2ZXJzZS04YTk3ZCIsImF1ZCI6ImVkdXZlcnNlLThhOTdkIiwiYXV0aF90aW1lIjoxNzUzNTMyMjcyLCJ1c2VyX2lkIjoiUk92UjBRblhXM1NLY3phT2FCbjFMTDlaR1BPMiIsInN1YiI6IlJPdlIwUW5YVzNTS2N6YU9hQm4xTEw5WkdQTzIiLCJpYXQiOjE3NTM1MzIyNzIsImV4cCI6MTc1MzUzNTg3MiwiZW1haWwiOiJiYW5nbGFiZDUxNTVAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMTEyMTc0MTU3NjI2MDY3MDg1NTEiXSwiZW1haWwiOlsiYmFuZ2xhYmQ1MTU1QGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.iLa3u-ba6FGQck74ceCpJLkt3dW_ZL0WbgdDIR_uXKk4NCVa1vh163cC-2FNSseaBv6UcSyPNIDET7vkLKpg3BUY5Xa3cN5WvECMP-uM2DE1kRGvnVgpv7XD7QsVkOyZ_4tU6y1niwSWvzJ88EnDI0YIZgFK9h3sAMh_odX9hqEFy1EoESIZnrSMAc1CKapGGuhz175mDVohJNplM-p6ELeMJc6whwILYgGCfLXiv4ejp3JxQ_85NlX6T_Ng-3MXfCqjA4wkTM8AqMvsoPbMMn-UkdZISLkYwGvYv3WZYUdWux0YnT8ynUUB9yHzq28hxrwbvs-55wzu2LWvOMmCYg"
+    },
+    "baseURL": "http://localhost:5000/api/v1/",
+    "method": "post",
+    "url": "tour-guide-requests",
+    "data": "{\"userId\":\"688036d54582db5aafd12e4f\",\"title\":\"title\",\"reason\":\"🙈🙈Certified and Experienced Mountain Guide\",\"cvLink\":\"http://localhost:5173/dashboard/tourist/join-tour-guide\"}",
+    "allowAbsoluteUrls": true
+  },
+  "code": "ERR_BAD_RESPONSE",
+  "status": 500
+}
+[2025-07-26T12:42:32.387Z] Unhandled Promise Rejection: {
+  "message": "Request failed with status code 500",
+  "name": "AxiosError",
+  "stack": "settle@http://localhost:5173/node_modules/.vite/deps/axios.js?v=904aa0e5:1229:12\nonloadend@http://localhost:5173/node_modules/.vite/deps/axios.js?v=904aa0e5:1561:13\n",
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": [
+      "xhr",
+      "http",
+      "fetch"
+    ],
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/json",
+      "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjZkZTQwZjA0ODgxYzZhMDE2MTFlYjI4NGE0Yzk1YTI1MWU5MTEyNTAiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiYmFuZ2xhIGJkIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FDZzhvY0xLTlZ1M09vbERZeEs5WmFIb3VNbnpBZFYwemFFcFFWZnYtcTYtTWhYN3d3QllqUT1zOTYtYyIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9lZHV2ZXJzZS04YTk3ZCIsImF1ZCI6ImVkdXZlcnNlLThhOTdkIiwiYXV0aF90aW1lIjoxNzUzNTMyMjcyLCJ1c2VyX2lkIjoiUk92UjBRblhXM1NLY3phT2FCbjFMTDlaR1BPMiIsInN1YiI6IlJPdlIwUW5YVzNTS2N6YU9hQm4xTEw5WkdQTzIiLCJpYXQiOjE3NTM1MzIyNzIsImV4cCI6MTc1MzUzNTg3MiwiZW1haWwiOiJiYW5nbGFiZDUxNTVAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMTEyMTc0MTU3NjI2MDY3MDg1NTEiXSwiZW1haWwiOlsiYmFuZ2xhYmQ1MTU1QGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.iLa3u-ba6FGQck74ceCpJLkt3dW_ZL0WbgdDIR_uXKk4NCVa1vh163cC-2FNSseaBv6UcSyPNIDET7vkLKpg3BUY5Xa3cN5WvECMP-uM2DE1kRGvnVgpv7XD7QsVkOyZ_4tU6y1niwSWvzJ88EnDI0YIZgFK9h3sAMh_odX9hqEFy1EoESIZnrSMAc1CKapGGuhz175mDVohJNplM-p6ELeMJc6whwILYgGCfLXiv4ejp3JxQ_85NlX6T_Ng-3MXfCqjA4wkTM8AqMvsoPbMMn-UkdZISLkYwGvYv3WZYUdWux0YnT8ynUUB9yHzq28hxrwbvs-55wzu2LWvOMmCYg"
+    },
+    "baseURL": "http://localhost:5000/api/v1/",
+    "method": "post",
+    "url": "tour-guide-requests",
+    "data": "{\"userId\":\"688036d54582db5aafd12e4f\",\"title\":\"title\",\"reason\":\"🙈🙈Certified and Experienced Mountain Guide\",\"cvLink\":\"http://localhost:5173/dashboard/tourist/join-tour-guide\"}",
+    "allowAbsoluteUrls": true
+  },
+  "code": "ERR_BAD_RESPONSE",
+  "status": 500
+}
+[2025-07-26T12:42:36.391Z] Unhandled Promise Rejection: {
+  "message": "Request failed with status code 500",
+  "name": "AxiosError",
+  "stack": "settle@http://localhost:5173/node_modules/.vite/deps/axios.js?v=904aa0e5:1229:12\nonloadend@http://localhost:5173/node_modules/.vite/deps/axios.js?v=904aa0e5:1561:13\n",
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": [
+      "xhr",
+      "http",
+      "fetch"
+    ],
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/json",
+      "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjZkZTQwZjA0ODgxYzZhMDE2MTFlYjI4NGE0Yzk1YTI1MWU5MTEyNTAiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiYmFuZ2xhIGJkIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FDZzhvY0xLTlZ1M09vbERZeEs5WmFIb3VNbnpBZFYwemFFcFFWZnYtcTYtTWhYN3d3QllqUT1zOTYtYyIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9lZHV2ZXJzZS04YTk3ZCIsImF1ZCI6ImVkdXZlcnNlLThhOTdkIiwiYXV0aF90aW1lIjoxNzUzNTMyMjcyLCJ1c2VyX2lkIjoiUk92UjBRblhXM1NLY3phT2FCbjFMTDlaR1BPMiIsInN1YiI6IlJPdlIwUW5YVzNTS2N6YU9hQm4xTEw5WkdQTzIiLCJpYXQiOjE3NTM1MzIyNzIsImV4cCI6MTc1MzUzNTg3MiwiZW1haWwiOiJiYW5nbGFiZDUxNTVAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMTEyMTc0MTU3NjI2MDY3MDg1NTEiXSwiZW1haWwiOlsiYmFuZ2xhYmQ1MTU1QGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.iLa3u-ba6FGQck74ceCpJLkt3dW_ZL0WbgdDIR_uXKk4NCVa1vh163cC-2FNSseaBv6UcSyPNIDET7vkLKpg3BUY5Xa3cN5WvECMP-uM2DE1kRGvnVgpv7XD7QsVkOyZ_4tU6y1niwSWvzJ88EnDI0YIZgFK9h3sAMh_odX9hqEFy1EoESIZnrSMAc1CKapGGuhz175mDVohJNplM-p6ELeMJc6whwILYgGCfLXiv4ejp3JxQ_85NlX6T_Ng-3MXfCqjA4wkTM8AqMvsoPbMMn-UkdZISLkYwGvYv3WZYUdWux0YnT8ynUUB9yHzq28hxrwbvs-55wzu2LWvOMmCYg"
+    },
+    "baseURL": "http://localhost:5000/api/v1/",
+    "method": "post",
+    "url": "tour-guide-requests",
+    "data": "{\"userId\":\"688036d54582db5aafd12e4f\",\"title\":\"title\",\"reason\":\"🙈🙈Certified and Experienced Mountain Guide\",\"cvLink\":\"http://localhost:5173/dashboard/tourist/join-tour-guide\"}",
+    "allowAbsoluteUrls": true
+  },
+  "code": "ERR_BAD_RESPONSE",
+  "status": 500
+}
