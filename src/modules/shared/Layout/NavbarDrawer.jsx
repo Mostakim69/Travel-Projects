@@ -6,9 +6,9 @@ import { adminLinks, guideLinks, touristLinks } from "./sidebarLinks";
 const NavbarDrawer = () => {
   // const { role } = useUser(); // example: { role: 'tourist' }
 
-  // const role = "admin";
+  const role = "admin";
   // const role = "tourist";
-  const role = "tour-guide";
+  // const role = "tour-guide";
   const location = useLocation();
 
   const links =
