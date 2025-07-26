@@ -22,9 +22,13 @@ const AllPayments = () => {
     <div className="p-4 md:p-8 text-white">
       <h2 className="text-3xl font-bold mb-6 glow-text">All Payments</h2>
       <div className="grid gap-4 md:grid-cols-2 ">
-        {payments.map((payment, index) => (
-          <PaymentCard payment={payment} key={payment._id} index={index} />
-        ))}
+        {payments.length > 0 ? (
+          payments.map((payment, index) => (
+            <PaymentCard payment={payment} key={payment._id} index={index} />
+          ))
+        ) : (
+          <p className="text-center text-gray-400">No payments found.</p>
+        )}
       </div>
     </div>
   );

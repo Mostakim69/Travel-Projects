@@ -285,3 +285,85 @@
   "code": "ERR_BAD_RESPONSE",
   "status": 500
 }
+[2025-07-26T19:23:23.656Z] Unhandled Promise Rejection: {
+  "message": "Request failed with status code 500",
+  "name": "AxiosError",
+  "stack": "settle@http://localhost:5173/node_modules/.vite/deps/axios.js?v=904aa0e5:1229:12\nonloadend@http://localhost:5173/node_modules/.vite/deps/axios.js?v=904aa0e5:1561:13\n",
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": [
+      "xhr",
+      "http",
+      "fetch"
+    ],
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/json",
+      "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjZkZTQwZjA0ODgxYzZhMDE2MTFlYjI4NGE0Yzk1YTI1MWU5MTEyNTAiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiTGVhcm5pbmcgRW5nbGlzaCIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NLcVNpUE1iSWhzSGtLNkZ6VVFVVUdZZTllOGE2TmxoYmhoXzVTUUliY0hVMzBLdVZxRz1zOTYtYyIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9kZXNoZ3VpZGUiLCJhdWQiOiJkZXNoZ3VpZGUiLCJhdXRoX3RpbWUiOjE3NTM1NTY1NDgsInVzZXJfaWQiOiJkelRIM1k3alNkY1hCdURKSm9ndEUwRE82QksyIiwic3ViIjoiZHpUSDNZN2pTZGNYQnVESkpvZ3RFMERPNkJLMiIsImlhdCI6MTc1MzU1NjU0OCwiZXhwIjoxNzUzNTYwMTQ4LCJlbWFpbCI6Im1kc2hhaGphbGFsNTEyQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7Imdvb2dsZS5jb20iOlsiMTAwOTU0NTMxMDIxNTU1NDg1NDM3Il0sImVtYWlsIjpbIm1kc2hhaGphbGFsNTEyQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.UslLrvwAfS0Zr-ZI6tlUnPDzNvIUIyt309bZCIjU2RTYYRknztmo2yDXMDPdXy_g6kndVUX1-81o_mF3Xsb4tx2IODr2lwj22eUzCP4X-Qc8WRrMFW16IbcWAy0YCl7HQkEO3LDwV7pNXXcJdzcPgMesSzsxtDeBTRqhvlgfIwdnsTWx--6UDsghRK4NPuVuNCx_39gdnQt7AZvy9RbAHaZIaCluHBQjNzgxNCvYwrOct0z320z8l8cVhKRqkd9Gls2-ZCFDJ7SJxkIBMV_Kwi5u7UjrY28oOXe2q64YET0VBoJK98rJgSJ4_0K4iie6DrA7QfIR2LGkklR4XpmScA"
+    },
+    "baseURL": "http://localhost:5000/api/v1/",
+    "method": "post",
+    "url": "tour-guide-requests",
+    "data": "{\"userId\":\"68852ad7c78ef640a3f9391d\",\"title\":\"Assalamu alaikum, title updated\",\"reason\":\"https://drive.google.com/file/d/1HAkBOSth-W68Df8O0uZM7KfZx-9CQGd7/view?usp=sharing\",\"cvLink\":\"https://drive.google.com/file/d/1HAkBOSth-W68Df8O0uZM7KfZx-9CQGd7/view?usp=sharing\"}",
+    "allowAbsoluteUrls": true
+  },
+  "code": "ERR_BAD_RESPONSE",
+  "status": 500
+}
+[2025-07-26T19:24:09.177Z] Unhandled Promise Rejection: {
+  "message": "Request failed with status code 500",
+  "name": "AxiosError",
+  "stack": "settle@http://localhost:5173/node_modules/.vite/deps/axios.js?v=904aa0e5:1229:12\nonloadend@http://localhost:5173/node_modules/.vite/deps/axios.js?v=904aa0e5:1561:13\n",
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": [
+      "xhr",
+      "http",
+      "fetch"
+    ],
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/json",
+      "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjZkZTQwZjA0ODgxYzZhMDE2MTFlYjI4NGE0Yzk1YTI1MWU5MTEyNTAiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiTGVhcm5pbmcgRW5nbGlzaCIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NLcVNpUE1iSWhzSGtLNkZ6VVFVVUdZZTllOGE2TmxoYmhoXzVTUUliY0hVMzBLdVZxRz1zOTYtYyIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9kZXNoZ3VpZGUiLCJhdWQiOiJkZXNoZ3VpZGUiLCJhdXRoX3RpbWUiOjE3NTM1NTY1NDgsInVzZXJfaWQiOiJkelRIM1k3alNkY1hCdURKSm9ndEUwRE82QksyIiwic3ViIjoiZHpUSDNZN2pTZGNYQnVESkpvZ3RFMERPNkJLMiIsImlhdCI6MTc1MzU1NjU0OCwiZXhwIjoxNzUzNTYwMTQ4LCJlbWFpbCI6Im1kc2hhaGphbGFsNTEyQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7Imdvb2dsZS5jb20iOlsiMTAwOTU0NTMxMDIxNTU1NDg1NDM3Il0sImVtYWlsIjpbIm1kc2hhaGphbGFsNTEyQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.UslLrvwAfS0Zr-ZI6tlUnPDzNvIUIyt309bZCIjU2RTYYRknztmo2yDXMDPdXy_g6kndVUX1-81o_mF3Xsb4tx2IODr2lwj22eUzCP4X-Qc8WRrMFW16IbcWAy0YCl7HQkEO3LDwV7pNXXcJdzcPgMesSzsxtDeBTRqhvlgfIwdnsTWx--6UDsghRK4NPuVuNCx_39gdnQt7AZvy9RbAHaZIaCluHBQjNzgxNCvYwrOct0z320z8l8cVhKRqkd9Gls2-ZCFDJ7SJxkIBMV_Kwi5u7UjrY28oOXe2q64YET0VBoJK98rJgSJ4_0K4iie6DrA7QfIR2LGkklR4XpmScA"
+    },
+    "baseURL": "http://localhost:5000/api/v1/",
+    "method": "post",
+    "url": "tour-guide-requests",
+    "data": "{\"userId\":\"68852ad7c78ef640a3f9391d\",\"title\":\"Assalamu alaikum, title updated\",\"reason\":\"https://drive.google.com/file/d/1HAkBOSth-W68Df8O0uZM7KfZx-9CQGd7/view?usp=sharing\",\"cvLink\":\"https://drive.google.com/file/d/1HAkBOSth-W68Df8O0uZM7KfZx-9CQGd7/view?usp=sharingwe\"}",
+    "allowAbsoluteUrls": true
+  },
+  "code": "ERR_BAD_RESPONSE",
+  "status": 500
+}
