@@ -1,3 +1,4 @@
+import ProtectedRoute from "../../router/ProtectedRoute";
 import AddStories from "./AddStories/AddStories";
 import AddPackage from "./Admin/AddPackage/AddPackage";
 import AllBookings from "./Admin/Bookings/AllBookings";
@@ -15,7 +16,11 @@ import PaymentBooking from "./Tourist/PaymentBooking/PaymentBooking";
 
 const dashbourdRoutes = {
   path: "/dashboard",
-  element: <DashboardLayout />,
+  element: (
+    <ProtectedRoute>
+      <DashboardLayout />
+    </ProtectedRoute>
+  ),
   children: [
     // tourist routes
     {

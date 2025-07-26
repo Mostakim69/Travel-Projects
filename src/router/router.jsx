@@ -9,6 +9,7 @@ import GuideProfile from "../modules/Dashbaord/TourGuides/GuideProfile/GuideProf
 import TourGuides from "../modules/Dashbaord/TourGuides/TourGuides";
 import CommunityPage from "../pages/Community/CommunityPage";
 import dashbourdRoutes from "../modules/Dashbaord/dashbourdRoutes";
+import ProtectedRoute from "./ProtectedRoute";
 
 const router = createBrowserRouter([
   {
@@ -38,7 +39,11 @@ const router = createBrowserRouter([
       // package  details page
       {
         path: "packages/:id",
-        element: <PackageDetails />,
+        element: (
+          <ProtectedRoute>
+            <PackageDetails />
+          </ProtectedRoute>
+        ),
       },
       {
         path: "community",
