@@ -45,7 +45,7 @@ const AuthProvider = ({ children }) => {
   };
 
   // 🔹 Update Firebase User Profile (displayName & photoURL)
-  const updateUserProfile = async (name, photoURL) => {
+  const updateUser = async (name, photoURL) => {
     if (!auth.currentUser) return;
     return updateProfile(auth.currentUser, {
       displayName: name,
@@ -60,7 +60,7 @@ const AuthProvider = ({ children }) => {
     signoutUser,
     signinUser,
     signupUser,
-    updateUserProfile,
+    updateUser,
   };
 
   useEffect(() => {
