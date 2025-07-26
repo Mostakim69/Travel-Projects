@@ -38,7 +38,7 @@ const NavbarDrawer = () => {
             transition={{ duration: 0.6 }}
             className="text-xl font-bold tracking-wider text-indigo-400 animate-pulse"
           >
-            DeshGuide Dashboard
+            Dashboard
           </motion.h1>
         </div>
 

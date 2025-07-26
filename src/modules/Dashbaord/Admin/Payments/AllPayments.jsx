@@ -27,7 +27,9 @@ const AllPayments = () => {
             <PaymentCard payment={payment} key={payment._id} index={index} />
           ))
         ) : (
-          <p className="text-center text-gray-400">No payments found.</p>
+          <h2 className="text-xl sm:text-3xl text-gray-400">
+            No payments found.
+          </h2>
         )}
       </div>
     </div>
