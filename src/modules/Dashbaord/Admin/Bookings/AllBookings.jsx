@@ -2,6 +2,7 @@ import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import useAxiosSecure from "../../../../hooks/useAxiosSecure";
 import Swal from "sweetalert2";
 import { motion } from "framer-motion";
+import { Link } from "react-router";
 const AllBookings = () => {
   const axiosSecure = useAxiosSecure();
   const queryClient = useQueryClient();
@@ -118,26 +119,9 @@ const AllBookings = () => {
                     </span>
                   </td>
                   <td className="flex gap-2">
-                    {booking.status !== "completed" && (
-                      <button
-                        onClick={() =>
-                          handleUpdateStatus(booking._id, "completed")
-                        }
-                        className="btn btn-xs btn-success glow-border hover:scale-105 duration-200"
-                      >
-                        ✅ Complete
-                      </button>
-                    )}
-                    {booking.status !== "canceled" && (
-                      <button
-                        onClick={() =>
-                          handleUpdateStatus(booking._id, "canceled")
-                        }
-                        className="btn btn-xs btn-error glow-border hover:scale-105 duration-200"
-                      >
-                        ❌ Cancel
-                      </button>
-                    )}
+                    <Link className="badge badge-sm badge-info">
+                      Details
+                    </Link>
                   </td>
                 </motion.tr>
               ))}
