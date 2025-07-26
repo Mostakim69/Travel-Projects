@@ -70,7 +70,7 @@ const AllBookings = () => {
                 <th>Actions</th>
               </tr>
             </thead>
-            <tbody>
+            <tbody data-aos="fade-up-left">
               {bookings.map((booking, index) => (
                 <motion.tr
                   key={booking._id}
@@ -78,7 +78,6 @@ const AllBookings = () => {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: index * 0.03 }}
                   className="hover:bg-[#1f2937]/60 transition duration-200"
-                  data-aos="fade-up"
                 >
                   <td>{index + 1}</td>
                   <td>
