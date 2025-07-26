@@ -19,8 +19,8 @@ const ManageCandidate = () => {
   console.log(candidateData, "ManageCandidate.jsx", 12);
   // Accept mutation
   const acceptMutation = useMutation({
-    mutationFn: async ({ userId }) => {
-      await axiosSecure.patch(`tour-guide-requests/${userId}`, {
+    mutationFn: async ({ requestId }) => {
+      await axiosSecure.patch(`tour-guide-requests/${requestId}`, {
         status: "accepted",
       });
     },
@@ -112,7 +112,7 @@ const ManageCandidate = () => {
                 <button
                   onClick={() =>
                     acceptMutation.mutate({
-                      userId: candidate.userId._id,
+                      userId: candidate._id,
                       requestId: candidate._id,
                     })
                   }
