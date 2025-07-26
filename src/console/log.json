@@ -4970,3 +4970,40 @@
 [09:15 PM 26-07-25] null SignUpForm.jsx 11
 [09:15 PM 26-07-25] null SignUpForm.jsx 11
 [09:15 PM 26-07-25] null SignUpForm.jsx 11
+[09:30 PM 26-07-25] {
+  "user": {
+    "uid": "nD1TFkRlCvQukIUweKc9apEO8Js2",
+    "email": "imranjamil@gmail.com",
+    "emailVerified": false,
+    "isAnonymous": false,
+    "providerData": [
+      {
+        "providerId": "password",
+        "uid": "imranjamil@gmail.com",
+        "displayName": null,
+        "email": "imranjamil@gmail.com",
+        "phoneNumber": null,
+        "photoURL": null
+      }
+    ],
+    "stsTokenManager": {
+      "refreshToken": "AMf-vByvq3Nh0DGgrMbPTGRVVBvXcRpfm33SY6JFnC7D-l_1e07_yyALkgVfpEUjSLQO7AczjWcpdWJvLBvdlve8MtFcKaPbQ5LOYuTyfIt5fOdEW1ii43X6uWyZsVHTKDs7jY45RTmQb1uH_ehoNGViHgA04ljgDcHlyW0KymNM6rgTOuC1EP2n1UumN8ghJ62-WRbLq-j5i3NpGxoDY68--2MVD8hWvg",
+      "accessToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjZkZTQwZjA0ODgxYzZhMDE2MTFlYjI4NGE0Yzk1YTI1MWU5MTEyNTAiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vZWR1dmVyc2UtOGE5N2QiLCJhdWQiOiJlZHV2ZXJzZS04YTk3ZCIsImF1dGhfdGltZSI6MTc1MzU0MzgxNiwidXNlcl9pZCI6Im5EMVRGa1JsQ3ZRdWtJVXdlS2M5YXBFTzhKczIiLCJzdWIiOiJuRDFURmtSbEN2UXVrSVV3ZUtjOWFwRU84SnMyIiwiaWF0IjoxNzUzNTQzODE2LCJleHAiOjE3NTM1NDc0MTYsImVtYWlsIjoiaW1yYW5qYW1pbEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZW1haWwiOlsiaW1yYW5qYW1pbEBnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJwYXNzd29yZCJ9fQ.cOj3Vaa8CiNSUIJTu_Y7t39UVwZHquwyB38wSYcSLZo5e1PfqbbQ0A50Y2PTp7BnLgXtyDkZt1BAomMTctLb3ahIvA7vVxuUlhMUlIpzL1nmevw7ef_80fMQD4lTYJb_kg4Xgtk6yggC-8Gd6wKULzmcnJe3uKBO1UvCirToLbcm64ZgPeS6odIJtgUZNtzrg1UaU8Nni0-7-fWe2EbyGZxV2YyDbN4kzRPO1AULIUPiH5qsP_EeqV_Zip-fhyRmGo3tALinVlFxKhloa4jwPJOauHEjvvJPZht9kpDvupSfFeRxA3zLjK9Pws5jGXcrhPVcMOzCa0DVFZXi5jeYLg",
+      "expirationTime": 1753547417283
+    },
+    "createdAt": "1753543815941",
+    "lastLoginAt": "1753543815941",
+    "apiKey": "AIzaSyBfXgdm2O00J9Tsy09XlJPciTgg3Ko2xH8",
+    "appName": "[DEFAULT]"
+  },
+  "providerId": null,
+  "_tokenResponse": {
+    "kind": "identitytoolkit#SignupNewUserResponse",
+    "idToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjZkZTQwZjA0ODgxYzZhMDE2MTFlYjI4NGE0Yzk1YTI1MWU5MTEyNTAiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vZWR1dmVyc2UtOGE5N2QiLCJhdWQiOiJlZHV2ZXJzZS04YTk3ZCIsImF1dGhfdGltZSI6MTc1MzU0MzgxNiwidXNlcl9pZCI6Im5EMVRGa1JsQ3ZRdWtJVXdlS2M5YXBFTzhKczIiLCJzdWIiOiJuRDFURmtSbEN2UXVrSVV3ZUtjOWFwRU84SnMyIiwiaWF0IjoxNzUzNTQzODE2LCJleHAiOjE3NTM1NDc0MTYsImVtYWlsIjoiaW1yYW5qYW1pbEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZW1haWwiOlsiaW1yYW5qYW1pbEBnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJwYXNzd29yZCJ9fQ.cOj3Vaa8CiNSUIJTu_Y7t39UVwZHquwyB38wSYcSLZo5e1PfqbbQ0A50Y2PTp7BnLgXtyDkZt1BAomMTctLb3ahIvA7vVxuUlhMUlIpzL1nmevw7ef_80fMQD4lTYJb_kg4Xgtk6yggC-8Gd6wKULzmcnJe3uKBO1UvCirToLbcm64ZgPeS6odIJtgUZNtzrg1UaU8Nni0-7-fWe2EbyGZxV2YyDbN4kzRPO1AULIUPiH5qsP_EeqV_Zip-fhyRmGo3tALinVlFxKhloa4jwPJOauHEjvvJPZht9kpDvupSfFeRxA3zLjK9Pws5jGXcrhPVcMOzCa0DVFZXi5jeYLg",
+    "email": "imranjamil@gmail.com",
+    "refreshToken": "AMf-vByvq3Nh0DGgrMbPTGRVVBvXcRpfm33SY6JFnC7D-l_1e07_yyALkgVfpEUjSLQO7AczjWcpdWJvLBvdlve8MtFcKaPbQ5LOYuTyfIt5fOdEW1ii43X6uWyZsVHTKDs7jY45RTmQb1uH_ehoNGViHgA04ljgDcHlyW0KymNM6rgTOuC1EP2n1UumN8ghJ62-WRbLq-j5i3NpGxoDY68--2MVD8hWvg",
+    "expiresIn": "3600",
+    "localId": "nD1TFkRlCvQukIUweKc9apEO8Js2"
+  },
+  "operationType": "signIn"
+} SignUpForm.jsx 35
