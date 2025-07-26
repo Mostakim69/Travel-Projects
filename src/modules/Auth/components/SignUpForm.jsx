@@ -5,9 +5,11 @@ import SocialLogin from "./SocialLogin";
 import useAuth from "../../../hooks/useAuth";
 import useAxiosSecure from "../../../hooks/useAxiosSecure";
 import { darkSwal } from "../../../hooks/usePostData";
+import { updateProfile } from "firebase/auth";
+import { auth } from "../../../firebase/firebase.init";
 
 const SignUpForm = () => {
-  const { signupUser, updateUserProfile } = useAuth();
+  const { signupUser } = useAuth();
   const navigate = useNavigate();
   const axiosSecure = useAxiosSecure();
 
@@ -19,7 +21,6 @@ const SignUpForm = () => {
     formState: { errors },
   } = useForm();
 
-  console.log(updateUserProfile, updateUserProfile, "SignUpForm.jsx", 37);
   const onSubmit = async (data) => {
     const { name, email, password, confirmPassword, photoURL } = data;
 
@@ -34,7 +35,11 @@ const SignUpForm = () => {
     try {
       const res = await signupUser(email, password);
       console.log(res, "SignUpForm.jsx", 35);
-      await updateUserProfile(name, photoURL);
+      // ✅ Directly update Firebase user profile
+      await updateProfile(auth?.currentUser, {
+        displayName: name,
+        photoURL: photoURL,
+      });
 
       // Save to database
       const newUser = {

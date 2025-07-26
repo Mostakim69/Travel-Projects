@@ -9,3 +9,526 @@
 [09:44 PM 26-07-25] null null SignUpForm.jsx 37
 [09:44 PM 26-07-25] null null SignUpForm.jsx 37
 [09:44 PM 26-07-25] null null SignUpForm.jsx 37
+[09:44 PM 26-07-25] null null SignUpForm.jsx 37
+[09:44 PM 26-07-25] null null SignUpForm.jsx 37
+[09:44 PM 26-07-25] null null SignUpForm.jsx 37
+[09:44 PM 26-07-25] null null SignUpForm.jsx 37
+[09:44 PM 26-07-25] null null SignUpForm.jsx 37
+[09:44 PM 26-07-25] null null SignUpForm.jsx 37
+[09:44 PM 26-07-25] null null SignUpForm.jsx 37
+[09:44 PM 26-07-25] null null SignUpForm.jsx 37
+[09:45 PM 26-07-25] null null updated user SignUpForm.jsx 37
+[09:45 PM 26-07-25] null null updated user SignUpForm.jsx 37
+[09:45 PM 26-07-25] null null updated user SignUpForm.jsx 37
+[09:45 PM 26-07-25] null null updated user SignUpForm.jsx 37
+[09:45 PM 26-07-25] null null updated user SignUpForm.jsx 37
+[09:45 PM 26-07-25] null null updated user SignUpForm.jsx 37
+[09:45 PM 26-07-25] null null updated user SignUpForm.jsx 37
+[09:45 PM 26-07-25] null null updated user SignUpForm.jsx 37
+[09:45 PM 26-07-25] null null updated user SignUpForm.jsx 37
+[09:45 PM 26-07-25] null null updated user SignUpForm.jsx 37
+[09:45 PM 26-07-25] null null updated user SignUpForm.jsx 37
+[09:45 PM 26-07-25] null null updated user SignUpForm.jsx 37
+[09:45 PM 26-07-25] null null updated user SignUpForm.jsx 37
+[09:45 PM 26-07-25] null null updated user SignUpForm.jsx 37
+[09:47 PM 26-07-25] null null updated user SignUpForm.jsx 37
+[09:47 PM 26-07-25] null null updated user SignUpForm.jsx 37
+[09:47 PM 26-07-25] null null updated user SignUpForm.jsx 37
+[09:47 PM 26-07-25] null null updated user SignUpForm.jsx 37
+[09:48 PM 26-07-25] null null updated user SignUpForm.jsx 37
+[09:48 PM 26-07-25] null null updated user SignUpForm.jsx 37
+[09:48 PM 26-07-25] null null updated user SignUpForm.jsx 37
+[09:48 PM 26-07-25] null null updated user SignUpForm.jsx 37
+[09:48 PM 26-07-25] null null updated user SignUpForm.jsx 37
+[09:48 PM 26-07-25] null null updated user SignUpForm.jsx 37
+[09:48 PM 26-07-25] null null updated user SignUpForm.jsx 37
+[09:48 PM 26-07-25] null null updated user SignUpForm.jsx 37
+[09:49 PM 26-07-25] {
+  "user": {
+    "uid": "FgWbnsPhJDQTx1S3xLuifmpKNRu2",
+    "email": "hasanrubel@gmail.com",
+    "emailVerified": false,
+    "isAnonymous": false,
+    "providerData": [
+      {
+        "providerId": "password",
+        "uid": "hasanrubel@gmail.com",
+        "displayName": null,
+        "email": "hasanrubel@gmail.com",
+        "phoneNumber": null,
+        "photoURL": null
+      }
+    ],
+    "stsTokenManager": {
+      "refreshToken": "AMf-vBwGHhssiVGrt5hF79HAzVGAVmR1nH12Q2o_Rzd53iW0zFT61T8RhG4aPHESTBC7bhje5mD1T07X4NsqdQrK20MRhEX6F4wx5lx2yiG08O6HbBUQWrTZ2iB-rwGaG7pPSCk-mAwcq-8-xeVF5ENnc_vhQLAsNIgyBDzGFyUv8EgMP7HnKfIQ_TY0srecVSZ1BhSaZBwX",
+      "accessToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjZkZTQwZjA0ODgxYzZhMDE2MTFlYjI4NGE0Yzk1YTI1MWU5MTEyNTAiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vZGVzaGd1aWRlIiwiYXVkIjoiZGVzaGd1aWRlIiwiYXV0aF90aW1lIjoxNzUzNTQ0OTQxLCJ1c2VyX2lkIjoiRmdXYm5zUGhKRFFUeDFTM3hMdWlmbXBLTlJ1MiIsInN1YiI6IkZnV2Juc1BoSkRRVHgxUzN4THVpZm1wS05SdTIiLCJpYXQiOjE3NTM1NDQ5NDEsImV4cCI6MTc1MzU0ODU0MSwiZW1haWwiOiJoYXNhbnJ1YmVsQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJlbWFpbCI6WyJoYXNhbnJ1YmVsQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.ZyokA6_YdCA0wIlr85BQ0Wmb3YXWW3AfkHgzuzAyROWSw06LlNeOEQd4F-NisZS8oMASh4FNdQ8WZpHXvHmwn1floCkX4eHLCpgJA6aQRhJiaXjvAfw7rItSP9eAtgBPEiVFeqHj_7B1gTsQs3Cv2bVM0-XRA31kJ8XzBHWl6hDHWvXIF_Pgq-LmL1b5ZDLD6l6WjFNjugbru0GvGkvDa2ZdViAot7lNMxszdRXpn3Y7klp6EB0qyygy5zPw9boExtZ825kmFtJJIQzsRhrNt3-XKwX1K9VO6E8gJLLSZ66fWv-MWna2n1U9kr5NMpFRRefxUMjXrYKpQdrOYXnJLw",
+      "expirationTime": 1753548541977
+    },
+    "createdAt": "1753544941388",
+    "lastLoginAt": "1753544941388",
+    "apiKey": "AIzaSyB-ldVpHa1554RClJBfUCKC3K7hXMEZ9e8",
+    "appName": "[DEFAULT]"
+  },
+  "providerId": null,
+  "_tokenResponse": {
+    "kind": "identitytoolkit#SignupNewUserResponse",
+    "idToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjZkZTQwZjA0ODgxYzZhMDE2MTFlYjI4NGE0Yzk1YTI1MWU5MTEyNTAiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vZGVzaGd1aWRlIiwiYXVkIjoiZGVzaGd1aWRlIiwiYXV0aF90aW1lIjoxNzUzNTQ0OTQxLCJ1c2VyX2lkIjoiRmdXYm5zUGhKRFFUeDFTM3hMdWlmbXBLTlJ1MiIsInN1YiI6IkZnV2Juc1BoSkRRVHgxUzN4THVpZm1wS05SdTIiLCJpYXQiOjE3NTM1NDQ5NDEsImV4cCI6MTc1MzU0ODU0MSwiZW1haWwiOiJoYXNhbnJ1YmVsQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJlbWFpbCI6WyJoYXNhbnJ1YmVsQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.ZyokA6_YdCA0wIlr85BQ0Wmb3YXWW3AfkHgzuzAyROWSw06LlNeOEQd4F-NisZS8oMASh4FNdQ8WZpHXvHmwn1floCkX4eHLCpgJA6aQRhJiaXjvAfw7rItSP9eAtgBPEiVFeqHj_7B1gTsQs3Cv2bVM0-XRA31kJ8XzBHWl6hDHWvXIF_Pgq-LmL1b5ZDLD6l6WjFNjugbru0GvGkvDa2ZdViAot7lNMxszdRXpn3Y7klp6EB0qyygy5zPw9boExtZ825kmFtJJIQzsRhrNt3-XKwX1K9VO6E8gJLLSZ66fWv-MWna2n1U9kr5NMpFRRefxUMjXrYKpQdrOYXnJLw",
+    "email": "hasanrubel@gmail.com",
+    "refreshToken": "AMf-vBwGHhssiVGrt5hF79HAzVGAVmR1nH12Q2o_Rzd53iW0zFT61T8RhG4aPHESTBC7bhje5mD1T07X4NsqdQrK20MRhEX6F4wx5lx2yiG08O6HbBUQWrTZ2iB-rwGaG7pPSCk-mAwcq-8-xeVF5ENnc_vhQLAsNIgyBDzGFyUv8EgMP7HnKfIQ_TY0srecVSZ1BhSaZBwX",
+    "expiresIn": "3600",
+    "localId": "FgWbnsPhJDQTx1S3xLuifmpKNRu2"
+  },
+  "operationType": "signIn"
+} SignUpForm.jsx 35
+[09:49 PM 26-07-25] [] TourismAndGuides.jsx 7
+[09:49 PM 26-07-25] [] TourismAndGuides.jsx 7
+[09:49 PM 26-07-25] [] TourismAndGuides.jsx 7
+[09:49 PM 26-07-25] [] TourismAndGuides.jsx 7
+[09:49 PM 26-07-25] [
+  {
+    "_id": "687d9813289cd4c61c2b0c95",
+    "title": "Sajek Adventure",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-21T01:29:55.829Z"
+  },
+  {
+    "_id": "687f5b17ec95de7ba201f143",
+    "title": "Sajek Adventure 4",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:34:15.124Z"
+  },
+  {
+    "_id": "687ce60e7511b3341ff488bf",
+    "title": "Sajek Adventure",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-20T12:50:22.651Z"
+  }
+] TourismAndGuides.jsx 7
+[09:49 PM 26-07-25] [
+  {
+    "_id": "687d9813289cd4c61c2b0c95",
+    "title": "Sajek Adventure",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-21T01:29:55.829Z"
+  },
+  {
+    "_id": "687f5b17ec95de7ba201f143",
+    "title": "Sajek Adventure 4",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:34:15.124Z"
+  },
+  {
+    "_id": "687ce60e7511b3341ff488bf",
+    "title": "Sajek Adventure",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-20T12:50:22.651Z"
+  }
+] TourismAndGuides.jsx 7
+[09:49 PM 26-07-25] [
+  {
+    "_id": "687d9813289cd4c61c2b0c95",
+    "title": "Sajek Adventure",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-21T01:29:55.829Z"
+  },
+  {
+    "_id": "687f5b17ec95de7ba201f143",
+    "title": "Sajek Adventure 4",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:34:15.124Z"
+  },
+  {
+    "_id": "687ce60e7511b3341ff488bf",
+    "title": "Sajek Adventure",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-20T12:50:22.651Z"
+  }
+] TourismAndGuides.jsx 7
+[09:49 PM 26-07-25] [
+  {
+    "_id": "687d9813289cd4c61c2b0c95",
+    "title": "Sajek Adventure",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-21T01:29:55.829Z"
+  },
+  {
+    "_id": "687f5b17ec95de7ba201f143",
+    "title": "Sajek Adventure 4",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:34:15.124Z"
+  },
+  {
+    "_id": "687ce60e7511b3341ff488bf",
+    "title": "Sajek Adventure",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-20T12:50:22.651Z"
+  }
+] TourismAndGuides.jsx 7
+[09:49 PM 26-07-25] userData?._id 6884f8f0e64086d005edf11a
+[09:49 PM 26-07-25] userData?._id 6884f8f0e64086d005edf11a
+[09:49 PM 26-07-25] userData?._id 6884f8f0e64086d005edf11a
+[09:49 PM 26-07-25] userData?._id 6884f8f0e64086d005edf11a
+[09:50 PM 26-07-25] userData?._id 6884f8f0e64086d005edf11a
+[09:50 PM 26-07-25] userData?._id 6884f8f0e64086d005edf11a
+[09:50 PM 26-07-25] userData?._id 6884f8f0e64086d005edf11a
+[09:50 PM 26-07-25] userData?._id 6884f8f0e64086d005edf11a
+[09:50 PM 26-07-25] [] TourismAndGuides.jsx 7
+[09:50 PM 26-07-25] [] TourismAndGuides.jsx 7
+[09:50 PM 26-07-25] [] TourismAndGuides.jsx 7
+[09:50 PM 26-07-25] [] TourismAndGuides.jsx 7
+[09:50 PM 26-07-25] [
+  {
+    "_id": "687d9813289cd4c61c2b0c95",
+    "title": "Sajek Adventure",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-21T01:29:55.829Z"
+  },
+  {
+    "_id": "687f5b17ec95de7ba201f143",
+    "title": "Sajek Adventure 4",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:34:15.124Z"
+  },
+  {
+    "_id": "68845efc24d46566c7836755",
+    "title": "Assalamu alaikum, title updated",
+    "description": "descrip",
+    "price": 300,
+    "tripType": "Historical",
+    "days": 3,
+    "location": "sjake",
+    "gallery": [
+      "1",
+      "2"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "kkk"
+      }
+    ],
+    "createdAt": "2025-07-26T04:52:12.793Z"
+  }
+] TourismAndGuides.jsx 7
+[09:50 PM 26-07-25] [
+  {
+    "_id": "687d9813289cd4c61c2b0c95",
+    "title": "Sajek Adventure",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-21T01:29:55.829Z"
+  },
+  {
+    "_id": "687f5b17ec95de7ba201f143",
+    "title": "Sajek Adventure 4",
+    "description": "A trip to the scenic Sajek Valley",
+    "price": 4500,
+    "tripType": "Relaxation",
+    "days": 3,
+    "location": "Sajek",
+    "gallery": [
+      "https://img.url/1.jpg",
+      "https://img.url/2.jpg"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "Depart from Dhaka, arrive at Sajek"
+      },
+      {
+        "day": 2,
+        "activities": "Explore hill tracks and tribal villages"
+      }
+    ],
+    "createdAt": "2025-07-22T09:34:15.124Z"
+  },
+  {
+    "_id": "68845efc24d46566c7836755",
+    "title": "Assalamu alaikum, title updated",
+    "description": "descrip",
+    "price": 300,
+    "tripType": "Historical",
+    "days": 3,
+    "location": "sjake",
+    "gallery": [
+      "1",
+      "2"
+    ],
+    "tourPlan": [
+      {
+        "day": 1,
+        "activities": "kkk"
+      }
+    ],
+    "createdAt": "2025-07-26T04:52:12.793Z"
+  }
+] TourismAndGuides.jsx 7
