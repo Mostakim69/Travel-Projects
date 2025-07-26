@@ -37,7 +37,11 @@ const JoinTourGuide = () => {
     onError: (err) => {
       console.error(err);
       toast.error("Failed to submit application.");
-      darkSwal.fire("Error!", err.message || "Submission failed.", "error");
+      darkSwal.fire(
+        "Error!",
+        err?.response?.data?.message || "Submission failed.",
+        "error",
+      );
     },
   });
 
