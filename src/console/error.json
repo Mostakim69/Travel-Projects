@@ -80,3 +80,44 @@
   "code": "ERR_BAD_RESPONSE",
   "status": 500
 }
+[2025-07-26T18:45:34.646Z] Unhandled Promise Rejection: {
+  "message": "Request failed with status code 500",
+  "name": "AxiosError",
+  "stack": "settle@http://localhost:5173/node_modules/.vite/deps/axios.js?v=904aa0e5:1229:12\nonloadend@http://localhost:5173/node_modules/.vite/deps/axios.js?v=904aa0e5:1561:13\n",
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": [
+      "xhr",
+      "http",
+      "fetch"
+    ],
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/json",
+      "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjZkZTQwZjA0ODgxYzZhMDE2MTFlYjI4NGE0Yzk1YTI1MWU5MTEyNTAiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiTWQgU2oiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSm16SXpyTlR4cTJkemVXVURYS2xObzJnbElKRm8zcFFhODUxMGpvanZNRGtOT2lnPXM5Ni1jIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2Rlc2hndWlkZSIsImF1ZCI6ImRlc2hndWlkZSIsImF1dGhfdGltZSI6MTc1MzU1NDAzNCwidXNlcl9pZCI6Ik1YMUFNWllnSzRWWE56M0ZwemtvSmF1WDZieTIiLCJzdWIiOiJNWDFBTVpZZ0s0VlhOejNGcHprb0phdVg2YnkyIiwiaWF0IjoxNzUzNTU0MDM0LCJleHAiOjE3NTM1NTc2MzQsImVtYWlsIjoibWRzajA0MjVAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMDMzNTkyMDExNzQzMzM3NTk2OTgiXSwiZW1haWwiOlsibWRzajA0MjVAZ21haWwuY29tIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiZ29vZ2xlLmNvbSJ9fQ.gPmO4MshHCCsOv1t-BsvG9bSYbYAUc4GIFVRf3ICHe77egiVgh7N02dvvTAPEr6Cn-WE1qlwgua7lBhgXweTNg4Kuo9RRYINJTS2EgQ1njNcxiVH0UoJn_VoTKGfRekxXaCgIqBNz1nVwHTbpI55Ow_p-1iatIixVbu4ToswZcNvTwKM_nTXr20z49UnQiDhBo9Dct_l3fANM-PL_i34nOE7rf6TmlI3QQPpXqWwNH50ka1CA-oKVs-TO8bCU9WyMYToCOfEg9shPh_JU68CbMOIeMj0E08p-9aI511mW3rofSP_ygGCbeYcCMltuusFOeBAQlFaQ6NqHbV_THtfYQ"
+    },
+    "baseURL": "http://localhost:5000/api/v1/",
+    "method": "post",
+    "url": "tour-guide-requests",
+    "data": "{\"userId\":\"68851af3606080f1804fcc36\",\"title\":\"anything\",\"reason\":\"kkkKakKakkkkKakKakkkkKakKak\\n\",\"cvLink\":\"http://localhost:5173/dashboard/tourist/join-tour-guide\"}",
+    "allowAbsoluteUrls": true
+  },
+  "code": "ERR_BAD_RESPONSE",
+  "status": 500
+}

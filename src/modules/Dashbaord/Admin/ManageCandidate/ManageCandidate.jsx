@@ -107,60 +107,6 @@ const ManageCandidate = () => {
               </p>
 
               <div className="flex gap-4">
-                {candidate.status === "accepted" ? (
-                  <>
-                    <button
-                      disabled
-                      className="btn btn-sm bg-green-700 text-white cursor-not-allowed px-4"
-                    >
-                      ✅ Accepted
-                    </button>
-                    <button
-                      disabled
-                      className="btn btn-sm bg-gray-700 text-gray-400 cursor-not-allowed"
-                    >
-                      ❌ Rejected
-                    </button>
-                  </>
-                ) : candidate.status === "rejected" ? (
-                  <>
-                    <button
-                      disabled
-                      className="btn btn-sm bg-gray-700 text-gray-400 cursor-not-allowed"
-                    >
-                      ✅ Accepted
-                    </button>
-                    <button
-                      disabled
-                      className="btn btn-sm bg-red-700 text-white cursor-not-allowed"
-                    >
-                      ❌ Rejected
-                    </button>
-                  </>
-                ) : (
-                  <>
-                    <button
-                      onClick={() =>
-                        acceptMutation.mutate({
-                          userId: candidate.userId._id,
-                          requestId: candidate._id,
-                        })
-                      }
-                      className="btn btn-sm btn-success glow-effect hover:glow-effect transition"
-                    >
-                      ✅ Accept
-                    </button>
-                    <button
-                      onClick={() => rejectMutation.mutate(candidate._id)}
-                      className="btn btn-sm btn-error glow-effect hover:glow-effect transition"
-                    >
-                      ❌ Reject
-                    </button>
-                  </>
-                )}
-              </div>
-
-              {/*               <div className="flex gap-4">
                 <button
                   onClick={() =>
                     acceptMutation.mutate({
@@ -178,7 +124,7 @@ const ManageCandidate = () => {
                 >
                   ❌ Reject
                 </button>
-              </div> */}
+              </div>
             </motion.div>
           ))}
         </div>
