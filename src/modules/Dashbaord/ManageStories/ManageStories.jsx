@@ -78,7 +78,7 @@ const ManageStories = () => {
           </p>
           <Link
             to="/dashboard/add-stories"
-            className="btn btn-primary glow-border px-6 py-2 mt-3 rounded-full"
+            className="btn btn-primary glow-border px-6 py-2 mt-3 "
           >
             Share your story
           </Link>

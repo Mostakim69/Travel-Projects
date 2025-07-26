@@ -62,20 +62,26 @@ const AssignedTour = () => {
       <h1 className="text-4xl md:text-5xl font-extrabold text-center mb-8 bg-gradient-to-r from-cyan-400 via-violet-700 to-indigo-400 bg-clip-text text-transparent drop-shadow-md">
         Assigned Tours
       </h1>
+      {data?.data?.length === 0 && (
+        <div className="text-center text-gray-400 py-20">
+          <h2 className="text-2xl"> You haven't assigned any tours yet.</h2>
+        </div>
+      )}
 
       <div className="grid gap-6 md:grid-cols-2">
-        {data?.data?.map((booking) => (
-          <div
-            key={booking._id}
-            className="rounded-xl shadow-md border border-gray-700 bg-base-200 bg-opacity-80 p-4 backdrop-blur-md hover:shadow-xl transition duration-300 ease-in-out"
-          >
-            <AssignedTourCard
-              booking={booking}
-              handleAction={handleAction}
-              isPending={isPending && booking._id === bookingIdToUpdate}
-            />
-          </div>
-        ))}
+        {data?.data > 0 &&
+          data?.data?.map((booking) => (
+            <div
+              key={booking._id}
+              className="rounded-xl shadow-md border border-gray-700 bg-base-200 bg-opacity-80 p-4 backdrop-blur-md hover:shadow-xl transition duration-300 ease-in-out"
+            >
+              <AssignedTourCard
+                booking={booking}
+                handleAction={handleAction}
+                isPending={isPending && booking._id === bookingIdToUpdate}
+              />
+            </div>
+          ))}
       </div>
     </div>
   );

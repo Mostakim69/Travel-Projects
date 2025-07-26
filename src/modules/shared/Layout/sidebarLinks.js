@@ -16,7 +16,6 @@ export const guideLinks = [
     path: "/dashboard/add-stories",
   },
   { name: "Manage Stories", path: "/dashboard/manage-stories" },
-  { name: "Profile", path: "/dashboard/profile" },
 ];
 
 export const touristLinks = [
