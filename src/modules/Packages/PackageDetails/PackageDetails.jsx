@@ -126,13 +126,13 @@ const PackageDetails = () => {
   return (
     <div className="text-white px-4 md:px-10 py-10 space-y-12 animate-fade-in">
       {/* Gallery Section */}
-      <div className="grid grid-cols-3 border p-3 border-[#5f5f9f] rounded-2xl shadow-xl glow-border pulse-glow">
+      <div className="grid grid-cols-3 border p-1 border-[#5f5f9f] rounded-2xl shadow-xl glow-border pulse-glow">
         {gallery.map((img, idx) => (
           <img
             key={idx}
             src={img}
             alt="Tour Gallery"
-            className="rounded-lg border border-gray-800 shadow-md hover:scale-105 transition-all duration-300"
+            className="rounded-lg border border-gray-800 shadow-md hover:scale-105 transition-all duration-300 "
           />
         ))}
       </div>
