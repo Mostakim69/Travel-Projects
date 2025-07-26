@@ -15,6 +15,7 @@ import JoinTourGuide from "../modules/Dashbaord/Tourist/JoinTourGuide/JoinTourGu
 import ManageStories from "../modules/Dashbaord/ManageStories/ManageStories";
 import CommunityPage from "../pages/Community/CommunityPage";
 import AddStories from "../modules/Dashbaord/AddStories/AddStories";
+import AssignedTour from "../modules/Dashbaord/TourGuides/AssignedTour/AssignedTour";
 
 const router = createBrowserRouter([
   {
@@ -82,6 +83,11 @@ const router = createBrowserRouter([
       {
         path: "add-stories",
         element: <AddStories />,
+      },
+      // guide routes
+      {
+        path: "guide/my-assigned-tours",
+        element: <AssignedTour />,
       },
     ],
   },
