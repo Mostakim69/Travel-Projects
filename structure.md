@@ -28,6 +28,7 @@
 │   │       ├── AuthContext.jsx
 │   │       └── AuthProvider.jsx
 │   ├── docs
+│   │   ├── note.md
 │   │   └── prompt.md
 │   ├── firebase
 │   │   └── firebase.init.js
@@ -63,6 +64,9 @@
 │   │   ├── Dashbaord
 │   │   │   ├── AddStories
 │   │   │   │   └── AddStories.jsx
+│   │   │   ├── Admin
+│   │   │   │   └── AddPackage
+│   │   │   │       └── AddPackage.jsx
 │   │   │   ├── DashboardLayout.jsx
 │   │   │   ├── ManageProfile
 │   │   │   │   └── ManageProfile.jsx
@@ -72,6 +76,10 @@
 │   │   │   │   │   └── StoryCard.jsx
 │   │   │   │   └── ManageStories.jsx
 │   │   │   ├── TourGuides
+│   │   │   │   ├── AssignedTour
+│   │   │   │   │   ├── AssignedTourCard.jsx
+│   │   │   │   │   ├── AssignedTour.jsx
+│   │   │   │   │   └── refractorAssignedTourPrompt.md
 │   │   │   │   ├── GuideProfile
 │   │   │   │   │   └── GuideProfile.jsx
 │   │   │   │   └── TourGuides.jsx
@@ -123,9 +131,6 @@
 │   │       ├── Layout
 │   │       │   ├── CommonFooter.jsx
 │   │       │   ├── index.js
-│   │       │   ├── navbarDrawer
-│   │       │   │   ├── Navdrawer.jsx
-│   │       │   │   └── NavdrawerStart.jsx
 │   │       │   ├── NavbarDrawer.jsx
 │   │       │   ├── Navbar.jsx
 │   │       │   ├── navbarLinksConstant.jsx
@@ -140,7 +145,6 @@
 │   │           ├── DropDown.jsx
 │   │           ├── index.js
 │   │           └── Input.jsx
-│   ├── note.md
 │   ├── pages
 │   │   ├── Community
 │   │   │   ├── CommunityPage.jsx
@@ -167,6 +171,6 @@
 ├── vite.config.js
 └── vite.logger.plugin.js
 
-53 directories, 112 files
+55 directories, 114 files
 
 ```
