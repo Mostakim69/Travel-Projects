@@ -1,0 +1,41 @@
+[2025-07-26T16:54:12.525Z] Unhandled Promise Rejection: {
+  "message": "Request failed with status code 500",
+  "name": "AxiosError",
+  "stack": "settle@http://localhost:5173/node_modules/.vite/deps/axios.js?v=904aa0e5:1229:12\nonloadend@http://localhost:5173/node_modules/.vite/deps/axios.js?v=904aa0e5:1561:13\n",
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": [
+      "xhr",
+      "http",
+      "fetch"
+    ],
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/json",
+      "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjZkZTQwZjA0ODgxYzZhMDE2MTFlYjI4NGE0Yzk1YTI1MWU5MTEyNTAiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vZGVzaGd1aWRlIiwiYXVkIjoiZGVzaGd1aWRlIiwiYXV0aF90aW1lIjoxNzUzNTQ2MTkxLCJ1c2VyX2lkIjoiV1RNTURzMU1TTFhjdXdSdlFnM0VCeUVZTlJ0MSIsInN1YiI6IldUTU1EczFNU0xYY3V3UnZRZzNFQnlFWU5SdDEiLCJpYXQiOjE3NTM1NDYxOTEsImV4cCI6MTc1MzU0OTc5MSwiZW1haWwiOiJpYnJhaGltamFsaWxAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7ImVtYWlsIjpbImlicmFoaW1qYWxpbEBnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJwYXNzd29yZCJ9fQ.aXmstU_i5QMolED-BcwQM_3VfuRwg_eRa0PclvIo2sc7EcG_5MCQ7ZfMdi8hkBKKfLcY1GrW_T1uuik4mmmjAXt9PfpOXigOMxJWhRvjJakC5cUMtozPHxO2Cvd5Gd7fKX2mmjKzJvbKwcBuNhfgRd88LnultQNwhlrBVLHiNT6t3ZaPioquVaq90HCOqSqXf1YcTTh3LM43ouBJ6v-GGNqg2QDnbXvCFk_XanfSVN_gi8V15mCj7cV4cyszlZLxo_PuyVo5zhB1OL6LyzldaoDuWARvSvLuKCYaDpNzYN2EE-KW8mIluplumCzqypfEEpHWazdHnC1zmYSFYKwIyA"
+    },
+    "baseURL": "http://localhost:5000/api/v1/",
+    "method": "post",
+    "url": "tour-guide-requests",
+    "data": "{\"userId\":\"6884fdd0e64086d005edf156\",\"title\":\"Certified and Experienced Mountain Guide\",\"reason\":\"Over the past 8 years, I’ve guided more than 300 local and foreign tourists across the Chittagong Hill Tracts, Sundarbans, and Sylhet region. I specialize in eco-tourism and love sharing deep cultural stories, folk traditions, and historical insights. I’m fluent in English and Bengali, trained in first aid, and have collaborated with several travel agencies for premium tours.\",\"cvLink\":\"http://localhost:5173/dashboard/tourist/join-tour-guide\"}",
+    "allowAbsoluteUrls": true
+  },
+  "code": "ERR_BAD_RESPONSE",
+  "status": 500
+}
