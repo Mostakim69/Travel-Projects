@@ -19,6 +19,10 @@ const dashbourdRoutes = {
   children: [
     // tourist routes
     {
+      index: true,
+      element: <ManageProfile />,
+    },
+    {
       path: "my-bookings",
       element: <MyBookings />,
     },

@@ -18,7 +18,7 @@ const PaymentCard = ({ payment, index }) => {
 
       <div
         className="relative z-10 space-y-2 text-slate-100"
-        data-aos="fade-up"
+        data-aos="fade-up-right"
       >
         <p>
           <span className="font-medium text-slate-400">Email:</span>{" "}
