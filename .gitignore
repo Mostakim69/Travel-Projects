@@ -5,3 +5,4 @@ dist
 src/console
 src/firebase/firebase.init.js
 bun.lock
+firebase.init.js

@@ -12,8 +12,8 @@
 
 body {
   font-family: "Inter", sans-serif;
-  color: #cbd5e1; /* slate-300 */
-  background-color: #0f172a; /* slate-900 from Tailwind */
+  color: #f8fafc; /* slate-300 */
+  background: linear-gradient(to right, #0f172a, #1e293b);  /* slate-900 from Tailwind */
 }
 .flex-container {
   @apply flex  items-center justify-center;
