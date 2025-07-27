@@ -4,13 +4,16 @@ import useSecureUpdate from "../../../../hooks/useSecureUpdate";
 import AssignedTourCard from "./AssignedTourCard";
 import { darkSwal } from "../../../../hooks/usePostData";
 import Spinner from "../../../shared/Layout/Spinner";
+import useUserRole from "../../../../hooks/useUserRole";
 
 const AssignedTour = () => {
+  const { userData } = useUserRole();
   const { data, isLoading, error, refetch } = useSecureQuery(
     ["guideBookings", "687cff8d095a1d459861b897"],
-    "/bookings/guide/687cff8d095a1d459861b897",
+    `/bookings/guide/${userData?._id}`,
   );
 
+  console.log(data, "aasigned tour book AssignedTour.jsx", 10);
   // 🧠 Keep track of which booking to update
   const [bookingIdToUpdate, setBookingIdToUpdate] = useState(null);
   const [statusToUpdate, setStatusToUpdate] = useState(null);
@@ -69,7 +72,7 @@ const AssignedTour = () => {
       )}
 
       <div className="grid gap-6 md:grid-cols-2">
-        {data?.data > 0 &&
+        {data?.data.length > 0 &&
           data?.data?.map((booking) => (
             <div
               key={booking._id}

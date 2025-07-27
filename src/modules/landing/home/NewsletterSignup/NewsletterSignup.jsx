@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Swal from "sweetalert2";
+import { darkSwal } from "../../../../hooks/usePostData";
 
 const NewsletterSignup = () => {
   const [email, setEmail] = useState("");
@@ -8,7 +8,7 @@ const NewsletterSignup = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!email) {
-      Swal.fire({
+      darkSwal.fire({
         icon: "warning",
         title: "Please enter your email",
       });
@@ -17,14 +17,14 @@ const NewsletterSignup = () => {
     setLoading(true);
     try {
       await new Promise((res) => setTimeout(res, 1500));
-      Swal.fire({
+      darkSwal.fire({
         icon: "success",
         title: "Subscribed!",
         text: "You will get insider deals and travel hacks in your inbox.",
       });
       setEmail("");
     } catch {
-      Swal.fire({
+      darkSwal.fire({
         icon: "error",
         title: "Subscription failed",
         text: "Please try again later.",
@@ -37,55 +37,45 @@ const NewsletterSignup = () => {
   return (
     <section className="max-w-6xl mx-auto px-8 py-16 bg-[#0f172a] rounded-3xl shadow-lg shadow-purple-900/50 text-white">
       <div
-        className="flex flex-col md:flex-row items-center gap-12 max-w-5xl mx-auto"
+        className="flex flex-col items-center gap-6 max-w-5xl mx-auto"
         data-aos="fade-up-right"
       >
-        {/* Left: Incentive Text */}
-        <div className="md:flex-1 text-center md:text-left">
-          <h3
-            className="text-3xl md:text-4xl font-extrabold
-            bg-gradient-to-r from-sky-400 via-purple-500 to-indigo-400
-            bg-clip-text text-transparent drop-shadow-xl"
-          >
-            📬 Get insider deals and travel hacks!
-          </h3>
+        {/* Text Section */}
+        <div className="text-center">
+          <h1 className="text-4xl md:text-[40px]">Stay Inspired</h1>
+          <p className="text-sm md:text-base text-gray-500/90 mt-2 max-w-xl">
+            Join our newsletter and be the first to discover new updates, exclusive offers, and inspiration.
+          </p>
         </div>
 
-        {/* Right: Form */}
+        {/* Form Section */}
         <form
           onSubmit={handleSubmit}
-          className="md:flex-1 flex flex-col sm:flex-row items-center gap-6 w-full"
+          className="flex flex-col md:flex-row items-center justify-center gap-4 mt-6"
           noValidate
         >
           <input
             type="email"
-            placeholder="Your email address"
+            placeholder="Enter your email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="flex-grow bg-[#1e293b] placeholder-indigo-400 text-white rounded-full py-4 px-6
-              border-2 border-transparent
-              focus:outline-none focus:border-gradient-to-r focus:border-sky-400 focus:ring-2 focus:ring-purple-500
-              transition-all duration-300
-              shadow-md shadow-indigo-700/50
-              placeholder-opacity-70
-              focus:placeholder-opacity-40"
+            className="bg-white/10 px-4 py-2.5 border border-white/20 rounded outline-none max-w-96 w-92"
             required
             aria-label="Email Address"
           />
-
           <button
             type="submit"
             disabled={loading}
-            className="w-full sm:w-auto bg-gradient-to-r from-sky-500 to-purple-600 hover:from-sky-400 hover:to-purple-500
-              text-white font-semibold rounded-full py-4 px-10
-              shadow-lg shadow-purple-700/70
-              transition-all duration-300
-              disabled:opacity-50 disabled:cursor-not-allowed
-              glow-pulse"
+            className="flex items-center justify-center gap-2 group bg-black px-4 md:px-7 py-2.5 rounded active:scale-95 transition-all"
           >
             {loading ? "Submitting..." : "Subscribe"}
           </button>
         </form>
+
+        {/* Privacy Text */}
+        <p className="text-sm text-gray-500/90 mt-2 text-center">
+          By subscribing, you agree to our Privacy Policy and consent to receive updates.
+        </p>
       </div>
     </section>
   );

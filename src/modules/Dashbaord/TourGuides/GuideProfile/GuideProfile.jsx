@@ -3,15 +3,15 @@ import { useQuery } from "@tanstack/react-query";
 import { axiosInstance } from "../../../../hooks/useAxiosSecure";
 
 const fetchGuideDetails = async (id) => {
-  console.log(id, "GuideProfile.jsx", 6);
-  const res = await axiosInstance.get(`/tour-guide-requests/${id}`);
+  console.log(id, "id GuideProfile.jsx", 6);
+  const res = await axiosInstance.get(`tour-guide-requests/user/${id}`);
   return res.data?.data;
 };
 
 export default function GuideProfile() {
   const { id } = useParams();
 
-  const { data, isLoading, isError } = useQuery({
+  const { data, isLoading, isError, error } = useQuery({
     queryKey: ["guideDetails", id],
     queryFn: () => fetchGuideDetails(id),
   });
@@ -24,7 +24,9 @@ export default function GuideProfile() {
     );
   }
 
+  console.log(data, "data GuideProfile.jsx", 15);
   if (isError || !data) {
+    console.log(`error`, error);
     return (
       <div className="text-center mt-20 text-error text-xl">
         Failed to load guide profile.
@@ -51,7 +53,6 @@ export default function GuideProfile() {
           <div className="flex flex-col sm:flex-row items-center gap-8">
             <img
               src={photoURL}
-              alt={name}
               className="w-32 h-32 object-cover rounded-full border-4 border-indigo-500 shadow-inner shadow-indigo-600"
             />
             <div>

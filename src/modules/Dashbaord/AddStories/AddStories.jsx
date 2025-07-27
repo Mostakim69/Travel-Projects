@@ -29,7 +29,7 @@ const AddStories = () => {
       darkSwal.fire("Success!", "Your story has been posted.", "success");
       // navigate("/stories"); // redirect to stories page
       setTimeout(() => {
-        navigate("/dashboard/tourist/manage-stories");
+        navigate("/dashboard/manage-stories");
       }, 2000);
     },
     onError: (err) => {

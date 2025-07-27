@@ -9,7 +9,7 @@ const CallToActionFull = () => {
       <div className="opacity-10 absolute top-0 left-0 w-full z-0 pointer-events-none">
         <Marquee gradient={false} speed={50}>
           <h1 className="text-[100px] font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-sky-400 to-indigo-400 whitespace-nowrap">
-            DeshGuide • Explore • Discover • Travel •
+            TourNest BD • Explore • Discover • Travel •
           </h1>
         </Marquee>
       </div>

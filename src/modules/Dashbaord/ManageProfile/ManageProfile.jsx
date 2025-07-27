@@ -2,29 +2,31 @@ import { useQuery } from "@tanstack/react-query";
 import { motion } from "framer-motion";
 import dayjs from "dayjs";
 import relativeTime from "dayjs/plugin/relativeTime";
-import useAuth from "../../../hooks/useAuth";
+// import useAuth from "../../../hooks/useAuth";
 import useAxiosSecure from "../../../hooks/useAxiosSecure";
 import Spinner from "../../shared/Layout/Spinner";
 import { useState } from "react";
 import "dayjs/locale/en";
 import { Link } from "react-router";
+import useUserRole from "../../../hooks/useUserRole";
 dayjs.extend(relativeTime);
 
 const ManageProfile = () => {
-  const { user } = useAuth();
+  // const { user } = useAuth();
   const axiosSecure = useAxiosSecure();
   const [showModal, setShowModal] = useState(false);
+  const { userData } = useUserRole();
 
   const { data: userInfo = {}, isPending } = useQuery({
-    queryKey: ["manage-profile", user?.email],
+    queryKey: ["manage-profile", userData?.email],
     queryFn: async () => {
-      const res = await axiosSecure.get(`/users/email/${user.email}`);
+      const res = await axiosSecure.get(`/users/email/${userData?.email}`);
       // const res = await axiosSecure.get(`/users/email/tourist4@example.com`); emaile for tourist
       // const res = await axiosSecure.get(`/users/email/4@example.com`); // email for tour guide
 
       return res.data?.data;
     },
-    enabled: !!user?.email,
+    enabled: !!userData?.email,
   });
 
   if (isPending)
@@ -55,7 +57,7 @@ const ManageProfile = () => {
 
       <div className="flex flex-col md:flex-rw gap-6 items-center">
         <img
-          src={photoURL || "https://i.ibb.co/ZVP2y7v/user.png"}
+          src={photoURL || "https://avatar.iran.liara.run/public"}
           alt="User"
           className="w-32 h-32 rounded-full border-4 border-cyan-500 shadow-cyan-700"
           data-aos="zoom-in"

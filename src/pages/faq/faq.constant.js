@@ -1,8 +1,8 @@
 export const faqs = [
   {
-    question: "What is DeshGuide?",
+    question: "What is TourNest BD?",
     answer:
-      "DeshGuide is a complete tour management platform focused on exploring the beauty of Bangladesh. It helps you discover packages, book trips, find certified local tour guides, and share your travel stories.",
+      "TourNest BD is a complete tour management platform focused on exploring the beauty of Bangladesh. It helps you discover packages, book trips, find certified local tour guides, and share your travel stories.",
   },
   {
     question: "How do I book a tour package?",
@@ -15,7 +15,7 @@ export const faqs = [
       "Yes! You can select from available certified tour guides using a dropdown or view mode in the booking form. Each guide has a detailed profile page.",
   },
   {
-    question: "Is payment secure on DeshGuide?",
+    question: "Is payment secure on TourNest BD?",
     answer:
       "Absolutely. We use Stripe for secure and encrypted transactions, ensuring your data is safe at all times.",
   },

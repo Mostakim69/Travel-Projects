@@ -3,25 +3,25 @@ import { motion } from "framer-motion";
 const trendingSpots = [
   {
     name: "🌊 Saint Martin",
-    image: "https://i.ibb.co/ZLqkVZw/saint-martin.jpg",
+    image: "https://i.pinimg.com/736x/cc/7b/38/cc7b389b5c840e39854cf76417a7116a.jpg",
     description:
       "A serene island in the Bay of Bengal, famous for crystal clear water, coral reefs, and calm vibes.",
   },
   {
     name: "🏞️ Sajek Valley",
-    image: "https://i.ibb.co/Tw9Zwkd/sajek.jpg",
+    image: "https://i.pinimg.com/736x/cc/7b/38/cc7b389b5c840e39854cf76417a7116a.jpg",
     description:
       "A dreamy mountain valley in Rangamati with endless green, cloud-kissed mornings, and wooden cottages.",
   },
   {
     name: "🏖️ Cox’s Bazar",
-    image: "https://i.ibb.co/wCfNZph/cox.jpg",
+    image: "https://i.pinimg.com/736x/cc/7b/38/cc7b389b5c840e39854cf76417a7116a.jpg",
     description:
       "Home to the world’s longest sea beach, perfect for beach lovers, surfers, and seafood enthusiasts.",
   },
   {
     name: "🌲 Bandarban",
-    image: "https://i.ibb.co/vv3ZtPj/bandarban.jpg",
+    image: "https://i.pinimg.com/736x/cc/7b/38/cc7b389b5c840e39854cf76417a7116a.jpg",
     description:
       "Adventure-packed hills, waterfalls, tribal villages, and peaceful trekking through nature’s best.",
   },

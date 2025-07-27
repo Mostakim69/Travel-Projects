@@ -1,12 +1,15 @@
-import { Link, useNavigate } from "react-router";
+import { Link, useLocation, useNavigate } from "react-router";
 import { useState } from "react";
 import SocialLogin from "./SocialLogin";
 import useAuth from "../../../hooks/useAuth";
+import { swalSuccessToast } from "../../shared/ui/swalToast";
 
 const SigninForm = () => {
   const { signinUser } = useAuth();
   const navigate = useNavigate();
 
+  const location = useLocation();
+  const from = location?.state?.from?.pathname || "/";
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
@@ -19,7 +22,10 @@ const SigninForm = () => {
 
     try {
       await signinUser(email, password);
-      navigate("/"); // Redirect to homepage or dashboard
+      swalSuccessToast({ text: "You have signed in!" });
+      setTimeout(() => {
+        navigate(from, { replace: true });
+      }, 2000);
     } catch (err) {
       setErrorMsg(err.message || "Failed to sign in");
     } finally {

@@ -2,12 +2,15 @@ import { useQuery } from "@tanstack/react-query";
 import { axiosInstance } from "../../../../../hooks/useAxiosSecure";
 import StoryCard from "./StoryCard";
 import Spinner from "../../../../shared/Layout/Spinner";
+import { Link, useLocation } from "react-router";
 
-const Stories = () => {
+const Stories = ({ apiEndpoint }) => {
+  const location = useLocation();
+  const isStoriesPage = location.pathname.toLowerCase().includes("all-stories");
   const { data: stories = [], isLoading } = useQuery({
     queryKey: ["stories"],
     queryFn: async () => {
-      const res = await axiosInstance.get("/stories");
+      const res = await axiosInstance.get(apiEndpoint);
       return res.data.data;
     },
   });
@@ -30,6 +33,16 @@ const Stories = () => {
           <StoryCard key={story._id} story={story} />
         ))}
       </div>
+      {isStoriesPage || (
+        <div className="flex-container mt-8">
+          <Link
+            className="btn btn-soft btn-info rounded-full mt-3 "
+            to="/all-stories"
+          >
+            View All Stories
+          </Link>
+        </div>
+      )}
     </section>
   );
 };

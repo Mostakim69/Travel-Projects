@@ -1,34 +1,56 @@
-export default function Banner() {
+import React from 'react';
+const Banner = () => {
   return (
-    <div className="mt-5 hero min-h-[60vh] bg-[#0F172A] relative overflow-hidden rounded-3xl">
-      {/* Background glow or gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-[#0f172a] via-[#1e293b] to-[#0f172a] opacity-70"></div>
-      <div className="absolute -top-10 left-1/2 w-[600px] h-[600px] bg-purple-500 opacity-20 rounded-full blur-3xl transform -translate-x-1/2"></div>
+    <div className='flex flex-col items-start justify-center px-6 md:px-16 lg:px-24 xl:px-32 text-white bg-[url("/src/assets/bannerImage01.jpg")] bg-no-repeat bg-cover bg-center h-screen'>
+      <p className='bg-[#49B9FF]/50 px-3.5 py-1 rounded-full mt-20'>The Ultimate Travel Experience</p>
+      <h1 className='font-playfair text-2xl md:text-[56px] md:leading-[56px] font-bold md:font-extrabold max-w-xl mt-4'>Journey Through the Heart of Bangladesh</h1>
+      <p className='max-w-130 mt-2 text-lg md:text-base'>Discover hidden gems, vibrant culture & unforgettable adventures with TourNest BD.</p>
+      <form className='bg-white text-gray-500 rounded-lg px-6 py-4 mt-4 flex flex-col md:flex-row max-md:items-start gap-4 max-md:mx-auto'>
 
-      {/* Overlay */}
-      <div className="hero-content text-center text-neutral-content z-10">
-        <div className="max-w-2xl px-4">
-          <h1 className="mb-6 text-4xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight">
-            Discover{" "}
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#22d3ee] to-[#a78bfa]">
-              Bangladesh
-            </span>{" "}
-            with DeshGuide
-          </h1>
-          <p className="mb-8 text-lg text-gray-300">
-            Your digital travel companion for authentic adventures, local
-            guides, and unforgettable memories — all in one place.
-          </p>
-          <div className="flex flex-wrap justify-center gap-4 *:rounded-full *:hover:scale-104 *:hover:shadow-2xl">
-            <button className="btn bg-gradient-to-r from-[#22d3ee] to-[#a78bfa] border-0 text-white shadow-lg hover:opacity-90 transition-all duration-200 text-lg px-6">
-              🌏 Explore Now
-            </button>
-            <button className="btn btn-outline text-white border-white hover:bg-white hover:text-black transition-all duration-200 text-lg px-6">
-              📝 Share Your Story
-            </button>
+        <div>
+          <div className='flex items-center gap-2'>
+            <svg className="w-4 h-4 text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" >
+              <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 10h16M8 14h8m-4-7V4M7 7V4m10 3V4M5 20h14a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1Z" />
+            </svg>
+            <label htmlFor="destinationInput">Destination</label>
           </div>
+          <input list='destinations' id="destinationInput" type="text" className=" rounded border border-gray-200 px-3 py-1.5 mt-1.5 text-sm outline-none" placeholder="Type here" required />
         </div>
-      </div>
+
+        <div>
+          <div className='flex items-center gap-2'>
+            <svg className="w-4 h-4 text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" >
+              <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 10h16M8 14h8m-4-7V4M7 7V4m10 3V4M5 20h14a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1Z" />
+            </svg>
+            <label htmlFor="checkIn">Check in</label>
+          </div>
+          <input id="checkIn" type="date" className=" rounded border border-gray-200 px-3 py-1.5 mt-1.5 text-sm outline-none" />
+        </div>
+
+        <div>
+          <div className='flex items-center gap-2'>
+            <svg className="w-4 h-4 text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" >
+              <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 10h16M8 14h8m-4-7V4M7 7V4m10 3V4M5 20h14a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1Z" />
+            </svg>
+            <label htmlFor="checkOut">Check out</label>
+          </div>
+          <input id="checkOut" type="date" className=" rounded border border-gray-200 px-3 py-1.5 mt-1.5 text-sm outline-none" />
+        </div>
+
+        <div className='flex md:flex-col max-md:gap-2 max-md:items-center'>
+          <label htmlFor="guests">Guests</label>
+          <input min={1} max={4} id="guests" type="number" className=" rounded border border-gray-200 px-3 py-1.5 mt-1.5 text-sm outline-none  max-w-16" placeholder="0" />
+        </div>
+
+        <button className='flex items-center justify-center gap-1 rounded-md bg-black py-3 px-4 text-white my-auto cursor-pointer max-md:w-full max-md:py-1' >
+          <svg className="w-4 h-4 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" >
+            <path stroke="currentColor" strokeLinecap="round" strokeWidth="2" d="m21 21-3.5-3.5M17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z" />
+          </svg>
+          <span>Search</span>
+        </button>
+      </form>
     </div>
   );
-}
+};
+
+export default Banner;

@@ -2,5 +2,6 @@
 node_modules
 .vite
 dist
-src/console/log.json
+src/console
 src/firebase/firebase.init.js
+bun.lock

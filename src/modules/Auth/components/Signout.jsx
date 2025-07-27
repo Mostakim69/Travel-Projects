@@ -1,19 +1,13 @@
 import useAuth from "../../../hooks/useAuth";
-import { darkSwal } from "../../../hooks/usePostData";
+import { swalSuccessToast } from "../../shared/ui/swalToast";
 
 const Signout = ({ children }) => {
   const { signoutUser } = useAuth();
 
   const handleSignout = async () => {
     await signoutUser();
-    darkSwal.fire({
-      position: "center",
-      icon: "error",
-      title: "Sign out Success!",
-      text: "You have successfully signed out",
-      showConfirmButton: false,
-      timer: 2000,
-    });
+
+    swalSuccessToast({ text: "You have signed out!" });
   };
   return (
     <div onClick={handleSignout}>

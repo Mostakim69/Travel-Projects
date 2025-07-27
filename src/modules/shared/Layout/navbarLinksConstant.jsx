@@ -10,8 +10,17 @@ export const navItems = [
     path: "/dashboard",
   },
   {
+    name: "All Trips",
+    path: "/all-trips",
+  },
+
+  {
     name: "Community",
     path: "/community",
+  },
+  {
+    name: "About Us",
+    path: "/about-us",
   },
 ];
 

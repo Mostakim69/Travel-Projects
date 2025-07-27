@@ -3,19 +3,19 @@ import TestimonialCard from "./TestimonialCard";
 const testimonials = [
   {
     name: "Shamim Ahmed",
-    photo: "https://i.ibb.co/2NyN2xq/avatar1.png",
+    photo: "https://i.pinimg.com/736x/cc/7b/38/cc7b389b5c840e39854cf76417a7116a.jpg",
     text: "DeshGuide made our family trip unforgettable. The tour guide was super friendly and helpful!",
     rating: 5,
   },
   {
-    name: "Rumi Akter",
-    photo: "https://i.ibb.co/Y8scbC9/avatar2.png",
+    name: "Atikur Rahman",
+    photo: "https://i.pinimg.com/736x/cc/7b/38/cc7b389b5c840e39854cf76417a7116a.jpg",
     text: "Booking was fast, simple, and secure. I highly recommend DeshGuide for any traveler.",
     rating: 4,
   },
   {
-    name: "Tanvir Hasan",
-    photo: "https://i.ibb.co/wz7nHDk/avatar3.png",
+    name: "Farhad Hasan",
+    photo: "https://i.pinimg.com/736x/cc/7b/38/cc7b389b5c840e39854cf76417a7116a.jpg",
     text: "I was amazed by the personalized guide recommendations. Truly next-level service!",
     rating: 5,
   },

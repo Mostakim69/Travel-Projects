@@ -14,7 +14,7 @@ const Brand = () => {
           transition: { duration: 9, repeat: Infinity },
         }}
       >
-        DeshGuide
+        TourNest BD
       </motion.button>
     </div>
   );

@@ -10,6 +10,8 @@ import TourGuides from "../modules/Dashbaord/TourGuides/TourGuides";
 import CommunityPage from "../pages/Community/CommunityPage";
 import dashbourdRoutes from "../modules/Dashbaord/dashbourdRoutes";
 import ProtectedRoute from "./ProtectedRoute";
+import Packages from "../modules/Packages/Packages/Packages";
+import Stories from "../modules/landing/home/Overview/Stories/Stories";
 
 const router = createBrowserRouter([
   {
@@ -24,7 +26,7 @@ const router = createBrowserRouter([
 
       {
         path: "/all-trips",
-        // element: <Forbidden />,
+        element: <Packages apiEndpoint="packages" />,
       },
       // guide profile page
       {
@@ -46,16 +48,20 @@ const router = createBrowserRouter([
         ),
       },
       {
+        path: "about-us",
+        element: <div>About</div>,
+      },
+      {
         path: "community",
         element: <CommunityPage />,
+      },
+      {
+        path: "all-stories",
+        element: <Stories apiEndpoint="stories?limit=0" />,
       },
     ],
   },
 
-  {
-    path: "/about",
-    element: <div>About</div>,
-  },
   dashbourdRoutes,
   AuthRoute,
 ]);

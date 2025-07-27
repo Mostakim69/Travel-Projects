@@ -17,6 +17,7 @@ export default function RandomGuides() {
     queryFn: fetchRandomGuides,
   });
 
+  console.log(data, " random data RandomGuides.jsx", 13);
   if (isLoading) {
     return (
       <div className="text-center text-primary text-xl mt-10">
@@ -64,7 +65,7 @@ export default function RandomGuides() {
 
                 <div className="mt-4">
                   <Link
-                    to={`/guides/${guide._id}`}
+                    to={`/guides/${guide?.user._id}`}
                     className="btn btn-sm btn-outline text-white border-white hover:bg-white hover:text-black transition duration-200"
                   >
                     View Details
