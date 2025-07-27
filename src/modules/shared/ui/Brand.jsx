@@ -8,12 +8,13 @@ const Brand = () => {
     <div>
       <motion.button
         onClick={() => navigate("/")}
-        className="text-xl ml-2"
+        className="text-xl ml-2 flex items-center gap-3 cursor-pointer font-bold"
         animate={{
           color: ["#ff5733", "#33ff33", "#8a33ff", "#ce9733"],
           transition: { duration: 9, repeat: Infinity },
         }}
       >
+        <img src="https://i.postimg.cc/mDZvzcKn/add5bd76e80a208f85d556937ebe8abe.jpg" alt="logo" className='h-6 rounded-full md:h-7' />
         TourNest BD
       </motion.button>
     </div>
